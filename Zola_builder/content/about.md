@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "About me"
 path = "about"
 +++
 My name is Matheus Ribeiro Vidal. I was born in Brasília, Brasil and now live in Munich, Germany.

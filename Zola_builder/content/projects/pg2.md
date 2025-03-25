@@ -5,7 +5,7 @@ weight = 1
 date = "2023-07-26"
 
 [taxonomies]
-tags=["PT-BR","UnB", "CFD", "Motorsports", "Open Source"]
+tags=["PT-BR","UnB", "CFD", "Motorsports", "Open Source", "Congress"]
 [extra]
 local_image = "/projects/pg2.png"
 link_to = "./pg2/"
@@ -13,8 +13,9 @@ comment = true
 +++
 
 # Links
-- <a href="./projects/pg2/PG2_Matheus_Vidal_170078663.pdf" download="PG2_Matheus_Vidal_170078663.pdf">Download PDF</a>
-- [Download - UnB](https://bdm.unb.br/handle/10483/38713)
+- <a href="./projects/pg2/PG2_Matheus_Vidal_170078663.pdf" download="PG2_Matheus_Vidal_170078663.pdf">Download Thesis PDF</a>
+- [Download Thesis PDF - UnB Library](https://bdm.unb.br/handle/10483/38713)
+- <a href="./projects/pg2/CONEM2024_0426.pdf" download="CONEM2024_0426.pdf">Download CONEM24 Paper PDF</a>
 
 ## Title (English)
 Open Source Numerical Simulations of Turbulent Flow over Downforce Generating Multielement Wings in Ground Effect 

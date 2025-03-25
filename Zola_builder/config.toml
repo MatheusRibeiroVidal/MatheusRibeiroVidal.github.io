@@ -22,7 +22,7 @@ highlight_theme = "ayu-light"
 toc = false
 use_cdn = true
 favicon = "/icons/favicon.ico"
-theme = "dark"              # light, dark, auto, toggle
+theme = "toggle"              # light, dark, auto, toggle
 fancy_code = true
 dynamic_note = true           # a note that can be toggled
 mathjax = true
@@ -40,6 +40,9 @@ socials = [
 	{ name = "linkedin", url = "https://www.linkedin.com/in/matheusribeirovidal/", icon = "linkedin"},
 	{ name = "email", url = "mailto:matheus.vidal@tum.de", icon = "email"},
     { name = "github", url = "https://github.com/ChurroGelato", icon = "github" },
+	{ name = "itch.io", url = "https://churrogelato.itch.io/", icon = "itchio" },
+	{ name = "orcid", url = "https://orcid.org/0009-0009-2651-461X", icon = "orcid" },
+	
 ]
 
 stylesheets = [

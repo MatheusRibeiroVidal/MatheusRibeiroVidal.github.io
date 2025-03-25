@@ -3,7 +3,7 @@ title = "Lorem Ipsum"
 date = "2025-03-26"
 
 [taxonomies]
-tags=["PT-BR"]
+tags=[]
 
 
 [extra]

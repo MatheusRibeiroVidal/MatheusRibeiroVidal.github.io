@@ -3,7 +3,7 @@ title = "Mermaid Example"
 date = "2024-12-26"
 
 [taxonomies]
-tags=["example"]
+tags=[]
 
 [extra]
 comment = true

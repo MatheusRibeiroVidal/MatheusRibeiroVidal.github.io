@@ -8,7 +8,7 @@ date = "2023-07-23"
 tags=["PT-BR","UnB", "CFD", "Motorsports", "Open Source"]
 [extra]
 local_image = "/projects/pg2.png"
-link_to = "./projects/pg2/"
+link_to = "./pg2/"
 +++
 
 # Download

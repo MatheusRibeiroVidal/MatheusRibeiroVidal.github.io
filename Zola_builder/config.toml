@@ -21,7 +21,7 @@ highlight_theme = "ayu-light"
 [extra]
 toc = false
 use_cdn = true
-favicon = "/icon_acerola/favicon.ico"
+favicon = "/icon/favicon.ico"
 theme = "dark"              # light, dark, auto, toggle
 fancy_code = true
 dynamic_note = true           # a note that can be toggled

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>MRV</title>
+    <subtitle>This is an example description</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://churrogelato.github.io/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://churrogelato.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-03-25T00:00:00+00:00</updated>
+    <id>https://churrogelato.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>HelloWorld</title>
+        <published>2025-03-25T00:00:00+00:00</published>
+        <updated>2025-03-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/posts/helloworld/"/>
+        <id>https://churrogelato.github.io/posts/helloworld/</id>
+        
+        <content type="html" xml:base="https://churrogelato.github.io/posts/helloworld/">&lt;h1 id=&quot;helloworld&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#helloworld&quot; aria-label=&quot;Anchor link for: helloworld&quot;&gt;HelloWorld&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Começar algo novo sempre é uma mistura de emoções. Já faz algum tempo eu me pego ensaiando começar esse website e, agora que comecei de fato, nada melhor que fazer o básico.&lt;&#x2F;p&gt;
+&lt;p&gt;É fácil pensar que no infindável mar de bits na internet, esse website só servirá como um jeito de gritar no abismo. Mas prefiro imaginar que o que eu deixarei registrado aqui, assim como pinturas rupestres são vistas hoje em dia, sirva como um retrato absolutamente ordinário do cotidiano e que essa representação do mundano possa servir de algo para alguém no futuro. Nem que seja só para se lembrar de mim.&lt;&#x2F;p&gt;
+&lt;p&gt;Então é isso. Como se faz em qualquer início no mundo digital:
+&lt;code&gt;HelloWorld&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Configuring Apollo</title>
+        <published>2024-07-09T00:00:00+00:00</published>
+        <updated>2024-07-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/apollo/configuration/"/>
+        <id>https://churrogelato.github.io/apollo/configuration/</id>
+        
+        <content type="html" xml:base="https://churrogelato.github.io/apollo/configuration/">&lt;h1 id=&quot;site-configuration&quot;&gt;Site Configuration&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;search-build-search-index&quot;&gt;Search (&lt;code&gt;build_search_index&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+&lt;p&gt;Enables or disables the search functionality for your blog.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Type: Boolean&lt;&#x2F;li&gt;
+&lt;li&gt;Default: false&lt;&#x2F;li&gt;
+&lt;li&gt;Usage: &lt;code&gt;build_search_index = false&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;When enabled, a search index will be generated for your blog, allowing visitors to search for specific content.
+Additionally, a search button will be displayed in the navigation bar.&lt;&#x2F;p&gt;
+&lt;p&gt;Configure the search like this:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#fafafa;color:#61676c;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;build_search_index &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff8f40;&quot;&gt;true
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;search&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;include_title &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff8f40;&quot;&gt;true
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;include_description &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff8f40;&quot;&gt;true
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;include_path &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff8f40;&quot;&gt;true
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;include_content &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff8f40;&quot;&gt;true
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;index_format &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;elasticlunr_json&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;theme-mode-theme&quot;&gt;Theme Mode (&lt;code&gt;theme&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+&lt;p&gt;Sets the color theme for your blog.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Type: String&lt;&#x2F;li&gt;
+&lt;li&gt;Options: &quot;light&quot;, &quot;dark&quot;, &quot;auto&quot;, &quot;toggle&quot;&lt;&#x2F;li&gt;
+&lt;li&gt;Default: &quot;toggle&quot;&lt;&#x2F;li&gt;
+&lt;li&gt;Usage: &lt;code&gt;theme = &quot;toggle&quot;&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The &quot;toggle&quot; option allows users to switch between light and dark modes, while &quot;auto&quot; typically follows the user&#x27;s system preferences.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;menu&quot;&gt;Menu&lt;&#x2F;h2&gt;
+&lt;p&gt;Defines the navigation menu items for your blog.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Type: Array of objects&lt;&#x2F;li&gt;
+&lt;li&gt;Default: []&lt;&#x2F;li&gt;
+&lt;li&gt;Usage:&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#fafafa;color:#61676c;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;menu &lt;&#x2F;span&gt;&lt;span&gt;= [
+&lt;&#x2F;span&gt;&lt;span&gt;  { &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;name &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;&#x2F;posts&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;url &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;&#x2F;posts&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;weight &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff8f40;&quot;&gt;1 &lt;&#x2F;span&gt;&lt;span&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  { &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;name &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;&#x2F;projects&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;url &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;&#x2F;projects&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;weight &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff8f40;&quot;&gt;2 &lt;&#x2F;span&gt;&lt;span&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  { &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;name &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;&#x2F;about&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;url &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;&#x2F;about&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;weight &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff8f40;&quot;&gt;3 &lt;&#x2F;span&gt;&lt;span&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  { &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;name &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;&#x2F;tags&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;url &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;&#x2F;tags&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;weight &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff8f40;&quot;&gt;4 &lt;&#x2F;span&gt;&lt;span&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;logo&quot;&gt;Logo&lt;&#x2F;h2&gt;
+&lt;p&gt;Defines the site logo image file.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Type: String&lt;&#x2F;li&gt;
+&lt;li&gt;Usage:&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#fafafa;color:#61676c;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;logo &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;site_logo.svg&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;socials&quot;&gt;Socials&lt;&#x2F;h2&gt;
+&lt;p&gt;Defines the social media links.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Type: Array of objects&lt;&#x2F;li&gt;
+&lt;li&gt;Default: []&lt;&#x2F;li&gt;
+&lt;li&gt;Usage:&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#fafafa;color:#61676c;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;socials &lt;&#x2F;span&gt;&lt;span&gt;= [
+&lt;&#x2F;span&gt;&lt;span&gt;  { &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;name &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;twitter&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;url &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;twitter.com&#x2F;not_matthias&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;icon &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;twitter&amp;quot; &lt;&#x2F;span&gt;&lt;span&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;  { &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;name &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;github&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;url &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;github.com&#x2F;not-matthias&#x2F;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;icon &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;github&amp;quot; &lt;&#x2F;span&gt;&lt;span&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;table-of-contents-toc&quot;&gt;Table of Contents (&lt;code&gt;toc&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+&lt;p&gt;Enables or disables the table of contents for posts.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Type: Boolean&lt;&#x2F;li&gt;
+&lt;li&gt;Default: true&lt;&#x2F;li&gt;
+&lt;li&gt;Usage: &lt;code&gt;toc = true&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;When enabled, a table of contents will be generated for posts, making it easier for readers to navigate through longer articles.&lt;&#x2F;p&gt;
+&lt;p&gt;Note: This feature adds additional JavaScript to your site.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;cdn-usage-use-cdn&quot;&gt;CDN Usage (&lt;code&gt;use_cdn&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+&lt;p&gt;Determines whether to use a Content Delivery Network (CDN) for assets.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Type: Boolean&lt;&#x2F;li&gt;
+&lt;li&gt;Default: false&lt;&#x2F;li&gt;
+&lt;li&gt;Usage: &lt;code&gt;use_cdn = false&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;When set to true, the theme will attempt to load assets from a CDN, which can improve loading times for visitors from different geographic locations.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;favicon-favicon&quot;&gt;Favicon (&lt;code&gt;favicon&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+&lt;p&gt;Specifies the path to the favicon image for your blog.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Type: String&lt;&#x2F;li&gt;
+&lt;li&gt;Default: &quot;&#x2F;icon&#x2F;favicon.png&quot;&lt;&#x2F;li&gt;
+&lt;li&gt;Usage: &lt;code&gt;favicon = &quot;&#x2F;icon&#x2F;favicon.png&quot;&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;This sets the small icon that appears in the browser tab for your website.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;custom-stylesheets-stylesheets&quot;&gt;Custom Stylesheets (&lt;code&gt;stylesheets&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+&lt;p&gt;Allows you to add custom stylesheets to your blog.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Type: Array of files located in the &lt;code&gt;static&lt;&#x2F;code&gt; directory&lt;&#x2F;li&gt;
+&lt;li&gt;Default: []&lt;&#x2F;li&gt;
+&lt;li&gt;Usage:&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#fafafa;color:#61676c;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;stylesheets &lt;&#x2F;span&gt;&lt;span&gt;= [
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;custom.css&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;,           &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#abb0b6;&quot;&gt;# static&#x2F;custom.css
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;&#x2F;css&#x2F;another.css&amp;quot;      &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#abb0b6;&quot;&gt;# static&#x2F;css&#x2F;another.css
+&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;fancy-code-styling-fancy-code&quot;&gt;Fancy Code Styling (&lt;code&gt;fancy_code&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+&lt;p&gt;Enables enhanced styling for code blocks.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Type: Boolean&lt;&#x2F;li&gt;
+&lt;li&gt;Default: true&lt;&#x2F;li&gt;
+&lt;li&gt;Usage: &lt;code&gt;fancy_code = true&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;This option adds the language label and a copy button.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;dynamic-notes-dynamic-note&quot;&gt;Dynamic Notes (&lt;code&gt;dynamic_note&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+&lt;p&gt;Allows for the creation of togglable note sections in your content.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Type: Boolean&lt;&#x2F;li&gt;
+&lt;li&gt;Default: true&lt;&#x2F;li&gt;
+&lt;li&gt;Usage: &lt;code&gt;dynamic_note = true&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;When enabled, you can create expandable&#x2F;collapsible note sections in your blog posts.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;anchor-links&quot;&gt;Anchor Links&lt;&#x2F;h2&gt;
+&lt;p&gt;You can add anchor links by adding the following to your &lt;code&gt;_index.md&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#fafafa;color:#61676c;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;insert_anchor_links &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;heading&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;analytics&quot;&gt;Analytics&lt;&#x2F;h2&gt;
+&lt;p&gt;Enable or disable analytics tracking:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#fafafa;color:#61676c;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;extra&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;analytics&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;enabled &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff8f40;&quot;&gt;false
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;After enabling analytics, configure GoatCounter or Umami.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;goatcounter&quot;&gt;GoatCounter&lt;&#x2F;h3&gt;
+&lt;p&gt;Configure GoatCounter analytics:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#fafafa;color:#61676c;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;extra&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;analytics&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;goatcounter&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;user &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;your_user&amp;quot;           &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#abb0b6;&quot;&gt;# Your GoatCounter username
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;host &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;example.com&amp;quot;         &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#abb0b6;&quot;&gt;# Optional: Custom host
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;umami-analytics&quot;&gt;Umami Analytics&lt;&#x2F;h3&gt;
+&lt;p&gt;Configure Umami analytics:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#fafafa;color:#61676c;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;extra&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;analytics&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;umami&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;website_id &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;43929cd1-1e83....&amp;quot;                    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#abb0b6;&quot;&gt;# Your Umami website ID
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;host_url &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;stats.mywebsite.com&amp;quot;            &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#abb0b6;&quot;&gt;# Optional: Custom host URL
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;page-configuration&quot;&gt;Page configuration&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;source-code-repo-view&quot;&gt;Source code (&lt;code&gt;repo_view&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+&lt;p&gt;Do you want to link to the source code of your blog post? You can turn on the &lt;code&gt;repo_view&lt;&#x2F;code&gt; inside the &lt;code&gt;[extra]&lt;&#x2F;code&gt; section of your blog post.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#fafafa;color:#61676c;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;extra&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;repo_view &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff8f40;&quot;&gt;true
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;repo_url &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;github.com&#x2F;not-matthias&#x2F;apollo&#x2F;tree&#x2F;main&#x2F;content&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#abb0b6;&quot;&gt;# Alternatively add the repo here
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The &lt;code&gt;repo_url&lt;&#x2F;code&gt; can be set in the &lt;code&gt;[extra]&lt;&#x2F;code&gt; section or in your &lt;code&gt;config.toml&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;comments-comment&quot;&gt;Comments (&lt;code&gt;comment&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+&lt;p&gt;Enables or disables the comment system for posts.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Type: Boolean&lt;&#x2F;li&gt;
+&lt;li&gt;Default: false&lt;&#x2F;li&gt;
+&lt;li&gt;Usage: &lt;code&gt;comment = false&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;After making &lt;code&gt;comment = true&lt;&#x2F;code&gt; in &lt;code&gt;[extra]&lt;&#x2F;code&gt; section of you post, save your script from &lt;a href=&quot;https:&#x2F;&#x2F;giscus.app&quot;&gt;Giscus&lt;&#x2F;a&gt; to &lt;code&gt;templates&#x2F;_giscus_script.html&lt;&#x2F;code&gt;.
+When enabled, this allows readers to leave comments on your blog posts. This feature has to be set for each individual post and is not supported at higher levels.&lt;&#x2F;p&gt;
+&lt;p&gt;Example configuration in &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;not-matthias&#x2F;apollo&#x2F;blob&#x2F;main&#x2F;content&#x2F;posts&#x2F;configuration.md&quot;&gt;content&#x2F;posts&#x2F;configuration.md&lt;&#x2F;a&gt;:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#fafafa;color:#61676c;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;color:#f51818;&quot;&gt;+++
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;title &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;Configuring Apollo&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;extra&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;comment &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff8f40;&quot;&gt;true
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f51818;&quot;&gt;+++
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Comments via &lt;a href=&quot;https:&#x2F;&#x2F;utteranc.es&quot;&gt;utterances&lt;&#x2F;a&gt; can be configured in &lt;code&gt;template&#x2F;_giscus_script.html&lt;&#x2F;code&gt; like this:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#fafafa;color:#61676c;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#55b4d490;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;script &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;src&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;utteranc.es&#x2F;client.js&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;repo&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;YOUR_NAME&#x2F;YOUR_REPO&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;issue-term&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;pathname&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;theme&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;github-light&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;crossorigin&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;anonymous&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;async&lt;&#x2F;span&gt;&lt;span style=&quot;color:#55b4d490;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#55b4d490;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;script&lt;&#x2F;span&gt;&lt;span style=&quot;color:#55b4d490;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Simulações Numéricas em Código Aberto de Escoamentos Turbulentos Sobre Asas Multielemento em Efeito Solo para Geração de Downforce</title>
+        <published>2023-07-23T00:00:00+00:00</published>
+        <updated>2023-07-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/projects/pg2/"/>
+        <id>https://churrogelato.github.io/projects/pg2/</id>
+        
+        <content type="html" xml:base="https://churrogelato.github.io/projects/pg2/">&lt;h1 id=&quot;download&quot;&gt;Download&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;bdm.unb.br&#x2F;handle&#x2F;10483&#x2F;38713&quot;&gt;Download - UnB&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;.&#x2F;projects&#x2F;pg2&#x2F;PG2_Matheus_Vidal_170078663.pdf&quot; download=&quot;PG2_Matheus_Vidal_170078663.pdf&quot;&gt;Download PDF&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;title-english&quot;&gt;Title (English)&lt;&#x2F;h2&gt;
+&lt;p&gt;Open Source Numerical Simulations of Turbulent Flow over Downforce Generating Multielement Wings in Ground Effect&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;abstract-english&quot;&gt;Abstract (English)&lt;&#x2F;h2&gt;
+&lt;p&gt;This work tries to establish and validate a complete cycle of computational fluid dynamics simulations using open-source tools. The main objective is to demonstrate the feasibility and reliability of using open-source tools to simulate complex fluid dynamic phenomena. To achieve this goal, the simulation cycle is established using the following programs: SALOME for mesh generation and pre-processing, SU2 for numerical calculations, and Paraview for results and data visualization. The chosen geometry for validating this simulation cycle is the geometry of the experiments in the doctoral thesis by Zerihan (2001), which consists of a Formula 1 car&#x27;s front wing inside a wind tunnel. The case was modeled in CAD software, three dimensional meshes were generated, and simulations were conducted to compare the values of the dimensionless aerodynamic coefficients obtained with the literature. The methodology employed during the simulation cycle is described in detail, with justifications for decisions made and observations on the workflow in the programs used. The results of this work demonstrate a good capability to capture complex aerodynamic phenomena and establish a reliable approach for solving problems in computational fluid dynamics.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

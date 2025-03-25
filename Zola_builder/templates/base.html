@@ -1,29 +1,30 @@
+{% import "macros/macros.html" as post_macros %}
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
-    <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
-</head>
-<body>
-    <div class="wrapper">
-        <header>
-            <h1><a href="{{ config.base_url }}">{{ config.title }}</a></h1>
-            <nav>
-                <a href="{{ get_url(path='blog') }}">Blog</a>
-                <a href="{{ get_url(path='research') }}">Research</a>
-                <a href="{{ get_url(path='other') }}">Other</a>
-            </nav>
-        </header>
-    </div>
+<html lang="en" class="dark light">
 
-    <main>
-        {% block content %}{% endblock content %}
-    </main>
+    {% include "partials/header.html" %}
 
-    <footer>
-        <p>© 2025 MRV. All rights reserved.</p>
-    </footer>
-</body>
+    <body>
+        <div class="content">
+            {% include "partials/nav.html" %}
+
+            {# Post page is the default #}
+            {% block main_content %}
+                Nothing here?!
+            {% endblock main_content %}
+
+            {% if page.extra.comment is defined %}
+                {% set show_comment = page.extra.comment %}
+            {% else %}
+                {% set show_comment = false %}
+            {% endif %}
+
+            {% if show_comment %}
+                <div class="giscus"></div>
+                {% include "_giscus_script.html" %}
+            {% endif %}
+        </div>
+    </body>
+
 </html>

@@ -4,13 +4,45 @@
         <loc>https://churrogelato.github.io/</loc>
     </url>
     <url>
-        <loc>https://churrogelato.github.io/blog/</loc>
+        <loc>https://churrogelato.github.io/about/</loc>
     </url>
     <url>
-        <loc>https://churrogelato.github.io/blog/first-test/</loc>
+        <loc>https://churrogelato.github.io/apollo/configuration/</loc>
+        <lastmod>2024-07-09</lastmod>
+    </url>
+    <url>
+        <loc>https://churrogelato.github.io/posts/</loc>
+    </url>
+    <url>
+        <loc>https://churrogelato.github.io/posts/helloworld/</loc>
         <lastmod>2025-03-25</lastmod>
     </url>
     <url>
-        <loc>https://churrogelato.github.io/blog/page/1/</loc>
+        <loc>https://churrogelato.github.io/posts/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://churrogelato.github.io/projects/</loc>
+    </url>
+    <url>
+        <loc>https://churrogelato.github.io/projects/pg2/</loc>
+        <lastmod>2023-07-23</lastmod>
+    </url>
+    <url>
+        <loc>https://churrogelato.github.io/tags/</loc>
+    </url>
+    <url>
+        <loc>https://churrogelato.github.io/tags/cfd/</loc>
+    </url>
+    <url>
+        <loc>https://churrogelato.github.io/tags/motorsports/</loc>
+    </url>
+    <url>
+        <loc>https://churrogelato.github.io/tags/open-source/</loc>
+    </url>
+    <url>
+        <loc>https://churrogelato.github.io/tags/pt-br/</loc>
+    </url>
+    <url>
+        <loc>https://churrogelato.github.io/tags/unb/</loc>
     </url>
 </urlset>

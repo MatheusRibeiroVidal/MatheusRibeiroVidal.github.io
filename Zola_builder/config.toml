@@ -1,18 +1,58 @@
-# The URL the site will be built for
-title = "Matheus Ribeiro Vidal"
-base_url = "https://churrogelato.github.io"
-
-
-# Whether to automatically compile all Sass files in the sass directory
+base_url = "https://churrogelato.github.io/"
+title = "MRV"
+description = "This is an example description"
+build_search_index = true
+generate_feeds = true
 compile_sass = true
+minify_html = true
+taxonomies = [{ name = "tags" }]
 
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
+[search]
+include_title = true
+include_description = true
+include_path = true
+include_content = true
+index_format = "elasticlunr_json"
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = false
+highlight_code = true
+highlight_theme = "ayu-light"
 
 [extra]
-# Put all your custom variables here
+toc = false
+use_cdn = true
+favicon = "/icon_acerola/favicon.ico"
+theme = "dark"              # light, dark, auto, toggle
+fancy_code = true
+dynamic_note = true           # a note that can be toggled
+mathjax = true
+mathjax_dollar_inline_enable = true
+repo_url = "https://github.com/not-matthias/apollo/tree/main/content/"
+
+menu = [
+    { name = "/posts", url = "/posts", weight = 1 },
+    { name = "/projects", url = "/projects", weight = 2 },
+    { name = "/about", url = "/about", weight = 3 },
+    { name = "/tags", url = "/tags", weight = 4 },
+]
+
+socials = [
+	{ name = "linkedin", url = "https://www.linkedin.com/in/matheusribeirovidal/", icon = "linkedin"},
+	{ name = "email", url = "mailto:matheus.vidal@tum.de", icon = "email"},
+    { name = "github", url = "https://github.com/ChurroGelato", icon = "github" },
+]
+
+stylesheets = [
+    # "custom.css"    # at /static/custom.css
+]
+
+[extra.analytics]
+enabled = false
+
+[extra.analytics.goatcounter]
+user = "your_user"
+host = "example.com" # default= goatcounter.com
+
+[extra.analytics.umami]
+website_id = "43929cd1-1e83...."
+host_url = "https://stats.mywebsite.com" # default: https://api-gateway.umami.dev/

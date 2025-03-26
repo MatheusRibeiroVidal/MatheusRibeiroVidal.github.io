@@ -23,7 +23,7 @@
         <link rel="alternate" type="text/html" href="https://churrogelato.github.io/apollo/test/"/>
         <id>https://churrogelato.github.io/apollo/test/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/apollo/test/">&lt;h1 id=&quot;lorem-ipsum&quot;&gt;Lorem Ipsum&lt;&#x2F;h1&gt;
+        <content type="html" xml:base="https://churrogelato.github.io/apollo/test/">&lt;h1 id=&quot;lorem-ipsum&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#lorem-ipsum&quot; aria-label=&quot;Anchor link for: lorem-ipsum&quot;&gt;Lorem Ipsum&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a ante et ante tincidunt rhoncus. Nulla quis orci vehicula, imperdiet nibh ac, eleifend sem. Vivamus dapibus turpis quis purus iaculis dictum. Proin id dui id leo aliquet rhoncus. Nam orci quam, rutrum at justo id, sagittis tincidunt ante. Phasellus at eleifend eros. Sed semper quam et tristique aliquet. Vestibulum a auctor nisl, ut placerat lorem.&lt;&#x2F;p&gt;
 &lt;p&gt;Aliquam gravida dui nec mauris viverra dignissim. Vestibulum consectetur consequat tortor nec porta. Curabitur erat ante, bibendum sodales ipsum eu, consequat mollis ligula. Maecenas luctus rutrum mattis. Mauris aliquam varius diam, eu gravida justo vestibulum eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie, tellus et cursus bibendum, ex lorem scelerisque risus, eget malesuada metus enim eu nibh. Nunc vestibulum lorem id nisi tincidunt, at luctus nisi luctus. Donec sagittis, libero sit amet maximus ullamcorper, risus nibh hendrerit eros, ut pharetra tellus nulla in quam. In ultricies sit amet metus aliquet suscipit. Integer maximus nibh urna, id suscipit turpis tempor vitae. Quisque placerat ipsum ut mollis ultrices. Duis faucibus velit cursus tellus pharetra, ac vestibulum metus dignissim. Integer eu dapibus enim.&lt;&#x2F;p&gt;
 &lt;p&gt;Aliquam auctor urna mauris. Ut cursus est sapien, vitae dictum augue porta quis. Fusce quis porttitor est, nec accumsan justo. Duis gravida, nibh sit amet pretium laoreet, est nisl suscipit erat, sit amet placerat dolor orci nec mi. Aliquam erat volutpat. Curabitur quis gravida mi, vel condimentum dui. Phasellus ut mauris vulputate diam ultricies pulvinar.&lt;&#x2F;p&gt;
@@ -33,7 +33,7 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Oath Game Log - 1: Faíscas</title>
+        <title>Oath Game Log - 1: Sparks</title>
         <published>2025-03-26T00:00:00+00:00</published>
         <updated>2025-03-26T00:00:00+00:00</updated>
         
@@ -48,22 +48,26 @@
         <link rel="alternate" type="text/html" href="https://churrogelato.github.io/posts/oath-log-1/"/>
         <id>https://churrogelato.github.io/posts/oath-log-1/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/posts/oath-log-1/">&lt;p&gt;Esse é o primeiro log de jogo de uma camapnha de &lt;a href=&quot;https:&#x2F;&#x2F;boardgamegeek.com&#x2F;boardgame&#x2F;291572&#x2F;oath&quot;&gt;Oath&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://churrogelato.github.io/posts/oath-log-1/">&lt;p&gt;This is the first game log of a campaign of &lt;a href=&quot;https:&#x2F;&#x2F;boardgamegeek.com&#x2F;boardgame&#x2F;291572&#x2F;oath&quot;&gt;Oath&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;div style=&quot;text-align: center; display: flex; justify-content: center; gap: 20px;&quot;&gt;
+    &lt;img src=&quot;https:&#x2F;&#x2F;cf.geekdo-images.com&#x2F;HwP2lq33Mw5pgMyPZdXhcA__imagepage&#x2F;img&#x2F;xlN6iB9GfiNPgZRXk910BACmccc=&#x2F;fit-in&#x2F;900x600&#x2F;filters:no_upscale():strip_icc()&#x2F;pic8791828.jpg&quot; alt=&quot;Oath Log 1&quot; style=&quot;max-width: 100%; height: auto;&quot; &#x2F;&gt;
+    &lt;img src=&quot;https:&#x2F;&#x2F;cf.geekdo-images.com&#x2F;VCMh08WtpUeylVnHGmP5UA__imagepage&#x2F;img&#x2F;Wut72ZvafbOHkIdKGFwkxobH37g=&#x2F;fit-in&#x2F;900x600&#x2F;filters:no_upscale():strip_icc()&#x2F;pic8791835.jpg&quot; alt=&quot;Oath Log 2&quot; style=&quot;max-width: 100%; height: auto;&quot; &#x2F;&gt;
+&lt;&#x2F;div&gt;
 &lt;h1 id=&quot;story&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#story&quot; aria-label=&quot;Anchor link for: story&quot;&gt;Story&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
-&lt;p&gt;A terra estava dividida. Enquanto metade dela prosperava sob um domínio estruturado, a outra metade estava à mercê de facções independentes de bandidos. O Chanceler, sempre um patrono das artes arcanas, fundou uma grande escola de magia na Capital, um farol de conhecimento que concedeu ao império uma vantagem incomparável na descoberta dos segredos mais profundos do mundo.&lt;&#x2F;p&gt;
-&lt;p&gt;No entanto, o conhecimento não era monopólio do Chanceler. No exílio, um astuto líder de vestes azuis, guiado por um vidente de imenso poder clarividente, acumulava segredos roubados, ascendendo rapidamente para rivalizar com a sabedoria do Império. Enquanto isso, o guerreiro exilado Amarelo ergueu um bastião nas Terras Remotas, expulsando os bandidos das Planícies Salgadas e estabelecendo as fundações de um novo poder. Em contraste, Vermelho, assediado pela perseguição incansável de Azul, viu a sabedoria de seus anciãos ser roubada, seu legado escorrendo por entre os dedos.&lt;&#x2F;p&gt;
-&lt;p&gt;O Chanceler governava o império com diligência, mas permitia que as províncias periféricas mergulhassem no caos. A expansão de Amarelo continuou com a anexação do Lugar Oculto, um refúgio de alquimia e comércio, enquanto Vermelho, desesperado para escapar da perseguição de Azul, tomou o Estandarte do Segredo Mais Sombrio e procurou refúgio entre os videntes nas Minas. E, em um capricho do destino, Vermelho foi atingido por uma Visão de Fé, e os mineiros se uniram à sua causa. Ao mesmo tempo, Azul, banido para as Montanhas dos Bandidos por Amarelo, teve uma Visão de Rebelião. Com seu conhecimento acumulado, trocou favores e reivindicou o Estandarte do Favor Popular, tornando-se a voz dos descontentes.&lt;&#x2F;p&gt;
-&lt;p&gt;Apesar do crescimento contínuo do poder de Amarelo, o Chanceler viu uma ameaça maior na ascensão de Azul. Em uma manobra política magistral, deixou o fervor religioso de Vermelho para que Amarelo lidasse e, em vez disso, reuniu suas forças para um ataque esmagador às Montanhas. A batalha foi rápida e implacável—o favor de Azul entre o povo se desfez, sua influência em ruínas. Fugindo para a capital, ele buscou reacender o apoio enquanto o Chanceler, triunfante, mas exausto, voltava para casa.&lt;&#x2F;p&gt;
-&lt;p&gt;Enquanto isso, a conquista de Amarelo das Minas o fez tomar o Segredo Mais Sombrio dos cultistas de Vermelho. No entanto, Vermelho não cedeu tão facilmente. Recuperou seu estandarte sagrado e, percebendo a natureza efêmera da fé de seus seguidores, partiu para as Planícies de Sal em busca de riquezas inexploradas. A marcha do Chanceler de volta das Montanhas levou a uma descoberta inesperada— a entrada para o Lugar Oculto. Embora seu exército estivesse exausto, arqueiros nômades a cavalo, antigos aliados do império, uniram-se à sua causa, e o Lugar Oculto caiu sob controle imperial.&lt;&#x2F;p&gt;
-&lt;p&gt;Mesmo perdendo o controle do Lugar Oculto, as vitórias de Amarelo continuaram. Em uma demonstração esmagadora de poder, ele suprimiu a crescente fé de Vermelho, consolidando ainda mais sua reputação de força invencível. Sussurros de magia negra e ritmos hipnóticos se espalharam, rumores de um exército imortal e ressucitado que dobrava todos à sua vontade. No entanto, nas profundezas das Minas, verdadeiros crentes ainda resistiam. Os Faladores de Fogo, profetas das chamas, uniram-se à causa de Vermelho, sua convicção renovando seu direito de reivindicação.&lt;&#x2F;p&gt;
-&lt;p&gt;Na capital, Azul não ficou parado. Caminhando pela Estalagem Beira de Estrada e pela Guarnição Imperial, ele atiçou as chamas da rebelião. Uma facção insurgente surgiu, nomeando-o seu líder, e, no coração do império, o povo clamou por mudança. A Cidade Antiga testemunhou enquanto as forças de Azul tentaram invadir o palácio, com o favor do povo ao seu lado.&lt;&#x2F;p&gt;
-&lt;p&gt;Mas o Chanceler não era estranho às marés políticas. Da Costa Rochosa, ele observou a revolução se desenrolar, sabendo que suas conquistas nas terras distantes poderiam mudar os corações do povo mais uma vez. Desfilando os espólios da guerra pelas ruas, conquistou as massas, e a rebelião de Azul desmoronou. Os insurgentes foram eliminados, seu movimento dissipando-se como poeira ao vento.&lt;&#x2F;p&gt;
-&lt;p&gt;Tendo esmagado a rebelião, o Chanceler retornou à Costa Rochosa, onde encontrou um Terror Errante. Fechando um acordo, enviou a fera para as Planícies de Sal, ponto focal da esfera de influência de Amarelo, esperando enfraquecer seu domínio. Enquanto isso, a fé de Vermelho queimava mais forte do que nunca. Nas profundezas das Minas, ele pregava um novo mundo—de carvão e sal, de fogo e renovação. Peregrinos e crentes reuniam-se em massa, buscando refúgio nos túneis labirínticos, prontos para forjar seu próprio destino.&lt;&#x2F;p&gt;
-&lt;p&gt;Mas apenas a fé não os protegeria. Amarelo, vendo a ascensão de Vermelho, marchou mais uma vez para extinguir a chama. Dessa vez, o resultado foi diferente. Ninguém jamais havia derrotado Amarelo em combate direto. Ninguém, antes de Vermelho nas Minas. Os túneis estreitos tornaram-se um forno de resistência. Os Faladores de Fogo e suas bestas flamejantes transformaram o subterrâneo em um inferno ardente. Quando a batalha terminou, apenas cinzas e restos carbonizados sobraram do outrora invencível exército de Amarelo.&lt;&#x2F;p&gt;
-&lt;p&gt;A profecia foi cumprida. Enquanto insurreição e revolução sacudiam o império, a fé crescia nas profundezas da terra, forjada em perseguição e perda.&lt;&#x2F;p&gt;
-&lt;p&gt;Sozinho, derrotado, Amarelo aguardava sua execução. No entanto, Vermelho, triunfante, estendeu a mão. Amarelo não deveria ser punido — pois não pode haver perseguidos sem um perseguidor. Sem outra escolha, Amarelo ajoelhou-se, aceitando seu destino como testemunha viva do triunfo inegável da fé sobre a opressão.&lt;&#x2F;p&gt;
-&lt;p&gt;E assim, o império caiu. Seja devido à insurgência ou à própria incapacidade de controlar as marés em mudança, seu reinado chegou ao fim. A Cidade Antiga, outrora o coração do mundo, foi abandonada quando as massas se dirigiram às Planícies de Sal e às Minas, buscando aquele que falava de renovação.&lt;&#x2F;p&gt;
-&lt;p&gt;O palácio, antes um símbolo de poder inabalável, desmoronou sob o peso inexorável da história. Em seu lugar, uma nova ordem surgiu. Um chanceler, escolhido não por linhagem, mas por devoção, fez um juramento ao povo. E assim começou a Era da Chama.&lt;&#x2F;p&gt;
+&lt;p&gt;The land was divided. While half of it thrived under a structured dominion, the other half was at the mercy of independent factions of bandits. The Chancellor, always a patron of the arcane arts, founded a great school of magic in the Capital, a beacon of knowledge that gave the empire an unmatched advantage in discovering the world’s deepest secrets.&lt;&#x2F;p&gt;
+&lt;p&gt;However, knowledge was not the Chancellor’s monopoly. In exile, a cunning leader in blue robes, guided by a seer of immense clairvoyant power, accumulated stolen secrets, rising quickly to rival the wisdom of the Empire. Meanwhile, the exiled warrior Yellow raised a stronghold in the Remote Lands, driving the bandits from the Salt Plains and laying the foundations of a new power. In contrast, Red, besieged by Blue’s relentless pursuit, saw the wisdom of its elders stolen, their legacy slipping through their fingers.&lt;&#x2F;p&gt;
+&lt;p&gt;The Chancellor ruled the empire with diligence, but allowed the peripheral provinces to fall into chaos. Yellow’s expansion continued with the annexation of the Hidden Place, a refuge for alchemy and trade, while Red, desperate to escape Blue’s pursuit, took the Banner of the Darkest Secret and sought refuge among the seers in the Mines. And, in a twist of fate, Red was struck by a Vision of Faith, and the miners joined their cause. At the same time, Blue, banished to the Bandit Mountains by Yellow, had a Vision of Rebellion. With the accumulated knowledge, Blue traded favors and claimed the Banner of Popular Favor, becoming the voice of the discontented.&lt;&#x2F;p&gt;
+&lt;p&gt;Despite Yellow’s growing power, the Chancellor saw a greater threat in Blue’s rise. In a masterful political maneuver, he left the religious fervor of Red for Yellow to handle and instead gathered his forces for a crushing attack on the Mountains. The battle was quick and relentless—the favor of Blue among the people unraveled, their influence in ruins. Fleeing to the capital, Blue sought to reignite support as the Chancellor, triumphant but exhausted, returned home.&lt;&#x2F;p&gt;
+&lt;p&gt;Meanwhile, Yellow’s conquest of the Mines allowed him to seize the Darkest Secret from Red’s cultists. However, Red did not give up so easily. He recovered his sacred banner and, realizing the fleeting nature of his followers&#x27; faith, set off for the Salt Plains in search of untapped riches. The Chancellor’s march back from the Mountains led to an unexpected discovery—the entrance to the Hidden Place. Although his army was weary, nomadic archers, old allies of the empire, joined his cause, and the Hidden Place fell under imperial control.&lt;&#x2F;p&gt;
+&lt;p&gt;Even after losing control of the Hidden Place, Yellow’s victories continued. In a crushing demonstration of power, he suppressed the growing faith of Red, further solidifying his reputation as an invincible force. Whispers of black magic and hypnotic rhythms spread, rumors of an immortal, resurrected army that bent all to its will. Yet, deep within the Mines, true believers still resisted. The Fire Speakers, prophets of the flames, joined Red’s cause, their conviction renewing their right to claim.&lt;&#x2F;p&gt;
+&lt;p&gt;In the capital, Blue did not remain idle. Walking through the Roadside Inn and the Imperial Garrison, he stoked the flames of rebellion. An insurgent faction arose, naming him their leader, and in the heart of the empire, the people cried out for change. The Ancient City watched as Blue’s forces tried to invade the palace, with the people’s favor on his side.&lt;&#x2F;p&gt;
+&lt;p&gt;But the Chancellor was no stranger to political tides. From the Rocky Coast, he watched the revolution unfold, knowing that his victories in distant lands could change the hearts of the people once more. Parading the spoils of war through the streets, he won over the masses, and Blue’s rebellion crumbled. The insurgents were eliminated, their movement dispersing like dust in the wind.&lt;&#x2F;p&gt;
+&lt;p&gt;Having crushed the rebellion, the Chancellor returned to the Rocky Coast, where he encountered a Wandering Terror. Closing a deal, he sent the beast to the Salt Plains, the focal point of Yellow’s sphere of influence, hoping to weaken his domain. Meanwhile, Red’s faith burned stronger than ever. Deep within the Mines, he preached a new world—of coal and salt, of fire and renewal. Pilgrims and believers gathered in masses, seeking refuge in the labyrinthine tunnels, ready to forge their own destiny.&lt;&#x2F;p&gt;
+&lt;p&gt;But faith alone would not protect them. Yellow, seeing Red’s rise, marched once again to extinguish the flame. This time, the result was different. No one had ever defeated Yellow in direct combat. No one, before Red in the Mines. The narrow tunnels became a furnace of resistance. The Fire Speakers and their fiery beasts turned the underground into a blazing hell. When the battle ended, only ashes and charred remains were left of Yellow’s once-invincible army.&lt;&#x2F;p&gt;
+&lt;p&gt;The prophecy was fulfilled. As insurrection and revolution shook the empire, faith grew in the depths of the earth, forged in persecution and loss.&lt;&#x2F;p&gt;
+&lt;p&gt;Alone, defeated, Yellow awaited his execution. However, Red, triumphant, extended his hand. Yellow was not to be punished— for there can be no persecuted without a persecutor. With no other choice, Yellow knelt, accepting his fate as a living witness to the undeniable triumph of faith over oppression.&lt;&#x2F;p&gt;
+&lt;p&gt;And so, the empire fell. Whether due to insurrection or the inability to control the changing tides, its reign came to an end. The Ancient City, once the heart of the world, was abandoned as the masses moved to the Salt Plains and the Mines, seeking the one who spoke of renewal.&lt;&#x2F;p&gt;
+&lt;p&gt;The palace, once a symbol of unshakable power, crumbled under the inexorable weight of history. In its place, a new order arose. A chancellor, chosen not by lineage, but by devotion...Thus began the era of the Flame.&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -134,6 +138,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>OpenFoam</title>
+        <published>2025-02-10T00:00:00+00:00</published>
+        <updated>2025-02-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/projects/openfoam/"/>
+        <id>https://churrogelato.github.io/projects/openfoam/</id>
+        
+        <content type="html" xml:base="https://churrogelato.github.io/projects/openfoam/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Mermaid Example</title>
         <published>2024-12-26T00:00:00+00:00</published>
         <updated>2024-12-26T00:00:00+00:00</updated>
@@ -152,7 +175,7 @@
         <content type="html" xml:base="https://churrogelato.github.io/apollo/mermaid/">&lt;p&gt;This Theme supports &lt;a href=&quot;https:&#x2F;&#x2F;mermaid.js.org&#x2F;&quot;&gt;mermaid&lt;&#x2F;a&gt; markdown diagram rendering.&lt;&#x2F;p&gt;
 &lt;p&gt;To use mermaid diagrams in your posts, see the example in the raw markdown code.
 https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;not-matthias&#x2F;apollo&#x2F;refs&#x2F;heads&#x2F;main&#x2F;content&#x2F;posts&#x2F;mermaid.md&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;rendered-example&quot;&gt;Rendered Example&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;rendered-example&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#rendered-example&quot; aria-label=&quot;Anchor link for: rendered-example&quot;&gt;Rendered Example&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;script src=https:&#x2F;&#x2F;churrogelato.github.io&#x2F;js&#x2F;mermaid.js&gt;&lt;&#x2F;script&gt;
 
 &lt;pre class=&quot;mermaid&quot;&gt;
@@ -208,8 +231,8 @@ https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;not-matthias&#x2F;apollo&#x2F;r
         <link rel="alternate" type="text/html" href="https://churrogelato.github.io/apollo/configuration/"/>
         <id>https://churrogelato.github.io/apollo/configuration/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/apollo/configuration/">&lt;h1 id=&quot;site-configuration&quot;&gt;Site Configuration&lt;&#x2F;h1&gt;
-&lt;h2 id=&quot;search-build-search-index&quot;&gt;Search (&lt;code&gt;build_search_index&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://churrogelato.github.io/apollo/configuration/">&lt;h1 id=&quot;site-configuration&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#site-configuration&quot; aria-label=&quot;Anchor link for: site-configuration&quot;&gt;Site Configuration&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;search-build-search-index&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#search-build-search-index&quot; aria-label=&quot;Anchor link for: search-build-search-index&quot;&gt;Search (&lt;code&gt;build_search_index&lt;&#x2F;code&gt;)&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Enables or disables the search functionality for your blog.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Type: Boolean&lt;&#x2F;li&gt;
@@ -228,7 +251,7 @@ Additionally, a search button will be displayed in the navigation bar.&lt;&#x2F;
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;include_content &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff8f40;&quot;&gt;true
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;index_format &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;elasticlunr_json&amp;quot;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h2 id=&quot;theme-mode-theme&quot;&gt;Theme Mode (&lt;code&gt;theme&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;theme-mode-theme&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#theme-mode-theme&quot; aria-label=&quot;Anchor link for: theme-mode-theme&quot;&gt;Theme Mode (&lt;code&gt;theme&lt;&#x2F;code&gt;)&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Sets the color theme for your blog.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Type: String&lt;&#x2F;li&gt;
@@ -237,7 +260,7 @@ Additionally, a search button will be displayed in the navigation bar.&lt;&#x2F;
 &lt;li&gt;Usage: &lt;code&gt;theme = &quot;toggle&quot;&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;The &quot;toggle&quot; option allows users to switch between light and dark modes, while &quot;auto&quot; typically follows the user&#x27;s system preferences.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;menu&quot;&gt;Menu&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;menu&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#menu&quot; aria-label=&quot;Anchor link for: menu&quot;&gt;Menu&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Defines the navigation menu items for your blog.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Type: Array of objects&lt;&#x2F;li&gt;
@@ -251,7 +274,7 @@ Additionally, a search button will be displayed in the navigation bar.&lt;&#x2F;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;logo&quot;&gt;Logo&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;logo&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#logo&quot; aria-label=&quot;Anchor link for: logo&quot;&gt;Logo&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Defines the site logo image file.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Type: String&lt;&#x2F;li&gt;
@@ -259,7 +282,7 @@ Additionally, a search button will be displayed in the navigation bar.&lt;&#x2F;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;socials&quot;&gt;Socials&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;socials&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#socials&quot; aria-label=&quot;Anchor link for: socials&quot;&gt;Socials&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Defines the social media links.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Type: Array of objects&lt;&#x2F;li&gt;
@@ -271,7 +294,7 @@ Additionally, a search button will be displayed in the navigation bar.&lt;&#x2F;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;table-of-contents-toc&quot;&gt;Table of Contents (&lt;code&gt;toc&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;table-of-contents-toc&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#table-of-contents-toc&quot; aria-label=&quot;Anchor link for: table-of-contents-toc&quot;&gt;Table of Contents (&lt;code&gt;toc&lt;&#x2F;code&gt;)&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Enables or disables the table of contents for posts.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Type: Boolean&lt;&#x2F;li&gt;
@@ -280,7 +303,7 @@ Additionally, a search button will be displayed in the navigation bar.&lt;&#x2F;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;When enabled, a table of contents will be generated for posts, making it easier for readers to navigate through longer articles.&lt;&#x2F;p&gt;
 &lt;p&gt;Note: This feature adds additional JavaScript to your site.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;cdn-usage-use-cdn&quot;&gt;CDN Usage (&lt;code&gt;use_cdn&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;cdn-usage-use-cdn&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#cdn-usage-use-cdn&quot; aria-label=&quot;Anchor link for: cdn-usage-use-cdn&quot;&gt;CDN Usage (&lt;code&gt;use_cdn&lt;&#x2F;code&gt;)&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Determines whether to use a Content Delivery Network (CDN) for assets.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Type: Boolean&lt;&#x2F;li&gt;
@@ -288,7 +311,7 @@ Additionally, a search button will be displayed in the navigation bar.&lt;&#x2F;
 &lt;li&gt;Usage: &lt;code&gt;use_cdn = false&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;When set to true, the theme will attempt to load assets from a CDN, which can improve loading times for visitors from different geographic locations.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;favicon-favicon&quot;&gt;Favicon (&lt;code&gt;favicon&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;favicon-favicon&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#favicon-favicon&quot; aria-label=&quot;Anchor link for: favicon-favicon&quot;&gt;Favicon (&lt;code&gt;favicon&lt;&#x2F;code&gt;)&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Specifies the path to the favicon image for your blog.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Type: String&lt;&#x2F;li&gt;
@@ -296,7 +319,7 @@ Additionally, a search button will be displayed in the navigation bar.&lt;&#x2F;
 &lt;li&gt;Usage: &lt;code&gt;favicon = &quot;&#x2F;icon&#x2F;favicon.png&quot;&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;This sets the small icon that appears in the browser tab for your website.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;custom-stylesheets-stylesheets&quot;&gt;Custom Stylesheets (&lt;code&gt;stylesheets&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;custom-stylesheets-stylesheets&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#custom-stylesheets-stylesheets&quot; aria-label=&quot;Anchor link for: custom-stylesheets-stylesheets&quot;&gt;Custom Stylesheets (&lt;code&gt;stylesheets&lt;&#x2F;code&gt;)&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Allows you to add custom stylesheets to your blog.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Type: Array of files located in the &lt;code&gt;static&lt;&#x2F;code&gt; directory&lt;&#x2F;li&gt;
@@ -308,7 +331,7 @@ Additionally, a search button will be displayed in the navigation bar.&lt;&#x2F;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;fancy-code-styling-fancy-code&quot;&gt;Fancy Code Styling (&lt;code&gt;fancy_code&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;fancy-code-styling-fancy-code&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#fancy-code-styling-fancy-code&quot; aria-label=&quot;Anchor link for: fancy-code-styling-fancy-code&quot;&gt;Fancy Code Styling (&lt;code&gt;fancy_code&lt;&#x2F;code&gt;)&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Enables enhanced styling for code blocks.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Type: Boolean&lt;&#x2F;li&gt;
@@ -316,7 +339,7 @@ Additionally, a search button will be displayed in the navigation bar.&lt;&#x2F;
 &lt;li&gt;Usage: &lt;code&gt;fancy_code = true&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;This option adds the language label and a copy button.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;dynamic-notes-dynamic-note&quot;&gt;Dynamic Notes (&lt;code&gt;dynamic_note&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;dynamic-notes-dynamic-note&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#dynamic-notes-dynamic-note&quot; aria-label=&quot;Anchor link for: dynamic-notes-dynamic-note&quot;&gt;Dynamic Notes (&lt;code&gt;dynamic_note&lt;&#x2F;code&gt;)&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Allows for the creation of togglable note sections in your content.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Type: Boolean&lt;&#x2F;li&gt;
@@ -324,38 +347,38 @@ Additionally, a search button will be displayed in the navigation bar.&lt;&#x2F;
 &lt;li&gt;Usage: &lt;code&gt;dynamic_note = true&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;When enabled, you can create expandable&#x2F;collapsible note sections in your blog posts.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;anchor-links&quot;&gt;Anchor Links&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;anchor-links&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#anchor-links&quot; aria-label=&quot;Anchor link for: anchor-links&quot;&gt;Anchor Links&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;You can add anchor links by adding the following to your &lt;code&gt;_index.md&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#fafafa;color:#61676c;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;insert_anchor_links &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;heading&amp;quot;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h2 id=&quot;analytics&quot;&gt;Analytics&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;analytics&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#analytics&quot; aria-label=&quot;Anchor link for: analytics&quot;&gt;Analytics&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Enable or disable analytics tracking:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#fafafa;color:#61676c;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;extra&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;analytics&lt;&#x2F;span&gt;&lt;span&gt;]
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;enabled &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff8f40;&quot;&gt;false
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;After enabling analytics, configure GoatCounter or Umami.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;goatcounter&quot;&gt;GoatCounter&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;goatcounter&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#goatcounter&quot; aria-label=&quot;Anchor link for: goatcounter&quot;&gt;GoatCounter&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Configure GoatCounter analytics:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#fafafa;color:#61676c;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;extra&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;analytics&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;goatcounter&lt;&#x2F;span&gt;&lt;span&gt;]
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;user &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;your_user&amp;quot;           &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#abb0b6;&quot;&gt;# Your GoatCounter username
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;host &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;example.com&amp;quot;         &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#abb0b6;&quot;&gt;# Optional: Custom host
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h3 id=&quot;umami-analytics&quot;&gt;Umami Analytics&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;umami-analytics&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#umami-analytics&quot; aria-label=&quot;Anchor link for: umami-analytics&quot;&gt;Umami Analytics&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Configure Umami analytics:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#fafafa;color:#61676c;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;extra&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;analytics&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;umami&lt;&#x2F;span&gt;&lt;span&gt;]
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;website_id &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;43929cd1-1e83....&amp;quot;                    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#abb0b6;&quot;&gt;# Your Umami website ID
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;host_url &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;stats.mywebsite.com&amp;quot;            &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#abb0b6;&quot;&gt;# Optional: Custom host URL
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;hr &#x2F;&gt;
-&lt;h1 id=&quot;page-configuration&quot;&gt;Page configuration&lt;&#x2F;h1&gt;
-&lt;h2 id=&quot;source-code-repo-view&quot;&gt;Source code (&lt;code&gt;repo_view&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;page-configuration&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#page-configuration&quot; aria-label=&quot;Anchor link for: page-configuration&quot;&gt;Page configuration&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;source-code-repo-view&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#source-code-repo-view&quot; aria-label=&quot;Anchor link for: source-code-repo-view&quot;&gt;Source code (&lt;code&gt;repo_view&lt;&#x2F;code&gt;)&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Do you want to link to the source code of your blog post? You can turn on the &lt;code&gt;repo_view&lt;&#x2F;code&gt; inside the &lt;code&gt;[extra]&lt;&#x2F;code&gt; section of your blog post.&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#fafafa;color:#61676c;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;extra&lt;&#x2F;span&gt;&lt;span&gt;]
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;repo_view &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff8f40;&quot;&gt;true
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#399ee6;&quot;&gt;repo_url &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;github.com&#x2F;not-matthias&#x2F;apollo&#x2F;tree&#x2F;main&#x2F;content&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#abb0b6;&quot;&gt;# Alternatively add the repo here
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;The &lt;code&gt;repo_url&lt;&#x2F;code&gt; can be set in the &lt;code&gt;[extra]&lt;&#x2F;code&gt; section or in your &lt;code&gt;config.toml&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;comments-comment&quot;&gt;Comments (&lt;code&gt;comment&lt;&#x2F;code&gt;)&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;comments-comment&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#comments-comment&quot; aria-label=&quot;Anchor link for: comments-comment&quot;&gt;Comments (&lt;code&gt;comment&lt;&#x2F;code&gt;)&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Enables or disables the comment system for posts.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Type: Boolean&lt;&#x2F;li&gt;
@@ -400,7 +423,7 @@ When enabled, this allows readers to leave comments on your blog posts. This fea
         <link rel="alternate" type="text/html" href="https://churrogelato.github.io/apollo/shortcode/"/>
         <id>https://churrogelato.github.io/apollo/shortcode/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/apollo/shortcode/">&lt;h2 id=&quot;note&quot;&gt;Note&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://churrogelato.github.io/apollo/shortcode/">&lt;h2 id=&quot;note&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#note&quot; aria-label=&quot;Anchor link for: note&quot;&gt;Note&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Here is an example of the &lt;code&gt;note&lt;&#x2F;code&gt; shortcode:&lt;&#x2F;p&gt;
 &lt;p&gt;This one is static!
 &lt;div class=&quot;note-container&quot;&gt;
@@ -560,14 +583,14 @@ When enabled, this allows readers to leave comments on your blog posts. This fea
         <id>https://churrogelato.github.io/apollo/math-symbol/</id>
         
         <content type="html" xml:base="https://churrogelato.github.io/apollo/math-symbol/">&lt;p&gt;Note: This requires the &lt;code&gt;mathjax&lt;&#x2F;code&gt; and &lt;code&gt;mathjax_dollar_inline_enable&lt;&#x2F;code&gt; option set to &lt;code&gt;true&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;inline-math&quot;&gt;Inline Math&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;inline-math&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#inline-math&quot; aria-label=&quot;Anchor link for: inline-math&quot;&gt;Inline Math&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;ul&gt;
 &lt;li&gt;$(a+b)^2$ = $a^2 + 2ab + b^2$&lt;&#x2F;li&gt;
 &lt;li&gt;A polynomial P of degree d over $\mathbb{F}_p$ is an expression of the form
 $P(s) = a_0 + a_1 . s + a_2 . s^2 + ... + a_d . s^d$ for some
 $a_0,..,a_d \in \mathbb{F}_p$&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h1 id=&quot;displayed-math&quot;&gt;Displayed Math&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;displayed-math&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#displayed-math&quot; aria-label=&quot;Anchor link for: displayed-math&quot;&gt;Displayed Math&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;$$
 p := (\sum_{k∈I}{c_k.v_k} + \delta_v.t(x))·(\sum_{k∈I}{c_k.w_k} + \delta_w.t(x)) − (\sum_{k∈I}{c_k.y_k} + \delta_y.t(x))
 $$&lt;&#x2F;p&gt;
@@ -590,12 +613,12 @@ $$&lt;&#x2F;p&gt;
         <link rel="alternate" type="text/html" href="https://churrogelato.github.io/apollo/markdown/"/>
         <id>https://churrogelato.github.io/apollo/markdown/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/apollo/markdown/">&lt;h1 id=&quot;h1&quot;&gt;H1&lt;&#x2F;h1&gt;
-&lt;h2 id=&quot;h2&quot;&gt;H2&lt;&#x2F;h2&gt;
-&lt;h3 id=&quot;h3&quot;&gt;H3&lt;&#x2F;h3&gt;
+        <content type="html" xml:base="https://churrogelato.github.io/apollo/markdown/">&lt;h1 id=&quot;h1&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#h1&quot; aria-label=&quot;Anchor link for: h1&quot;&gt;H1&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;h2&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#h2&quot; aria-label=&quot;Anchor link for: h2&quot;&gt;H2&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;h3&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#h3&quot; aria-label=&quot;Anchor link for: h3&quot;&gt;H3&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet sagittis id consectetur purus ut. In pellentesque massa placerat duis ultricies. Neque laoreet suspendisse interdum consectetur libero id. Justo nec ultrices dui sapien eget mi proin. Nunc consequat interdum varius sit amet mattis vulputate. Sollicitudin tempor id eu nisl nunc mi ipsum. Non odio euismod lacinia at quis. Sit amet nisl suscipit adipiscing. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. Sit amet consectetur adipiscing elit pellentesque habitant. Ac placerat vestibulum lectus mauris. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. &lt;a href=&quot;https:&#x2F;&#x2F;www.google.com&quot;&gt;Google&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;markdown-here.com&#x2F;img&#x2F;icon256.png&quot; alt=&quot;Markdown Logo&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;code-block&quot;&gt;Code Block&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;code-block&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#code-block&quot; aria-label=&quot;Anchor link for: code-block&quot;&gt;Code Block&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#fafafa;color:#61676c;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#fa6e32;&quot;&gt;fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;() {
 &lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f07171;&quot;&gt;println!&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;Hello World&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;;
 &lt;&#x2F;span&gt;&lt;span&gt;}
@@ -604,19 +627,19 @@ $$&lt;&#x2F;p&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;mark style=&quot;background-color:#f3f3f3;&quot;&gt;2&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;mark style=&quot;background-color:#f3f3f3;&quot;&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f07171;&quot;&gt;println!&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#86b300;&quot;&gt;&amp;quot;Hello World&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61676ccc;&quot;&gt;;
 &lt;&#x2F;span&gt;&lt;&#x2F;mark&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;td&gt;&lt;span&gt;}
 &lt;&#x2F;span&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h2 id=&quot;ordered-list&quot;&gt;Ordered List&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;ordered-list&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#ordered-list&quot; aria-label=&quot;Anchor link for: ordered-list&quot;&gt;Ordered List&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;ol&gt;
 &lt;li&gt;First item&lt;&#x2F;li&gt;
 &lt;li&gt;Second item&lt;&#x2F;li&gt;
 &lt;li&gt;Third item&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;h2 id=&quot;unordered-list&quot;&gt;Unordered List&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;unordered-list&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#unordered-list&quot; aria-label=&quot;Anchor link for: unordered-list&quot;&gt;Unordered List&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;List item&lt;&#x2F;li&gt;
 &lt;li&gt;Another item&lt;&#x2F;li&gt;
 &lt;li&gt;And another item&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;nested-list&quot;&gt;Nested list&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;nested-list&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#nested-list&quot; aria-label=&quot;Anchor link for: nested-list&quot;&gt;Nested list&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fruit
 &lt;ul&gt;
@@ -632,17 +655,17 @@ $$&lt;&#x2F;p&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;quote&quot;&gt;Quote&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;quote&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#quote&quot; aria-label=&quot;Anchor link for: quote&quot;&gt;Quote&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Two things are infinite: the universe and human stupidity; and I&#x27;m not sure about the
 universe.&lt;br&gt;
 — &lt;cite&gt;Albert Einstein&lt;&#x2F;cite&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
-&lt;h2 id=&quot;table-inline-markdown&quot;&gt;Table Inline Markdown&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;table-inline-markdown&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#table-inline-markdown&quot; aria-label=&quot;Anchor link for: table-inline-markdown&quot;&gt;Table Inline Markdown&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Italics&lt;&#x2F;th&gt;&lt;th&gt;Bold&lt;&#x2F;th&gt;&lt;th&gt;Code&lt;&#x2F;th&gt;&lt;th&gt;StrikeThrough&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;&lt;em&gt;italics&lt;&#x2F;em&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;bold&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;code&gt;code&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;del&gt;strikethrough&lt;&#x2F;del&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-&lt;h2 id=&quot;foldable-text&quot;&gt;Foldable Text&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;foldable-text&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#foldable-text&quot; aria-label=&quot;Anchor link for: foldable-text&quot;&gt;Foldable Text&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;details&gt;
     &lt;summary&gt;Title 1&lt;&#x2F;summary&gt;
     &lt;p&gt;IT&#x27;S A SECRET TO EVERYBODY.&lt;&#x2F;p&gt;
@@ -651,7 +674,7 @@ universe.&lt;br&gt;
     &lt;summary&gt;Title 2&lt;&#x2F;summary&gt;
     &lt;p&gt;Stay awhile, and listen!&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
-&lt;h2 id=&quot;code-tags&quot;&gt;Code tags&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;code-tags&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#code-tags&quot; aria-label=&quot;Anchor link for: code-tags&quot;&gt;Code tags&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Lorem ipsum &lt;code&gt;dolor&lt;&#x2F;code&gt; sit amet, &lt;code&gt;consectetur adipiscing&lt;&#x2F;code&gt; elit.
 &lt;code&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
 </content>

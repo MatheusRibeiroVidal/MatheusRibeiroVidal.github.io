@@ -10,7 +10,7 @@ This is my personal website, greatly inspired by <a href="https://rutar.org/" ta
 If you want to know what I'm working on, check out [my projects](./projects).
 
 For blog posts, head to [/posts](./posts).
-I'll write mostly in english or portuguese, but german or other languages may appear as well. I'll try to keep languages organized in the [tags](./tags) section though.
+I'll write mostly in english or portuguese, but german or other languages may appear as well. I'll try to keep languages organized in the [/tags](./tags) section though.
 
 ---
 # Quick Recommendations

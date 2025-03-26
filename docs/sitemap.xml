@@ -7,6 +7,9 @@
         <loc>https://churrogelato.github.io/about/</loc>
     </url>
     <url>
+        <loc>https://churrogelato.github.io/apollo/</loc>
+    </url>
+    <url>
         <loc>https://churrogelato.github.io/apollo/configuration/</loc>
         <lastmod>2024-07-09</lastmod>
     </url>
@@ -21,6 +24,9 @@
     <url>
         <loc>https://churrogelato.github.io/apollo/mermaid/</loc>
         <lastmod>2024-12-26</lastmod>
+    </url>
+    <url>
+        <loc>https://churrogelato.github.io/apollo/page/1/</loc>
     </url>
     <url>
         <loc>https://churrogelato.github.io/apollo/shortcode/</loc>
@@ -54,6 +60,10 @@
     <url>
         <loc>https://churrogelato.github.io/projects/mrv/</loc>
         <lastmod>2025-03-20</lastmod>
+    </url>
+    <url>
+        <loc>https://churrogelato.github.io/projects/openfoam/</loc>
+        <lastmod>2025-02-10</lastmod>
     </url>
     <url>
         <loc>https://churrogelato.github.io/projects/page/1/</loc>
@@ -98,6 +108,9 @@
     </url>
     <url>
         <loc>https://churrogelato.github.io/tags/open-source/</loc>
+    </url>
+    <url>
+        <loc>https://churrogelato.github.io/tags/openfoam/</loc>
     </url>
     <url>
         <loc>https://churrogelato.github.io/tags/orcaflex/</loc>

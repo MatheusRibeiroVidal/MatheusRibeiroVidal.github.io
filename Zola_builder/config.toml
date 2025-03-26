@@ -1,6 +1,6 @@
 base_url = "https://churrogelato.github.io/"
 title = "MRV"
-description = "This is an example description"
+description = "Matheus Ribeiro Vidal - Personal Website"
 build_search_index = true
 generate_feeds = true
 compile_sass = true

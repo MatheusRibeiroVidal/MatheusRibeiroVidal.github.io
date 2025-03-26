@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>MRV</title>
-    <subtitle>This is an example description</subtitle>
+    <subtitle>Matheus Ribeiro Vidal - Personal Website</subtitle>
     <link rel="self" type="application/atom+xml" href="https://churrogelato.github.io/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://churrogelato.github.io/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>

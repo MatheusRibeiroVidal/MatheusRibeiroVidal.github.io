@@ -10,10 +10,11 @@ tags=["EN", "Oath", "Boardgames", "Game Log"]
 comment = true
 +++
 This is the first game log of a campaign of [Oath](https://boardgamegeek.com/boardgame/291572/oath).
-<div style="text-align: center; display: flex; justify-content: center; gap: 20px;">
-    <img src="https://cf.geekdo-images.com/HwP2lq33Mw5pgMyPZdXhcA__imagepage/img/xlN6iB9GfiNPgZRXk910BACmccc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8791828.jpg" alt="Oath Log 1" style="max-width: 100%; height: auto;" />
-    <img src="https://cf.geekdo-images.com/VCMh08WtpUeylVnHGmP5UA__imagepage/img/Wut72ZvafbOHkIdKGFwkxobH37g=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8791835.jpg" alt="Oath Log 2" style="max-width: 100%; height: auto;" />
+<div style="text-align: center; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+    <img src="https://cf.geekdo-images.com/HwP2lq33Mw5pgMyPZdXhcA__imagepage/img/xlN6iB9GfiNPgZRXk910BACmccc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8791828.jpg" alt="Oath Log 1 start" style="max-width: 100%; height: auto; flex: 1 1 45%; margin: 10px;" />
+    <img src="https://cf.geekdo-images.com/VCMh08WtpUeylVnHGmP5UA__imagepage/img/Wut72ZvafbOHkIdKGFwkxobH37g=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8791835.jpg" alt="Oath Log 1 end" style="max-width: 100%; height: auto; flex: 1 1 45%; margin: 10px;" />
 </div>
+
 
 
 # Story

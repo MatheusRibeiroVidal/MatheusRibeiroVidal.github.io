@@ -49,9 +49,9 @@
         <id>https://churrogelato.github.io/posts/oath-log-1/</id>
         
         <content type="html" xml:base="https://churrogelato.github.io/posts/oath-log-1/">&lt;p&gt;This is the first game log of a campaign of &lt;a href=&quot;https:&#x2F;&#x2F;boardgamegeek.com&#x2F;boardgame&#x2F;291572&#x2F;oath&quot;&gt;Oath&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;div style=&quot;text-align: center; display: flex; justify-content: center; gap: 20px;&quot;&gt;
-    &lt;img src=&quot;https:&#x2F;&#x2F;cf.geekdo-images.com&#x2F;HwP2lq33Mw5pgMyPZdXhcA__imagepage&#x2F;img&#x2F;xlN6iB9GfiNPgZRXk910BACmccc=&#x2F;fit-in&#x2F;900x600&#x2F;filters:no_upscale():strip_icc()&#x2F;pic8791828.jpg&quot; alt=&quot;Oath Log 1&quot; style=&quot;max-width: 100%; height: auto;&quot; &#x2F;&gt;
-    &lt;img src=&quot;https:&#x2F;&#x2F;cf.geekdo-images.com&#x2F;VCMh08WtpUeylVnHGmP5UA__imagepage&#x2F;img&#x2F;Wut72ZvafbOHkIdKGFwkxobH37g=&#x2F;fit-in&#x2F;900x600&#x2F;filters:no_upscale():strip_icc()&#x2F;pic8791835.jpg&quot; alt=&quot;Oath Log 2&quot; style=&quot;max-width: 100%; height: auto;&quot; &#x2F;&gt;
+&lt;div style=&quot;text-align: center; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;&quot;&gt;
+    &lt;img src=&quot;https:&#x2F;&#x2F;cf.geekdo-images.com&#x2F;HwP2lq33Mw5pgMyPZdXhcA__imagepage&#x2F;img&#x2F;xlN6iB9GfiNPgZRXk910BACmccc=&#x2F;fit-in&#x2F;900x600&#x2F;filters:no_upscale():strip_icc()&#x2F;pic8791828.jpg&quot; alt=&quot;Oath Log 1 start&quot; style=&quot;max-width: 100%; height: auto; flex: 1 1 45%; margin: 10px;&quot; &#x2F;&gt;
+    &lt;img src=&quot;https:&#x2F;&#x2F;cf.geekdo-images.com&#x2F;VCMh08WtpUeylVnHGmP5UA__imagepage&#x2F;img&#x2F;Wut72ZvafbOHkIdKGFwkxobH37g=&#x2F;fit-in&#x2F;900x600&#x2F;filters:no_upscale():strip_icc()&#x2F;pic8791835.jpg&quot; alt=&quot;Oath Log 1 end&quot; style=&quot;max-width: 100%; height: auto; flex: 1 1 45%; margin: 10px;&quot; &#x2F;&gt;
 &lt;&#x2F;div&gt;
 &lt;h1 id=&quot;story&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#story&quot; aria-label=&quot;Anchor link for: story&quot;&gt;Story&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;The land was divided. While half of it thrived under a structured dominion, the other half was at the mercy of independent factions of bandits. The Chancellor, always a patron of the arcane arts, founded a great school of magic in the Capital, a beacon of knowledge that gave the empire an unmatched advantage in discovering the world’s deepest secrets.&lt;&#x2F;p&gt;

@@ -1,3 +1,6 @@
+# Sync changes done in Obsidian
+.\sync_from_obsidian.bat
+
 # Define the paths
 $zolaBuildPath = ".\Zola_builder"  # Folder where Zola builds
 $docsPath = ".\docs"

@@ -51,6 +51,4 @@ Copy-Item -Recurse -Force $publicPath\* $docsPath\
 Set-Location -Path $scriptDir
 
 # Commit changes to Git
-# git add -A
-# git commit -m "Publish new content"
-# git push origin main
+github

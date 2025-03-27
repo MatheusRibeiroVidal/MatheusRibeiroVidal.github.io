@@ -13,9 +13,9 @@ comment = true
 +++
 
 # Links
-- <a href="./downloadables/pg2/PG2_Matheus_Vidal_170078663.pdf" download="PG2_Matheus_Vidal_170078663.pdf">Download Thesis PDF</a>
+- <a href="/downloadables/pg2/PG2_Matheus_Vidal_170078663.pdf" download="PG2_Matheus_Vidal_170078663.pdf">Download Thesis PDF</a>
 - [Download Thesis PDF - UnB Library](https://bdm.unb.br/handle/10483/38713)
-- <a href="./downloadables/pg2/CONEM2024_0426.pdf" download="CONEM2024_0426.pdf">Download CONEM24 Paper PDF</a>
+- <a href="/downloadables/pg2/CONEM2024_0426.pdf" download="CONEM2024_0426.pdf">Download CONEM24 Paper PDF</a>
 
 ## Title (English)
 Open Source Numerical Simulations of Turbulent Flow over Downforce Generating Multielement Wings in Ground Effect 

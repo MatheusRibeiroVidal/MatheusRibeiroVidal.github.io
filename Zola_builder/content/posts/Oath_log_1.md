@@ -7,7 +7,7 @@ tags=["EN", "Oath", "Boardgames", "Game Log"]
 
 
 [extra]
-comment = true
+comment = false
 +++
 This is the first game log of a campaign of [Oath](https://boardgamegeek.com/boardgame/291572/oath).
 <div style="text-align: center; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">

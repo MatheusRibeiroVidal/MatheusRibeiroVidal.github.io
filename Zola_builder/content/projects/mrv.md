@@ -9,7 +9,9 @@ tags=[]
 [extra]
 local_image = "/projects/mrv.png"
 link_to = "https://github.com/ChurroGelato/ChurroGelato.github.io"
-comment = true
+comment = false
 +++
 
+# Links
+- [GitHub repo](https://github.com/ChurroGelato/ChurroGelato.github.io)
 

@@ -147,7 +147,11 @@ If I end up doing it, I&#x27;ll make sure to add it to &lt;a href=&quot;&#x2F;pr
         <link rel="alternate" type="text/html" href="https://churrogelato.github.io/projects/mrv/"/>
         <id>https://churrogelato.github.io/projects/mrv/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/projects/mrv/"></content>
+        <content type="html" xml:base="https://churrogelato.github.io/projects/mrv/">&lt;h1 id=&quot;links&quot;&gt;Links&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ChurroGelato&#x2F;ChurroGelato.github.io&quot;&gt;GitHub repo&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
         
     </entry>
     <entry xml:lang="en">

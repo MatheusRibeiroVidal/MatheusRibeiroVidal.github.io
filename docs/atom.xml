@@ -132,29 +132,6 @@ If I end up doing it, I&#x27;ll make sure to add it to &lt;a href=&quot;&#x2F;pr
         
     </entry>
     <entry xml:lang="en">
-        <title>Next-gen Simulation: CAD-Integrated Isogeometric Analysis, Shell Structures, and Enhanced Visualization Frameworks</title>
-        <published>2025-03-23T00:00:00+00:00</published>
-        <updated>2025-03-23T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/projects/softwarelab/"/>
-        <id>https://churrogelato.github.io/projects/softwarelab/</id>
-        
-        <content type="html" xml:base="https://churrogelato.github.io/projects/softwarelab/">&lt;h1 id=&quot;links&quot;&gt;Links&lt;&#x2F;h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.cee.ed.tum.de&#x2F;fileadmin&#x2F;w00cbe&#x2F;ccbe&#x2F;Softwarelab&#x2F;2025&#x2F;22_SL2025_Description_IGA.pdf&quot;&gt;Official description&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Personal Website</title>
         <published>2025-03-20T00:00:00+00:00</published>
         <updated>2025-03-20T00:00:00+00:00</updated>
@@ -171,25 +148,6 @@ If I end up doing it, I&#x27;ll make sure to add it to &lt;a href=&quot;&#x2F;pr
         <id>https://churrogelato.github.io/projects/mrv/</id>
         
         <content type="html" xml:base="https://churrogelato.github.io/projects/mrv/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>OpenFoam</title>
-        <published>2025-02-10T00:00:00+00:00</published>
-        <updated>2025-02-10T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/projects/openfoam/"/>
-        <id>https://churrogelato.github.io/projects/openfoam/</id>
-        
-        <content type="html" xml:base="https://churrogelato.github.io/projects/openfoam/"></content>
         
     </entry>
     <entry xml:lang="en">

@@ -3,7 +3,7 @@ title = "The Orange Juice Question"
 date = "2025-03-27"
 
 [taxonomies]
-tags=["EN"]
+tags=["EN", "Project Idea"]
 
 
 [extra]

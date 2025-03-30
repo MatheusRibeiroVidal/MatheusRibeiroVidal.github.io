@@ -1,3 +1,9 @@
+# Get the current directory where the script is located
+$scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+
+# Go to the root of the repo (where docs and Zola_builder are located)
+Set-Location -Path $scriptDir
+
 # Sync changes done in Obsidian
 .\sync_from_obsidian.bat
 

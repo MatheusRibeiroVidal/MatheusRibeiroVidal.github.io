@@ -1,6 +1,7 @@
 +++
 title = "The Orange Juice Question"
 date = "2025-03-27"
+updated = "2025-04-07"
 
 [taxonomies]
 tags=["EN", "Project Idea"]
@@ -14,7 +15,7 @@ comment = false
 
 I don't like drinking water. 
 
-Yes, I know this is bad for me and all, but growing up in Brazil, fruit juice was always available and between drinking acerola juice, even unsweetened, and plain old boring and tasteless water, I'd pick acerola juice everytime.
+Yes, I know this is bad for me and all, but growing up in Brazil, fruit juice was always available and between drinking acerola juice, even unsweetened, and plain old boring and tasteless water, I'd pick acerola juice every time.
 
 The thing is, since moving to Germany, my options of "fresh" juice went from plentiful to one, OJ.
 
@@ -30,7 +31,7 @@ Short answer is **yes**. I mean, I do it every morning and there is little to no
 Okay, so done deal right? Could be, but of course I'm going to overcomplicate it.
 
 ## Analytically
-This looks like something I could solve with some kind of diffusion modelling under turbulence. Sounds interesting.
+This looks like something I could solve with some kind of diffusion modelling under turbulence maybe? Sounds interesting but i need to do some more research to actually be able to do it properly, I think.
 
 ## Numerically
 This is probably the most overkill way to do it, and that's what I like the most about it. Since I've been working to understand OpenFoam, it makes sense to try and model a shake of a bottle of juice in it and check out the results.

@@ -5,12 +5,12 @@
     <link rel="self" type="application/atom+xml" href="https://churrogelato.github.io/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://churrogelato.github.io/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-03-27T00:00:00+00:00</updated>
+    <updated>2025-04-07T00:00:00+00:00</updated>
     <id>https://churrogelato.github.io/atom.xml</id>
     <entry xml:lang="en">
         <title>The Orange Juice Question</title>
         <published>2025-03-27T00:00:00+00:00</published>
-        <updated>2025-03-27T00:00:00+00:00</updated>
+        <updated>2025-04-07T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -25,7 +25,7 @@
         
         <content type="html" xml:base="https://churrogelato.github.io/posts/oj-problem/">&lt;h1 id=&quot;the-question&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-question&quot; aria-label=&quot;Anchor link for: the-question&quot;&gt;The question&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;I don&#x27;t like drinking water.&lt;&#x2F;p&gt;
-&lt;p&gt;Yes, I know this is bad for me and all, but growing up in Brazil, fruit juice was always available and between drinking acerola juice, even unsweetened, and plain old boring and tasteless water, I&#x27;d pick acerola juice everytime.&lt;&#x2F;p&gt;
+&lt;p&gt;Yes, I know this is bad for me and all, but growing up in Brazil, fruit juice was always available and between drinking acerola juice, even unsweetened, and plain old boring and tasteless water, I&#x27;d pick acerola juice every time.&lt;&#x2F;p&gt;
 &lt;p&gt;The thing is, since moving to Germany, my options of &quot;fresh&quot; juice went from plentiful to one, OJ.&lt;&#x2F;p&gt;
 &lt;p&gt;The orange juice that I buy here at the supermarket is sold in 1.35L bottles and, since that&#x27;s a lot of juice to drink in one go, every time I pick it up from the fridge I have to shake it to homogenize juice and pulp.&lt;&#x2F;p&gt;
 &lt;p&gt;My question is: Is ONE good shake enough or would it require more to homogenize the contents?&lt;&#x2F;p&gt;
@@ -34,7 +34,7 @@
 &lt;p&gt;Short answer is &lt;strong&gt;yes&lt;&#x2F;strong&gt;. I mean, I do it every morning and there is little to no discernible taste difference between one or many shakes.&lt;&#x2F;p&gt;
 &lt;p&gt;Okay, so done deal right? Could be, but of course I&#x27;m going to overcomplicate it.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;analytically&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#analytically&quot; aria-label=&quot;Anchor link for: analytically&quot;&gt;Analytically&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
-&lt;p&gt;This looks like something I could solve with some kind of diffusion modelling under turbulence. Sounds interesting.&lt;&#x2F;p&gt;
+&lt;p&gt;This looks like something I could solve with some kind of diffusion modelling under turbulence maybe? Sounds interesting but i need to do some more research to actually be able to do it properly, I think.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;numerically&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#numerically&quot; aria-label=&quot;Anchor link for: numerically&quot;&gt;Numerically&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;This is probably the most overkill way to do it, and that&#x27;s what I like the most about it. Since I&#x27;ve been working to understand OpenFoam, it makes sense to try and model a shake of a bottle of juice in it and check out the results.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;conclusion&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#conclusion&quot; aria-label=&quot;Anchor link for: conclusion&quot;&gt;Conclusion&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;

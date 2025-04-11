@@ -26,10 +26,10 @@ comment = true
   - [Which solver to use?](#which-solver-to-use)
     - [Multiphase flow using interFoam](#multiphase-flow-using-interfoam)
     - [Multiphase flow using interMixingFoam](#multiphase-flow-using-intermixingfoam)
-  - [Setting up the Simulation](#setting-up-the-simulation)
 
 
 </details>
+
 
 
 # Links
@@ -71,4 +71,3 @@ Some additional references that might be helpful at this stage are:
 - [SimFlow's interMixingFoam documentation](https://help.sim-flow.com/solvers/inter-mixing-foam)
 - [SimFlow's interMixingFoam Tutorial](https://help.sim-flow.com/tutorials/mixing-tank)
 
-## Setting up the Simulation

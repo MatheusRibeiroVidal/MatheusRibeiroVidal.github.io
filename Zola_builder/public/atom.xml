@@ -77,7 +77,6 @@ If I end up doing it, I&#x27;ll make sure to add it to &lt;a href=&quot;&#x2F;pr
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;churrogelato.github.io&#x2F;projects&#x2F;oj&#x2F;#multiphase-flow-using-intermixingfoam&quot;&gt;Multiphase flow using interMixingFoam&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;churrogelato.github.io&#x2F;projects&#x2F;oj&#x2F;#setting-up-the-simulation&quot;&gt;Setting up the Simulation&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
@@ -117,7 +116,6 @@ I know that OpenFoam is able to deal with multiphase problems. Time for some res
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;help.sim-flow.com&#x2F;solvers&#x2F;inter-mixing-foam&quot;&gt;SimFlow&#x27;s interMixingFoam documentation&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;help.sim-flow.com&#x2F;tutorials&#x2F;mixing-tank&quot;&gt;SimFlow&#x27;s interMixingFoam Tutorial&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;setting-up-the-simulation&quot;&gt;Setting up the Simulation&lt;&#x2F;h2&gt;
 </content>
         
     </entry>

@@ -3,7 +3,7 @@ title = "Deciding if strictly one shake of an orange juice bottle is enough to m
 description = "Multiphase CFD simulations with analytical verification of mixing in container under sudden acceleration and deceleration"
 weight = 5
 date = "2025-03-27"
-updated = "2025-04-05"
+updated = "2025-04-11"
 
 
 [taxonomies]

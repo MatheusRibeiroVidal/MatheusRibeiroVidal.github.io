@@ -17,5 +17,3 @@ I'll write mostly in english or portuguese, but german or other languages may ap
 - Boardgame: <a href="https://boardgamegeek.com/boardgame/291572/oath" target="_blank">Oath: Chronicles of Empire & Exile</a>
 - Film: <a href="https://letterboxd.com/film/about-time/" target="_blank">About Time (2013)</a>
 - TV Show: <a href="https://myanimelist.net/anime/21/One_Piece?cat=anime" target="_blank">One Piece (1999)</a>
-
----

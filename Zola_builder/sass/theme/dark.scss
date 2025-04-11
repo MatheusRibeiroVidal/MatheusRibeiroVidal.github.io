@@ -1,4 +1,5 @@
 $bg-0: #131313;
+$prim-0: #EFA94A; //Cajá Yellow
 
 // Dark theme needs a bigger contrast compared to the white theme.
 $bg-1: lighten($bg-0, 5%);
@@ -6,6 +7,8 @@ $bg-2: lighten($bg-1, 10%);
 
 $text-0: lighten($bg-0, 87%);
 $text-1: lighten($bg-0, 60%);
+
+$prim-1: lighten($prim-0, 25%);
 
 :root.dark {
   --text-0: #{$text-0};
@@ -17,7 +20,8 @@ $text-1: lighten($bg-0, 60%);
 
   --border-color: var(--bg-2);
 
-  --primary-color: #EFA94A;	//Cajá Yellow
+  --primary-color: #{$prim-0};
+  --light-primary-color: #{$prim-1};
   --hover-color: white;
 
   .social > img {

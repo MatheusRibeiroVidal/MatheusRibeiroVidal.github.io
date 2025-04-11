@@ -44,6 +44,84 @@ If I end up doing it, I&#x27;ll make sure to add it to &lt;a href=&quot;&#x2F;pr
         
     </entry>
     <entry xml:lang="en">
+        <title>Deciding if strictly one shake of an orange juice bottle is enough to mix it for breakfast</title>
+        <published>2025-03-27T00:00:00+00:00</published>
+        <updated>2025-04-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/projects/oj/"/>
+        <id>https://churrogelato.github.io/projects/oj/</id>
+        
+        <content type="html" xml:base="https://churrogelato.github.io/projects/oj/">&lt;details closed&gt;
+&lt;summary&gt;Table of Contents&lt;&#x2F;summary&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;churrogelato.github.io&#x2F;projects&#x2F;oj&#x2F;#links&quot;&gt;Links&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;churrogelato.github.io&#x2F;projects&#x2F;oj&#x2F;#tldr&quot;&gt;TLDR&lt;&#x2F;a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;churrogelato.github.io&#x2F;projects&#x2F;oj&#x2F;#to-do&quot;&gt;To-Do&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;churrogelato.github.io&#x2F;projects&#x2F;oj&#x2F;#context&quot;&gt;Context&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;churrogelato.github.io&#x2F;projects&#x2F;oj&#x2F;#methodology&quot;&gt;Methodology&lt;&#x2F;a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;churrogelato.github.io&#x2F;projects&#x2F;oj&#x2F;#which-solver-to-use&quot;&gt;Which solver to use?&lt;&#x2F;a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;churrogelato.github.io&#x2F;projects&#x2F;oj&#x2F;#multiphase-flow-using-interfoam&quot;&gt;Multiphase flow using interFoam&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;churrogelato.github.io&#x2F;projects&#x2F;oj&#x2F;#multiphase-flow-using-intermixingfoam&quot;&gt;Multiphase flow using interMixingFoam&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;churrogelato.github.io&#x2F;projects&#x2F;oj&#x2F;#setting-up-the-simulation&quot;&gt;Setting up the Simulation&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;details&gt;
+&lt;h1 id=&quot;links&quot;&gt;Links&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ChurroGelato&#x2F;oj&quot;&gt;GitHub repo&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;tldr&quot;&gt;TLDR&lt;&#x2F;h1&gt;
+&lt;p&gt;Is &lt;em&gt;strictly one&lt;&#x2F;em&gt; shake of an orange juice bottle enough to properly incorporate the pulp back into the juice and make it ready to serve?&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;to-do&quot;&gt;To-Do&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;del&gt;Find out which solver to use&lt;&#x2F;del&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Set up and run sim&lt;&#x2F;li&gt;
+&lt;li&gt;Post-process results&lt;&#x2F;li&gt;
+&lt;li&gt;Verify results with analytical formulas&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;context&quot;&gt;Context&lt;&#x2F;h1&gt;
+&lt;p&gt;This project idea came to me during breakfast &lt;a href=&quot;&#x2F;posts&#x2F;OJ_problem&quot;&gt;and you can check it out in this blog post&lt;&#x2F;a&gt; why it is, most likely, a virtual waste of effort and computing power.&lt;&#x2F;p&gt;
+&lt;p&gt;The basic idea is to check if it is enough to shake my orange juice bottle &lt;em&gt;only&lt;&#x2F;em&gt; once to appropriately mix the pulp to the juice before pouring into the cup.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;methodology&quot;&gt;Methodology&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;which-solver-to-use&quot;&gt;Which solver to use?&lt;&#x2F;h2&gt;
+&lt;p&gt;Naturally, this is a problem of multiphase flow, given that inside the bottle, at the very least we have to consider the presence of air and juice.
+I know that OpenFoam is able to deal with multiphase problems. Time for some research.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;multiphase-flow-using-interfoam&quot;&gt;Multiphase flow using interFoam&lt;&#x2F;h3&gt;
+&lt;p&gt;One possible way of simulating this would be by using a 2 phase flow simulation (air and juice inside the bottle). &lt;a href=&quot;https:&#x2F;&#x2F;www.openfoam.com&#x2F;documentation&#x2F;guides&#x2F;latest&#x2F;doc&#x2F;guide-applications-solvers-multiphase-interFoam.html&quot;&gt;OpenFoam&#x27;s interFoam&lt;&#x2F;a&gt; could be a relatively easy way of solving that, &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=wK_0s7DnMRs&quot;&gt;there&#x27;s even a great video by Rose Walker going through interFoam for 2 phase immiscible fluids&lt;&#x2F;a&gt;. The main drawback of this would be that, since we would not be simulating the pulp as it&#x27;s own phase, there would be no way of determining the answer to the main question I have and we would have to determine implicitly if the results are appropriate.&lt;&#x2F;p&gt;
+&lt;p&gt;Maybe a multiphase flow with 3 fluids could be done.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;multiphase-flow-using-intermixingfoam&quot;&gt;Multiphase flow using interMixingFoam&lt;&#x2F;h3&gt;
+&lt;p&gt;One of the best things that can happen is when you need something and you find that something without much effort or hardship. As described in &lt;a href=&quot;https:&#x2F;&#x2F;www.openfoam.com&#x2F;documentation&#x2F;guides&#x2F;v2012&#x2F;man&#x2F;interMixingFoam.html&quot;&gt;OpenFoam&#x27;s documentation&lt;&#x2F;a&gt; interMixingFoam is a:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Solver for three incompressible fluids (two of which are immiscible) using VOF phase-fraction based interface capturing. With optional mesh motion and mesh topology changes including adaptive re-meshing.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Beautiful.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Yes, I am well aware that air is not incompressible. But, if I could shake a bottle of juice hard enough to have to take the compressibility of air into account, I would probably be a superhero, not an engineer.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Some additional references that might be helpful at this stage are:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;help.sim-flow.com&#x2F;solvers&#x2F;inter-mixing-foam&quot;&gt;SimFlow&#x27;s interMixingFoam documentation&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;help.sim-flow.com&#x2F;tutorials&#x2F;mixing-tank&quot;&gt;SimFlow&#x27;s interMixingFoam Tutorial&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;setting-up-the-simulation&quot;&gt;Setting up the Simulation&lt;&#x2F;h2&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Lorem Ipsum</title>
         <published>2025-03-26T00:00:00+00:00</published>
         <updated>2025-03-26T00:00:00+00:00</updated>
@@ -209,6 +287,7 @@ https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;not-matthias&#x2F;apollo&#x2F;r
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.cbcfd.com.br&#x2F;cbcfd-2024&#x2F;page&#x2F;3730-home&quot;&gt;Brazilian Congress of Computational Fluid Dynamics 2024&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;&#x2F;downloadables&#x2F;cbcfd2024&#x2F;CBCFD_100439.pdf&quot; download=&quot;CBCFD_100439.pdf&quot;&gt;Download CONEM24 Paper PDF&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.17648&#x2F;cbcfd-2024-192052&quot;&gt;10.17648&#x2F;cbcfd-2024-192052&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
         
@@ -556,6 +635,7 @@ When enabled, this allows readers to leave comments on your blog posts. This fea
 &lt;li&gt;&lt;a href=&quot;&#x2F;downloadables&#x2F;pg2&#x2F;PG2_Matheus_Vidal_170078663.pdf&quot; download=&quot;PG2_Matheus_Vidal_170078663.pdf&quot;&gt;Download Thesis PDF&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;bdm.unb.br&#x2F;handle&#x2F;10483&#x2F;38713&quot;&gt;Download Thesis PDF - UnB Library&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;&#x2F;downloadables&#x2F;pg2&#x2F;CONEM2024_0426.pdf&quot; download=&quot;CONEM2024_0426.pdf&quot;&gt;Download CONEM24 Paper PDF&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;DOI: &lt;a href=&quot;https:&#x2F;&#x2F;doi.org&#x2F;10.26678&#x2F;abcm.conem2024.con24-0426&quot;&gt;10.26678&#x2F;abcm.conem2024.con24-0426&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;title-english&quot;&gt;Title (English)&lt;&#x2F;h2&gt;
 &lt;p&gt;Open Source Numerical Simulations of Turbulent Flow over Downforce Generating Multielement Wings in Ground Effect&lt;&#x2F;p&gt;

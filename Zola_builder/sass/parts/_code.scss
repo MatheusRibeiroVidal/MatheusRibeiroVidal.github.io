@@ -1,6 +1,6 @@
 // Define base colors and fonts for light and dark themes
 :root {
-  --code-font: "Courier New", monospace;
+  //--code-font: "Courier New", monospace;
   --bg-primary: var(--bg-1);
   --text-color: var(--text-0); // Color of the code text
   --label-color: #f0f0f0; // Text color of the label
@@ -222,16 +222,16 @@ pre {
 
 .clipboard-button,
 .clipboard-button svg {
-  all: unset;
-  cursor: pointer;
-  position: absolute;
-  bottom: 5px;
-  /* 5px from the bottom */
-  right: 5px;
-  /* 5px from the right */
-  z-index: 10;
-  background-color: transparent;
-  border: none;
-  fill: #ef5350;
-  /* Sets the color of the SVG, assuming it's an SVG icon */
+    all: unset;
+    cursor: pointer;
+    position: absolute;
+    bottom: 5px;
+    /* 5px from the bottom */
+    right: 5px;
+    /* 5px from the right */
+    z-index: 10;
+    background-color: transparent;
+    border: none;
+    fill: #5d8aa8;
+    /* Sets the color of the SVG, assuming it's an SVG icon */
 }

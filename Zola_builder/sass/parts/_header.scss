@@ -20,11 +20,12 @@
 }
 
 header {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 1em 0;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 1em 0;
+font-family: var(--code-font);
 }
 
 header .main {
@@ -35,6 +36,7 @@ header .main {
   align-items: flex-start;
   gap: 12px;
   font-size: 1.5rem;
+  font-family: var(--text-font);
 
   /* Otherwise header and menu is too close on small screens*/
   margin-bottom: 5px;

@@ -21,7 +21,7 @@ highlight_theme = "ayu-light"
 [extra]
 toc = false
 use_cdn = true
-favicon = "/icons/favicon.ico"
+favicon = "/icons/caja_acerola.ico"
 theme = "toggle"              # light, dark, auto, toggle
 fancy_code = true
 dynamic_note = true           # a note that can be toggled
@@ -42,6 +42,7 @@ socials = [
     { name = "github", url = "https://github.com/ChurroGelato", icon = "github" },
 	{ name = "itch.io", url = "https://churrogelato.itch.io/", icon = "itchio" },
 	{ name = "orcid", url = "https://orcid.org/0009-0009-2651-461X", icon = "orcid" },
+    { name = "rss", url = "atom.xml", icon = "rss" }
 	
 ]
 

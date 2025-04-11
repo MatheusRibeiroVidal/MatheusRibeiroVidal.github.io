@@ -1,1 +1,1 @@
-:root.dark{--text-0: #f1f1f1;--text-1: #acacac;--bg-0: #131313;--bg-1: #202020;--bg-2: #393939;--border-color: var(--bg-2);--primary-color: #EFA94A;--hover-color: white}:root.dark .social>img{filter:invert(1)}
+:root.dark{--text-0: #f1f1f1;--text-1: #acacac;--bg-0: #131313;--bg-1: #202020;--bg-2: #393939;--border-color: var(--bg-2);--primary-color: #efa94a;--light-primary-color: #f9e1bf;--hover-color: white}:root.dark .social>img{filter:invert(1)}

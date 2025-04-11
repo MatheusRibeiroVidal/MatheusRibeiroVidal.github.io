@@ -9,15 +9,16 @@
 @import "parts/_tags.scss";
 @import "parts/_mermaid.scss";
 @import "parts/_search.scss";
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Jacquard+12&family=Kode+Mono:wght@400..700&family=Shadows+Into+Light&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 
 :root {
-  /* Used for: block comment, hr, ... */
-  --border-color: var(--border-color);
-
-  /* Fonts */
-  --text-font: "Jetbrains Mono";
-  --header-font: "Space Grotesk", "Helvetica", sans-serif;
-  --code-font: "Jetbrains Mono";
+    /* Used for: block comment, hr, ... */
+    --border-color: var(--border-color);
+    /* Fonts */
+    --text-font: "Domine", serif;
+    --header-font: "Ubuntu", "Helvetica", sans-serif;
+    --code-font: "Kode Mono";
 }
 
 html {
@@ -36,18 +37,18 @@ html {
 
 @media all and (min-width: 640px) {
   html {
-    font-size: 16.5px;
+    font-size: 18.5px;
   }
 }
 
 @media all and (min-width: 720px) {
   html {
-    font-size: 17px;
+    font-size: 19px;
   }
 }
 
 @media all and (min-width: 960px) {
   html {
-    font-size: 18px;
+    font-size: 20px;
   }
 }

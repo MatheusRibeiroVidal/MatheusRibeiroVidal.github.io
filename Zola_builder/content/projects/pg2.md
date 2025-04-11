@@ -1,6 +1,6 @@
 +++
 title = "Simulações Numéricas em Código Aberto de Escoamentos Turbulentos Sobre Asas Multielemento em Efeito Solo para Geração de Downforce"
-description = "Undergraduate Thesis in Mechanical Engineering at UnB"
+description = "Undergraduate Thesis in Mechanical Engineering at UnB and Paper presented at the Brazilian National Conference of Mechanical Engineering 2024 (CONEM2024)"
 weight = 1
 date = "2023-07-26"
 
@@ -16,6 +16,7 @@ comment = true
 - <a href="/downloadables/pg2/PG2_Matheus_Vidal_170078663.pdf" download="PG2_Matheus_Vidal_170078663.pdf">Download Thesis PDF</a>
 - [Download Thesis PDF - UnB Library](https://bdm.unb.br/handle/10483/38713)
 - <a href="/downloadables/pg2/CONEM2024_0426.pdf" download="CONEM2024_0426.pdf">Download CONEM24 Paper PDF</a>
+- DOI: <a href="https://doi.org/10.26678/abcm.conem2024.con24-0426">10.26678/abcm.conem2024.con24-0426</a>
 
 ## Title (English)
 Open Source Numerical Simulations of Turbulent Flow over Downforce Generating Multielement Wings in Ground Effect 

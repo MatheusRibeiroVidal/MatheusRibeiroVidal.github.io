@@ -2,7 +2,6 @@
 title= "Alô"
 template = "homepage.html"
 +++
-
 Thanks for dropping by!
 
 If you want to know what I'm working on, check out my [/projects](./projects).

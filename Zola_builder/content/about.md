@@ -2,6 +2,11 @@
 title = "About me"
 path = "about"
 +++
+
+<div class="profile-pic-container">
+  <img src="/icons/me.png" alt="My photo" class="profile-pic">
+</div>
+
 My name is Matheus Ribeiro Vidal. I was born in Brasília, Brasil and now live in Munich, Germany.
 
 I studied mechanical engineering at the [University of Brasília (UnB)](https://unb.br/) and graduated in 2023. [This was my Thesis](/projects/pg2).

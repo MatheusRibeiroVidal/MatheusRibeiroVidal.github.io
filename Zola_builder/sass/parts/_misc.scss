@@ -133,3 +133,18 @@ del {
   overflow-x: auto;
   overflow-y: hidden;
 }
+
+
+.profile-pic-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+}

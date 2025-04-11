@@ -71,3 +71,11 @@ Some additional references that might be helpful at this stage are:
 - [SimFlow's interMixingFoam documentation](https://help.sim-flow.com/solvers/inter-mixing-foam)
 - [SimFlow's interMixingFoam Tutorial](https://help.sim-flow.com/tutorials/mixing-tank)
 
+## Setting up the Simulation
+### Geometry Modeling
+Was not too difficult, did it in Fusion 360.
+
+### Meshing
+Found this *very* useful video on [importing Ansys Fluent meshes to OpenFoam](https://www.youtube.com/watch?v=dUme0MUoqbk).
+
+### Pre-processing

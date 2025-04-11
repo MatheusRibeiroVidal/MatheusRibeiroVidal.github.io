@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>MRV</title>
     <subtitle>Matheus Ribeiro Vidal - Personal Website</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://churrogelato.github.io/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://churrogelato.github.io/"/>
+    <link rel="self" type="application/atom+xml" href="https://ribeirovidal.com/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://ribeirovidal.com/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2025-04-11T00:00:00+00:00</updated>
-    <id>https://churrogelato.github.io/atom.xml</id>
+    <id>https://ribeirovidal.com/atom.xml</id>
     <entry xml:lang="en">
         <title>The Orange Juice Question</title>
         <published>2025-03-27T00:00:00+00:00</published>
@@ -20,10 +20,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/posts/oj-problem/"/>
-        <id>https://churrogelato.github.io/posts/oj-problem/</id>
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/posts/oj-problem/"/>
+        <id>https://ribeirovidal.com/posts/oj-problem/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/posts/oj-problem/">&lt;h1 id=&quot;the-question&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-question&quot; aria-label=&quot;Anchor link for: the-question&quot;&gt;The question&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+        <content type="html" xml:base="https://ribeirovidal.com/posts/oj-problem/">&lt;h1 id=&quot;the-question&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-question&quot; aria-label=&quot;Anchor link for: the-question&quot;&gt;The question&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;I don&#x27;t like drinking water.&lt;&#x2F;p&gt;
 &lt;p&gt;Yes, I know this is bad for me and all, but growing up in Brazil, fruit juice was always available and between drinking acerola juice, even unsweetened, and plain old boring and tasteless water, I&#x27;d pick acerola juice every time.&lt;&#x2F;p&gt;
 &lt;p&gt;The thing is, since moving to Germany, my options of &quot;fresh&quot; juice went from plentiful to one, OJ.&lt;&#x2F;p&gt;
@@ -56,25 +56,25 @@ If I end up doing it, I&#x27;ll make sure to add it to &lt;a href=&quot;&#x2F;pr
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/projects/oj/"/>
-        <id>https://churrogelato.github.io/projects/oj/</id>
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/projects/oj/"/>
+        <id>https://ribeirovidal.com/projects/oj/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/projects/oj/">&lt;details closed&gt;
+        <content type="html" xml:base="https://ribeirovidal.com/projects/oj/">&lt;details closed&gt;
 &lt;summary&gt;Table of Contents&lt;&#x2F;summary&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;churrogelato.github.io&#x2F;projects&#x2F;oj&#x2F;#links&quot;&gt;Links&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;churrogelato.github.io&#x2F;projects&#x2F;oj&#x2F;#tldr&quot;&gt;TLDR&lt;&#x2F;a&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ribeirovidal.com&#x2F;projects&#x2F;oj&#x2F;#links&quot;&gt;Links&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ribeirovidal.com&#x2F;projects&#x2F;oj&#x2F;#tldr&quot;&gt;TLDR&lt;&#x2F;a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;churrogelato.github.io&#x2F;projects&#x2F;oj&#x2F;#to-do&quot;&gt;To-Do&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ribeirovidal.com&#x2F;projects&#x2F;oj&#x2F;#to-do&quot;&gt;To-Do&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;churrogelato.github.io&#x2F;projects&#x2F;oj&#x2F;#context&quot;&gt;Context&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;churrogelato.github.io&#x2F;projects&#x2F;oj&#x2F;#methodology&quot;&gt;Methodology&lt;&#x2F;a&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ribeirovidal.com&#x2F;projects&#x2F;oj&#x2F;#context&quot;&gt;Context&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ribeirovidal.com&#x2F;projects&#x2F;oj&#x2F;#methodology&quot;&gt;Methodology&lt;&#x2F;a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;churrogelato.github.io&#x2F;projects&#x2F;oj&#x2F;#which-solver-to-use&quot;&gt;Which solver to use?&lt;&#x2F;a&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ribeirovidal.com&#x2F;projects&#x2F;oj&#x2F;#which-solver-to-use&quot;&gt;Which solver to use?&lt;&#x2F;a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;churrogelato.github.io&#x2F;projects&#x2F;oj&#x2F;#multiphase-flow-using-interfoam&quot;&gt;Multiphase flow using interFoam&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;churrogelato.github.io&#x2F;projects&#x2F;oj&#x2F;#multiphase-flow-using-intermixingfoam&quot;&gt;Multiphase flow using interMixingFoam&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ribeirovidal.com&#x2F;projects&#x2F;oj&#x2F;#multiphase-flow-using-interfoam&quot;&gt;Multiphase flow using interFoam&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ribeirovidal.com&#x2F;projects&#x2F;oj&#x2F;#multiphase-flow-using-intermixingfoam&quot;&gt;Multiphase flow using interMixingFoam&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
@@ -116,6 +116,12 @@ I know that OpenFoam is able to deal with multiphase problems. Time for some res
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;help.sim-flow.com&#x2F;solvers&#x2F;inter-mixing-foam&quot;&gt;SimFlow&#x27;s interMixingFoam documentation&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;help.sim-flow.com&#x2F;tutorials&#x2F;mixing-tank&quot;&gt;SimFlow&#x27;s interMixingFoam Tutorial&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;setting-up-the-simulation&quot;&gt;Setting up the Simulation&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;geometry-modeling&quot;&gt;Geometry Modeling&lt;&#x2F;h3&gt;
+&lt;p&gt;Was not too difficult, did it in Fusion 360.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;meshing&quot;&gt;Meshing&lt;&#x2F;h3&gt;
+&lt;p&gt;Found this &lt;em&gt;very&lt;&#x2F;em&gt; useful video on &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=dUme0MUoqbk&quot;&gt;importing Ansys Fluent meshes to OpenFoam&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;pre-processing&quot;&gt;Pre-processing&lt;&#x2F;h3&gt;
 </content>
         
     </entry>
@@ -132,10 +138,10 @@ I know that OpenFoam is able to deal with multiphase problems. Time for some res
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/apollo/test/"/>
-        <id>https://churrogelato.github.io/apollo/test/</id>
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/apollo/test/"/>
+        <id>https://ribeirovidal.com/apollo/test/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/apollo/test/">&lt;h1 id=&quot;lorem-ipsum&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#lorem-ipsum&quot; aria-label=&quot;Anchor link for: lorem-ipsum&quot;&gt;Lorem Ipsum&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+        <content type="html" xml:base="https://ribeirovidal.com/apollo/test/">&lt;h1 id=&quot;lorem-ipsum&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#lorem-ipsum&quot; aria-label=&quot;Anchor link for: lorem-ipsum&quot;&gt;Lorem Ipsum&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a ante et ante tincidunt rhoncus. Nulla quis orci vehicula, imperdiet nibh ac, eleifend sem. Vivamus dapibus turpis quis purus iaculis dictum. Proin id dui id leo aliquet rhoncus. Nam orci quam, rutrum at justo id, sagittis tincidunt ante. Phasellus at eleifend eros. Sed semper quam et tristique aliquet. Vestibulum a auctor nisl, ut placerat lorem.&lt;&#x2F;p&gt;
 &lt;p&gt;Aliquam gravida dui nec mauris viverra dignissim. Vestibulum consectetur consequat tortor nec porta. Curabitur erat ante, bibendum sodales ipsum eu, consequat mollis ligula. Maecenas luctus rutrum mattis. Mauris aliquam varius diam, eu gravida justo vestibulum eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie, tellus et cursus bibendum, ex lorem scelerisque risus, eget malesuada metus enim eu nibh. Nunc vestibulum lorem id nisi tincidunt, at luctus nisi luctus. Donec sagittis, libero sit amet maximus ullamcorper, risus nibh hendrerit eros, ut pharetra tellus nulla in quam. In ultricies sit amet metus aliquet suscipit. Integer maximus nibh urna, id suscipit turpis tempor vitae. Quisque placerat ipsum ut mollis ultrices. Duis faucibus velit cursus tellus pharetra, ac vestibulum metus dignissim. Integer eu dapibus enim.&lt;&#x2F;p&gt;
 &lt;p&gt;Aliquam auctor urna mauris. Ut cursus est sapien, vitae dictum augue porta quis. Fusce quis porttitor est, nec accumsan justo. Duis gravida, nibh sit amet pretium laoreet, est nisl suscipit erat, sit amet placerat dolor orci nec mi. Aliquam erat volutpat. Curabitur quis gravida mi, vel condimentum dui. Phasellus ut mauris vulputate diam ultricies pulvinar.&lt;&#x2F;p&gt;
@@ -157,10 +163,10 @@ I know that OpenFoam is able to deal with multiphase problems. Time for some res
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/posts/oath-log-1/"/>
-        <id>https://churrogelato.github.io/posts/oath-log-1/</id>
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/posts/oath-log-1/"/>
+        <id>https://ribeirovidal.com/posts/oath-log-1/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/posts/oath-log-1/">&lt;p&gt;This is the first game log of a campaign of &lt;a href=&quot;https:&#x2F;&#x2F;boardgamegeek.com&#x2F;boardgame&#x2F;291572&#x2F;oath&quot;&gt;Oath&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://ribeirovidal.com/posts/oath-log-1/">&lt;p&gt;This is the first game log of a campaign of &lt;a href=&quot;https:&#x2F;&#x2F;boardgamegeek.com&#x2F;boardgame&#x2F;291572&#x2F;oath&quot;&gt;Oath&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;div style=&quot;text-align: center; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;&quot;&gt;
     &lt;img src=&quot;https:&#x2F;&#x2F;cf.geekdo-images.com&#x2F;HwP2lq33Mw5pgMyPZdXhcA__imagepage&#x2F;img&#x2F;xlN6iB9GfiNPgZRXk910BACmccc=&#x2F;fit-in&#x2F;900x600&#x2F;filters:no_upscale():strip_icc()&#x2F;pic8791828.jpg&quot; alt=&quot;Oath Log 1 start&quot; style=&quot;max-width: 100%; height: auto; flex: 1 1 45%; margin: 10px;&quot; &#x2F;&gt;
     &lt;img src=&quot;https:&#x2F;&#x2F;cf.geekdo-images.com&#x2F;VCMh08WtpUeylVnHGmP5UA__imagepage&#x2F;img&#x2F;Wut72ZvafbOHkIdKGFwkxobH37g=&#x2F;fit-in&#x2F;900x600&#x2F;filters:no_upscale():strip_icc()&#x2F;pic8791835.jpg&quot; alt=&quot;Oath Log 1 end&quot; style=&quot;max-width: 100%; height: auto; flex: 1 1 45%; margin: 10px;&quot; &#x2F;&gt;
@@ -196,10 +202,10 @@ I know that OpenFoam is able to deal with multiphase problems. Time for some res
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/posts/helloworld/"/>
-        <id>https://churrogelato.github.io/posts/helloworld/</id>
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/posts/helloworld/"/>
+        <id>https://ribeirovidal.com/posts/helloworld/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/posts/helloworld/">&lt;h1 id=&quot;helloworld&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#helloworld&quot; aria-label=&quot;Anchor link for: helloworld&quot;&gt;HelloWorld&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+        <content type="html" xml:base="https://ribeirovidal.com/posts/helloworld/">&lt;h1 id=&quot;helloworld&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#helloworld&quot; aria-label=&quot;Anchor link for: helloworld&quot;&gt;HelloWorld&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;Começar algo novo sempre é uma mistura de emoções. Já faz algum tempo eu me pego ensaiando começar esse website e, agora que comecei de fato, nada melhor que fazer o básico.&lt;&#x2F;p&gt;
 &lt;p&gt;É fácil pensar que no infindável mar de bits na internet, esse website só servirá como um jeito de gritar no abismo. Mas prefiro imaginar que o que eu deixarei registrado aqui, assim como pinturas rupestres são vistas hoje em dia, sirva como um retrato absolutamente ordinário do cotidiano e que essa representação do mundano possa servir de algo para alguém no futuro. Nem que seja só para se lembrar de mim.&lt;&#x2F;p&gt;
 &lt;p&gt;Então é isso. Como se faz em qualquer início no mundo digital:
@@ -220,10 +226,10 @@ I know that OpenFoam is able to deal with multiphase problems. Time for some res
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/projects/softwarelab/"/>
-        <id>https://churrogelato.github.io/projects/softwarelab/</id>
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/projects/softwarelab/"/>
+        <id>https://ribeirovidal.com/projects/softwarelab/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/projects/softwarelab/">&lt;h1 id=&quot;links&quot;&gt;Links&lt;&#x2F;h1&gt;
+        <content type="html" xml:base="https://ribeirovidal.com/projects/softwarelab/">&lt;h1 id=&quot;links&quot;&gt;Links&lt;&#x2F;h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.cee.ed.tum.de&#x2F;fileadmin&#x2F;w00cbe&#x2F;ccbe&#x2F;Softwarelab&#x2F;2025&#x2F;22_SL2025_Description_IGA.pdf&quot;&gt;Official description&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
@@ -243,10 +249,10 @@ I know that OpenFoam is able to deal with multiphase problems. Time for some res
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/projects/mrv/"/>
-        <id>https://churrogelato.github.io/projects/mrv/</id>
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/projects/mrv/"/>
+        <id>https://ribeirovidal.com/projects/mrv/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/projects/mrv/">&lt;h1 id=&quot;links&quot;&gt;Links&lt;&#x2F;h1&gt;
+        <content type="html" xml:base="https://ribeirovidal.com/projects/mrv/">&lt;h1 id=&quot;links&quot;&gt;Links&lt;&#x2F;h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ChurroGelato&#x2F;ChurroGelato.github.io&quot;&gt;GitHub repo&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
@@ -266,14 +272,14 @@ I know that OpenFoam is able to deal with multiphase problems. Time for some res
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/apollo/mermaid/"/>
-        <id>https://churrogelato.github.io/apollo/mermaid/</id>
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/apollo/mermaid/"/>
+        <id>https://ribeirovidal.com/apollo/mermaid/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/apollo/mermaid/">&lt;p&gt;This Theme supports &lt;a href=&quot;https:&#x2F;&#x2F;mermaid.js.org&#x2F;&quot;&gt;mermaid&lt;&#x2F;a&gt; markdown diagram rendering.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://ribeirovidal.com/apollo/mermaid/">&lt;p&gt;This Theme supports &lt;a href=&quot;https:&#x2F;&#x2F;mermaid.js.org&#x2F;&quot;&gt;mermaid&lt;&#x2F;a&gt; markdown diagram rendering.&lt;&#x2F;p&gt;
 &lt;p&gt;To use mermaid diagrams in your posts, see the example in the raw markdown code.
 https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;not-matthias&#x2F;apollo&#x2F;refs&#x2F;heads&#x2F;main&#x2F;content&#x2F;posts&#x2F;mermaid.md&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;rendered-example&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#rendered-example&quot; aria-label=&quot;Anchor link for: rendered-example&quot;&gt;Rendered Example&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
-&lt;script src=https:&#x2F;&#x2F;churrogelato.github.io&#x2F;js&#x2F;mermaid.js&gt;&lt;&#x2F;script&gt;
+&lt;script src=https:&#x2F;&#x2F;ribeirovidal.com&#x2F;js&#x2F;mermaid.js&gt;&lt;&#x2F;script&gt;
 
 &lt;pre class=&quot;mermaid&quot;&gt;
   graph LR
@@ -301,10 +307,10 @@ https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;not-matthias&#x2F;apollo&#x2F;r
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/projects/cbcfd2024/"/>
-        <id>https://churrogelato.github.io/projects/cbcfd2024/</id>
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/projects/cbcfd2024/"/>
+        <id>https://ribeirovidal.com/projects/cbcfd2024/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/projects/cbcfd2024/">&lt;h1 id=&quot;links&quot;&gt;Links&lt;&#x2F;h1&gt;
+        <content type="html" xml:base="https://ribeirovidal.com/projects/cbcfd2024/">&lt;h1 id=&quot;links&quot;&gt;Links&lt;&#x2F;h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.cbcfd.com.br&#x2F;cbcfd-2024&#x2F;page&#x2F;3730-home&quot;&gt;Brazilian Congress of Computational Fluid Dynamics 2024&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;&#x2F;downloadables&#x2F;cbcfd2024&#x2F;CBCFD_100439.pdf&quot; download=&quot;CBCFD_100439.pdf&quot;&gt;Download CONEM24 Paper PDF&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
@@ -326,10 +332,10 @@ https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;not-matthias&#x2F;apollo&#x2F;r
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/apollo/configuration/"/>
-        <id>https://churrogelato.github.io/apollo/configuration/</id>
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/apollo/configuration/"/>
+        <id>https://ribeirovidal.com/apollo/configuration/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/apollo/configuration/">&lt;h1 id=&quot;site-configuration&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#site-configuration&quot; aria-label=&quot;Anchor link for: site-configuration&quot;&gt;Site Configuration&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+        <content type="html" xml:base="https://ribeirovidal.com/apollo/configuration/">&lt;h1 id=&quot;site-configuration&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#site-configuration&quot; aria-label=&quot;Anchor link for: site-configuration&quot;&gt;Site Configuration&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;search-build-search-index&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#search-build-search-index&quot; aria-label=&quot;Anchor link for: search-build-search-index&quot;&gt;Search (&lt;code&gt;build_search_index&lt;&#x2F;code&gt;)&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Enables or disables the search functionality for your blog.&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -518,10 +524,10 @@ When enabled, this allows readers to leave comments on your blog posts. This fea
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/apollo/shortcode/"/>
-        <id>https://churrogelato.github.io/apollo/shortcode/</id>
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/apollo/shortcode/"/>
+        <id>https://ribeirovidal.com/apollo/shortcode/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/apollo/shortcode/">&lt;h2 id=&quot;note&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#note&quot; aria-label=&quot;Anchor link for: note&quot;&gt;Note&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://ribeirovidal.com/apollo/shortcode/">&lt;h2 id=&quot;note&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#note&quot; aria-label=&quot;Anchor link for: note&quot;&gt;Note&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Here is an example of the &lt;code&gt;note&lt;&#x2F;code&gt; shortcode:&lt;&#x2F;p&gt;
 &lt;p&gt;This one is static!
 &lt;div class=&quot;note-container&quot;&gt;
@@ -648,10 +654,10 @@ When enabled, this allows readers to leave comments on your blog posts. This fea
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/projects/pg2/"/>
-        <id>https://churrogelato.github.io/projects/pg2/</id>
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/projects/pg2/"/>
+        <id>https://ribeirovidal.com/projects/pg2/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/projects/pg2/">&lt;h1 id=&quot;links&quot;&gt;Links&lt;&#x2F;h1&gt;
+        <content type="html" xml:base="https://ribeirovidal.com/projects/pg2/">&lt;h1 id=&quot;links&quot;&gt;Links&lt;&#x2F;h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;&#x2F;downloadables&#x2F;pg2&#x2F;PG2_Matheus_Vidal_170078663.pdf&quot; download=&quot;PG2_Matheus_Vidal_170078663.pdf&quot;&gt;Download Thesis PDF&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;bdm.unb.br&#x2F;handle&#x2F;10483&#x2F;38713&quot;&gt;Download Thesis PDF - UnB Library&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
@@ -678,10 +684,10 @@ When enabled, this allows readers to leave comments on your blog posts. This fea
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/apollo/math-symbol/"/>
-        <id>https://churrogelato.github.io/apollo/math-symbol/</id>
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/apollo/math-symbol/"/>
+        <id>https://ribeirovidal.com/apollo/math-symbol/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/apollo/math-symbol/">&lt;p&gt;Note: This requires the &lt;code&gt;mathjax&lt;&#x2F;code&gt; and &lt;code&gt;mathjax_dollar_inline_enable&lt;&#x2F;code&gt; option set to &lt;code&gt;true&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://ribeirovidal.com/apollo/math-symbol/">&lt;p&gt;Note: This requires the &lt;code&gt;mathjax&lt;&#x2F;code&gt; and &lt;code&gt;mathjax_dollar_inline_enable&lt;&#x2F;code&gt; option set to &lt;code&gt;true&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;inline-math&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#inline-math&quot; aria-label=&quot;Anchor link for: inline-math&quot;&gt;Inline Math&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;ul&gt;
 &lt;li&gt;$(a+b)^2$ = $a^2 + 2ab + b^2$&lt;&#x2F;li&gt;
@@ -709,10 +715,10 @@ $$&lt;&#x2F;p&gt;
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://churrogelato.github.io/apollo/markdown/"/>
-        <id>https://churrogelato.github.io/apollo/markdown/</id>
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/apollo/markdown/"/>
+        <id>https://ribeirovidal.com/apollo/markdown/</id>
         
-        <content type="html" xml:base="https://churrogelato.github.io/apollo/markdown/">&lt;h1 id=&quot;h1&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#h1&quot; aria-label=&quot;Anchor link for: h1&quot;&gt;H1&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+        <content type="html" xml:base="https://ribeirovidal.com/apollo/markdown/">&lt;h1 id=&quot;h1&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#h1&quot; aria-label=&quot;Anchor link for: h1&quot;&gt;H1&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;h2&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#h2&quot; aria-label=&quot;Anchor link for: h2&quot;&gt;H2&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;h3 id=&quot;h3&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#h3&quot; aria-label=&quot;Anchor link for: h3&quot;&gt;H3&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquet sagittis id consectetur purus ut. In pellentesque massa placerat duis ultricies. Neque laoreet suspendisse interdum consectetur libero id. Justo nec ultrices dui sapien eget mi proin. Nunc consequat interdum varius sit amet mattis vulputate. Sollicitudin tempor id eu nisl nunc mi ipsum. Non odio euismod lacinia at quis. Sit amet nisl suscipit adipiscing. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. Sit amet consectetur adipiscing elit pellentesque habitant. Ac placerat vestibulum lectus mauris. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. &lt;a href=&quot;https:&#x2F;&#x2F;www.google.com&quot;&gt;Google&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;

@@ -1,21 +1,21 @@
-Domine Variable Font
-====================
+Kode Mono Variable Font
+=======================
 
-This download contains Domine as both a variable font and static fonts.
+This download contains Kode Mono as both a variable font and static fonts.
 
-Domine is a variable font with this axis:
+Kode Mono is a variable font with this axis:
   wght
 
 This means all the styles are contained in a single file:
-  Domine/Domine-VariableFont_wght.ttf
+  Kode_Mono/KodeMono-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Domine:
-  Domine/static/Domine-Regular.ttf
-  Domine/static/Domine-Medium.ttf
-  Domine/static/Domine-SemiBold.ttf
-  Domine/static/Domine-Bold.ttf
+in those cases you can use the static font files for Kode Mono:
+  Kode_Mono/static/KodeMono-Regular.ttf
+  Kode_Mono/static/KodeMono-Medium.ttf
+  Kode_Mono/static/KodeMono-SemiBold.ttf
+  Kode_Mono/static/KodeMono-Bold.ttf
 
 Get started
 -----------

@@ -20,8 +20,8 @@ $prim-1: darken($prim-0, 15%);
   --border-color: var(--bg-2);
 
   --primary-color: #{$prim-0};
-  --light-primary-color: #{$prim-1};
-  --hover-color: white;
+  --alt-primary-color: #{$prim-1};
+  --hover-color: #{$bg-0};
 
   // invert colour on hover for consistency
   .social :hover {

@@ -21,8 +21,8 @@ $prim-1: lighten($prim-0, 25%);
   --border-color: var(--bg-2);
 
   --primary-color: #{$prim-0};
-  --light-primary-color: #{$prim-1};
-  --hover-color: white;
+  --alt-primary-color: #{$prim-1};
+  --hover-color: #{$bg-0};
 
   .social > img {
     filter: invert(1);

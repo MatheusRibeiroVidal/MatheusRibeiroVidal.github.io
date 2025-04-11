@@ -37,6 +37,7 @@ blockquote {
     color: var(--text-1);
     margin: 0;
     padding-left: 1em;
+    font-family: var(--quote-font);
 }
 
 a {
@@ -56,10 +57,12 @@ a.zola-anchor {
 a:hover {
   background-color: var(--primary-color);
   color: var(--hover-color);
+
 }
 
 time {
-  color: grey;
+    font-family: var(--code-font);
+    color: var(--alt-primary-color);
 }
 
 /* Remove post list padding */

@@ -3,6 +3,7 @@ title = "Personal Website"
 description = "This website"
 weight = 10
 date = "2025-03-20"
+authors = ["Matheus"]
 
 [taxonomies]
 tags=[]

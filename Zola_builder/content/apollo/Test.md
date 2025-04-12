@@ -1,6 +1,6 @@
 +++
 title = "Lorem Ipsum"
-date = "2025-03-26"
+date = "2024-03-26"
 
 [taxonomies]
 tags=[]

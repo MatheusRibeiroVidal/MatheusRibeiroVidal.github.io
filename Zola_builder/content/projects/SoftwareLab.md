@@ -3,6 +3,7 @@ title = "Next-gen Simulation: CAD-Integrated Isogeometric Analysis, Shell Struct
 description = "Software Lab Project at TUM"
 weight = 2
 date = "2025-03-23"
+authors = ["Matheus"]
 
 [taxonomies]
 tags=["EN","TUM", "IGA", "Open Source"]

@@ -4,6 +4,7 @@ description = "Multiphase CFD simulations with analytical verification of mixing
 weight = 5
 date = "2025-03-27"
 updated = "2025-04-11"
+authors = ["Matheus"]
 
 
 [taxonomies]

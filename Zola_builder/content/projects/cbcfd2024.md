@@ -3,6 +3,7 @@ title = "Numerical Exploration On The Effect Of The Hydrodynamic Drag Coefficien
 description = "Paper presented at the Brazilian Congress of Computational Fluid Dynamics 2024 (CBCFD2024)"
 weight = 2
 date = "2024-09-18"
+authors = ["Matheus"]
 
 [taxonomies]
 tags=["EN","Marine Engineering", "CFD", "OrcaFlex", "Congress"]

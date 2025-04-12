@@ -1,6 +1,7 @@
 +++
 title = "Oath Game Log - 1: Sparks"
 date = "2025-03-26"
+authors = ["Matheus"]
 
 [taxonomies]
 tags=["EN", "Oath", "Boardgames", "Game Log"]

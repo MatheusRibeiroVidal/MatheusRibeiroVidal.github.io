@@ -11,7 +11,12 @@ tags=["EN","Marine Engineering", "CFD", "OrcaFlex", "Congress"]
 local_image = "/projects/cbcfd2024.png"
 link_to = "./cbcfd2024/"
 comment = true
+banner = true
 +++
+
+<div class="project-pic-container">
+  <img src="/projects/cbcfd2024.png" alt="cbcfd2024 picture" class="project-pic">
+</div>
 
 # Links
 - [Brazilian Congress of Computational Fluid Dynamics 2024](https://www.cbcfd.com.br/cbcfd-2024/page/3730-home)

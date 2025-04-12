@@ -19,7 +19,7 @@ highlight_code = true
 highlight_theme = "ayu-light"
 
 [extra]
-toc = false
+toc = true
 use_cdn = true
 favicon = "/icons/caja_acerola.ico"
 theme = "toggle"              # light, dark, auto, toggle

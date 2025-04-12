@@ -4,12 +4,16 @@ date = "2025-03-27"
 updated = "2025-04-07"
 authors = ["Matheus"]
 
+
 [taxonomies]
 tags=["EN", "Project Idea"]
 
 
 [extra]
 comment = false
+read_time = true
+toc = false
+
 +++
 
 # The question

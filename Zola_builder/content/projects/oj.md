@@ -12,32 +12,15 @@ tags=["EN", "CFD" , "OpenFoam"]
 [extra]
 local_image = "/projects/oj.png"
 link_to = "./oj/"
+read_time = true
 comment = true
+toc = true
+tldr = "Using multiphase CFD simulations in OpenFoam for mixing in container under sudden acceleration"
+banner = true
 +++
-
-<details closed>
-<summary>Table of Contents</summary>
-
-
-- [Links](#links)
-- [TLDR](#tldr)
-  - [To-Do](#to-do)
-- [Context](#context)
-- [Methodology](#methodology)
-  - [Which solver to use?](#which-solver-to-use)
-    - [Multiphase flow using interFoam](#multiphase-flow-using-interfoam)
-    - [Multiphase flow using interMixingFoam](#multiphase-flow-using-intermixingfoam)
-
-
-</details>
-
-
 
 # Links
 - [GitHub repo](https://github.com/ChurroGelato/oj)
-
-# TLDR
-Is _strictly one_ shake of an orange juice bottle enough to properly incorporate the pulp back into the juice and make it ready to serve?
 
 ## To-Do
 - ~~Find out which solver to use~~
@@ -71,3 +54,11 @@ _Yes, I am well aware that air is not incompressible. But, if I could shake a bo
 Some additional references that might be helpful at this stage are:
 - [SimFlow's interMixingFoam documentation](https://help.sim-flow.com/solvers/inter-mixing-foam)
 - [SimFlow's interMixingFoam Tutorial](https://help.sim-flow.com/tutorials/mixing-tank)
+## Setting up the Simulation
+### Geometry Modeling
+Was not too difficult, did it in Fusion 360.
+
+### Meshing
+Found this *very* useful video on [importing Ansys Fluent meshes to OpenFoam](https://www.youtube.com/watch?v=dUme0MUoqbk).
+
+### Pre-processing

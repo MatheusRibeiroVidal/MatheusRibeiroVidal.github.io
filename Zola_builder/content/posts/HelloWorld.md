@@ -8,6 +8,8 @@ tags=["PT-BR"]
 
 [extra]
 comment = false
+read_time = true
+toc = false
 +++
 
 # HelloWorld

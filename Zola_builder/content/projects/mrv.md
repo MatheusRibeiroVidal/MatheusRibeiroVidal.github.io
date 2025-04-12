@@ -8,9 +8,10 @@ authors = ["Matheus"]
 [taxonomies]
 tags=[]
 [extra]
-local_image = "/projects/mrv.png"
+local_image = "/projects/mrv.gif"
 link_to = "https://github.com/ChurroGelato/ChurroGelato.github.io"
 comment = false
+banner = true
 +++
 
 # Links

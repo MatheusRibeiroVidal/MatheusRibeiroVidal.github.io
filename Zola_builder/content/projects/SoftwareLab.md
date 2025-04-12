@@ -11,6 +11,8 @@ tags=["EN","TUM", "IGA", "Open Source"]
 local_image = "/projects/SoftwareLab.png"
 link_to = "./softwarelab/"
 comment = true
+read_time = true
+banner = true
 +++
 
 # Links

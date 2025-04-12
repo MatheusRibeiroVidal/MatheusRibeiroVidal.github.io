@@ -29,7 +29,7 @@ banner = true
 - Verify results with analytical formulas
 
 # Context
-This project idea came to me during breakfast [and you can check it out in this blog post](/posts/OJ_problem) why it is, most likely, a virtual waste of effort and computing power.
+This project idea came to me during breakfast [and you can check out in this blog post](/posts/oj-problem) why it is, most likely, a virtual waste of effort and computing power.
 
 The basic idea is to check if it is enough to shake my orange juice bottle *only* once to appropriately mix the pulp to the juice before pouring into the cup.
 
@@ -54,3 +54,4 @@ _Yes, I am well aware that air is not incompressible. But, if I could shake a bo
 Some additional references that might be helpful at this stage are:
 - [SimFlow's interMixingFoam documentation](https://help.sim-flow.com/solvers/inter-mixing-foam)
 - [SimFlow's interMixingFoam Tutorial](https://help.sim-flow.com/tutorials/mixing-tank)
+

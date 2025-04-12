@@ -67,7 +67,7 @@ If I end up doing it, I&#x27;ll make sure to add it to &lt;a href=&quot;&#x2F;pr
 &lt;li&gt;Verify results with analytical formulas&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h1 id=&quot;context&quot;&gt;Context&lt;&#x2F;h1&gt;
-&lt;p&gt;This project idea came to me during breakfast &lt;a href=&quot;&#x2F;posts&#x2F;OJ_problem&quot;&gt;and you can check it out in this blog post&lt;&#x2F;a&gt; why it is, most likely, a virtual waste of effort and computing power.&lt;&#x2F;p&gt;
+&lt;p&gt;This project idea came to me during breakfast &lt;a href=&quot;&#x2F;posts&#x2F;oj-problem&quot;&gt;and you can check out in this blog post&lt;&#x2F;a&gt; why it is, most likely, a virtual waste of effort and computing power.&lt;&#x2F;p&gt;
 &lt;p&gt;The basic idea is to check if it is enough to shake my orange juice bottle &lt;em&gt;only&lt;&#x2F;em&gt; once to appropriately mix the pulp to the juice before pouring into the cup.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;methodology&quot;&gt;Methodology&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;which-solver-to-use&quot;&gt;Which solver to use?&lt;&#x2F;h2&gt;

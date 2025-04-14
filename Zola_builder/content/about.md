@@ -1,6 +1,9 @@
 +++
 title = "About me"
 path = "about"
+
+[extra]
+show_word_count = false
 +++
 
 <div class="profile-pic-container">
@@ -15,3 +18,4 @@ I am now studying Computational Mechanics at the [Technical University of Munich
 
 My interests range from CAE, CFD and Open Source software to pagode, beach volleyball, football, boardgames, travelling and enjoying family life.
 
+test test

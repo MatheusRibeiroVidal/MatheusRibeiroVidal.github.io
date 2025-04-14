@@ -100,7 +100,7 @@ header .socials {
 }
 
 /* Mobile-specific adjustments */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   header {
     flex-direction: column;
     align-items: center;
@@ -110,6 +110,16 @@ header .socials {
   header .main a {
     font-size: 20px;
   }
+
+  .centered-header {
+    position: static;
+    transform: none;
+    font-size: 2em;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
 }
 
 .meta {

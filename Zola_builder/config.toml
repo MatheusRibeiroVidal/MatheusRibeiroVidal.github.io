@@ -44,7 +44,6 @@ socials = [
 	{ name = "orcid", url = "https://orcid.org/0009-0009-2651-461X", icon = "orcid" },
     { name = "github", url = "https://github.com/ChurroGelato", icon = "github" },
 	{ name = "itch.io", url = "https://churrogelato.itch.io/", icon = "itchio" },
-    { name = "rss", url = "atom.xml", icon = "rss" }
 	
 ]
 

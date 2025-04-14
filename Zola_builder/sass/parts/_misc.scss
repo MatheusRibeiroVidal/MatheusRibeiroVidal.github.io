@@ -65,6 +65,11 @@ time {
     color: var(--alt-primary-color);
 }
 
+place {
+    font-family: var(--code-font);
+    color: var(--alt-primary-color);
+}
+
 /* Remove post list padding */
 .list > ul {
   margin: 0;
@@ -162,4 +167,24 @@ del {
     object-fit: cover;
     border-radius: 8px;
     border: 3px solid #ddd;
+}
+
+.homepage-spacing {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.homepage-spacing h1 {
+    margin-top: 0;
+    margin-bottom: 0.25rem; /* reduce bottom margin */
+}
+
+.alt-meta {
+    margin-top: 0; /* no top margin */
+    padding-top: 0; /* optional, just in case */
+    font-size: 0.875rem;
+    color: #999;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }

@@ -101,7 +101,7 @@
             </section>
             <section id="now" class="homepage-spacing">
                 <h1>{{ now_page.title }}</h1>
-                <div class="alt-meta">Updated on&nbsp;<time>{{ now_page.updated | date(format="%Y-%m-%d") }}</time>&nbsp;in&nbsp;<place>{{ now_page.extra.place }}</place></div>
+                <div class="alt-meta">Updated on&nbsp;<time>{{ now_page.updated | date(format="%Y-%m-%d|%H:%M") }}</time>&nbsp;in&nbsp;<place>{{ now_page.extra.place }}</place></div>
                 {{ now_page.content | safe }}
             </section>
             <section id="recommendations" class="homepage-spacing">

@@ -1,6 +1,6 @@
 +++
 title = "Now"
-updated = "2025-04-14"
+updated = "2025-04-14T21:32:23" 
 [extra]
 place = "München"
 +++

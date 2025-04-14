@@ -88,6 +88,12 @@ I know that OpenFoam is able to deal with multiphase problems. Time for some res
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;help.sim-flow.com&#x2F;solvers&#x2F;inter-mixing-foam&quot;&gt;SimFlow&#x27;s interMixingFoam documentation&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;help.sim-flow.com&#x2F;tutorials&#x2F;mixing-tank&quot;&gt;SimFlow&#x27;s interMixingFoam Tutorial&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;setting-up-the-simulation&quot;&gt;Setting up the Simulation&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;geometry-modeling&quot;&gt;Geometry Modeling&lt;&#x2F;h3&gt;
+&lt;p&gt;Was not too difficult, did it in Fusion 360.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;meshing&quot;&gt;Meshing&lt;&#x2F;h3&gt;
+&lt;p&gt;Found this &lt;em&gt;very&lt;&#x2F;em&gt; useful video on &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=dUme0MUoqbk&quot;&gt;importing Ansys Fluent meshes to OpenFoam&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;pre-processing&quot;&gt;Pre-processing&lt;&#x2F;h3&gt;
 </content>
         
     </entry>
@@ -142,8 +148,7 @@ I know that OpenFoam is able to deal with multiphase problems. Time for some res
         <link rel="alternate" type="text/html" href="https://ribeirovidal.com/posts/helloworld/"/>
         <id>https://ribeirovidal.com/posts/helloworld/</id>
         
-        <content type="html" xml:base="https://ribeirovidal.com/posts/helloworld/">&lt;h1 id=&quot;helloworld&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#helloworld&quot; aria-label=&quot;Anchor link for: helloworld&quot;&gt;HelloWorld&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
-&lt;p&gt;Começar algo novo sempre é uma mistura de emoções. Já faz algum tempo eu me pego ensaiando começar esse website e, agora que comecei de fato, nada melhor que fazer o básico.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://ribeirovidal.com/posts/helloworld/">&lt;p&gt;Começar algo novo sempre é uma mistura de emoções. Já faz algum tempo eu me pego ensaiando começar esse website e, agora que comecei de fato, nada melhor que fazer o básico.&lt;&#x2F;p&gt;
 &lt;p&gt;É fácil pensar que no infindável mar de bits na internet, esse website só servirá como um jeito de gritar no abismo. Mas prefiro imaginar que o que eu deixarei registrado aqui, assim como pinturas rupestres são vistas hoje em dia, sirva como um retrato absolutamente ordinário do cotidiano e que essa representação do mundano possa servir de algo para alguém no futuro. Nem que seja só para se lembrar de mim.&lt;&#x2F;p&gt;
 &lt;p&gt;Então é isso. Como se faz em qualquer início no mundo digital:
 &lt;code&gt;HelloWorld&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;

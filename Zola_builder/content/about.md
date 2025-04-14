@@ -17,5 +17,3 @@ I studied mechanical engineering at the [University of Brasília (UnB)](https://
 I am now studying Computational Mechanics at the [Technical University of Munich (TUM)](https://www.tum.de/en/).
 
 My interests range from CAE, CFD and Open Source software to pagode, beach volleyball, football, boardgames, travelling and enjoying family life.
-
-test test

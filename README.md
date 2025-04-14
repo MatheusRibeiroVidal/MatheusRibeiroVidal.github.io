@@ -17,6 +17,6 @@ This website draws inspiration from [Rutar's](https://rutar.org/) and is built u
 Feel free to reach out or follow me on:
 
 - [E-Mail](mailto:matheus@ribeirovidal.com)
-- [LinkedIn](https://www.linkedin.com/in/matheusvidal)
-- [GitHub](https://github.com/matheusvidal)
+- [LinkedIn](https://www.linkedin.com/in/matheusribeirovidal)
+- [GitHub](https://github.com/ChurroGelato)
 - [Itch.io](https://churrogelato.itch.io/)

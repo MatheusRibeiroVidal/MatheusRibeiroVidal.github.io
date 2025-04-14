@@ -88,6 +88,12 @@ I know that OpenFoam is able to deal with multiphase problems. Time for some res
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;help.sim-flow.com&#x2F;solvers&#x2F;inter-mixing-foam&quot;&gt;SimFlow&#x27;s interMixingFoam documentation&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;help.sim-flow.com&#x2F;tutorials&#x2F;mixing-tank&quot;&gt;SimFlow&#x27;s interMixingFoam Tutorial&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;setting-up-the-simulation&quot;&gt;Setting up the Simulation&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;geometry-modeling&quot;&gt;Geometry Modeling&lt;&#x2F;h3&gt;
+&lt;p&gt;Was not too difficult, did it in Fusion 360.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;meshing&quot;&gt;Meshing&lt;&#x2F;h3&gt;
+&lt;p&gt;Found this &lt;em&gt;very&lt;&#x2F;em&gt; useful video on &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=dUme0MUoqbk&quot;&gt;importing Ansys Fluent meshes to OpenFoam&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;pre-processing&quot;&gt;Pre-processing&lt;&#x2F;h3&gt;
 </content>
         
     </entry>

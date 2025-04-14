@@ -57,9 +57,7 @@ Some additional references that might be helpful at this stage are:
 
 ## Setting up the Simulation
 ### Geometry Modeling
-Was not too difficult, did it in Fusion 360.
+Was not too difficult, did it quickly in Fusion 360. Not going to worry too much about it now, just want to run something first, then I’ll make it better.
 
 ### Meshing
 Found this *very* useful video on [importing Ansys Fluent meshes to OpenFoam](https://www.youtube.com/watch?v=dUme0MUoqbk).
-
-### Pre-processing

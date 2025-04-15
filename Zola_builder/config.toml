@@ -52,11 +52,11 @@ stylesheets = [
 ]
 
 [extra.analytics]
-enabled = false
+enabled = true
 
 [extra.analytics.goatcounter]
-user = "your_user"
-host = "example.com" # default= goatcounter.com
+user = "13495561"
+host = "goatcounter.com" # default= goatcounter.com
 
 [extra.analytics.umami]
 website_id = "43929cd1-1e83...."

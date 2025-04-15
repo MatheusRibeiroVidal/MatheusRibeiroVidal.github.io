@@ -3,3 +3,5 @@ Zola_builder/themes/apollo/
 sync_from_obsidian.bat
 fastbuild.bat
 fastserve.bat
+autobuild.bat
+autobuild_commit.ps1

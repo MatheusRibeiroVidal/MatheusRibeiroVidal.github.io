@@ -1,6 +1,8 @@
 +++
 title = "Lorem Ipsum"
-date = "2024-03-26"
+date = "2024-12-27"
+draft = true
+
 
 [taxonomies]
 tags=[]

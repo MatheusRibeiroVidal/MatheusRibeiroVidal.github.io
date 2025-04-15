@@ -17,5 +17,3 @@ banner = true
 
 # Links
 - <a href="https://www.cee.ed.tum.de/fileadmin/w00cbe/ccbe/Softwarelab/2025/22_SL2025_Description_IGA.pdf">Official description</a>
-
-

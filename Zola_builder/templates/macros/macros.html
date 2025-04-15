@@ -98,11 +98,13 @@
             <section id="intro" class="homepage-spacing">
                 {{ post_macros::page_header(title=section.title) }}
                 {{ section.content | safe }}
+                <hr>
             </section>
             <section id="now" class="homepage-spacing">
                 <h1>{{ now_page.title }}</h1>
                 <div class="alt-meta">Updated on&nbsp;<time>{{ now_page.updated | date(format="%Y-%m-%d|%H:%M") }}</time>&nbsp;in&nbsp;<place>{{ now_page.extra.place }}</place></div>
                 {{ now_page.content | safe }}
+                <hr>
             </section>
             <section id="recommendations" class="homepage-spacing">
                 <h1>{{ recs_page.title }}</h1>
@@ -125,8 +127,16 @@
             Posted on <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
             {% endif %}
 
-            {% if page.updated %}
+            {% if page.updated and page.date%}
             :: Updated on <time>{{ page.updated | date(format="%Y-%m-%d") }}</time>
+            {% endif %}
+
+            {% if page.updated and not page.date %}
+            Updated on <time>{{ page.updated | date(format="%Y-%m-%d|%H:%M") }}</time>
+            {% endif %}
+
+            {% if page.extra.place %}
+            &nbsp;in&nbsp;<place>{{ page.extra.place }}</place>
             {% endif %}
 
             {% if page.extra.read_time %}:: <time>{{ page.reading_time }}</time> min read{% endif %}

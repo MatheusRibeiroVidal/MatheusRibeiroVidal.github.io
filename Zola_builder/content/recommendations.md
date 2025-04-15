@@ -1,5 +1,7 @@
 +++
 title = "Quick Recommendations"
+[extra]
+show_word_count = false
 +++
 
 - Book: <a href="https://www.goodreads.com/book/show/1575430.Cem_Dias_Entre_C_u_e_Mar" target="_blank">Cem dias entre céu e mar - Amyr Klink</a>

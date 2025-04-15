@@ -41,10 +41,10 @@ menu = [
 socials = [
 	{ name = "linkedin", url = "https://www.linkedin.com/in/matheusribeirovidal/", icon = "linkedin"},
 	{ name = "email", url = "mailto:matheus@ribeirovidal.com", icon = "email"},
+    { name = "instagram", url = "https://www.instagram.com/theusvid/", icon = "instagram" },
 	{ name = "orcid", url = "https://orcid.org/0009-0009-2651-461X", icon = "orcid" },
     { name = "github", url = "https://github.com/ChurroGelato", icon = "github" },
 	{ name = "itch.io", url = "https://churrogelato.itch.io/", icon = "itchio" },
-	
 ]
 
 stylesheets = [

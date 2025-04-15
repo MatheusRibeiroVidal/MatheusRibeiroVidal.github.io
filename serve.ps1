@@ -42,3 +42,6 @@ Start-Process -FilePath "powershell" -ArgumentList "-NoExit", "-Command", "zola 
 
 # Go back to the root of the repo (where docs and Zola_builder are located)
 Set-Location -Path $scriptDir
+
+# Open default browser to local Zola preview
+# Start-Process "http://127.0.0.1:1111/"

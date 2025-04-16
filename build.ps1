@@ -9,20 +9,30 @@ Set-Location -Path $scriptDir
 .\sync_from_obsidian.bat
 #.\sync_from_obsidian.bat --update
 
-# Update the last_update_to_site timestamp in config.toml
-$configPath = Join-Path $scriptDir "Zola_builder\config.toml"
-if (Test-Path $configPath) {
-    $ts = Get-Date -Format 'yyyy-MM-ddTHH:mm:ss'
-    (Get-Content $configPath) | ForEach-Object {
-        if ($_ -match '^last_update_to_site\s*=\s*".*"') {
-            "last_update_to_site = `"$ts`""
-        } else {
-            $_
-        }
-    } | Set-Content $configPath
-    Write-Host "Updated last_update_to_site in config.toml to $ts"
+# Check if there are any staged .md changes (added/modified/deleted)
+$changedMdFiles = git diff --cached --name-status | Where-Object { $_ -match "^[ADM].*\.md" }
+
+if ($changedMdFiles) {
+    # Update the last_update_to_site timestamp in config.toml
+    $configPath = Join-Path $scriptDir "Zola_builder\config.toml"
+    if (Test-Path $configPath) {
+        $ts = Get-Date -Format 'yyyy-MM-ddTHH:mm:ss'
+        (Get-Content $configPath) | ForEach-Object {
+            if ($_ -match '^last_update_to_site\s*=\s*".*"') {
+                "last_update_to_site = `"$ts`""
+            } else {
+                $_
+            }
+        } | Set-Content $configPath
+        Write-Host "Updated last_update_to_site in config.toml to $ts"
+        
+        # Add it to the staging area
+        git add $configPath
+    } else {
+        Write-Host "config.toml not found at $configPath"
+    }
 } else {
-    Write-Host "config.toml not found at $configPath"
+    Write-Host "No .md content changes detected — config.toml not updated"
 }
 
 # Define the paths

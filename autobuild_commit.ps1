@@ -10,7 +10,7 @@ Set-Location -Path $scriptDir
 #.\sync_from_obsidian.bat --update
 
 # Stage the Obsidian-synced folder to detect changes (adjust if not 'content')
-git add content
+git add .
 
 # Check if any staged .md files exist
 $mdFilesChanged = git diff --cached --name-only | Where-Object { $_ -like '*.md' }

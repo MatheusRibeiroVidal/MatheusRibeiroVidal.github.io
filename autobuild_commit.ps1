@@ -7,7 +7,7 @@ Set-Location -Path $scriptDir
 # Sync changes done in Obsidian
 ## use --update to autoupdate the timestamp in /now
 .\sync_from_obsidian.bat
-#.\sync_from_obsidian.bat --update
+#.\sync_from_obsidian.bat --update_now
 
 # Stage the Obsidian-synced folder to detect changes (adjust if not 'content')
 git add .

@@ -2,8 +2,6 @@
 title= "Alô"
 template = "homepage.html"
 
-[extra]
-last_update_to_site = "2025-04-16T15:17:46"
 +++
 Thanks for dropping by!
 

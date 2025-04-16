@@ -3,7 +3,7 @@ title = "Deciding if strictly one shake of an orange juice bottle is enough to m
 description = "Multiphase CFD simulations with analytical verification of mixing in container under sudden acceleration and deceleration"
 weight = 5
 date = "2025-03-27"
-updated = "2025-04-11"
+updated = "2025-04-16T07:48:25"
 authors = ["Matheus"]
 
 
@@ -26,10 +26,12 @@ banner = true
 - ~~Find out which solver to use~~
 - Set up and run sim
 - Post-process results
-- Verify results with analytical formulas
+- Verify results with analytical estimations
 
 # Context
 This project idea came to me during breakfast [and you can check out in this blog post](/posts/oj-problem) why it is, most likely, a virtual waste of effort and computing power.
+
+However, I have not worked with OpenFoam before and I think that this might be a good idea to get to know the workflow of the software.
 
 The basic idea is to check if it is enough to shake my orange juice bottle *only* once to appropriately mix the pulp to the juice before pouring into the cup.
 
@@ -57,7 +59,7 @@ Some additional references that might be helpful at this stage are:
 
 ## Setting up the Simulation
 ### Geometry Modeling
-Was not too difficult, did it quickly in Fusion 360. Not going to worry too much about it now, just want to run something first, then I’ll make it better.
+Wasn't too difficult, did it quickly in Fusion 360. Not going to worry too much about it now, just want to run something first, then I’ll make it better.
 
 ### Meshing
 Found this *very* useful video on [importing Ansys Fluent meshes to OpenFoam](https://www.youtube.com/watch?v=dUme0MUoqbk).

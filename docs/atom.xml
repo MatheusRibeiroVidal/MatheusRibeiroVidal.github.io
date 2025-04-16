@@ -5,7 +5,7 @@
     <link rel="self" type="application/atom+xml" href="https://ribeirovidal.com/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://ribeirovidal.com/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-04-11T00:00:00+00:00</updated>
+    <updated>2025-04-16T07:48:25+00:00</updated>
     <id>https://ribeirovidal.com/atom.xml</id>
     <entry xml:lang="en">
         <title>The Orange Juice Question</title>
@@ -44,7 +44,7 @@ If I end up doing it, I&#x27;ll make sure to add it to &lt;a href=&quot;&#x2F;pr
     <entry xml:lang="en">
         <title>Deciding if strictly one shake of an orange juice bottle is enough to mix it for breakfast</title>
         <published>2025-03-27T00:00:00+00:00</published>
-        <updated>2025-04-11T00:00:00+00:00</updated>
+        <updated>2025-04-16T07:48:25+00:00</updated>
         
         <author>
           <name>
@@ -64,10 +64,11 @@ If I end up doing it, I&#x27;ll make sure to add it to &lt;a href=&quot;&#x2F;pr
 &lt;li&gt;&lt;del&gt;Find out which solver to use&lt;&#x2F;del&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;Set up and run sim&lt;&#x2F;li&gt;
 &lt;li&gt;Post-process results&lt;&#x2F;li&gt;
-&lt;li&gt;Verify results with analytical formulas&lt;&#x2F;li&gt;
+&lt;li&gt;Verify results with analytical estimations&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h1 id=&quot;context&quot;&gt;Context&lt;&#x2F;h1&gt;
 &lt;p&gt;This project idea came to me during breakfast &lt;a href=&quot;&#x2F;posts&#x2F;oj-problem&quot;&gt;and you can check out in this blog post&lt;&#x2F;a&gt; why it is, most likely, a virtual waste of effort and computing power.&lt;&#x2F;p&gt;
+&lt;p&gt;However, I have not worked with OpenFoam before and I think that this might be a good idea to get to know the workflow of the software.&lt;&#x2F;p&gt;
 &lt;p&gt;The basic idea is to check if it is enough to shake my orange juice bottle &lt;em&gt;only&lt;&#x2F;em&gt; once to appropriately mix the pulp to the juice before pouring into the cup.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;methodology&quot;&gt;Methodology&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;which-solver-to-use&quot;&gt;Which solver to use?&lt;&#x2F;h2&gt;
@@ -90,7 +91,7 @@ I know that OpenFoam is able to deal with multiphase problems. Time for some res
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;setting-up-the-simulation&quot;&gt;Setting up the Simulation&lt;&#x2F;h2&gt;
 &lt;h3 id=&quot;geometry-modeling&quot;&gt;Geometry Modeling&lt;&#x2F;h3&gt;
-&lt;p&gt;Was not too difficult, did it quickly in Fusion 360. Not going to worry too much about it now, just want to run something first, then I’ll make it better.&lt;&#x2F;p&gt;
+&lt;p&gt;Wasn&#x27;t too difficult, did it quickly in Fusion 360. Not going to worry too much about it now, just want to run something first, then I’ll make it better.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;meshing&quot;&gt;Meshing&lt;&#x2F;h3&gt;
 &lt;p&gt;Found this &lt;em&gt;very&lt;&#x2F;em&gt; useful video on &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=dUme0MUoqbk&quot;&gt;importing Ansys Fluent meshes to OpenFoam&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 </content>

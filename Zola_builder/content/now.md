@@ -1,6 +1,6 @@
 +++
 title = "Now"
-updated = "2025-04-15T20:22:36"
+updated = "2025-04-15T21:32:25"
 [extra]
 place = "München"
 show_word_count = true
@@ -15,5 +15,4 @@ Nowadays, I am:
 - Working to finish the website for my wedding;
 - Improving my German by playing as much beach volleyball with my german friends as my knees allow;
 - Studying [Isogeometric Analysis](https://en.wikipedia.org/wiki/Isogeometric_analysis) for [a project at TUM](/projects/softwarelab);
-- Listening to a great deal of [Turma do Pagode](https://open.spotify.com/track/1Q9l8ZZGVrRhukejqitDtr?si=65001d1d569b4ec7) and [Zartmann](https://open.spotify.com/track/1prNhzt3DdgRoxKoALTEYo?si=6dd2272b14084e7d);
-- Looking forward to starting my second semester at TUM.
+- Listening to a great deal of [Turma do Pagode](https://open.spotify.com/track/1Q9l8ZZGVrRhukejqitDtr?si=65001d1d569b4ec7) and [Zartmann](https://open.spotify.com/track/1prNhzt3DdgRoxKoALTEYo?si=6dd2272b14084e7d).

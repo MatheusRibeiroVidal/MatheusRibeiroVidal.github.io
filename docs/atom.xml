@@ -181,27 +181,6 @@ I know that OpenFoam is able to deal with multiphase problems. Time for some res
         
     </entry>
     <entry xml:lang="en">
-        <title>HelloWorld</title>
-        <published>2025-03-25T00:00:00+00:00</published>
-        <updated>2025-03-25T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            Matheus
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/posts/helloworld/"/>
-        <id>https://ribeirovidal.com/posts/helloworld/</id>
-        
-        <content type="html" xml:base="https://ribeirovidal.com/posts/helloworld/">&lt;p&gt;Começar algo novo sempre é uma mistura de emoções. Já faz algum tempo eu me pego ensaiando começar esse website e, agora que comecei de fato, nada melhor que fazer o básico.&lt;&#x2F;p&gt;
-&lt;p&gt;É fácil pensar que no infindável mar de bits na internet, esse website só servirá como um jeito de gritar no abismo. Mas prefiro imaginar que o que eu deixarei registrado aqui, assim como pinturas rupestres são vistas hoje em dia, sirva como um retrato absolutamente ordinário do cotidiano e que essa representação do mundano possa servir de algo para alguém no futuro. Nem que seja só para se lembrar de mim.&lt;&#x2F;p&gt;
-&lt;p&gt;Então é isso. Como se faz em qualquer início no mundo digital:
-&lt;code&gt;HelloWorld&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Next-gen Simulation: CAD-Integrated Isogeometric Analysis, Shell Structures, and Enhanced Visualization Frameworks</title>
         <published>2025-03-23T00:00:00+00:00</published>
         <updated>2025-03-23T00:00:00+00:00</updated>
@@ -219,6 +198,27 @@ I know that OpenFoam is able to deal with multiphase problems. Time for some res
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.cee.ed.tum.de&#x2F;fileadmin&#x2F;w00cbe&#x2F;ccbe&#x2F;Softwarelab&#x2F;2025&#x2F;22_SL2025_Description_IGA.pdf&quot;&gt;Official description&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>HelloWorld</title>
+        <published>2025-03-20T00:00:00+00:00</published>
+        <updated>2025-03-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Matheus
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/posts/helloworld/"/>
+        <id>https://ribeirovidal.com/posts/helloworld/</id>
+        
+        <content type="html" xml:base="https://ribeirovidal.com/posts/helloworld/">&lt;p&gt;Começar algo novo sempre é uma mistura de emoções. Já faz algum tempo eu me pego ensaiando começar esse website e, agora que comecei de fato, nada melhor que fazer o básico.&lt;&#x2F;p&gt;
+&lt;p&gt;É fácil pensar que no infindável mar de bits na internet, esse website só servirá como um jeito de gritar no abismo. Mas prefiro imaginar que o que eu deixarei registrado aqui, assim como pinturas rupestres são vistas hoje em dia, sirva como um retrato absolutamente ordinário do cotidiano e que essa representação do mundano possa servir de algo para alguém no futuro. Nem que seja só para se lembrar de mim.&lt;&#x2F;p&gt;
+&lt;p&gt;Então é isso. Como se faz em qualquer início no mundo digital:
+&lt;code&gt;HelloWorld&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
 </content>
         
     </entry>

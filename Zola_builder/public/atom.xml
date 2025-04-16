@@ -8,26 +8,6 @@
     <updated>2025-04-16T07:48:25+00:00</updated>
     <id>https://ribeirovidal.com/atom.xml</id>
     <entry xml:lang="en">
-        <title>Test Post 1</title>
-        <published>2025-04-16T00:00:00+00:00</published>
-        <updated>2025-04-16T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/posts/test/"/>
-        <id>https://ribeirovidal.com/posts/test/</id>
-        
-        <content type="html" xml:base="https://ribeirovidal.com/posts/test/">&lt;p&gt;Teste asodbasldbsal blas lsaidasijdai nslidnal inal isdl inaslidalisn lai nslidnal fbaf bafba;ofb a;o bfoau bfub oabfo sifoaisdoiawndon wo&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>The Orange Juice Question</title>
         <published>2025-03-27T00:00:00+00:00</published>
         <updated>2025-04-07T00:00:00+00:00</updated>

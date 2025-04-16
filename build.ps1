@@ -5,7 +5,9 @@ $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location -Path $scriptDir
 
 # Sync changes done in Obsidian
-.\sync_from_obsidian.bat
+## use --update to autoupdate the timestamp in /now
+#.\sync_from_obsidian.bat
+.\sync_from_obsidian.bat --update
 
 # Define the paths
 $zolaBuildPath = ".\Zola_builder"  # Folder where Zola builds

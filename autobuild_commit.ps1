@@ -62,6 +62,9 @@ $commitCount = git log --oneline --grep="^Auto - Content Update" | Measure-Objec
 # Create the commit title
 $commitTitle = "Auto - Content Update $($commitCount + 1)"
 
+# Git commit and push
+git add -A
+
 # Get the list of added, modified, and removed .md files
 $updatedMdFiles = git diff --cached --name-status | Where-Object { $_ -match "^[ADM].*\.md" }
 
@@ -73,9 +76,6 @@ if ($updatedMdFiles) {
 
 # Full commit message with title + body
 $fullMessage = "$commitTitle`n`n$commitBody"
-
-# Git commit and push
-git add -A
 
 if ($commitBody -ne "") {
     git commit -m $commitTitle -m $commitBody

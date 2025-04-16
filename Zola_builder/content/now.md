@@ -1,6 +1,6 @@
 +++
 title = "Now"
-updated = "2025-04-16T12:58:42"
+updated = "2025-04-16T13:05:59"
 [extra]
 place = "München"
 show_word_count = true

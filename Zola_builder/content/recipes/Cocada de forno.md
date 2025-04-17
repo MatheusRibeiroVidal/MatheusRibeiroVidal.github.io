@@ -7,13 +7,15 @@ authors = ["Matheus"]
 
 draft = true
 
+
 [extra]
-local_image = "/recipes/cocada-de-forno.png"
+local_image = "/recipes/cocada_de_forno.png"
 link_to = "./cocada-de-forno/"
 comment = false
 show_word_count = false
 banner = true
 toc = true
+
 
 cuisine = "Brazilian"
 dish_type = "Dessert"

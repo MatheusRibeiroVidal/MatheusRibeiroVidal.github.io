@@ -1,7 +1,6 @@
 +++
 title= "Alô"
 template = "homepage.html"
-
 +++
 Thanks for dropping by!
 

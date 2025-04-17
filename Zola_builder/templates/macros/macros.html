@@ -195,7 +195,7 @@
         {% endif %}
 
         {% if page.extra.banner | default(value=false) %}
-        {% set base_name = page.relative_path | split(pat="/") | last | split(pat=".") | first | replace(from=" ", to="-") | lower %}
+        {% set base_name = page.relative_path | split(pat="/") | last | split(pat=".") | first | replace(from=" ", to="_") | lower %}
         {% set folder_name = page.relative_path | split(pat="/") | first %}
         <div class="project-pic-container">
             <img src="/{{ folder_name }}/{{ base_name }}.png"

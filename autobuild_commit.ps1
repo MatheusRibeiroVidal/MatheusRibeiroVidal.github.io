@@ -7,16 +7,22 @@ Set-Location -Path $scriptDir
 # Sync changes done in Obsidian
 ## use --update to autoupdate the timestamp in /now
 .\sync_from_obsidian.bat
-#.\sync_from_obsidian.bat --update_now
+
 
 # Stage the Obsidian-synced folder to detect changes (adjust if not 'content')
 git add .
 
 # Check if any staged .md files exist
 $mdFilesChanged = git diff --cached --name-only | Where-Object { $_ -like '*.md' }
+$nowMdStaged = git diff --cached --name-only | Where-Object { $_ -eq 'now.md' }
+
 
 # Update the last_update_to_site timestamp in config.toml only if there are staged .md changes
 $configPath = Join-Path $scriptDir "Zola_builder\config.toml"
+if ($nowMdStaged) {
+    .\sync_from_obsidian.bat --update_now
+}
+
 if ($mdFilesChanged) {
     if (Test-Path $configPath) {
         $ts = Get-Date -Format 'yyyy-MM-ddTHH:mm:ss'

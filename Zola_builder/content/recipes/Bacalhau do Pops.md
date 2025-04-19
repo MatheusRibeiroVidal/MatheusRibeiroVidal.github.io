@@ -17,7 +17,7 @@ toc = true
 
 cuisine = "Portuguese"
 dish_type = "Main Course"
-prepare_time = "90"
+prepare_time = "130"
 _portions = "2"
 +++
 

@@ -15,5 +15,5 @@ Nowadays, I am:
 - Working to finish the website for my wedding;
 - Improving my German by playing as much beach volleyball with my german friends as my knees allow;
 - Studying [Isogeometric Analysis](https://en.wikipedia.org/wiki/Isogeometric_analysis) for [a project at TUM](/projects/softwarelab);
-- Listening to a great deal of [Turma do Pagode](https://open.spotify.com/track/1Q9l8ZZGVrRhukejqitDtr?si=65001d1d569b4ec7) and [Zartmann](https://open.spotify.com/track/1prNhzt3DdgRoxKoALTEYo?si=6dd2272b14084e7d);
+- Listening to a great deal of [Exaltasamba](https://open.spotify.com/track/6XFWri1vmFonMp5eHPY6K0?si=ff3272b46ed040ae) and [Zartmann](https://open.spotify.com/track/1prNhzt3DdgRoxKoALTEYo?si=6dd2272b14084e7d);
 

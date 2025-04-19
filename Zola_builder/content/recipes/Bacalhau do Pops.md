@@ -13,7 +13,7 @@ link_to = "./bacalhau-do-pops/"
 comment = false
 show_word_count = false
 banner = true
-toc = true
+toc = false
 
 cuisine = "Portuguese"
 dish_type = "Main Course"

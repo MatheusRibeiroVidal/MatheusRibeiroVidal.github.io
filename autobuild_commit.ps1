@@ -14,7 +14,7 @@ git add .
 
 # Check if any staged .md files exist
 $mdFilesChanged = git diff --cached --name-only | Where-Object { $_ -like '*.md' }
-$nowMdStaged = git diff --cached --name-only | Where-Object { $_ -eq 'now.md' }
+$nowMdStaged = git diff --cached --name-only | Where-Object { $_ -eq 'Zola_builder/content/now.md' }
 
 
 # Update the last_update_to_site timestamp in config.toml only if there are staged .md changes

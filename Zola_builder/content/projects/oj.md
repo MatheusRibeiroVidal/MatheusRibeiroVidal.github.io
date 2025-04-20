@@ -3,7 +3,7 @@ title = "Deciding if strictly one shake of an orange juice bottle is enough to m
 description = "Multiphase CFD simulations with analytical verification of mixing in container under sudden acceleration and deceleration"
 weight = 5
 date = "2025-03-27"
-updated = "2025-04-16T07:48:25"
+updated = "2025-04-20T10:54:17"
 authors = ["Matheus"]
 
 
@@ -22,7 +22,7 @@ banner = true
 # Links
 - [GitHub repo](https://github.com/ChurroGelato/oj)
 
-## To-Do
+# To-Do
 - ~~Find out which solver to use~~
 - Set up and run sim
 - Post-process results
@@ -53,13 +53,15 @@ Beautiful.
 
 _Yes, I am well aware that air is not incompressible. But, if I could shake a bottle of juice hard enough to have to take the compressibility of air into account, I would probably be a superhero, not an engineer._ 
 
+I'm also aware that the pulp is, technically, also immiscible. But for all intents and purposes, I think we could consider that it mixes with the juice and limit the simulation to maybe 1 second after the shake, since that is roughly when I would be pouring the juice to drink it.
+
 Some additional references that might be helpful at this stage are:
 - [SimFlow's interMixingFoam documentation](https://help.sim-flow.com/solvers/inter-mixing-foam)
 - [SimFlow's interMixingFoam Tutorial](https://help.sim-flow.com/tutorials/mixing-tank)
 
 ## Setting up the Simulation
 ### Geometry Modeling
-Wasn't too difficult, did it quickly in Fusion 360. Not going to worry too much about it now, just want to run something first, then I’ll make it better.
+Wasn't too difficult. Did it quickly in Fusion 360. Not going to worry too much about it now, just want to run something first, then I’ll make it better.
 
 ### Meshing
 Found this *very* useful video on [importing Ansys Fluent meshes to OpenFoam](https://www.youtube.com/watch?v=dUme0MUoqbk).

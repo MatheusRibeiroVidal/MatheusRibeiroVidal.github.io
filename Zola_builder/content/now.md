@@ -1,6 +1,6 @@
 +++
 title = "Now"
-updated = "2025-04-19T13:13:17"
+updated = "2025-04-23T22:51:12"
 [extra]
 place = "München"
 show_word_count = true
@@ -11,6 +11,7 @@ This is my [Now section](https://nownownow.com/about) and if you have your own w
 Nowadays, I am:
 
 - Eagerly awaiting my fiancé and my parents to visit me in the next month;
+- Attending classes for the second semester of my degree at TUM.
 - Studying [OpenFoam](https://openfoam.org/) by [trying to minimize the amount of shakes to my OJ bottle during breakfast](/projects/oj);
 - Working to finish the website for my wedding;
 - Improving my German by playing as much beach volleyball with my german friends as my knees allow;

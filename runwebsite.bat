@@ -10,6 +10,7 @@ echo.
 echo 1. Run fastserve
 echo 2. Run fastbuild
 echo 3. Run autobuild
+echo.
 echo 0. Exit
 echo.
 set /p choice="Choose an option: "

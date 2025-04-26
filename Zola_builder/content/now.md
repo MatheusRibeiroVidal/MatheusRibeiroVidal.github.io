@@ -1,8 +1,8 @@
 +++
 title = "Now"
-updated = "2025-04-26T07:37:31"
+updated = "2025-04-26T07:38:23"
 [extra]
-place = "Train München-Stuttgart"
+place = "Stuttgart"
 show_word_count = true
 +++
 

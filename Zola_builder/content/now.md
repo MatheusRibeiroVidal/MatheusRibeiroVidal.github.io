@@ -1,6 +1,6 @@
 +++
 title = "Now"
-updated = "2025-04-23T22:51:12"
+updated = "2025-04-26T07:32:58"
 [extra]
 place = "München"
 show_word_count = true
@@ -12,7 +12,7 @@ Nowadays, I am:
 
 - Eagerly awaiting my fiancé and my parents to visit me in the next month;
 - Attending classes for the second semester of my degree at TUM.
-- Studying [OpenFoam](https://openfoam.org/) by [trying to minimize the amount of shakes to my OJ bottle during breakfast](/projects/oj);
+- Studying [OpenFoam](https://openfoam.org/) by [trying to minimize the amount of shakes to my orange juice bottle during breakfast](/projects/oj);
 - Working to finish the website for my wedding;
 - Improving my German by playing as much beach volleyball with my german friends as my knees allow;
 - Studying [Isogeometric Analysis](https://en.wikipedia.org/wiki/Isogeometric_analysis) for [a project at TUM](/projects/softwarelab);

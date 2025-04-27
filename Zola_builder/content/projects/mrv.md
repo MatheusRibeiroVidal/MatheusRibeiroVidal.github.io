@@ -1,6 +1,6 @@
 +++
 title = "Personal Website"
-description = "This website is built with GitHub pages and the source files are available in the repo"
+description = "This website is built with GitHub pages, Zola and its contents are sourced from inside an Obsidian vault. The source files are available in the repo"
 weight = 10
 date = "2025-03-20"
 authors = ["Matheus"]

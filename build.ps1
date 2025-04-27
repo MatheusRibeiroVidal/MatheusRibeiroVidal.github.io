@@ -12,17 +12,6 @@ git add .
 
 # Check if any staged .md files exist
 $mdFilesChanged = git diff --cached --name-only | Where-Object { $_ -like '*.md' }
-$nowMdStaged = git diff --cached --name-only | Where-Object { $_ -eq 'Zola_builder/content/now.md' }
-
-
-# Update the last_update_to_site timestamp in config.toml only if there are staged .md changes
-$configPath = Join-Path $scriptDir "Zola_builder\config.toml"
-if ($nowMdStaged) {
-	Write-Host "Updating date on now.md"
-    .\sync_from_obsidian.bat --update_now
-} else {
-	Write-Host "No updates found on now.md"
-}
 
 # Update the last_update_to_site timestamp in config.toml only if there are staged .md changes
 $configPath = Join-Path $scriptDir "Zola_builder\config.toml"

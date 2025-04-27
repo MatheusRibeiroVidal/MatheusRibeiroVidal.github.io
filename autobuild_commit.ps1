@@ -7,7 +7,6 @@ Set-Location -Path $scriptDir
 # Sync changes done in Obsidian
 .\sync_from_obsidian.bat
 
-
 # Stage the Obsidian-synced folder to detect changes (adjust if not 'content')
 git add .
 

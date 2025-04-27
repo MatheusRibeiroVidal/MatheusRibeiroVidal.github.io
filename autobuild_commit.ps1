@@ -5,7 +5,6 @@ $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location -Path $scriptDir
 
 # Sync changes done in Obsidian
-## use --update to autoupdate the timestamp in /now
 .\sync_from_obsidian.bat
 
 

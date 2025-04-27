@@ -3,7 +3,7 @@ title = "Then"
 [extra]
 show_word_count = true
 +++
-# <time>2025-04-27|20:12:38</time> in <place>München</place>
+# <time>2025-04-27|20:24:47</time> in <place>München</place>
 Back then, I was:
 - Showing my parents around München and eagerly awaiting my Fiancé to visit me next month;
 - Attending classes for the second semester of my degree at TUM;

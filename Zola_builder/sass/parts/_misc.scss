@@ -70,6 +70,11 @@ place {
     color: var(--alt-primary-color);
 }
 
+archive-tag {
+    font-family: var(--code-font);
+    color: var(--primary-color);
+}
+
 /* Remove post list padding */
 .list > ul {
   margin: 0;
@@ -106,21 +111,23 @@ del {
 
 /* Post list */
 @media all and (min-width: 640px) {
-  .post-header {
-    display: grid;
-    gap: 1rem;
-    grid-row-gap: 1.5rem;
-    grid-template-columns: auto 1fr;
+    .post-header {
+        display: grid;
+        gap: 1rem;
+        grid-row-gap: 1.5rem;
+        grid-template-columns: auto 1fr;
+        //border-radius: 8px;
+        //border: 3px solid #ddd;
 
-    h1 {
-      margin: 0;
-      font-size: 130%;
+        h1 {
+            margin: 0;
+            font-size: 130%;
 
-      a {
-        border-bottom: none;
-      }
+            a {
+                border-bottom: none;
+            }
+        }
     }
-  }
 }
 
 /* Remove styling from theme toggle button */

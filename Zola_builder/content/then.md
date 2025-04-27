@@ -1,6 +1,7 @@
 +++
 title = "Then"
 [extra]
+archive = true
 show_word_count = true
 +++
 # <time>2025-04-27|20:24:47</time> in <place>München</place>

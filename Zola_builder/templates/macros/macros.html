@@ -20,6 +20,7 @@
     <li class="list-item">
         <section>
             <div class="post-header">
+                
                 <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
 
                 <div>
@@ -27,6 +28,10 @@
                         <a href={{ page.permalink | safe }}>{{ page.title }}</a>
 
                         {% if page.draft %}<span class="draft-label">DRAFT</span>{% endif %}
+
+                        {% if page.extra.archive %}
+                        <span style="font-size:12pt;">[<archive-tag>Archive</archive-tag>]</span>
+                        {% endif %}
                     </h1>
 
                     <div class="meta">
@@ -122,69 +127,79 @@
             {#<h1 class="title">{{ page.title }}</h1>#}
             {{ post_macros::page_header(title=page.title) }}
 
-            <div class="meta">
-                {% if page.date %}
-                Posted on <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
-                {% endif %}
+        <div class="meta">
+            {% if page.extra.archive %}
+            [<archive-tag>Archive</archive-tag>]
+            {% endif %}
 
-                {% if page.updated and page.date%}
-                :: Updated on <time>{{ page.updated | date(format="%Y-%m-%d") }}</time>
-                {% endif %}
+            {% if page.date and page.extra.archive%}
+            :: Posted on <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
+            {% endif %}
 
-                {% if page.updated and not page.date %}
-                Updated on <time>{{ page.updated | date(format="%Y-%m-%d|%H:%M") }}</time>
-                {% endif %}
+            {% if page.date and not page.extra.archive%}
+            Posted on <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
+            {% endif %}
 
-                {% if page.extra.place %}
-                &nbsp;in&nbsp;<place>{{ page.extra.place }}</place>
-                {% endif %}
+            {% if page.updated and page.date%}
+            :: Updated on <time>{{ page.updated | date(format="%Y-%m-%d") }}</time>
+            {% endif %}
 
-                {% if page.extra.read_time %}:: <time>{{ page.reading_time }}</time> min read{% endif %}
+            {% if page.updated and not page.date %}
+            Updated on <time>{{ page.updated | date(format="%Y-%m-%d|%H:%M") }}</time>
+            {% endif %}
 
-                {% if page.word_count and (page.extra.show_word_count is not defined or page.extra.show_word_count) %}
-                :: {{ page.word_count }} Words
-                {% endif %}
+            {% if page.extra.place %}
+            &nbsp;in&nbsp;<place>{{ page.extra.place }}</place>
+            {% endif %}
 
-                {% if page.extra.cuisine %}{{ page.extra.cuisine }}{% endif %}
+            {% if page.extra.read_time %}:: <time>{{ page.reading_time }}</time> min read{% endif %}
 
-                {% if page.extra.dish_type %}:: {{ page.extra.dish_type }}{% endif %}
+            {% if page.word_count and (page.extra.show_word_count is not defined or page.extra.show_word_count) %}
+            :: {{ page.word_count }} Words
+            {% endif %}
 
-                {% if page.extra.prepare_time %}:: <time>{{ page.extra.prepare_time }}</time> min to prepare{% endif %}
+            {% if page.extra.cuisine and page.extra.archive%}:: {{ page.extra.cuisine }}{% endif %}
 
-                {% if page.extra.portions %}:: <time>{{ page.extra.portions }}</time> portions{% endif %}
+            {% if page.extra.cuisine and not page.extra.archive%}{{ page.extra.cuisine }}{% endif %}
 
-                {# Inline display of tags directly after the date #}
-                {% if page.taxonomies and page.taxonomies.tags %}
-                <span class="tags-label">:: Tags:</span>
-                <span class="tags">
-                    {%- for tag in page.taxonomies.tags %}
-                    <a href="{{ get_taxonomy_url(kind='tags', name=tag, lang=page.lang) }}"
-                       class="post-tag">{{ tag }}</a>
-                    {% if not loop.last %},{% endif %}
-                    {% endfor %}
-                </span>
-                {% endif %}
+            {% if page.extra.dish_type %}:: {{ page.extra.dish_type }}{% endif %}
 
-                {# View the page on GitHub #}
-                {% if page.extra.repo_view | default(value=config.extra.repo_view) | default(value=false) %}
-                {# Use the page's repo_url if defined, otherwise use the global edit_repo_url #}
-                {% if page.extra.repo_url is defined %}
-                {% set repo_url = page.extra.repo_url %}
-                {% elif config.extra.repo_url is defined %}
-                {% set repo_url = config.extra.repo_url %}
-                {% else %}
-                {% set repo_url = false %}
-                {% endif %}
+            {% if page.extra.prepare_time %}:: <time>{{ page.extra.prepare_time }}</time> min to prepare{% endif %}
 
-                {% if repo_url %}
-                {% set final_url = repo_url ~ page.relative_path %}
-                :: <a href="{{ final_url }}" target="_blank" rel="noopener noreferrer">Source Code</a>
-                {% endif %}
-                {% endif %}
+            {% if page.extra.portions %}:: <time>{{ page.extra.portions }}</time> portions{% endif %}
 
-                {% if page.draft %}<span class="draft-label">DRAFT</span>{% endif %}
+            {# Inline display of tags directly after the date #}
+            {% if page.taxonomies and page.taxonomies.tags %}
+            <span class="tags-label">:: Tags:</span>
+            <span class="tags">
+                {%- for tag in page.taxonomies.tags %}
+                <a href="{{ get_taxonomy_url(kind='tags', name=tag, lang=page.lang) }}"
+                   class="post-tag">{{ tag }}</a>
+                {% if not loop.last %},{% endif %}
+                {% endfor %}
+            </span>
+            {% endif %}
 
-            </div>
+            {# View the page on GitHub #}
+            {% if page.extra.repo_view | default(value=config.extra.repo_view) | default(value=false) %}
+            {# Use the page's repo_url if defined, otherwise use the global edit_repo_url #}
+            {% if page.extra.repo_url is defined %}
+            {% set repo_url = page.extra.repo_url %}
+            {% elif config.extra.repo_url is defined %}
+            {% set repo_url = config.extra.repo_url %}
+            {% else %}
+            {% set repo_url = false %}
+            {% endif %}
+
+            {% if repo_url %}
+            {% set final_url = repo_url ~ page.relative_path %}
+            :: <a href="{{ final_url }}" target="_blank" rel="noopener noreferrer">Source Code</a>
+            {% endif %}
+            {% endif %}
+
+            {% if page.draft %}<span class="draft-label">DRAFT</span>{% endif %}
+
+        </div>
         </div>
 
         {% if page.extra.tldr %}
@@ -274,6 +289,10 @@
                 {% else %}
                 <a href={{ page.permalink | safe }}>{{ page.title }}</a>
                 {% endif %}
+                {% if page.extra.archive %}
+                <span style="font-size:12pt;">[<archive-tag>Archive</archive-tag>]</span>
+                {% endif %}
+
             </h1>
 
             <div class="meta">

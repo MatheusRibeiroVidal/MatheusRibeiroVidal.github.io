@@ -16,4 +16,6 @@ I studied mechanical engineering at the [University of Brasília (UnB)](https://
 
 I am now studying Computational Mechanics at the [Technical University of Munich (TUM)](https://www.tum.de/en/).
 
-My interests range from CAE, CFD and Open Source software to pagode, beach volleyball, watching football (like my dad, I’m a big fan of [Fluminense](https://www.instagram.com/fluminensefc?igsh=eXBiaGlyN2RuZnJr)), boardgames, [cooking](/recipes), travelling and enjoying family life.
+My interests range from CAE, CFD and Open Source software to pagode, beach volleyball, watching football (like my dad, I’m a big fan of [Fluminense](https://www.instagram.com/fluminensefc?igsh=eXBiaGlyN2RuZnJr)), boardgames, [cooking](/recipes), travelling, reading and enjoying family life.
+
+In my [/now](/now) page you can see what I'm up to nowadays. I also archive these posts as a way to allow me to see how my life was back [/then](/then).

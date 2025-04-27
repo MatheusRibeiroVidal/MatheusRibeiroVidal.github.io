@@ -17,7 +17,7 @@ banner = true
 
 # Links
 - [Brazilian Congress of Computational Fluid Dynamics 2024](https://www.cbcfd.com.br/cbcfd-2024/page/3730-home)
-- <a href="/downloadables/cbcfd2024/CBCFD_100439.pdf" download="CBCFD_100439.pdf">Download CONEM24 Paper PDF</a>
+- <a href="/downloadables/cbcfd2024/CBCFD_100439.pdf" download="CBCFD_100439.pdf">Download CBCFD 2024 Paper PDF</a>
 - DOI: <a href="https://doi.org/10.17648/cbcfd-2024-192052">10.17648/cbcfd-2024-192052</a>
 
 

@@ -1,12 +1,11 @@
 +++
 title = "Cocada de forno"
-description = "Pro sangue nordestino pulsar"
+description = "Pro sangue nordestino pulsar - Ainda não fiz, mas tô salvando aqui pra fazer em breve"
 weight = 3
 _date = "2025-04-16"
 authors = ["Matheus"]
 
 draft = true
-
 
 [extra]
 local_image = "/recipes/cocada_de_forno.png"

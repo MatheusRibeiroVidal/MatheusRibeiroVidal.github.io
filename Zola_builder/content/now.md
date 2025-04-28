@@ -1,6 +1,6 @@
 +++
 title = "Now"
-updated = "2025-04-28T23:29:15"
+updated = "2025-04-28T23:34:48"
 [extra]
 place = "München"
 show_word_count = true
@@ -15,3 +15,4 @@ Nowadays, I am:
 - Studying [OpenFoam](https://openfoam.org/) by [trying to minimize the amount of shakes to my orange juice bottle during breakfast](/projects/oj);
 - Studying [Isogeometric Analysis](https://en.wikipedia.org/wiki/Isogeometric_analysis) for [a project at TUM](/projects/softwarelab);
 - Listening to a great deal of [Thiaguinho](https://open.spotify.com/track/7b8rDZCjKpTkS1sGjbktFx?si=21cf27e26ad04199) while working;
+- Playing [Arcs](https://boardgamegeek.com/boardgame/359871/arcs) as much as I can. Great game.

@@ -4,7 +4,7 @@ title = "Then"
 archive = true
 show_word_count = true
 +++
-This is my then page. Here is a log of my [/now](/now) entries.
+This is my then page. Here is created and automated log of my [/now](/now) entries.
 
 ---
 # <time>2025-04-28|23:34:49</time> in <place>München</place>
@@ -16,7 +16,7 @@ Back then, I was:
 - Listening to a great deal of [Thiaguinho](https://open.spotify.com/track/7b8rDZCjKpTkS1sGjbktFx?si=21cf27e26ad04199) while working;
 - Playing [Arcs](https://boardgamegeek.com/boardgame/359871/arcs) as much as I can. Great game.
 
-# <time>2025-04-27|20:24:47</time> in <place>München</place>
+# <time>2025-04-27|20:24:47</time> in <place>the Stuttgart-München train</place>
 Back then, I was:
 - Showing my parents around München and eagerly awaiting my Fiancé to visit me next month;
 - Attending classes for the second semester of my degree at TUM;

@@ -9,7 +9,7 @@ echo ================================
 echo.
 echo 1. Run fastserve
 echo 2. Run fastbuild
-echo 3. Run autobuild
+echo 3. Run autobuild - Content Update
 echo.
 echo 0. Exit
 echo.

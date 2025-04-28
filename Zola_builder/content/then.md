@@ -1,9 +1,20 @@
+# <time>2025-04-28|23:29:16</time> in <place>München</place>
+Back then, I was:
+- Showing my parents around München and eagerly awaiting my Fiancé to visit me next month;
+- Attending classes for the second semester of my degree at TUM;
+- Studying [OpenFoam](https://openfoam.org/) by [trying to minimize the amount of shakes to my orange juice bottle during breakfast](/projects/oj);
+- Studying [Isogeometric Analysis](https://en.wikipedia.org/wiki/Isogeometric_analysis) for [a project at TUM](/projects/softwarelab);
+- Listening to a great deal of [Thiaguinho](https://open.spotify.com/track/7b8rDZCjKpTkS1sGjbktFx?si=21cf27e26ad04199) while working;
+
 +++
 title = "Then"
 [extra]
 archive = true
 show_word_count = true
 +++
+This is my then page. Here is a log of my [/now](/now) entries.
+
+---
 # <time>2025-04-27|20:24:47</time> in <place>München</place>
 Back then, I was:
 - Showing my parents around München and eagerly awaiting my Fiancé to visit me next month;

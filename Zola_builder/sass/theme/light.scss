@@ -1,4 +1,9 @@
-$bg-0: #f2f3f4;
+//$bg-0: #f2f3f4; //Frigid White
+
+
+
+$bg-0: #f2f3f4; //Frigid White
+
 $prim-0: #d94343; //Acerola Red
 
 $bg-1: darken($bg-0, 2%);
@@ -7,7 +12,7 @@ $bg-2: darken($bg-1, 8%);
 $text-0: darken($bg-0, 87%);
 $text-1: darken($bg-0, 60%);
 
-$prim-1: darken($prim-0, 15%);
+$prim-1: lighten($prim-0, 15%);
 
 :root.light {
   --text-0: #{$text-0};
@@ -20,9 +25,8 @@ $prim-1: darken($prim-0, 15%);
   --border-color: var(--bg-2);
 
   --primary-color: #{$prim-0};
-  --alt-primary-color: #{$prim-0};
+  --alt-primary-color: #{$prim-1};
   --hover-color: #{$bg-0};
-
   // invert colour on hover for consistency
   .social :hover {
     filter: invert(1);

@@ -1,6 +1,10 @@
-$bg-0: #131313;
-$prim-0: #EFA94A; //Cajá Yellow
+//$bg-0: #060607; //Jet Black
+//$bg-0: #131313; //Theus Black
+//$bg-0: #08070C; //Midnight Purple
 
+$bg-0: #060607; //Jet Black
+
+$prim-0: #EFA94A; //Cajá Yellow
 // Dark theme needs a bigger contrast compared to the white theme.
 $bg-1: lighten($bg-0, 5%);
 $bg-2: lighten($bg-1, 10%);

@@ -4,7 +4,7 @@ title = "Then"
 archive = true
 show_word_count = true
 +++
-This is my then page. Here is created and automated log of my [/now](/now) entries.
+This is my then page. It is created as an automated log of my [/now](/now) entries.
 
 ---
 # <time>2025-04-28|23:34:49</time> in <place>München</place>

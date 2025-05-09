@@ -10,7 +10,7 @@ authors = ["Matheus"]
 [taxonomies]
 tags=["EN", "CFD" , "OpenFoam"]
 [extra]
-local_image = "/projects/oj.png"
+local_image = "/media/oj.png"
 link_to = "./oj/"
 read_time = true
 comment = true

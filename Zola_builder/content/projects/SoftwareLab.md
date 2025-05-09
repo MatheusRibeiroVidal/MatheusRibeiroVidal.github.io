@@ -8,7 +8,7 @@ authors = ["Matheus"]
 [taxonomies]
 tags=["EN","TUM", "IGA", "Open Source"]
 [extra]
-local_image = "/projects/softwarelab.png"
+local_image = "/media/softwarelab.png"
 link_to = "./softwarelab/"
 comment = true
 read_time = true

@@ -35,6 +35,10 @@ if (-Not (Test-Path $zolaBuildPath)) {
 }
 
 # Build Zola site (run Zola from the Zola_builder folder)
+Set-Location -Path $zolaBuildPath
+zola build
+
+# Build Zola site (run Zola from the Zola_builder folder)
  Set-Location -Path $zolaBuildPath
 # Start Zola in a new window
 Start-Process -FilePath "powershell" -ArgumentList "-NoExit", "-Command", "zola serve" -WindowStyle Normal -WorkingDirectory "$zolaBuildPath"

@@ -213,10 +213,10 @@
         {% set base_name = page.relative_path | split(pat="/") | last | split(pat=".") | first | replace(from=" ", to="_") | lower %}
         {% set folder_name = page.relative_path | split(pat="/") | first %}
         <div class="project-pic-container">
-            <img src="/{{ folder_name }}/{{ base_name }}.png"
-                 onerror="this.onerror=null;this.src='/{{ folder_name }}/{{ base_name }}.jpg';"
-                 onerror="this.onerror=null;this.src='/{{ folder_name }}/{{ base_name }}.jpeg';"
-                 onerror="this.onerror=null;this.src='/{{ folder_name }}/{{ base_name }}.gif';"
+            <img src="/media/{{ base_name }}.png"
+                 onerror="this.onerror=null;this.src='/media/{{ base_name }}.jpg';"
+                 onerror="this.onerror=null;this.src='/media/{{ base_name }}.jpeg';"
+                 onerror="this.onerror=null;this.src='/media/{{ base_name }}.gif';"
                  alt="{{ base_name }} banner"
                  class="project-pic">
         </div>

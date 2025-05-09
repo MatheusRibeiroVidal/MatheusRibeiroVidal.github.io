@@ -8,7 +8,7 @@ authors = ["Matheus"]
 [taxonomies]
 tags=["PT-BR","UnB", "CFD", "Motorsports", "Open Source", "Congress"]
 [extra]
-local_image = "/projects/pg2.gif"
+local_image = "/media/pg2.gif"
 link_to = "./pg2/"
 comment = true
 banner = true

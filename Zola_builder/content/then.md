@@ -7,6 +7,9 @@ show_word_count = true
 This is my then page. It is created as an automated log of my [/now](/now) entries.
 
 ---
+# <time>2025-05-10|17:05:43</time> in <place>Hiding</place>
+Back then, I was:
+
 # <time>2025-05-05|11:19:03</time> in <place>München</place>
 Back then, I was:
 - Eagerly awaiting my Fiancé to visit me here in Munich;

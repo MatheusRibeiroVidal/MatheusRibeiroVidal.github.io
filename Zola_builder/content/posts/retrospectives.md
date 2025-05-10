@@ -15,7 +15,7 @@ toc = false
 +++
 
 # End-of-Year Retrospectives
-These have always been hard for me. I think maybe because I though I had no basis on which to judge a whole year. 
+These have always been kind of hard for me. I think maybe because I thought I had no basis on which to judge a whole year or period of time.
 
 <div style="text-align: center;">
     <img src="/media/daily_tracker.png" alt="Daily Tracker" style="max-width: 100%; height: auto; margin: 10px;" />

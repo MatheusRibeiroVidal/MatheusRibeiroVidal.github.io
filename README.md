@@ -4,7 +4,7 @@ Welcome to my digital space! This site is a personal playground where I share my
 
 ## 🎨 Inspiration & Tech Stack
 
-This website draws inspiration from [Rutar's](https://rutar.org/) and is built using [Apollo theme for Zola](https://www.getzola.org/themes/apollo/), crafted by [not-matthias](https://github.com/not-matthias).
+This website draws inspiration from [Rutar's](https://rutar.org/) and is built largely using [Apollo theme for Zola](https://www.getzola.org/themes/apollo/), crafted by [not-matthias](https://github.com/not-matthias), with some custom changes I made.
 
 ## 🧭 Explore the Site
 

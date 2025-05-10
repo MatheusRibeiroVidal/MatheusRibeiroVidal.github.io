@@ -14,9 +14,6 @@ Back then, I was:
 - Studying [Isogeometric Analysis](https://en.wikipedia.org/wiki/Isogeometric_analysis) for [a project at TUM](/projects/softwarelab);
 - Playing [Arcs](https://boardgamegeek.com/boardgame/359871/arcs) as much as I can. Great game.
 
-# <time>2025-05-10|17:05:43</time> in <place>Hiding</place>
-Back then, I was:
-
 # <time>2025-05-05|11:19:03</time> in <place>München</place>
 Back then, I was:
 - Eagerly awaiting my Fiancé to visit me here in Munich;

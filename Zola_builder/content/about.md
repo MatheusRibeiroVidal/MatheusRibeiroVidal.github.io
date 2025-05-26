@@ -18,4 +18,4 @@ I am now studying Computational Mechanics at the [Technical University of Munich
 
 My interests range from CAE, CFD and Open Source software to pagode, beach volleyball, watching football (like my dad, I’m a big fan of [Fluminense](https://www.instagram.com/fluminensefc?igsh=eXBiaGlyN2RuZnJr)), boardgames, [cooking](/recipes), travelling, reading and enjoying family life.
 
-In my [/now](/now) page you can see what I'm up to nowadays. I also archive these posts as a way to allow me to see how my life was back [/then](/then).
+In my [/now](/now) page you can see what I'm up to nowadays.

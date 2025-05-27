@@ -213,6 +213,7 @@
         {% set base_name = page.extra.image_base | default(value=page.relative_path | split(pat="/") | last | split(pat=".") | first | replace(from=" ", to="_") | lower) %}
         <div class="project-pic-container">
             <img src="{{ page.extra.local_image }}"
+                 onerror="this.onerror=null;this.src='/media/{{ base_name }}.png';"
                  onerror="this.onerror=null;this.src='/media/{{ base_name }}.jpg';"
                  onerror="this.onerror=null;this.src='/media/{{ base_name }}.jpeg';"
                  onerror="this.onerror=null;this.src='/media/{{ base_name }}.gif';"

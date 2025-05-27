@@ -8,7 +8,7 @@ authors = ["Matheus"]
 draft = true
 
 [extra]
-local_image = "/recipes/cocada_de_forno.png"
+local_image = "/media/cocada_de_forno.png"
 link_to = "./cocada-de-forno/"
 comment = false
 show_word_count = false

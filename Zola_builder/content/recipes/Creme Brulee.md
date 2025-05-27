@@ -17,7 +17,7 @@ toc = false
 cuisine = "French"
 dish_type = "Dessert"
 prepare_time = "120"
-portions = "2"
+portions = "4"
 +++
 
 # Ingredients

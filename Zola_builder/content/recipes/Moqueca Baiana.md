@@ -29,6 +29,7 @@ portions = ""
 - Tomate
 - Limão
 - Leite de Coco
+- Azeite de Dendê
 - Sal e Pimenta do reino
 
 # Instructions

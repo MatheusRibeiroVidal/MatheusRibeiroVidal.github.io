@@ -7,7 +7,7 @@ authors = ["Matheus"]
 draft = false
 
 [extra]
-local_image = "/media/moqueca_baiana.png"
+local_image = "/media/moqueca_baiana.jpg"
 link_to = "./moqueca-baiana/"
 comment = false
 show_word_count = false

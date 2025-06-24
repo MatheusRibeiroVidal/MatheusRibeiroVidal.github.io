@@ -251,63 +251,6 @@ If I end up doing it, I&#x27;ll make sure to add it to &lt;a href=&quot;&#x2F;pr
         
     </entry>
     <entry xml:lang="en">
-        <title>Deciding if strictly one shake of an orange juice bottle is enough to mix it for breakfast</title>
-        <published>2025-03-27T00:00:00+00:00</published>
-        <updated>2025-04-20T10:54:17+00:00</updated>
-        
-        <author>
-          <name>
-            Matheus
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/projects/oj/"/>
-        <id>https://ribeirovidal.com/projects/oj/</id>
-        
-        <content type="html" xml:base="https://ribeirovidal.com/projects/oj/">&lt;h1 id=&quot;links&quot;&gt;Links&lt;&#x2F;h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ChurroGelato&#x2F;oj&quot;&gt;GitHub repo&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;h1 id=&quot;to-do&quot;&gt;To-Do&lt;&#x2F;h1&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;del&gt;Find out which solver to use&lt;&#x2F;del&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Set up and run sim&lt;&#x2F;li&gt;
-&lt;li&gt;Post-process results&lt;&#x2F;li&gt;
-&lt;li&gt;Verify results with analytical estimations&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;h1 id=&quot;context&quot;&gt;Context&lt;&#x2F;h1&gt;
-&lt;p&gt;This project idea came to me during breakfast &lt;a href=&quot;&#x2F;posts&#x2F;oj-problem&quot;&gt;and you can check out in this blog post&lt;&#x2F;a&gt; why it is, most likely, a virtual waste of effort and computing power.&lt;&#x2F;p&gt;
-&lt;p&gt;However, I have not worked with OpenFoam before and I think that this might be a good idea to get to know the workflow of the software.&lt;&#x2F;p&gt;
-&lt;p&gt;The basic idea is to check if it is enough to shake my orange juice bottle &lt;em&gt;only&lt;&#x2F;em&gt; once to appropriately mix the pulp to the juice before pouring into the cup.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;methodology&quot;&gt;Methodology&lt;&#x2F;h1&gt;
-&lt;h2 id=&quot;which-solver-to-use&quot;&gt;Which solver to use?&lt;&#x2F;h2&gt;
-&lt;p&gt;Naturally, this is a problem of multiphase flow, given that inside the bottle, at the very least we have to consider the presence of air and juice.
-I know that OpenFoam is able to deal with multiphase problems. Time for some research.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;multiphase-flow-using-interfoam&quot;&gt;Multiphase flow using interFoam&lt;&#x2F;h3&gt;
-&lt;p&gt;One possible way of simulating this would be by using a 2 phase flow simulation (air and juice inside the bottle). &lt;a href=&quot;https:&#x2F;&#x2F;www.openfoam.com&#x2F;documentation&#x2F;guides&#x2F;latest&#x2F;doc&#x2F;guide-applications-solvers-multiphase-interFoam.html&quot;&gt;OpenFoam&#x27;s interFoam&lt;&#x2F;a&gt; could be a relatively easy way of solving that, &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=wK_0s7DnMRs&quot;&gt;there&#x27;s even a great video by Rose Walker going through interFoam for 2 phase immiscible fluids&lt;&#x2F;a&gt;. The main drawback of this would be that, since we would not be simulating the pulp as it&#x27;s own phase, there would be no way of determining the answer to the main question I have and we would have to determine implicitly if the results are appropriate.&lt;&#x2F;p&gt;
-&lt;p&gt;Maybe a multiphase flow with 3 fluids could be done.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;multiphase-flow-using-intermixingfoam&quot;&gt;Multiphase flow using interMixingFoam&lt;&#x2F;h3&gt;
-&lt;p&gt;One of the best things that can happen is when you need something and you find that something without much effort or hardship. As described in &lt;a href=&quot;https:&#x2F;&#x2F;www.openfoam.com&#x2F;documentation&#x2F;guides&#x2F;v2012&#x2F;man&#x2F;interMixingFoam.html&quot;&gt;OpenFoam&#x27;s documentation&lt;&#x2F;a&gt; interMixingFoam is a:&lt;&#x2F;p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Solver for three incompressible fluids (two of which are immiscible) using VOF phase-fraction based interface capturing. With optional mesh motion and mesh topology changes including adaptive re-meshing.&lt;&#x2F;p&gt;
-&lt;&#x2F;blockquote&gt;
-&lt;p&gt;Beautiful.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;em&gt;Yes, I am well aware that air is not incompressible. But, if I could shake a bottle of juice hard enough to have to take the compressibility of air into account, I would probably be a superhero, not an engineer.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;I&#x27;m also aware that the pulp is, technically, also immiscible. But for all intents and purposes, I think we could consider that it mixes with the juice and limit the simulation to maybe 1 second after the shake, since that is roughly when I would be pouring the juice to drink it.&lt;&#x2F;p&gt;
-&lt;p&gt;Some additional references that might be helpful at this stage are:&lt;&#x2F;p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;help.sim-flow.com&#x2F;solvers&#x2F;inter-mixing-foam&quot;&gt;SimFlow&#x27;s interMixingFoam documentation&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;help.sim-flow.com&#x2F;tutorials&#x2F;mixing-tank&quot;&gt;SimFlow&#x27;s interMixingFoam Tutorial&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;setting-up-the-simulation&quot;&gt;Setting up the Simulation&lt;&#x2F;h2&gt;
-&lt;h3 id=&quot;geometry-modeling&quot;&gt;Geometry Modeling&lt;&#x2F;h3&gt;
-&lt;p&gt;Wasn&#x27;t too difficult. Did it quickly in Fusion 360. Not going to worry too much about it now, just want to run something first, then I’ll make it better.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;meshing&quot;&gt;Meshing&lt;&#x2F;h3&gt;
-&lt;p&gt;Found this &lt;em&gt;very&lt;&#x2F;em&gt; useful video on &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=dUme0MUoqbk&quot;&gt;importing Ansys Fluent meshes to OpenFoam&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Oath Game Log - 1: Sparks</title>
         <published>2025-03-26T00:00:00+00:00</published>
         <updated>2025-03-26T00:00:00+00:00</updated>

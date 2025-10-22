@@ -7,6 +7,13 @@ show_word_count = true
 This is my then page. It is created as an automated log of my [/now](/now) entries.
 
 ---
+# <time>2025-10-22|16:23:14</time> in <place>München</place>
+Back then, I was:
+- Studying for the third semester of my masters program at TUM;
+- I'm currently also working on 2 simultaneous projects at TUM:
+- Practicing the cavaquinho whenever I miss Brazil.
+- Swimming, running, playing beach volleyball and padel as much as I can.
+
 # <time>2025-10-09|17:26:47</time> in <place>München</place>
 Back then, I was:
 - Studying for the third semester at TUM;

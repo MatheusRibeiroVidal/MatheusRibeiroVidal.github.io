@@ -5,8 +5,31 @@
     <link rel="self" type="application/atom+xml" href="https://ribeirovidal.com/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://ribeirovidal.com/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-05-09T00:00:00+00:00</updated>
+    <updated>2025-10-09T00:00:00+00:00</updated>
     <id>https://ribeirovidal.com/atom.xml</id>
+    <entry xml:lang="en">
+        <title>SIGMA model Validation in MGLET</title>
+        <published>2025-10-09T00:00:00+00:00</published>
+        <updated>2025-04-20T10:54:17+00:00</updated>
+        
+        <author>
+          <name>
+            Matheus
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/projects/hydromechanicstum/"/>
+        <id>https://ribeirovidal.com/projects/hydromechanicstum/</id>
+        
+        <content type="html" xml:base="https://ribeirovidal.com/projects/hydromechanicstum/">&lt;h1 id=&quot;links&quot;&gt;Links&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tum-hydromechanics&#x2F;tum-mglet-base&quot;&gt;GitHub repo&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;collab.dvb.bayern&#x2F;spaces&#x2F;TUMopensourcemgletwiki&#x2F;pages&#x2F;448366188&#x2F;Open-source+MGLET+Wiki+Startseite&quot;&gt;Open Source MGLET WIki&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;literature-review&quot;&gt;Literature Review&lt;&#x2F;h1&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>Obsidian Journal Daily Tracker Overview</title>
         <published>2025-05-09T00:00:00+00:00</published>

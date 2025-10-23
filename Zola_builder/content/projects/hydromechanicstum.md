@@ -21,5 +21,5 @@ archive = false
 +++
 # Links
 - [GitHub repo](https://github.com/tum-hydromechanics/tum-mglet-base)
-- [Open Source MGLET WIki](https://collab.dvb.bayern/spaces/TUMopensourcemgletwiki/pages/448366188/Open-source+MGLET+Wiki+Startseite) 
+- [Open Source MGLET WIKI](https://collab.dvb.bayern/spaces/TUMopensourcemgletwiki/pages/448366188/Open-source+MGLET+Wiki+Startseite) 
 

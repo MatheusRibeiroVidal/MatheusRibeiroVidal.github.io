@@ -5,8 +5,32 @@
     <link rel="self" type="application/atom+xml" href="https://ribeirovidal.com/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://ribeirovidal.com/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-10-27T00:00:00+00:00</updated>
+    <updated>2025-11-06T00:00:00+00:00</updated>
     <id>https://ribeirovidal.com/atom.xml</id>
+    <entry xml:lang="en">
+        <title>The Appeal of Recorded Concerts</title>
+        <published>2025-11-06T00:00:00+00:00</published>
+        <updated>2025-11-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Matheus
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/posts/shows-de-fds/"/>
+        <id>https://ribeirovidal.com/posts/shows-de-fds/</id>
+        
+        <content type="html" xml:base="https://ribeirovidal.com/posts/shows-de-fds/">&lt;p&gt;One of the things my dad used to do every weekend when I was a kid that I didn&#x27;t fully understand the appeal was that he had a huge collection of recorded live concerts. I remember it was almost a full wall of DVDs of basically every band and group my parents liked.&lt;&#x2F;p&gt;
+&lt;p&gt;As a kid that was only allowed to play videogames on weekends, the fact that my dad used the prime game playing time of late mornings on Saturdays and Sundays to use the only TV in the house to watch &#x2F; listen to a recording of a concert used to deeply annoy me.&lt;&#x2F;p&gt;
+&lt;p&gt;However, now that I actually have to cook lunch on weekends, I get it. It just gives a whole vibe to meal time that makes it feel different than rushed weekday lunches.&lt;&#x2F;p&gt;
+&lt;p&gt;So, I thought I&#x27;d also collect some of my favorite concerts.&lt;&#x2F;p&gt;
+&lt;p&gt;Despite loving the physicality of DVDs and Blu-rays, the circumstances of my life as a semi-nomadic student that will probably be moving places a few times a year for the forseeable future makes it so that it would probably more of a hassle than it is worth to collect them in physical form right now.&lt;&#x2F;p&gt;
+&lt;p&gt;Therefore, here is the page of my digital collection of concerts.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;concerts&quot;&gt;DVDs atrás da porta da sala de TV&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>Modelling Mode Coupling Instability for Brake Noise</title>
         <published>2025-10-27T00:00:00+00:00</published>
@@ -24,6 +48,25 @@
         <id>https://ribeirovidal.com/projects/strukturdynamiktumbmw/</id>
         
         <content type="html" xml:base="https://ribeirovidal.com/projects/strukturdynamiktumbmw/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Pericles @ Tiny Desk Brasil</title>
+        <published>2025-10-21T00:00:00+00:00</published>
+        <updated>2025-10-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/concerts/tinydeskbra-pericles/"/>
+        <id>https://ribeirovidal.com/concerts/tinydeskbra-pericles/</id>
+        
+        <content type="html" xml:base="https://ribeirovidal.com/concerts/tinydeskbra-pericles/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -46,6 +89,25 @@
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;collab.dvb.bayern&#x2F;spaces&#x2F;TUMopensourcemgletwiki&#x2F;pages&#x2F;448366188&#x2F;Open-source+MGLET+Wiki+Startseite&quot;&gt;Open Source MGLET WIKI&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>João Gomes @ Tiny Desk Brasil</title>
+        <published>2025-10-07T00:00:00+00:00</published>
+        <updated>2025-10-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/concerts/tinydeskbra-joaogomes/"/>
+        <id>https://ribeirovidal.com/concerts/tinydeskbra-joaogomes/</id>
+        
+        <content type="html" xml:base="https://ribeirovidal.com/concerts/tinydeskbra-joaogomes/"></content>
         
     </entry>
     <entry xml:lang="en">

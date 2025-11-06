@@ -8,6 +8,25 @@
     <updated>2025-11-06T00:00:00+00:00</updated>
     <id>https://ribeirovidal.com/atom.xml</id>
     <entry xml:lang="en">
+        <title>Ferrugem @ Macaco Sessions</title>
+        <published>2025-11-06T00:00:00+00:00</published>
+        <updated>2025-11-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/concerts/macacosessions-ferrugem/"/>
+        <id>https://ribeirovidal.com/concerts/macacosessions-ferrugem/</id>
+        
+        <content type="html" xml:base="https://ribeirovidal.com/concerts/macacosessions-ferrugem/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>The Appeal of Recorded Concerts</title>
         <published>2025-11-06T00:00:00+00:00</published>
         <updated>2025-11-06T00:00:00+00:00</updated>
@@ -67,6 +86,25 @@
         <id>https://ribeirovidal.com/concerts/tinydeskbra-pericles/</id>
         
         <content type="html" xml:base="https://ribeirovidal.com/concerts/tinydeskbra-pericles/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Arlindinho @ Samba no Porto</title>
+        <published>2025-10-11T00:00:00+00:00</published>
+        <updated>2025-10-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/concerts/arlindinho-sambanoporto/"/>
+        <id>https://ribeirovidal.com/concerts/arlindinho-sambanoporto/</id>
+        
+        <content type="html" xml:base="https://ribeirovidal.com/concerts/arlindinho-sambanoporto/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -532,6 +570,25 @@ https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;not-matthias&#x2F;apollo&#x2F;r
     style E fill:#9f9,stroke:#333
 &lt;&#x2F;pre&gt;
 </content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Doechii @ Tiny Desk</title>
+        <published>2024-12-06T00:00:00+00:00</published>
+        <updated>2024-12-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/concerts/tinydesk-doechii/"/>
+        <id>https://ribeirovidal.com/concerts/tinydesk-doechii/</id>
+        
+        <content type="html" xml:base="https://ribeirovidal.com/concerts/tinydesk-doechii/"></content>
         
     </entry>
     <entry xml:lang="en">

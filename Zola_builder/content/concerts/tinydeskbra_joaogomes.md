@@ -6,7 +6,7 @@ date = "2025-10-07"
 
 
 [extra]
-remote_image = "https://i.ytimg.com/an_webp/XUd4nYZxOi0/mqdefault_6s.webp?du=3000&sqp=CIvqscgG&rs=AOn4CLCFoEaIFKTJErKdYtY7Rl9jqTaohw"
+remote_image = "https://i.ytimg.com/vi/XUd4nYZxOi0/hq720.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAqOZSOiBG52Yv-F9zPFEaQkkeXSQ"
 local_image = ""
 link_to = "https://www.youtube.com/watch?v=XUd4nYZxOi0"
 comment = false

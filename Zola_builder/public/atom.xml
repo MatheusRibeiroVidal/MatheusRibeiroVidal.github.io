@@ -3335,4 +3335,42 @@ universe.&lt;br&gt;
 </content>
         
     </entry>
+    <entry xml:lang="en">
+        <title>Capital Inicial @ Brasília</title>
+        <published>2008-04-21T00:00:00+00:00</published>
+        <updated>2008-04-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/concerts/capitalinicial-multishow/"/>
+        <id>https://ribeirovidal.com/concerts/capitalinicial-multishow/</id>
+        
+        <content type="html" xml:base="https://ribeirovidal.com/concerts/capitalinicial-multishow/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Jota Quest @ MTV em BH</title>
+        <published>2003-05-01T00:00:00+00:00</published>
+        <updated>2003-05-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/concerts/jotaquest-mtv/"/>
+        <id>https://ribeirovidal.com/concerts/jotaquest-mtv/</id>
+        
+        <content type="html" xml:base="https://ribeirovidal.com/concerts/jotaquest-mtv/"></content>
+        
+    </entry>
 </feed>

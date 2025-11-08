@@ -12,4 +12,6 @@ link_to = "https://archive.org/details/jota-quest-mtv/Jota+Quest+MTv.iso"
 comment = false
 banner = true
 toc = false
+
+cuisine = "Brazilian Rock / MPB"
 +++

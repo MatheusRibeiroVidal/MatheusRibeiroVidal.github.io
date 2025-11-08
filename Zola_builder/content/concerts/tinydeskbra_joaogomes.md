@@ -12,4 +12,6 @@ link_to = "https://www.youtube.com/watch?v=XUd4nYZxOi0"
 comment = false
 banner = true
 toc = false
+
+cuisine = "Forró"
 +++

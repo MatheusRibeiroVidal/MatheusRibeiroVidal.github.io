@@ -1,7 +1,7 @@
 +++
 title = "Jota Quest @ MTV em BH"
 description = "Na moral, Encontrar Alguém, Só Hoje... A cara do Brasil anos 2000"
-weight = 1
+weight = 2
 date = "2003-05-01"
 
 

@@ -1,7 +1,7 @@
 +++
 title = "Arlindinho @ Samba no Porto"
 description = "Pagode na Europa é bom demais"
-weight = 2
+weight = 1
 date = "2025-10-11"
 
 

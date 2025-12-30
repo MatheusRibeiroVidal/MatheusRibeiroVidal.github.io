@@ -19,7 +19,7 @@ highlight_code = true
 highlight_theme = "ayu-light"
 
 [extra]
-last_update_to_site = "2025-12-27T07:59:24"
+last_update_to_site = "2025-12-30T13:22:08"
 toc = true
 use_cdn = true
 favicon = "/icons/caja_acerola.ico"

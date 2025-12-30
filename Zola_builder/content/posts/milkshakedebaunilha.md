@@ -14,4 +14,4 @@ read_time = true
 toc = false
 +++
 
-Assim que eu terminei o meu quarto semestre em engenharia mecânica na UnB, em Brasília, ficou claro para mim que eu teria que sair da minha cidade natal para construir a carreira que eu queria. 
+Assim que eu terminei o meu quarto semestre em engenharia mecânica na UnB, em Brasília, ficou claro para mim que eu teria que sair da minha cidade natal para construir a carreira que eu queria ter.

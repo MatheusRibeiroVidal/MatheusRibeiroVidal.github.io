@@ -7,6 +7,34 @@ show_word_count = true
 This is my then page. It is created as an automated log of my [/now](/now) entries.
 
 ---
+# <time>2026-01-19|15:25:58</time> in <place>München</place>
+Back then, I was:
+- Studying for the third semester of my masters program at TUM;
+- I'm currently also working on 3 simultaneous projects at TUM:
+- Playing cavaquinho and reco-reco whenever I miss Brazil.
+- Swimming, running, playing beach volleyball and padel as much as I can.
+
+# <time>2026-01-19|15:25:32</time> in <place>München</place>
+Back then, I was:
+- Studying for the third semester of my masters program at TUM;
+- I'm currently also working on 3 simultaneous projects at TUM:
+- Playing cavaquinho and reco-reco whenever I miss Brazil.
+- Swimming, running, playing beach volleyball and padel as much as I can.
+
+# <time>2026-01-19|15:25:25</time> in <place>München</place>
+Back then, I was:
+- Studying for the third semester of my masters program at TUM;
+- I'm currently also working on 3 simultaneous projects at TUM:
+- Playing cavaquinho and reco-reco whenever I miss Brazil.
+- Swimming, running, playing beach volleyball and padel as much as I can.
+
+# <time>2026-01-19|15:25:12</time> in <place>München</place>
+Back then, I was:
+- Studying for the third semester of my masters program at TUM;
+- I'm currently also working on 3 simultaneous projects at TUM:
+- Playing cavaquinho and reco-reco whenever I miss Brazil.
+- Swimming, running, playing beach volleyball and padel as much as I can.
+
 # <time>2025-10-29|10:53:39</time> in <place>München</place>
 Back then, I was:
 - Studying for the third semester of my masters program at TUM;

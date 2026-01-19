@@ -5,8 +5,32 @@
     <link rel="self" type="application/atom+xml" href="https://ribeirovidal.com/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://ribeirovidal.com/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-11-06T00:00:00+00:00</updated>
+    <updated>2026-01-19T00:00:00+00:00</updated>
     <id>https://ribeirovidal.com/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Todo mundo que eu amo cabe em um Milkshake</title>
+        <published>2026-01-19T00:00:00+00:00</published>
+        <updated>2026-01-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Matheus
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/posts/milkshakedebaunilha/"/>
+        <id>https://ribeirovidal.com/posts/milkshakedebaunilha/</id>
+        
+        <content type="html" xml:base="https://ribeirovidal.com/posts/milkshakedebaunilha/">&lt;p&gt;Assim que eu terminei o meu quarto semestre em engenharia mecânica na UnB, em Brasília, ficou claro para mim que eu teria que sair da minha cidade natal para construir a carreira que eu queria ter.&lt;&#x2F;p&gt;
+&lt;p&gt;O maior problema com isso é que eu sou um cara que gosta de gente. E, principalmente, eu gosto da minha gente: meus amigos, pais, irmão, primos, tios e tias, vós. Genuinamente eu não tinha muita certeza se iria me adaptar bem a morar longe de todos que conhecia e tentar montar um círculo novo do zero.&lt;&#x2F;p&gt;
+&lt;p&gt;A trabalho, me mudei pra Vila Velha, Espírito Santo, três semanas depois de me formar e lá percebi que o meu problema não seria conseguir montar uma nova rede de pessoas queridas, ou melhor, expandir a já existente a ponto de incluir aqueles que a minha sorte me permitiu conhecer. Nem que seria impraticável me manter conectado com os que ficaram quando me fui, O real problema foi o aumento delta diracquiano da quantidade de &quot;tchau&#x27;s&quot;, &quot;até logo&#x27;s&quot;, &quot;falou&#x27;s&quot; e &quot;té mais&#x27;es&quot; que eu tive que dizer, despedidas sem real ideia de quanto nos veríamos novamente.&lt;&#x2F;p&gt;
+&lt;p&gt;Hoje moro em Munique e sei que isso é uma realidade de levar a vida longe de onde nasci, talvez da vida no geral. Senti que precisava, portanto, de algo que me ajudasse a não só marcar temporalmente esses momentos, mas que também suavizasse o baque e que me permitisse me lembrar que, apesar da minha escolha ter essa consequência amarga, é um privilégio sentir saudade das pessoas que amo.&lt;&#x2F;p&gt;
+&lt;p&gt;Algo que encaixasse na rotina, que fosse replicável em (quase) qualquer lugar do mundo e que me animasse pelo menos um pouco depois de mais um adeus. A resposta apareceu no caminho do aeroporto de Vitória para minha casa perto das 3 da manhã, um McDonald&#x27;s 24h no bairro da Praia do Canto. Dentro, a sobremesa que eu sempre gostei e que sei que para sempre vou gostar, e ainda que não deve sair nunca do cardápio, um Milkshake de Baunilha.&lt;&#x2F;p&gt;
+&lt;p&gt;Desde então esse é o meu pequeno ritual, já bebi milkshake na Praia do Canto em Vitória, na Praia da Costa em Vila Velha, no aeroporto de Brasília e de Munique, na estação de Trem de Colmar e de Bruxelas, no caminho pra casa depois da festa de natal na casa de uma amiga, do lado de um cemitério florido no meio da primavera, na rua sentado na calçada fazendo -4 graus centígrados, sentado no meu sofá assistindo Seinfeld.&lt;&#x2F;p&gt;
+&lt;p&gt;Não necessariamente todas as vezes que comprei o milkshake eu tinha acabado de dar tchau a alguém que eu amo, mas todas as vezes que dei tchau a alguém, comprei um milkshake. E todas as vezes que comprei um milkshake de baunilha eu estava sozinho e acompanhado por todos aqueles que fazem a minha vida melhor.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>Ferrugem @ Macaco Sessions</title>
         <published>2025-11-06T00:00:00+00:00</published>

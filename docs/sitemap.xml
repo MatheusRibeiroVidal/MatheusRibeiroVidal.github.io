@@ -72,11 +72,11 @@
     </url>
     <url>
         <loc>https://ribeirovidal.com/now-backup/</loc>
-        <lastmod>2025-10-29T10:53:38</lastmod>
+        <lastmod>2026-01-19T15:25:57</lastmod>
     </url>
     <url>
         <loc>https://ribeirovidal.com/now/</loc>
-        <lastmod>2025-10-29T10:53:38</lastmod>
+        <lastmod>2026-01-19T15:25:57</lastmod>
     </url>
     <url>
         <loc>https://ribeirovidal.com/posts/</loc>
@@ -84,6 +84,10 @@
     <url>
         <loc>https://ribeirovidal.com/posts/helloworld/</loc>
         <lastmod>2025-03-20</lastmod>
+    </url>
+    <url>
+        <loc>https://ribeirovidal.com/posts/milkshakedebaunilha/</loc>
+        <lastmod>2026-01-19</lastmod>
     </url>
     <url>
         <loc>https://ribeirovidal.com/posts/oath-log-1/</loc>
@@ -193,6 +197,9 @@
     </url>
     <url>
         <loc>https://ribeirovidal.com/tags/orcaflex/</loc>
+    </url>
+    <url>
+        <loc>https://ribeirovidal.com/tags/por/</loc>
     </url>
     <url>
         <loc>https://ribeirovidal.com/tags/project-idea/</loc>

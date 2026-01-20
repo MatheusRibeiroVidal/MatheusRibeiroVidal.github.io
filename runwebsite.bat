@@ -24,7 +24,7 @@ if "%choice%"=="1" (
     goto end
 ) else if "%choice%"=="3" (
     powershell -ExecutionPolicy Bypass -File "%~dp0builderserver.ps1" -auto
-    goto end
+    exit
 ) else if "%choice%"=="0" (
     exit
 ) else (

@@ -1,6 +1,6 @@
 +++
 title = "Now"
-updated = "2026-01-20T13:31:22"
+updated = "2026-01-20T13:41:22"
 [extra]
 place = "München"
 show_word_count = true
@@ -17,4 +17,4 @@ Nowadays, I am:
 	- Using [Structural Dynamics](https://en.wikipedia.org/wiki/Structural_dynamics) for [investigating the self-excited oscillations leading to brake noise](/projects/strukturdynamiktumbmw) with [BMW](https://www.bmw.com/en/index.html);
 - Playing cavaquinho and reco-reco in a _roda de samba_ with brazilian friends.
 	- I'm thinking of maybe getting myself a banjo sometime soon too...
-- Swimming, running, playing beach volleyball and padel as much as I can.
+- Swimming, running, playing beach volleyball and padel as much as I can in this cold weather.

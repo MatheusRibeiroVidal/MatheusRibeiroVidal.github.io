@@ -241,20 +241,26 @@ if ($auto) {
         $commitBody = "`nUpdated .md files:`n" + ($updatedMdFiles -join "`n")
     }
     
-    # Full commit message
-    $fullMessage = "$commitTitle`n`n$commitBody"
-    
-    # Commit with title and body
-    if ($commitBody -ne "") {
-        git commit -m $commitTitle -m $commitBody
+    # Check if there are actually changes to commit
+    $hasChanges = git diff --cached --quiet
+    if ($LASTEXITCODE -ne 0) {
+        # There are changes to commit
+        $fullMessage = "$commitTitle`n`n$commitBody"
+        
+        # Commit with title and body
+        if ($commitBody -ne "") {
+            git commit -m $commitTitle -m $commitBody
+        } else {
+            git commit -m $commitTitle
+        }
+        
+        # Push to remote
+        git push
+        
+        Write-Host "Changes have been committed and pushed successfully with message:`n$fullMessage"
     } else {
-        git commit -m $commitTitle
+        Write-Host "No changes to commit. Working tree clean."
     }
-    
-    # Push to remote
-    git push
-    
-    Write-Host "Changes have been committed and pushed successfully with message:`n$fullMessage"
     
     # Auto-close the window after 2 seconds
     Start-Sleep -Seconds 2

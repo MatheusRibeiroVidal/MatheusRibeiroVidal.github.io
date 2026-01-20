@@ -1,6 +1,9 @@
 @echo off
 title Run Website Scripts
 
+REM ===== Scheduler shortcut =====
+if "%1"=="auto" goto auto
+
 :menu
 cls
 echo ================================
@@ -32,6 +35,10 @@ if "%choice%"=="1" (
     pause >nul
     goto menu
 )
+
+:auto
+powershell -ExecutionPolicy Bypass -File "%~dp0builderserver.ps1" -auto
+exit
 
 :end
 pause

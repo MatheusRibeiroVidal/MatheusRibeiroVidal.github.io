@@ -7,22 +7,23 @@ echo ================================
 echo    Personal Website Launcher
 echo ================================
 echo.
-echo 1. Run fastserve
-echo 2. Run fastbuild
-echo 3. Run autobuild - Content Update
+echo 1. Serve (local preview)
+echo 2. Build (build + manual commit)
+echo 3. Auto-build (build + auto-commit)
 echo.
 echo 0. Exit
 echo.
 set /p choice="Choose an option: "
 
 if "%choice%"=="1" (
-    call fastserve.bat
+    powershell -ExecutionPolicy Bypass -File "%~dp0builderserver.ps1" -serve
+    start http://127.0.0.1:1111/
     goto end
 ) else if "%choice%"=="2" (
-    call fastbuild.bat
+    powershell -ExecutionPolicy Bypass -File "%~dp0builderserver.ps1" -build
     goto end
 ) else if "%choice%"=="3" (
-    call autobuild.bat
+    powershell -ExecutionPolicy Bypass -File "%~dp0builderserver.ps1" -auto
     goto end
 ) else if "%choice%"=="0" (
     exit

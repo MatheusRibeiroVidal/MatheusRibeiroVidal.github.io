@@ -214,4 +214,7 @@ if ($auto) {
     git push
     
     Write-Host "Changes have been committed and pushed successfully with message:`n$fullMessage"
+    
+    # Auto-close the window after 2 seconds
+    Start-Sleep -Seconds 2
 }

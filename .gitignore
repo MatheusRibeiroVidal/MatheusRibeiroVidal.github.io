@@ -1,8 +1,5 @@
 /.vs
 Zola_builder/themes/apollo/
 sync_from_obsidian.bat
-fastbuild.bat
-fastserve.bat
-autobuild.bat
 now2then.py
 

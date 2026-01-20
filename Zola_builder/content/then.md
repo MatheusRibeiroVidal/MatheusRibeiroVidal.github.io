@@ -7,6 +7,17 @@ show_word_count = true
 This is my then page. It is created as an automated log of my [/now](/now) entries.
 
 ---
+# <time>2026-01-20|10:59:04</time> in <place>München</place>
+Back then, I was:
+- Studying for the third semester of my masters program at TUM;
+- I'm currently also working on 3 simultaneous projects at TUM:
+	- Using [Isogeometric Analysis](https://en.wikipedia.org/wiki/Isogeometric_analysis) for [a lightweight python implementation of contact modelling](/projects/softwarelab);
+	- Using [Large-Eddy Simulations](https://en.wikipedia.org/wiki/Large_eddy_simulation) for [the validation of SIGMA modelling of SGS stresses in MGLET](/projects/hydromechanicstum);
+	- Using [Structural Dynamics](https://en.wikipedia.org/wiki/Structural_dynamics) for [investigating the self-excited oscillations leading to brake noise](/projects/strukturdynamiktumbmw) with [BMW](https://www.bmw.com/en/index.html);
+- Playing cavaquinho and reco-reco in a _roda de samba_ with brazilian friends.
+	- I'm thinking of maybe getting myself a banjo sometime soon too...
+- Swimming, running, playing beach volleyball and padel as much as I can.
+
 # <time>2026-01-20|10:21:11</time> in <place>München</place>
 Back then, I was:
 - Studying for the third semester of my masters program at TUM;
@@ -18,33 +29,14 @@ Back then, I was:
 	- I'm thinking of maybe getting myself a banjo sometime soon too...
 - Swimming, running, playing beach volleyball and padel as much as I can.
 
-# <time>2026-01-19|15:25:58</time> in <place>München</place>
+# <time>2026-01-01|12:38:16</time> in <place>München</place>
 Back then, I was:
 - Studying for the third semester of my masters program at TUM;
 - I'm currently also working on 3 simultaneous projects at TUM:
-- Playing cavaquinho and reco-reco whenever I miss Brazil.
-- Swimming, running, playing beach volleyball and padel as much as I can.
-
-# <time>2026-01-19|15:25:32</time> in <place>München</place>
-Back then, I was:
-- Studying for the third semester of my masters program at TUM;
-- I'm currently also working on 3 simultaneous projects at TUM:
-- Playing cavaquinho and reco-reco whenever I miss Brazil.
-- Swimming, running, playing beach volleyball and padel as much as I can.
-
-# <time>2026-01-19|15:25:25</time> in <place>München</place>
-Back then, I was:
-- Studying for the third semester of my masters program at TUM;
-- I'm currently also working on 3 simultaneous projects at TUM:
-- Playing cavaquinho and reco-reco whenever I miss Brazil.
-- Swimming, running, playing beach volleyball and padel as much as I can.
-
-# <time>2026-01-19|15:25:12</time> in <place>München</place>
-Back then, I was:
-- Studying for the third semester of my masters program at TUM;
-- I'm currently also working on 3 simultaneous projects at TUM:
-- Playing cavaquinho and reco-reco whenever I miss Brazil.
-- Swimming, running, playing beach volleyball and padel as much as I can.
+	- Using [Isogeometric Analysis](https://en.wikipedia.org/wiki/Isogeometric_analysis) for [a lightweight python implementation of contact modelling](/projects/softwarelab);
+	- Using [Large-Eddy Simulations](https://en.wikipedia.org/wiki/Large_eddy_simulation) for [the validation of SIGMA modelling of SGS stresses in MGLET](/projects/hydromechanicstum);
+	- Using [Structural Dynamics](https://en.wikipedia.org/wiki/Structural_dynamics) for [investigating the self-excited oscillations leading to brake noise](/projects/strukturdynamiktumbmw) with [BMW](https://www.bmw.com/en/index.html);
+- Moving apartments to a new WG.
 
 # <time>2025-10-29|10:53:39</time> in <place>München</place>
 Back then, I was:

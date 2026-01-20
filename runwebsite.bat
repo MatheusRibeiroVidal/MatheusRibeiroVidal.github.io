@@ -8,7 +8,7 @@ echo    Personal Website Launcher
 echo ================================
 echo.
 echo 1. Serve (local preview)
-echo 2. Build (build + manual commit)
+echo 2. Build (build + manual commit in Github Desktop)
 echo 3. Auto-build (build + auto-commit)
 echo.
 echo 0. Exit

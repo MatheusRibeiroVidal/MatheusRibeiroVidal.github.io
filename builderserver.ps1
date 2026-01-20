@@ -215,6 +215,6 @@ if ($auto) {
     
     Write-Host "Changes have been committed and pushed successfully with message:`n$fullMessage"
     
-    # Auto-close the window after 2 seconds
-    Start-Sleep -Seconds 2
+    # Auto-close the window after 5 seconds
+    Start-Sleep -Seconds 5
 }

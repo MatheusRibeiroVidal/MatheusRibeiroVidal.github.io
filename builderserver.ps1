@@ -41,6 +41,10 @@ if ($serve) {
     
     # Sync changes from Obsidian
     .\sync_from_obsidian.bat
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "Error: Sync from Obsidian failed!" -ForegroundColor Red
+        exit 1
+    }
     
     # Build Zola site
     Set-Location -Path $zolaBuildPath
@@ -63,6 +67,10 @@ if ($build) {
     
     # Sync changes from Obsidian
     .\sync_from_obsidian.bat
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "Error: Sync from Obsidian failed!" -ForegroundColor Red
+        exit 1
+    }
     
     # Stage files to detect changes
     git add .
@@ -125,6 +133,10 @@ if ($auto) {
     
     # Sync changes from Obsidian
     .\sync_from_obsidian.bat
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "Error: Sync from Obsidian failed!" -ForegroundColor Red
+        exit 1
+    }
     
     # Stage files to detect changes
     git add .
@@ -137,6 +149,10 @@ if ($auto) {
     if ($nowMdStaged) {
         Write-Host "Updating date on now.md"
         .\sync_from_obsidian.bat --update_now
+        if ($LASTEXITCODE -ne 0) {
+            Write-Host "Error: Failed to update now.md!" -ForegroundColor Red
+            exit 1
+        }
     } else {
         Write-Host "No updates found on now.md"
     }
@@ -215,6 +231,6 @@ if ($auto) {
     
     Write-Host "Changes have been committed and pushed successfully with message:`n$fullMessage"
     
-    # Auto-close the window after 5 seconds
-    Start-Sleep -Seconds 5
+    # Auto-close the window after 2 seconds
+    Start-Sleep -Seconds 2
 }

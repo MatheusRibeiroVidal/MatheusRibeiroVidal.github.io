@@ -1,5 +1,3 @@
 /.vs
 Zola_builder/themes/apollo/
-sync_from_obsidian.bat
-now2then.py
-
+paths.config

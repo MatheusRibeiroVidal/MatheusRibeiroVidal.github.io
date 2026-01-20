@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% import "macros/macros.html" as post_macros %}
+
+{% block main_content %}
+    {# Use page_header macro for the gallery title #}
+    {{ post_macros::page_header(title=section.title) }}
+
+    {% if section.description %}
+        <p class="section-description">{{ section.description }}</p>
+    {% endif %}
+
+    {# Gallery container #}
+    <div class="gallery">
+        {% if section.extra.images is defined %}
+            {% for img in section.extra.images %}
+                <div class="gallery-item">
+                    <img src="{{ img | safe }}" alt="Charmera photo">
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No images found in this gallery.</p>
+        {% endif %}
+    </div>
+{% endblock main_content %}

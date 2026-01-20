@@ -39,12 +39,21 @@ if (-Not (Test-Path $zolaBuildPath)) {
 if ($serve) {
     Write-Host "Running in SERVE mode..."
     
+		
+    # Sync changes from Charmera
+	.\sync_from_charmera.bat
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "Error: Sync from Charmera failed!" -ForegroundColor Red
+        exit 1
+    }
+	
     # Sync changes from Obsidian
     .\sync_from_obsidian.bat
     if ($LASTEXITCODE -ne 0) {
         Write-Host "Error: Sync from Obsidian failed!" -ForegroundColor Red
         exit 1
     }
+
     
     # Build Zola site
     Set-Location -Path $zolaBuildPath
@@ -65,13 +74,20 @@ if ($serve) {
 if ($build) {
     Write-Host "Running in BUILD mode..."
     
+    # Sync changes from Charmera
+	.\sync_from_charmera.bat
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "Error: Sync from Charmera failed!" -ForegroundColor Red
+        exit 1
+    }
+	
     # Sync changes from Obsidian
     .\sync_from_obsidian.bat
     if ($LASTEXITCODE -ne 0) {
         Write-Host "Error: Sync from Obsidian failed!" -ForegroundColor Red
         exit 1
     }
-    
+	    
     # Stage files to detect changes
     git add .
     
@@ -159,6 +175,13 @@ if ($auto) {
         }
     }
     
+    # Sync changes from Charmera
+	.\sync_from_charmera.bat
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "Error: Sync from Charmera failed!" -ForegroundColor Red
+        exit 1
+    }
+	
     # Sync changes from Obsidian (with timestamp update if now.md changed)
     if ($nowMdChanged) {
         Write-Host "Updating date on now.md and archiving to then.md"
@@ -175,6 +198,7 @@ if ($auto) {
             exit 1
         }
     }
+	
     
     # Stage files to detect changes
     git add .

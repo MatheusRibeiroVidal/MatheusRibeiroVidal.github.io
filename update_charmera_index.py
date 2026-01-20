@@ -30,7 +30,7 @@ if not INDEX_MD.parent.exists():
 # SCAN IMAGES
 # -----------------------------
 image_files = sorted([f for f in CHARMERA_FOLDER.iterdir() if f.suffix.lower() in [".jpg", ".jpeg", ".png", ".gif"]])
-relative_paths = [f"/charmera/{f.name}" for f in image_files]
+relative_paths = [f"/{f.name}" for f in image_files]
 
 # -----------------------------
 # WRITE _index.md

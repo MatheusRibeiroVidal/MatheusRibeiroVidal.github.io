@@ -5,9 +5,9 @@ template = "gallery.html"
 
 [extra]
 images = [
-    "gallery/charmera/PICT0015.jpg",
-    "gallery/charmera/PICT0021.jpg",
-    "gallery/charmera/PICT0023.jpg",
-    "gallery/charmera/PICT0031.jpg",
+    "charmera/PICT0015.jpg",
+    "charmera/PICT0021.jpg",
+    "charmera/PICT0023.jpg",
+    "charmera/PICT0031.jpg",
 ]
 +++

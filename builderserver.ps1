@@ -119,7 +119,7 @@ if ($build) {
     # Go back to root
     Set-Location -Path $scriptDir
     
-    # Open Github Desktop to commit changes
+    # Commit changes
     github
     
     Write-Host "Build complete. Changes ready to commit."
@@ -131,11 +131,49 @@ if ($build) {
 if ($auto) {
     Write-Host "Running in AUTO mode..."
     
-    # Sync changes from Obsidian
-    .\sync_from_obsidian.bat
-    if ($LASTEXITCODE -ne 0) {
-        Write-Host "Error: Sync from Obsidian failed!" -ForegroundColor Red
-        exit 1
+    # Check if now.md changed BEFORE syncing
+    $configPath = Join-Path $scriptDir "paths.config"
+    $obsidianNowPath = ""
+    
+    if (Test-Path $configPath) {
+        Get-Content $configPath | ForEach-Object {
+            if ($_ -match '^OBSIDIAN_CONTENT_FOLDER=(.+)') {
+                $obsidianNowPath = Join-Path $matches[1] "now.md"
+            }
+        }
+    }
+    
+    $nowMdChanged = $false
+    if ($obsidianNowPath -and (Test-Path $obsidianNowPath)) {
+        $repoNowPath = Join-Path $scriptDir "Zola_builder\content\now.md"
+        if (Test-Path $repoNowPath) {
+            $obsidianHash = (Get-FileHash $obsidianNowPath -Algorithm MD5).Hash
+            $repoHash = (Get-FileHash $repoNowPath -Algorithm MD5).Hash
+            if ($obsidianHash -ne $repoHash) {
+                $nowMdChanged = $true
+                Write-Host "now.md content has changed"
+            }
+        } else {
+            # If repo file doesn't exist yet, consider it changed
+            $nowMdChanged = $true
+        }
+    }
+    
+    # Sync changes from Obsidian (with timestamp update if now.md changed)
+    if ($nowMdChanged) {
+        Write-Host "Updating date on now.md and archiving to then.md"
+        .\sync_from_obsidian.bat --update_now
+        if ($LASTEXITCODE -ne 0) {
+            Write-Host "Error: Sync from Obsidian failed!" -ForegroundColor Red
+            exit 1
+        }
+    } else {
+        Write-Host "No updates found on now.md"
+        .\sync_from_obsidian.bat
+        if ($LASTEXITCODE -ne 0) {
+            Write-Host "Error: Sync from Obsidian failed!" -ForegroundColor Red
+            exit 1
+        }
     }
     
     # Stage files to detect changes
@@ -143,19 +181,6 @@ if ($auto) {
     
     # Check if any staged .md files exist
     $mdFilesChanged = git diff --cached --name-only | Where-Object { $_ -like '*.md' }
-    $nowMdStaged = git diff --cached --name-only | Where-Object { $_ -eq 'Zola_builder/content/now.md' }
-    
-    # Update the timestamp on now.md if it changed
-    if ($nowMdStaged) {
-        Write-Host "Updating date on now.md"
-        .\sync_from_obsidian.bat --update_now
-        if ($LASTEXITCODE -ne 0) {
-            Write-Host "Error: Failed to update now.md!" -ForegroundColor Red
-            exit 1
-        }
-    } else {
-        Write-Host "No updates found on now.md"
-    }
     
     # Update timestamp in config.toml if .md files changed
     if ($mdFilesChanged) {

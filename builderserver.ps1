@@ -119,7 +119,7 @@ if ($build) {
     # Go back to root
     Set-Location -Path $scriptDir
     
-    # Commit changes
+    # Open Github Desktop to commit changes
     github
     
     Write-Host "Build complete. Changes ready to commit."

@@ -4,7 +4,7 @@ date = "2026-01-19"
 authors = ["Matheus"]
 
 [taxonomies]
-tags=["PT-BR", “Crônica”, "Immigration", "Love"]
+tags=["PT-BR", “Cronica”, "Immigration", "Love"]
 
 
 [extra]

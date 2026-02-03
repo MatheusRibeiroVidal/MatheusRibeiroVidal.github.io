@@ -48,5 +48,14 @@ if errorlevel 8 (
     exit /b 1
 )
 
+REM Sync content folder
+echo Syncing content folder from Obsidian...
+set "REPO_CONTENT_FOLDER=%REPO_FOLDER%\Zola_builder\content"
+robocopy "%OBSIDIAN_CONTENT_FOLDER%" "%REPO_CONTENT_FOLDER%" /E /NFL /NDL /NJH /NJS
+if errorlevel 8 (
+    echo ERROR: Content sync failed with error level %errorlevel%
+    exit /b 1
+)
+
 echo Sync complete successfully.
 exit /b 0

@@ -1,4 +1,3 @@
 /.vs
-Zola_builder/themes/apollo/
 paths.config
-/Zola_builder/public
+zola/themes/apollo

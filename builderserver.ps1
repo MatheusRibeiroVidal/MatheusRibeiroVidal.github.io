@@ -11,10 +11,10 @@ $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location -Path $scriptDir
 
 # Define relative paths
-$zolaBuildPath = Join-Path $scriptDir "Zola_builder"
+$zolaBuildPath = Join-Path $scriptDir "zola"
 $docsPath = Join-Path $scriptDir "docs"
 $publicPath = Join-Path $zolaBuildPath "public"
-$configPath = Join-Path $scriptDir "Zola_builder\config.toml"
+$configPath = Join-Path $scriptDir "zola\config.toml"
 
 # Validate that only one mode is selected
 $modeCount = @($serve, $build, $auto) | Where-Object { $_ } | Measure-Object | Select-Object -ExpandProperty Count
@@ -27,9 +27,9 @@ if ($modeCount -gt 1) {
     exit
 }
 
-# Check if Zola_builder exists
+# Check if zola exists
 if (-Not (Test-Path $zolaBuildPath)) {
-    Write-Host "Error: Zola_builder folder not found!"
+    Write-Host "Error: zola folder not found!"
     exit
 }
 
@@ -161,7 +161,7 @@ if ($auto) {
     
     $nowMdChanged = $false
     if ($obsidianNowPath -and (Test-Path $obsidianNowPath)) {
-        $repoNowPath = Join-Path $scriptDir "Zola_builder\content\now.md"
+        $repoNowPath = Join-Path $scriptDir "zola\content\now.md"
         if (Test-Path $repoNowPath) {
             $obsidianHash = (Get-FileHash $obsidianNowPath -Algorithm MD5).Hash
             $repoHash = (Get-FileHash $repoNowPath -Algorithm MD5).Hash

@@ -20,8 +20,8 @@ for /f "usebackq tokens=1,* delims==" %%a in ("%CONFIG_FILE%") do (
 )
 
 REM Derived folders
-set "REPO_STATIC_FOLDER=%REPO_FOLDER%\Zola_builder\static"
-set "REPO_PUBLIC_FOLDER=%REPO_FOLDER%\Zola_builder\public"
+set "REPO_STATIC_FOLDER=%REPO_FOLDER%\zola\static"
+set "REPO_PUBLIC_FOLDER=%REPO_FOLDER%\zola\public"
 
 REM Ensure static folder exists
 if not exist "%OBSIDIAN_STATIC_FOLDER%" (
@@ -50,7 +50,7 @@ if errorlevel 8 (
 
 REM Sync content folder
 echo Syncing content folder from Obsidian...
-set "REPO_CONTENT_FOLDER=%REPO_FOLDER%\Zola_builder\content"
+set "REPO_CONTENT_FOLDER=%REPO_FOLDER%\zola\content"
 robocopy "%OBSIDIAN_CONTENT_FOLDER%" "%REPO_CONTENT_FOLDER%" /E /NFL /NDL /NJH /NJS
 if errorlevel 8 (
     echo ERROR: Content sync failed with error level %errorlevel%

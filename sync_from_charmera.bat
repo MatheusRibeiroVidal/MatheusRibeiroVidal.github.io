@@ -32,7 +32,7 @@ if not exist "%CHARMERA_GALLERY_FOLDER%" (
 )
 
 REM Set Zola static folder
-set "REPO_STATIC_FOLDER=%REPO_FOLDER%\Zola_builder\static\charmera"
+set "REPO_STATIC_FOLDER=%REPO_FOLDER%\zola\static\charmera"
 
 REM Ensure static folder exists
 if not exist "%REPO_STATIC_FOLDER%" mkdir "%REPO_STATIC_FOLDER%"

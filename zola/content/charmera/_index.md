@@ -5,5 +5,8 @@ template = "gallery.html"
 
 [extra]
 images = [
+    "/charmera/PICT0015.jpg",
+    "/charmera/PICT0031.jpg",
+    "/charmera/PICT0056.jpg",
 ]
 +++

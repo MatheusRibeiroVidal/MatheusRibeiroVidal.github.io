@@ -39,6 +39,7 @@ REM CLEAN public folder first
 echo Cleaning Zola public folder...
 rmdir /S /Q "%REPO_PUBLIC_FOLDER%"
 mkdir "%REPO_PUBLIC_FOLDER%"
+timeout /t 1 /noq >nul
 
 REM Sync static folder
 echo Syncing static folder from Obsidian...

@@ -22,7 +22,7 @@ However, now that I actually have to cook lunch on weekends, I get it. It just g
 
 So, I thought I'd also collect some of my favorite concerts.
 
-Despite loving the physicality of DVDs and Blu-rays, the circumstances of my life as a semi-nomadic student that will probably be moving places a few times a year for the forseeable future makes it so that it would probably more of a hassle than it is worth to collect them in physical form right now.
+Despite loving the physicality of DVDs and Blu-rays, the circumstances of my life as a semi-nomadic student that will probably be moving places a few times a year for the forseeable future makes it so that it would probably be more of a hassle than it is worth to collect them in physical form right now.
 
 Therefore, here is the page of my digital collection of concerts.
 

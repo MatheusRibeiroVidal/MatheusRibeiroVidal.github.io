@@ -13,6 +13,8 @@ link_to = "./softwarelab/"
 comment = true
 read_time = true
 banner = true
+mathjax_dollar_inline_enable = true
+mathjax = true
 +++
 
 # Links

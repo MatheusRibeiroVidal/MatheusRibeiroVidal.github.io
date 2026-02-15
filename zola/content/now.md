@@ -17,4 +17,4 @@ Nowadays, I am:
 	- Using [Structural Dynamics](https://en.wikipedia.org/wiki/Structural_dynamics) for [investigating the self-excited oscillations leading to brake noise](/projects/strukturdynamiktumbmw) with [BMW](https://www.bmw.com/en/index.html);
 - Playing reco-reco and cavaquinho in a _roda de samba_ with brazilian friends.
 	- I'm thinking of maybe getting myself a banjo sometime soon too...
-- Running once a week, because that's what's doable during klausurphase.
+- Running once a week, because that's what's doable during klausurenphase.

@@ -1,3 +1,10 @@
+# Website Builder Paths Configuration
+# Edit these paths to match your system setup
+
 OBSIDIAN_CONTENT_FOLDER=C:\Path\To\Your\Obsidian\content
 OBSIDIAN_STATIC_FOLDER=C:\Path\To\Your\Obsidian\static
 REPO_FOLDER=C:\Path\To\Your\Repo
+
+CHARMERA_GALLERY_FOLDER=C:\Path\To\Your\Gallery\content
+CHARMERA_INDEX_MD=C:\Path\To\Your\Obsidian\content\charmera\_index.md
+

@@ -7,6 +7,13 @@ show_word_count = true
 This is my then page. It is created as an automated log of my [/now](/now) entries.
 
 ---
+# <time>2026-03-23|17:33:18</time> in <place>Brasília</place>
+Back then, I was:
+- Enjoying some time off in Brazil, after 1.5 years. Feels good to come back and see everyone!
+- I'm currently also working on a project at the Hydromechanics chair at TUM:
+	- Using [Large-Eddy Simulations](https://en.wikipedia.org/wiki/Large_eddy_simulation) for [the validation of SIGMA modelling of SGS stresses in MGLET](/projects/hydromechanicstum);
+- Enjoying family & friends in my hometown :D
+
 # <time>2026-01-20|13:41:22</time> in <place>München</place>
 Back then, I was:
 - Studying for the third semester of my masters program at TUM;

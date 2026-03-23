@@ -4,6 +4,12 @@ setlocal EnableDelayedExpansion
 REM Get the directory where this script is located
 set "SCRIPT_DIR=%~dp0"
 
+REM Check for --update_now flag
+set "UPDATE_NOW=0"
+for %%a in (%*) do (
+    if "%%a"=="--update_now" set "UPDATE_NOW=1"
+)
+
 REM Load paths from config file
 set "CONFIG_FILE=%SCRIPT_DIR%paths.config"
 
@@ -35,6 +41,17 @@ if not exist "%REPO_PUBLIC_FOLDER%" (
     mkdir "%REPO_PUBLIC_FOLDER%"
 )
 
+REM If --update_now flag is set, run now2then.py BEFORE syncing
+REM This archives now.md into then.md inside Obsidian first,
+REM so robocopy will pick up the updated then.md in the sync below.
+if "%UPDATE_NOW%"=="1" (
+    echo Running now2then.py to archive now.md into then.md...
+    python "%SCRIPT_DIR%now2then.py"
+    if errorlevel 1 (
+        echo ERROR: now2then.py failed
+        exit /b 1
+    )
+)
 
 REM Sync static folder
 echo Syncing static folder from Obsidian...

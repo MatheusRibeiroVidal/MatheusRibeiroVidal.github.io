@@ -1,6 +1,6 @@
 +++
 title = "Modelling Mode Coupling Instability for Brake Noise"
-description = ""
+description = "Investigation on mode-coupling instability that drives brake moan using a custom mechanical model"
 weight = 1
 date = "2025-10-27"
 _updated = "2025-10-27"
@@ -29,13 +29,13 @@ This project investigates the **mode-coupling instability** mechanism behind bra
 
 ---
 
-### The Problem
+## The Problem
 
 Brake moan (100–500 Hz) is a self-excited vibration caused by **dynamic instability** in the wheel brake system. Unlike stick-slip phenomena, mode-coupling instability can arise even with a *constant* friction coefficient — making it particularly insidious. The mechanism: friction forces introduce an asymmetric stiffness matrix, causing two structural eigenmodes to coalesce at a critical friction value μ_crit, after which one mode develops a positive growth rate (σ > 0) and vibrations amplify exponentially.
 
 ---
 
-### Minimal Model & Stability Analysis
+## Minimal Model & Stability Analysis
 
 The core model is a 2DOF friction oscillator (Schroth, 2003) with orthogonal springs, dampers, and an angled coupling spring. Stability is assessed via eigenvalue analysis of the state-space matrix — the sign of the real part σ determines whether perturbations grow or decay.
 
@@ -49,13 +49,13 @@ Time-domain simulations confirmed all three regimes — stable bounded oscillati
 
 ---
 
-### Calibration to Real Data
+## Calibration to Real Data
 
 The model was calibrated to match a **260 Hz brake moan** measured on a real brake caliper, targeting a growth rate of +12.8 s⁻¹. Nonlinear extensions (variable coupling angle β, time-harmonic stiffness variation) confirmed that parametric fluctuations crossing the stability boundary are sufficient to sustain and amplify instability even when stable intervals exist.
 
 ---
 
-### Tuned Mass Damper Design
+## Tuned Mass Damper Design
 
 A passive **Tuned Mass Damper (TMD)** was added to the vertical DOF to counteract the instability. The TMD oscillates out of phase with the primary system, dissipating energy through its local damper. A parameter study over mass ratio μ_TMD and damping ratio ζ_TMD identified the optimal configuration:
 
@@ -68,7 +68,7 @@ This configuration places the system well within the stable region while minimis
 
 ---
 
-### Nondimensional Framework
+## Nondimensional Framework
 
 Using the Buckingham Pi theorem, two dimensionless groups were identified as governing the instability:
 

@@ -19,7 +19,7 @@ mathjax = true
 
 # Links
 - <a href="https://www.cee.ed.tum.de/fileadmin/w00cbe/ccbe/Softwarelab/2025/22_SL2025_Description_IGA.pdf">Official description</a>
-- <a href="/downloadables/pg2/Software_Lab_Report.pdf" download="Software_Lab_Report.pdf">Download Full Report PDF</a>
+- <a href="/downloadables/softwarelab/Software_Lab_Report.pdf" download="Software_Lab_Report.pdf">Download Full Report PDF</a>
 
 # Third Medium Contact – Material Modeling for Contact Problems
 

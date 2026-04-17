@@ -109,7 +109,46 @@
         <link rel="alternate" type="text/html" href="https://ribeirovidal.com/projects/strukturdynamiktumbmw/"/>
         <id>https://ribeirovidal.com/projects/strukturdynamiktumbmw/</id>
         
-        <content type="html" xml:base="https://ribeirovidal.com/projects/strukturdynamiktumbmw/"></content>
+        <content type="html" xml:base="https://ribeirovidal.com/projects/strukturdynamiktumbmw/">&lt;h1 id=&quot;links&quot;&gt;Links&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;downloadables&#x2F;strukturdynamiktumbmw&#x2F;Modeling_Mode_Coupling_Instability_for_Brake_Noise.pdf&quot; download=&quot;Modeling_Mode_Coupling_Instability_for_Brake_Noise.pdf&quot;&gt;Download Full Report PDF&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;modeling-mode-coupling-instability-for-brake-noise&quot;&gt;Modeling Mode Coupling Instability for Brake Noise&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;em&gt;Co-authored with Yago Bas Fernandez | Supervisor: Markus Sailer (BMW) | TUM&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This project investigates the &lt;strong&gt;mode-coupling instability&lt;&#x2F;strong&gt; mechanism behind brake moan using a minimal model approach. Starting from a 2DOF friction oscillator, the work spans theoretical stability analysis, experimental calibration, and TMD countermeasure design.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;the-problem&quot;&gt;The Problem&lt;&#x2F;h3&gt;
+&lt;p&gt;Brake moan (100–500 Hz) is a self-excited vibration caused by &lt;strong&gt;dynamic instability&lt;&#x2F;strong&gt; in the wheel brake system. Unlike stick-slip phenomena, mode-coupling instability can arise even with a &lt;em&gt;constant&lt;&#x2F;em&gt; friction coefficient — making it particularly insidious. The mechanism: friction forces introduce an asymmetric stiffness matrix, causing two structural eigenmodes to coalesce at a critical friction value μ_crit, after which one mode develops a positive growth rate (σ &amp;gt; 0) and vibrations amplify exponentially.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;minimal-model-stability-analysis&quot;&gt;Minimal Model &amp;amp; Stability Analysis&lt;&#x2F;h3&gt;
+&lt;p&gt;The core model is a 2DOF friction oscillator (Schroth, 2003) with orthogonal springs, dampers, and an angled coupling spring. Stability is assessed via eigenvalue analysis of the state-space matrix — the sign of the real part σ determines whether perturbations grow or decay.&lt;&#x2F;p&gt;
+&lt;p&gt;For the baseline undamped system, the critical friction coefficient was found analytically: &lt;strong&gt;μ_crit = 0.362&lt;&#x2F;strong&gt;. Parameter studies showed that:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Increasing coupling stiffness &lt;em&gt;k&lt;&#x2F;em&gt; or horizontal stiffness &lt;em&gt;k_x&lt;&#x2F;em&gt; drives the system toward coalescence&lt;&#x2F;li&gt;
+&lt;li&gt;Vertical stiffness &lt;em&gt;k_y&lt;&#x2F;em&gt; can &lt;strong&gt;restore stability&lt;&#x2F;strong&gt; by detuning the eigenfrequencies&lt;&#x2F;li&gt;
+&lt;li&gt;Viscous damping shifts the stability boundary to higher friction levels, delaying the onset of squeal&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Time-domain simulations confirmed all three regimes — stable bounded oscillations, borderline coalescence, and exponentially diverging instability.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;calibration-to-real-data&quot;&gt;Calibration to Real Data&lt;&#x2F;h3&gt;
+&lt;p&gt;The model was calibrated to match a &lt;strong&gt;260 Hz brake moan&lt;&#x2F;strong&gt; measured on a real brake caliper, targeting a growth rate of +12.8 s⁻¹. Nonlinear extensions (variable coupling angle β, time-harmonic stiffness variation) confirmed that parametric fluctuations crossing the stability boundary are sufficient to sustain and amplify instability even when stable intervals exist.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;tuned-mass-damper-design&quot;&gt;Tuned Mass Damper Design&lt;&#x2F;h3&gt;
+&lt;p&gt;A passive &lt;strong&gt;Tuned Mass Damper (TMD)&lt;&#x2F;strong&gt; was added to the vertical DOF to counteract the instability. The TMD oscillates out of phase with the primary system, dissipating energy through its local damper. A parameter study over mass ratio μ_TMD and damping ratio ζ_TMD identified the optimal configuration:&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Parameter&lt;&#x2F;th&gt;&lt;th&gt;Value&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Mass ratio μ_TMD&lt;&#x2F;td&gt;&lt;td&gt;5%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Damping ratio ζ_TMD&lt;&#x2F;td&gt;&lt;td&gt;10–15%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;This configuration places the system well within the stable region while minimising added weight. Robustness was validated under three transient scenarios — constant sinusoidal drift, progressive stiffness growth, and a full excursion-and-recovery cycle — confirming suppression even at stiffness ratio swings of ±30%.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;nondimensional-framework&quot;&gt;Nondimensional Framework&lt;&#x2F;h3&gt;
+&lt;p&gt;Using the Buckingham Pi theorem, two dimensionless groups were identified as governing the instability:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Π₁ = μ · K_N&lt;&#x2F;strong&gt; — the friction-coupling parameter (drives asymmetry)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Π₂ = ω₁&#x2F;ω₂&lt;&#x2F;strong&gt; — the mode frequency ratio (instability peaks at Π₂ ≈ 1)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Stability maps in Π₁–Π₂ space and in the TMD design space (m_R vs ζ_TMD) generalise the results to any brake system with equivalent nondimensional parameters.&lt;&#x2F;p&gt;
+</content>
         
     </entry>
     <entry xml:lang="en">

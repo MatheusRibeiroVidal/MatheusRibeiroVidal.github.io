@@ -10,7 +10,7 @@ draft = false
 [taxonomies]
 tags=["EN", "CFD", "TUM", "LES"]
 [extra]
-local_image = "/media/hydromechanicstum.png"
+local_image = "/media/hydromechanicstum.gif"
 link_to = "./hydromechanicstum/"
 read_time = true
 comment = true

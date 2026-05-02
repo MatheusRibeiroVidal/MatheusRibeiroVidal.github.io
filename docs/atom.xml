@@ -5,8 +5,258 @@
     <link rel="self" type="application/atom+xml" href="https://ribeirovidal.com/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://ribeirovidal.com/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2026-02-11T00:00:00+00:00</updated>
+    <updated>2026-05-02T00:00:00+00:00</updated>
     <id>https://ribeirovidal.com/atom.xml</id>
+    <entry xml:lang="en">
+        <title>GMAT Data Insights – Mock Test</title>
+        <published>2026-05-02T00:00:00+00:00</published>
+        <updated>2026-05-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://ribeirovidal.com/gmatbia/"/>
+        <id>https://ribeirovidal.com/gmatbia/</id>
+        
+        <content type="html" xml:base="https://ribeirovidal.com/gmatbia/">&lt;h1 id=&quot;gmat-data-insights-mock-test&quot;&gt;GMAT Data Insights – Mock Test&lt;&#x2F;h1&gt;
+&lt;p&gt;This mock test covers the &lt;strong&gt;Data Insights&lt;&#x2F;strong&gt; section of the GMAT Focus Edition.
+It consists of &lt;strong&gt;Graphs &amp;amp; Tables&lt;&#x2F;strong&gt;, &lt;strong&gt;Table Analysis&lt;&#x2F;strong&gt;, &lt;strong&gt;Two-Part Analysis&lt;&#x2F;strong&gt;, and
+&lt;strong&gt;Multi-Source Reasoning&lt;&#x2F;strong&gt; questions designed to replicate real exam conditions.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Instructions:&lt;&#x2F;strong&gt; Answer all questions before revealing the answers at the bottom of the page.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;question-1-graphs-tables&quot;&gt;Question 1 — Graphs &amp;amp; Tables&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;s3.amazonaws.com&#x2F;wmx-api-production&#x2F;courses&#x2F;61212&#x2F;images&#x2F;GID0829.gif&quot; alt=&quot;Internet Survey on Depression Treatments&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The graphic above displays results of an Internet survey on the effectiveness of treatments
+for depression. The &lt;strong&gt;vertical axis (F)&lt;&#x2F;strong&gt; represents the fraction of respondents who
+considered a given treatment to be effective. The &lt;strong&gt;horizontal axis (P)&lt;&#x2F;strong&gt; represents the
+fraction of respondents who tried a given treatment.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Sub-question 1:&lt;&#x2F;strong&gt; Based on the graphic, which treatment was considered both the most
+effective and tried by the most respondents?&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;A) Journaling&lt;&#x2F;li&gt;
+&lt;li&gt;B) Massage therapy&lt;&#x2F;li&gt;
+&lt;li&gt;C) Light therapy&lt;&#x2F;li&gt;
+&lt;li&gt;D) Meditation&lt;&#x2F;li&gt;
+&lt;li&gt;E) Exercise&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;Sub-question 2:&lt;&#x2F;strong&gt; Among the treatments tried by more than half of all respondents
+(P &amp;gt; 0.5), which was considered the least effective?&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;A) Fish oil&lt;&#x2F;li&gt;
+&lt;li&gt;B) Journaling&lt;&#x2F;li&gt;
+&lt;li&gt;C) Caffeine&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;question-2-table-analysis&quot;&gt;Question 2 — Table Analysis&lt;&#x2F;h2&gt;
+&lt;p&gt;The table below shows the number of businesses and jobs within each economic sector of a particular city.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Economic Sector&lt;&#x2F;th&gt;&lt;th&gt;Number of businesses&lt;&#x2F;th&gt;&lt;th&gt;Percent of total businesses&lt;&#x2F;th&gt;&lt;th&gt;Number of jobs&lt;&#x2F;th&gt;&lt;th&gt;Percent of total jobs&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Construction&lt;&#x2F;td&gt;&lt;td&gt;443&lt;&#x2F;td&gt;&lt;td&gt;8.0%&lt;&#x2F;td&gt;&lt;td&gt;2,368&lt;&#x2F;td&gt;&lt;td&gt;3.9%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Finance&lt;&#x2F;td&gt;&lt;td&gt;398&lt;&#x2F;td&gt;&lt;td&gt;7.2%&lt;&#x2F;td&gt;&lt;td&gt;2,958&lt;&#x2F;td&gt;&lt;td&gt;4.9%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Government&lt;&#x2F;td&gt;&lt;td&gt;292&lt;&#x2F;td&gt;&lt;td&gt;5.3%&lt;&#x2F;td&gt;&lt;td&gt;8,742&lt;&#x2F;td&gt;&lt;td&gt;14.5%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Manufacturing&lt;&#x2F;td&gt;&lt;td&gt;214&lt;&#x2F;td&gt;&lt;td&gt;3.9%&lt;&#x2F;td&gt;&lt;td&gt;8,012&lt;&#x2F;td&gt;&lt;td&gt;13.2%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Miscellaneous&lt;&#x2F;td&gt;&lt;td&gt;272&lt;&#x2F;td&gt;&lt;td&gt;4.9%&lt;&#x2F;td&gt;&lt;td&gt;1,444&lt;&#x2F;td&gt;&lt;td&gt;2.4%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Retail Trade&lt;&#x2F;td&gt;&lt;td&gt;1,380&lt;&#x2F;td&gt;&lt;td&gt;25.0%&lt;&#x2F;td&gt;&lt;td&gt;11,845&lt;&#x2F;td&gt;&lt;td&gt;19.6%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Services&lt;&#x2F;td&gt;&lt;td&gt;2,040&lt;&#x2F;td&gt;&lt;td&gt;37.0%&lt;&#x2F;td&gt;&lt;td&gt;19,502&lt;&#x2F;td&gt;&lt;td&gt;32.2%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Transportation&lt;&#x2F;td&gt;&lt;td&gt;185&lt;&#x2F;td&gt;&lt;td&gt;3.4%&lt;&#x2F;td&gt;&lt;td&gt;2,346&lt;&#x2F;td&gt;&lt;td&gt;3.9%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Wholesale Trade&lt;&#x2F;td&gt;&lt;td&gt;291&lt;&#x2F;td&gt;&lt;td&gt;5.3%&lt;&#x2F;td&gt;&lt;td&gt;3,279&lt;&#x2F;td&gt;&lt;td&gt;5.4%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Total&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;5,515&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;100%&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;60,496&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;100%&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;For each of the following statements, select &lt;strong&gt;Yes&lt;&#x2F;strong&gt; if the statement is true based on the
+information provided, or &lt;strong&gt;No&lt;&#x2F;strong&gt; if it cannot be determined or is false.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Statement&lt;&#x2F;th&gt;&lt;th&gt;Yes &#x2F; No&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;The sector with the greatest number of businesses has the greatest number of jobs.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;The sector with the least number of businesses has the least number of jobs.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;There are two economic sectors that together comprise over half of all jobs in the city.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;question-3-table-analysis&quot;&gt;Question 3 — Table Analysis&lt;&#x2F;h2&gt;
+&lt;p&gt;The table below displays data on Brazilian agricultural products in 2009.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Commodity&lt;&#x2F;th&gt;&lt;th&gt;Production, world share (%)&lt;&#x2F;th&gt;&lt;th&gt;Production, world rank&lt;&#x2F;th&gt;&lt;th&gt;Exports, world share (%)&lt;&#x2F;th&gt;&lt;th&gt;Exports, world rank&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Coffee&lt;&#x2F;td&gt;&lt;td&gt;40&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;32&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Orange juice&lt;&#x2F;td&gt;&lt;td&gt;56&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;82&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Sugar&lt;&#x2F;td&gt;&lt;td&gt;21&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;44&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Beef&lt;&#x2F;td&gt;&lt;td&gt;16&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;22&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Soybeans&lt;&#x2F;td&gt;&lt;td&gt;27&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;40&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Chickens&lt;&#x2F;td&gt;&lt;td&gt;15&lt;&#x2F;td&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;td&gt;38&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Corn&lt;&#x2F;td&gt;&lt;td&gt;8&lt;&#x2F;td&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td&gt;10&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Pork&lt;&#x2F;td&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td&gt;12&lt;&#x2F;td&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Cotton&lt;&#x2F;td&gt;&lt;td&gt;5&lt;&#x2F;td&gt;&lt;td&gt;5&lt;&#x2F;td&gt;&lt;td&gt;10&lt;&#x2F;td&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;For each of the following statements, select &lt;strong&gt;Yes&lt;&#x2F;strong&gt; if the statement is true based on the
+information provided, or &lt;strong&gt;No&lt;&#x2F;strong&gt; if it cannot be determined or is false.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Statement&lt;&#x2F;th&gt;&lt;th&gt;Yes &#x2F; No&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;No individual country produces more than one-fourth of the world&#x27;s sugar.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;If Brazil produces less than 20% of the world&#x27;s supply of any commodity listed in the table, Brazil is not the world&#x27;s top exporter of that commodity.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Of the commodities in the table for which Brazil ranks first in world exports, Brazil produces more than 20% of the world&#x27;s supply.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;question-4-two-part-analysis&quot;&gt;Question 4 — Two-Part Analysis&lt;&#x2F;h2&gt;
+&lt;p&gt;Read the following excerpt carefully, then answer the two-part question below.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For zoologists studying the behavior of certain species of birds, the critical importance
+of observing the birds in those species&#x27; &lt;strong&gt;morefa&lt;&#x2F;strong&gt; during the annual breeding season is
+obvious. Such observation allows researchers to study not only the courtship displays of
+many different individuals within a species, but also the species&#x27; social hierarchy.
+Moreover, since some species repeatedly return to the same morefa, researchers can study
+changes in group dynamics from year to year. The value of observing a morefa when the
+birds are not present, however — such as prior to their arrival or after they have
+abandoned the area to establish their nests — is only now becoming apparent.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Based on the definition of the term &lt;strong&gt;morefa&lt;&#x2F;strong&gt; that can be inferred from the passage,
+identify which activity &lt;strong&gt;must happen&lt;&#x2F;strong&gt; in a location for it to be a species&#x27; morefa,
+and which activity &lt;strong&gt;must NOT happen&lt;&#x2F;strong&gt; in that location.&lt;&#x2F;p&gt;
+&lt;p&gt;Make &lt;strong&gt;only two selections&lt;&#x2F;strong&gt;, one in each column.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Activity&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Must happen&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Must NOT happen&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;A) Occupying the location only once per year&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;B) Occupying the location multiple times&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;C) Establishing nests&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;D) Gathering together with members of their own species&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;E) Competing territorially with members of other species&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;question-5-two-part-analysis&quot;&gt;Question 5 — Two-Part Analysis&lt;&#x2F;h2&gt;
+&lt;p&gt;Loan X has a principal of $10,000x and a yearly simple interest rate of 4%. Loan Y has a
+principal of $10,000y and a yearly simple interest rate of 8%. Loans X and Y will be
+consolidated to form Loan Z with a principal of $(10,000x + 10,000y) and a yearly simple
+interest rate of r%, where:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;r = (4x + 8y) &#x2F; (x + y)&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In the table below, select a value for &lt;strong&gt;x&lt;&#x2F;strong&gt; and a value for &lt;strong&gt;y&lt;&#x2F;strong&gt; corresponding to a
+yearly simple interest rate of &lt;strong&gt;5%&lt;&#x2F;strong&gt; for the consolidated loan. Make only two selections,
+one in each column.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;X&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Y&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Value&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;21&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;32&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;51&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;64&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;81&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;96&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;question-6-multi-source-reasoning&quot;&gt;Question 6 — Multi-Source Reasoning&lt;&#x2F;h2&gt;
+&lt;p&gt;Read the two passages below, then answer the three questions that follow. The third question also refers to the additional scenario provided.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Economist&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Do expenditures on road construction projects represent good investments for communities?
+The taxpaying public will never know because community planners rarely analyze road
+projects as investments. The benefits that local residents will receive from a new or
+improved road, such as increased efficiency, fewer accidents, and reduced vehicle operating
+costs, as well as the potential regional impacts on jobs, population, and income, should be
+measured. These benefits should then be compared with the total construction costs of the
+project, such as planning and design, land purchases, construction, and costs for moving
+utility lines. Only then will any investment in building or improving roads be made with
+reasonable confidence.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Ecologist&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Community planners should consider the full range of ecological effects of any road
+construction projects, including pollution, vegetation destruction, habitat fragmentation,
+and soil erosion. The scale of the effects varies with the size of the project. Evaluations
+based on only a few species or resources may be adequate for small projects, but the
+construction of several highway systems can together alter entire regions, disrupting
+migratory pathways and other ecosystem processes. These effects may be augmented by the
+conversion of land to industrial or residential use that usually accompanies road building.
+Once all of the environmental considerations have been evaluated, planners should proceed
+with a proposed road construction project only if it will not damage sensitive ecosystems
+or if suitable mitigation measures can be implemented.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Sub-question 1:&lt;&#x2F;strong&gt; Based on the information given, which one of the following can be most logically inferred?&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;A) The ecologist faults community planners generally for not considering the effect of converting land to industrial or residential use.&lt;&#x2F;li&gt;
+&lt;li&gt;B) The economist would allow road construction to proceed even if it would threaten sensitive ecosystems.&lt;&#x2F;li&gt;
+&lt;li&gt;C) Both the economist and ecologist offer guidance for planners who are considering whether to undertake road construction projects.&lt;&#x2F;li&gt;
+&lt;li&gt;D) Both the economist and the ecologist consider the regional economic impacts of road construction projects.&lt;&#x2F;li&gt;
+&lt;li&gt;E) Neither the economist nor the ecologist provides clear criteria for determining whether a road project should be undertaken.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Sub-question 2:&lt;&#x2F;strong&gt; For each of the following statements, select &lt;strong&gt;Yes&lt;&#x2F;strong&gt; if the statement is supported by the information provided. Otherwise select &lt;strong&gt;No&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Statement&lt;&#x2F;th&gt;&lt;th&gt;Yes &#x2F; No&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;The economist is more intent on endorsing road construction projects than the ecologist is.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;The economist and the ecologist are both concerned with the criteria on which community planners base decisions.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;The ecologist is concerned with how road projects can affect the quality of life within communities, whereas the economist is not.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Additional scenario for Sub-question 3:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Community planners are evaluating whether to build a new road that is projected to cost
+&lt;strong&gt;$2.0 million&lt;&#x2F;strong&gt; to construct and provide &lt;strong&gt;$2.5 million&lt;&#x2F;strong&gt; in overall benefit to the
+region but that will threaten a &lt;strong&gt;sensitive local ecosystem&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Sub-question 3:&lt;&#x2F;strong&gt; In the columns, select &lt;strong&gt;Acceptable&lt;&#x2F;strong&gt; for each detail that would make the new road acceptable under the standards provided by &lt;em&gt;both&lt;&#x2F;em&gt; the economist and the ecologist. Otherwise, select &lt;strong&gt;Not acceptable&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Detail&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Acceptable&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Not acceptable&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;The road&#x27;s planned route could be altered to avoid the sensitive ecosystem at no additional cost.&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;The road would provide a significant economic benefit to neighboring communities.&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Mitigating the threat to the sensitive ecosystem would cost an additional $1 million.&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;em&gt;More questions coming soon.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;answer-key&quot;&gt;Answer Key&lt;&#x2F;h2&gt;
+&lt;details&gt;
+    &lt;summary&gt;▶ Reveal Answers&lt;&#x2F;summary&gt;
+These are the answers and sources from the quiz
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Question 1&lt;&#x2F;strong&gt; — &lt;a href=&quot;https:&#x2F;&#x2F;gmatclub.com&#x2F;forum&#x2F;the-graphic-displays-results-of-an-internet-survey-on-the-effectivenes-311647.html&quot;&gt;Source&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Sub-question&lt;&#x2F;th&gt;&lt;th&gt;Answer&lt;&#x2F;th&gt;&lt;th&gt;Difficulty&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Sub-question 1&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;E) Exercise&lt;&#x2F;strong&gt; — The dot for exercise is positioned furthest to the right (highest P — most tried) and highest on the vertical axis (highest F — most effective).&lt;&#x2F;td&gt;&lt;td&gt;Easy&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Sub-question 2&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;C) Caffeine&lt;&#x2F;strong&gt; — Among treatments with P &amp;gt; 0.5, caffeine sits the lowest on the effectiveness (F) axis, meaning many people tried it but few found it effective.&lt;&#x2F;td&gt;&lt;td&gt;Easy&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Question 2&lt;&#x2F;strong&gt; — &lt;a href=&quot;https:&#x2F;&#x2F;gmatclub.com&#x2F;forum&#x2F;the-table-shows-the-number-of-businesses-and-jobs-within-each-economic-330277.html&quot;&gt;Source&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Statement&lt;&#x2F;th&gt;&lt;th&gt;Answer&lt;&#x2F;th&gt;&lt;th&gt;Difficulty&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;The sector with the greatest number of businesses has the greatest number of jobs.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;Yes&lt;&#x2F;strong&gt; — Services has both the most businesses (2,040) and the most jobs (19,502).&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;The sector with the least number of businesses has the least number of jobs.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;No&lt;&#x2F;strong&gt; — Transportation has the fewest businesses (185), but Miscellaneous has the fewest jobs (1,444). These are different sectors.&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;There are two economic sectors that together comprise over half of all jobs in the city.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;Yes&lt;&#x2F;strong&gt; — Retail Trade (19.6%) + Services (32.2%) = 51.8% of total jobs.&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Question 3&lt;&#x2F;strong&gt; — &lt;a href=&quot;https:&#x2F;&#x2F;gmatclub.com&#x2F;forum&#x2F;the-table-displays-data-on-brazilian-agricultural-products-in-311329.html&quot;&gt;Source&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Statement&lt;&#x2F;th&gt;&lt;th&gt;Answer&lt;&#x2F;th&gt;&lt;th&gt;Difficulty&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;No individual country produces more than one-fourth of the world&#x27;s sugar.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;Yes&lt;&#x2F;strong&gt; — Brazil is the #1 sugar producer at only 21%. Since even the top producer is below 25%, no country can exceed one-fourth of world sugar production.&lt;&#x2F;td&gt;&lt;td&gt;Hard&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;If Brazil produces less than 20% of the world&#x27;s supply of any commodity, Brazil is not the world&#x27;s top exporter of that commodity.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;No&lt;&#x2F;strong&gt; — Brazil produces only 16% of beef and 15% of chickens (both under 20%), yet ranks #1 in exports for both. These are direct counterexamples.&lt;&#x2F;td&gt;&lt;td&gt;Hard&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Of the commodities for which Brazil ranks first in world exports, Brazil produces more than 20% of the world&#x27;s supply.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;No&lt;&#x2F;strong&gt; — Brazil ranks #1 in exports for coffee, orange juice, sugar, beef, and chickens. However, beef (16%) and chickens (15%) are both below 20% production share, disproving the statement.&lt;&#x2F;td&gt;&lt;td&gt;Hard&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Question 4&lt;&#x2F;strong&gt; — &lt;a href=&quot;https:&#x2F;&#x2F;gmatclub.com&#x2F;forum&#x2F;for-zoologists-studying-the-behavior-of-certain-species-of-birds-the-305530.html&quot;&gt;Source&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Column&lt;&#x2F;th&gt;&lt;th&gt;Answer&lt;&#x2F;th&gt;&lt;th&gt;Difficulty&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Must happen&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;D) Gathering together with members of their own species&lt;&#x2F;strong&gt; — The passage describes researchers studying courtship displays and social hierarchy in the morefa, both of which require birds of the same species to be present together.&lt;&#x2F;td&gt;&lt;td&gt;Hard&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Must NOT happen&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;C) Establishing nests&lt;&#x2F;strong&gt; — The passage explicitly states that birds abandon the morefa &lt;em&gt;to establish their nests&lt;&#x2F;em&gt; elsewhere, making nest-building incompatible with the morefa by definition.&lt;&#x2F;td&gt;&lt;td&gt;Hard&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Common trap:&lt;&#x2F;strong&gt; Option B (occupying the location multiple times) is tempting because the passage says &quot;some species repeatedly return.&quot; However, the key word is &lt;em&gt;some&lt;&#x2F;em&gt; — not all species do this, so it cannot be a &lt;em&gt;required&lt;&#x2F;em&gt; condition.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Question 5&lt;&#x2F;strong&gt; — &lt;a href=&quot;https:&#x2F;&#x2F;gmatclub.com&#x2F;forum&#x2F;loan-x-has-a-principal-of-10-000x-and-a-yearly-simple-interest-rate-o-157507.html&quot;&gt;Source&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Column&lt;&#x2F;th&gt;&lt;th&gt;Answer&lt;&#x2F;th&gt;&lt;th&gt;Difficulty&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;X&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;96&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Y&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;32&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;&#x2F;strong&gt; Set r = 5 and solve: 5 = (4x + 8y) &#x2F; (x + y) → 5x + 5y = 4x + 8y → &lt;strong&gt;x = 3y&lt;&#x2F;strong&gt;. Only x = 96 and y = 32 satisfy this 3:1 ratio among the given values.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Question 6&lt;&#x2F;strong&gt; — &lt;a href=&quot;https:&#x2F;&#x2F;gmatclub.com&#x2F;forum&#x2F;do-expenditures-on-road-construction-projects-represent-good-investmen-329011.html&quot;&gt;Source&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Sub-question&lt;&#x2F;th&gt;&lt;th&gt;Answer&lt;&#x2F;th&gt;&lt;th&gt;Difficulty&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Sub-question 1&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;C)&lt;&#x2F;strong&gt; Both the economist and ecologist offer guidance for planners considering road construction. The economist advises measuring costs vs. benefits; the ecologist advises evaluating ecological impact. Both provide clear criteria.&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;&lt;strong&gt;Sub-question 2:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Statement&lt;&#x2F;th&gt;&lt;th&gt;Answer&lt;&#x2F;th&gt;&lt;th&gt;Difficulty&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;The economist is more intent on endorsing road construction projects than the ecologist is.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;No&lt;&#x2F;strong&gt; — Neither passage endorses road construction outright. Both simply provide criteria for planners to consider.&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;The economist and the ecologist are both concerned with the criteria on which community planners base decisions.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;Yes&lt;&#x2F;strong&gt; — Both passages explicitly address what planners &lt;em&gt;should&lt;&#x2F;em&gt; evaluate before proceeding with a road project.&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;The ecologist is concerned with how road projects can affect the quality of life within communities, whereas the economist is not.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;No&lt;&#x2F;strong&gt; — The economist also addresses quality-of-life factors such as efficiency, accidents, and vehicle costs.&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;&lt;strong&gt;Sub-question 3:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Detail&lt;&#x2F;th&gt;&lt;th&gt;Answer&lt;&#x2F;th&gt;&lt;th&gt;Difficulty&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;The road&#x27;s planned route could be altered to avoid the sensitive ecosystem at no additional cost.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;Acceptable&lt;&#x2F;strong&gt; — Rerouting avoids ecosystem damage (satisfying the ecologist) and at no extra cost the benefit ($2.5M) still exceeds cost ($2.0M) (satisfying the economist).&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;The road would provide a significant economic benefit to neighboring communities.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;Not acceptable&lt;&#x2F;strong&gt; — Economic benefit alone does not satisfy the ecologist&#x27;s requirement that the sensitive ecosystem not be damaged or mitigated.&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Mitigating the threat to the sensitive ecosystem would cost an additional $1 million.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;Not acceptable&lt;&#x2F;strong&gt; — Mitigation would satisfy the ecologist, but total cost would rise to $3.0M, exceeding the $2.5M benefit — failing the economist&#x27;s cost-benefit standard.&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;&#x2F;details&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>Felipe Camacho &amp; Felipe Cavaco @ Gerações F</title>
         <published>2026-02-11T00:00:00+00:00</published>

@@ -24,21 +24,15 @@
         <id>https://ribeirovidal.com/gmatbia/</id>
         
         <content type="html" xml:base="https://ribeirovidal.com/gmatbia/">&lt;h1 id=&quot;gmat-data-insights-mock-test&quot;&gt;GMAT Data Insights – Mock Test&lt;&#x2F;h1&gt;
-&lt;p&gt;This mock test covers the &lt;strong&gt;Data Insights&lt;&#x2F;strong&gt; section of the GMAT Focus Edition.
-It consists of &lt;strong&gt;Graphs &amp;amp; Tables&lt;&#x2F;strong&gt;, &lt;strong&gt;Table Analysis&lt;&#x2F;strong&gt;, &lt;strong&gt;Two-Part Analysis&lt;&#x2F;strong&gt;, and
-&lt;strong&gt;Multi-Source Reasoning&lt;&#x2F;strong&gt; questions designed to replicate real exam conditions.&lt;&#x2F;p&gt;
+&lt;p&gt;This mock test covers the &lt;strong&gt;Data Insights&lt;&#x2F;strong&gt; section of the GMAT Focus Edition. It consists of &lt;strong&gt;Graphs &amp;amp; Tables&lt;&#x2F;strong&gt;, &lt;strong&gt;Table Analysis&lt;&#x2F;strong&gt;, &lt;strong&gt;Two-Part Analysis&lt;&#x2F;strong&gt;, and &lt;strong&gt;Multi-Source Reasoning&lt;&#x2F;strong&gt; questions designed to replicate real exam conditions.&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Instructions:&lt;&#x2F;strong&gt; Answer all questions before revealing the answers at the bottom of the page.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;hr &#x2F;&gt;
 &lt;h2 id=&quot;question-1-graphs-tables&quot;&gt;Question 1 — Graphs &amp;amp; Tables&lt;&#x2F;h2&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;s3.amazonaws.com&#x2F;wmx-api-production&#x2F;courses&#x2F;61212&#x2F;images&#x2F;GID0829.gif&quot; alt=&quot;Internet Survey on Depression Treatments&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;The graphic above displays results of an Internet survey on the effectiveness of treatments
-for depression. The &lt;strong&gt;vertical axis (F)&lt;&#x2F;strong&gt; represents the fraction of respondents who
-considered a given treatment to be effective. The &lt;strong&gt;horizontal axis (P)&lt;&#x2F;strong&gt; represents the
-fraction of respondents who tried a given treatment.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;strong&gt;Sub-question 1:&lt;&#x2F;strong&gt; Based on the graphic, which treatment was considered both the most
-effective and tried by the most respondents?&lt;&#x2F;p&gt;
+&lt;p&gt;The graphic above displays results of an Internet survey on the effectiveness of treatments for depression. The &lt;strong&gt;vertical axis (F)&lt;&#x2F;strong&gt; represents the fraction of respondents who considered a given treatment to be effective. The &lt;strong&gt;horizontal axis (P)&lt;&#x2F;strong&gt; represents the fraction of respondents who tried a given treatment.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Sub-question 1:&lt;&#x2F;strong&gt; Based on the graphic, which treatment was considered both the most effective and tried by the most respondents?&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;A) Journaling&lt;&#x2F;li&gt;
 &lt;li&gt;B) Massage therapy&lt;&#x2F;li&gt;
@@ -46,8 +40,7 @@ effective and tried by the most respondents?&lt;&#x2F;p&gt;
 &lt;li&gt;D) Meditation&lt;&#x2F;li&gt;
 &lt;li&gt;E) Exercise&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;p&gt;&lt;strong&gt;Sub-question 2:&lt;&#x2F;strong&gt; Among the treatments tried by more than half of all respondents
-(P &amp;gt; 0.5), which was considered the least effective?&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Sub-question 2:&lt;&#x2F;strong&gt; Among the treatments tried by more than half of all respondents (P &amp;gt; 0.5), which was considered the least effective?&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;A) Fish oil&lt;&#x2F;li&gt;
 &lt;li&gt;B) Journaling&lt;&#x2F;li&gt;
@@ -68,8 +61,7 @@ effective and tried by the most respondents?&lt;&#x2F;p&gt;
 &lt;tr&gt;&lt;td&gt;Wholesale Trade&lt;&#x2F;td&gt;&lt;td&gt;291&lt;&#x2F;td&gt;&lt;td&gt;5.3%&lt;&#x2F;td&gt;&lt;td&gt;3,279&lt;&#x2F;td&gt;&lt;td&gt;5.4%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Total&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;5,515&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;100%&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;60,496&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;100%&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-&lt;p&gt;For each of the following statements, select &lt;strong&gt;Yes&lt;&#x2F;strong&gt; if the statement is true based on the
-information provided, or &lt;strong&gt;No&lt;&#x2F;strong&gt; if it cannot be determined or is false.&lt;&#x2F;p&gt;
+&lt;p&gt;For each of the following statements, select &lt;strong&gt;Yes&lt;&#x2F;strong&gt; if the statement is true based on the information provided, or &lt;strong&gt;No&lt;&#x2F;strong&gt; if it cannot be determined or is false.&lt;&#x2F;p&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Statement&lt;&#x2F;th&gt;&lt;th&gt;Yes &#x2F; No&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;The sector with the greatest number of businesses has the greatest number of jobs.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;The sector with the least number of businesses has the least number of jobs.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -89,8 +81,7 @@ information provided, or &lt;strong&gt;No&lt;&#x2F;strong&gt; if it cannot be de
 &lt;tr&gt;&lt;td&gt;Pork&lt;&#x2F;td&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td&gt;12&lt;&#x2F;td&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Cotton&lt;&#x2F;td&gt;&lt;td&gt;5&lt;&#x2F;td&gt;&lt;td&gt;5&lt;&#x2F;td&gt;&lt;td&gt;10&lt;&#x2F;td&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-&lt;p&gt;For each of the following statements, select &lt;strong&gt;Yes&lt;&#x2F;strong&gt; if the statement is true based on the
-information provided, or &lt;strong&gt;No&lt;&#x2F;strong&gt; if it cannot be determined or is false.&lt;&#x2F;p&gt;
+&lt;p&gt;For each of the following statements, select &lt;strong&gt;Yes&lt;&#x2F;strong&gt; if the statement is true based on the information provided, or &lt;strong&gt;No&lt;&#x2F;strong&gt; if it cannot be determined or is false.&lt;&#x2F;p&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Statement&lt;&#x2F;th&gt;&lt;th&gt;Yes &#x2F; No&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;No individual country produces more than one-fourth of the world&#x27;s sugar.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;If Brazil produces less than 20% of the world&#x27;s supply of any commodity listed in the table, Brazil is not the world&#x27;s top exporter of that commodity.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -100,18 +91,9 @@ information provided, or &lt;strong&gt;No&lt;&#x2F;strong&gt; if it cannot be de
 &lt;h2 id=&quot;question-4-two-part-analysis&quot;&gt;Question 4 — Two-Part Analysis&lt;&#x2F;h2&gt;
 &lt;p&gt;Read the following excerpt carefully, then answer the two-part question below.&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;For zoologists studying the behavior of certain species of birds, the critical importance
-of observing the birds in those species&#x27; &lt;strong&gt;morefa&lt;&#x2F;strong&gt; during the annual breeding season is
-obvious. Such observation allows researchers to study not only the courtship displays of
-many different individuals within a species, but also the species&#x27; social hierarchy.
-Moreover, since some species repeatedly return to the same morefa, researchers can study
-changes in group dynamics from year to year. The value of observing a morefa when the
-birds are not present, however — such as prior to their arrival or after they have
-abandoned the area to establish their nests — is only now becoming apparent.&lt;&#x2F;p&gt;
+&lt;p&gt;For zoologists studying the behavior of certain species of birds, the critical importance of observing the birds in those species&#x27; &lt;strong&gt;morefa&lt;&#x2F;strong&gt; during the annual breeding season is obvious. Such observation allows researchers to study not only the courtship displays of many different individuals within a species, but also the species&#x27; social hierarchy. Moreover, since some species repeatedly return to the same morefa, researchers can study changes in group dynamics from year to year. The value of observing a morefa when the birds are not present, however — such as prior to their arrival or after they have abandoned the area to establish their nests — is only now becoming apparent.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
-&lt;p&gt;Based on the definition of the term &lt;strong&gt;morefa&lt;&#x2F;strong&gt; that can be inferred from the passage,
-identify which activity &lt;strong&gt;must happen&lt;&#x2F;strong&gt; in a location for it to be a species&#x27; morefa,
-and which activity &lt;strong&gt;must NOT happen&lt;&#x2F;strong&gt; in that location.&lt;&#x2F;p&gt;
+&lt;p&gt;Based on the definition of the term &lt;strong&gt;morefa&lt;&#x2F;strong&gt; that can be inferred from the passage, identify which activity &lt;strong&gt;must happen&lt;&#x2F;strong&gt; in a location for it to be a species&#x27; morefa, and which activity &lt;strong&gt;must NOT happen&lt;&#x2F;strong&gt; in that location.&lt;&#x2F;p&gt;
 &lt;p&gt;Make &lt;strong&gt;only two selections&lt;&#x2F;strong&gt;, one in each column.&lt;&#x2F;p&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Activity&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Must happen&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Must NOT happen&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;A) Occupying the location only once per year&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -122,14 +104,9 @@ and which activity &lt;strong&gt;must NOT happen&lt;&#x2F;strong&gt; in that loc
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;hr &#x2F;&gt;
 &lt;h2 id=&quot;question-5-two-part-analysis&quot;&gt;Question 5 — Two-Part Analysis&lt;&#x2F;h2&gt;
-&lt;p&gt;Loan X has a principal of $10,000x and a yearly simple interest rate of 4%. Loan Y has a
-principal of $10,000y and a yearly simple interest rate of 8%. Loans X and Y will be
-consolidated to form Loan Z with a principal of $(10,000x + 10,000y) and a yearly simple
-interest rate of r%, where:&lt;&#x2F;p&gt;
+&lt;p&gt;Loan X has a principal of $10,000x and a yearly simple interest rate of 4%. Loan Y has a principal of $10,000y and a yearly simple interest rate of 8%. Loans X and Y will be consolidated to form Loan Z with a principal of $(10,000x + 10,000y) and a yearly simple interest rate of r%, where:&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;code&gt;r = (4x + 8y) &#x2F; (x + y)&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;In the table below, select a value for &lt;strong&gt;x&lt;&#x2F;strong&gt; and a value for &lt;strong&gt;y&lt;&#x2F;strong&gt; corresponding to a
-yearly simple interest rate of &lt;strong&gt;5%&lt;&#x2F;strong&gt; for the consolidated loan. Make only two selections,
-one in each column.&lt;&#x2F;p&gt;
+&lt;p&gt;In the table below, select a value for &lt;strong&gt;x&lt;&#x2F;strong&gt; and a value for &lt;strong&gt;y&lt;&#x2F;strong&gt; corresponding to a yearly simple interest rate of &lt;strong&gt;5%&lt;&#x2F;strong&gt; for the consolidated loan. Make only two selections, one in each column.&lt;&#x2F;p&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;X&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Y&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Value&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;21&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;32&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -143,27 +120,10 @@ one in each column.&lt;&#x2F;p&gt;
 &lt;p&gt;Read the two passages below, then answer the three questions that follow. The third question also refers to the additional scenario provided.&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;strong&gt;Economist&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Do expenditures on road construction projects represent good investments for communities?
-The taxpaying public will never know because community planners rarely analyze road
-projects as investments. The benefits that local residents will receive from a new or
-improved road, such as increased efficiency, fewer accidents, and reduced vehicle operating
-costs, as well as the potential regional impacts on jobs, population, and income, should be
-measured. These benefits should then be compared with the total construction costs of the
-project, such as planning and design, land purchases, construction, and costs for moving
-utility lines. Only then will any investment in building or improving roads be made with
-reasonable confidence.&lt;&#x2F;p&gt;
+&lt;p&gt;Do expenditures on road construction projects represent good investments for communities? The taxpaying public will never know because community planners rarely analyze road projects as investments. The benefits that local residents will receive from a new or improved road, such as increased efficiency, fewer accidents, and reduced vehicle operating costs, as well as the potential regional impacts on jobs, population, and income, should be measured. These benefits should then be compared with the total construction costs of the project, such as planning and design, land purchases, construction, and costs for moving utility lines. Only then will any investment in building or improving roads be made with reasonable confidence.&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;strong&gt;Ecologist&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Community planners should consider the full range of ecological effects of any road
-construction projects, including pollution, vegetation destruction, habitat fragmentation,
-and soil erosion. The scale of the effects varies with the size of the project. Evaluations
-based on only a few species or resources may be adequate for small projects, but the
-construction of several highway systems can together alter entire regions, disrupting
-migratory pathways and other ecosystem processes. These effects may be augmented by the
-conversion of land to industrial or residential use that usually accompanies road building.
-Once all of the environmental considerations have been evaluated, planners should proceed
-with a proposed road construction project only if it will not damage sensitive ecosystems
-or if suitable mitigation measures can be implemented.&lt;&#x2F;p&gt;
+&lt;p&gt;Community planners should consider the full range of ecological effects of any road construction projects, including pollution, vegetation destruction, habitat fragmentation, and soil erosion. The scale of the effects varies with the size of the project. Evaluations based on only a few species or resources may be adequate for small projects, but the construction of several highway systems can together alter entire regions, disrupting migratory pathways and other ecosystem processes. These effects may be augmented by the conversion of land to industrial or residential use that usually accompanies road building. Once all of the environmental considerations have been evaluated, planners should proceed with a proposed road construction project only if it will not damage sensitive ecosystems or if suitable mitigation measures can be implemented.&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;strong&gt;Sub-question 1:&lt;&#x2F;strong&gt; Based on the information given, which one of the following can be most logically inferred?&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -183,9 +143,7 @@ or if suitable mitigation measures can be implemented.&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;strong&gt;Additional scenario for Sub-question 3:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Community planners are evaluating whether to build a new road that is projected to cost
-&lt;strong&gt;$2.0 million&lt;&#x2F;strong&gt; to construct and provide &lt;strong&gt;$2.5 million&lt;&#x2F;strong&gt; in overall benefit to the
-region but that will threaten a &lt;strong&gt;sensitive local ecosystem&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Community planners are evaluating whether to build a new road that is projected to cost &lt;strong&gt;$2.0 million&lt;&#x2F;strong&gt; to construct and provide &lt;strong&gt;$2.5 million&lt;&#x2F;strong&gt; in overall benefit to the region but that will threaten a &lt;strong&gt;sensitive local ecosystem&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Sub-question 3:&lt;&#x2F;strong&gt; In the columns, select &lt;strong&gt;Acceptable&lt;&#x2F;strong&gt; for each detail that would make the new road acceptable under the standards provided by &lt;em&gt;both&lt;&#x2F;em&gt; the economist and the ecologist. Otherwise, select &lt;strong&gt;Not acceptable&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Detail&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Acceptable&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Not acceptable&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
@@ -194,13 +152,90 @@ region but that will threaten a &lt;strong&gt;sensitive local ecosystem&lt;&#x2F
 &lt;tr&gt;&lt;td&gt;Mitigating the threat to the sensitive ecosystem would cost an additional $1 million.&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;question-7-multi-source-reasoning-v-hard&quot;&gt;Question 7 — Multi-Source Reasoning (V. Hard)&lt;&#x2F;h2&gt;
+&lt;p&gt;Read the three emails below, then answer the question that follows.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Email 1&lt;&#x2F;strong&gt; — January 15, 10:46 a.m. &lt;em&gt;(from administrator)&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Yesterday was the deadline for our receipt of completed surveys from doctors who were invited to participate in the Medical Practice Priorities Survey. Did we get enough returns from this original group of invitees to get reliable statistics? Do we need to invite additional participants?&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Email 2&lt;&#x2F;strong&gt; — January 15, 11:12 a.m. &lt;em&gt;(from project coordinator, in response to Email 1)&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Altogether we got exactly 350 actual survey completions. We need at least 700 and were hoping for even more, so we plan to invite a second group to participate. Both the results from this first group and other research indicates that with this type of survey and this type of participants there is about a 40 percent probability that any given invitee will submit the completed survey in the time we&#x27;ll allow. (Obviously that doesn&#x27;t mean that if we invited 1,000 we&#x27;d necessarily get at least 400, so we need to think in terms of the risks of getting too few returns or exceeding the budget.) All of the participants who submitted their surveys by the deadline will get the $50 payment we promised. What is our total budget for compensation to participants?&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Email 3&lt;&#x2F;strong&gt; — January 15, 1:54 p.m. &lt;em&gt;(from administrator, in response to Email 2)&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The budget we allocated for compensation to those who complete and submit the Medical Practice Priorities Survey is $45,000. We will honor our commitment to pay $50 to each participant — in the second group as well as the first — who completes the survey and submits it by the deadline we specify when we invite them to participate. However, we will need to try not to exceed the total amount that is budgeted for this purpose.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;Consider each of the following statements. Does the information in the three emails support the inference as stated? Select &lt;strong&gt;Yes&lt;&#x2F;strong&gt; or &lt;strong&gt;No&lt;&#x2F;strong&gt; for each.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Statement&lt;&#x2F;th&gt;&lt;th&gt;Yes &#x2F; No&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;The administrator is unwilling to invite as many participants in the second group as were invited in the first group.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;The project coordinator does not expect to be able to meet the goal for numbers of completed surveys received.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;The administrator is willing to accept some risk of exceeding the budget for compensating participants.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;question-8-graphs-tables-hard&quot;&gt;Question 8 — Graphs &amp;amp; Tables (Hard)&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;s3.amazonaws.com&#x2F;wmx-api-production&#x2F;courses&#x2F;61212&#x2F;images&#x2F;GID0448.gif&quot; alt=&quot;Flowchart Algorithm&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The flowchart above represents a mathematical algorithm that takes two positive integers, &lt;strong&gt;a&lt;&#x2F;strong&gt; and &lt;strong&gt;b&lt;&#x2F;strong&gt;, as inputs and produces a value &lt;strong&gt;T&lt;&#x2F;strong&gt; as output.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Sub-question 1:&lt;&#x2F;strong&gt; If &lt;strong&gt;24&lt;&#x2F;strong&gt; and &lt;strong&gt;35&lt;&#x2F;strong&gt; are entered as the values for &lt;strong&gt;a&lt;&#x2F;strong&gt; and &lt;strong&gt;b&lt;&#x2F;strong&gt; respectively, what is the first nonzero value of T?&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;A) 24&lt;&#x2F;li&gt;
+&lt;li&gt;B) 48&lt;&#x2F;li&gt;
+&lt;li&gt;C) 96&lt;&#x2F;li&gt;
+&lt;li&gt;D) 192&lt;&#x2F;li&gt;
+&lt;li&gt;E) 384&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;Sub-question 2:&lt;&#x2F;strong&gt; If &lt;strong&gt;35&lt;&#x2F;strong&gt; and &lt;strong&gt;27&lt;&#x2F;strong&gt; are entered as the values for &lt;strong&gt;a&lt;&#x2F;strong&gt; and &lt;strong&gt;b&lt;&#x2F;strong&gt; respectively, after the process &lt;strong&gt;b = b&#x2F;2&lt;&#x2F;strong&gt; is completed for the &lt;strong&gt;second time&lt;&#x2F;strong&gt;, what is the value of b?&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;A) 3&lt;&#x2F;li&gt;
+&lt;li&gt;B) 6&lt;&#x2F;li&gt;
+&lt;li&gt;C) 12&lt;&#x2F;li&gt;
+&lt;li&gt;D) 13&lt;&#x2F;li&gt;
+&lt;li&gt;E) 26&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;question-9-table-analysis-easy&quot;&gt;Question 9 — Table Analysis (Easy)&lt;&#x2F;h2&gt;
+&lt;p&gt;A physician has instructed a patient with a strong allergic reaction to mold to record the relationship between his activities and the severity of his allergy symptoms experienced through the night for a period of one week. Each day, within three hours of going to sleep, the patient would perform activities intended to reduce the severity of his allergy symptoms.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Day&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Drank hot tea&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Took Allergy Pill X&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Used nasal irrigation device&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Slept with window open&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Severity of allergy symptoms&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;no&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;mild&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;no&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;no&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;mild&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;no&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;no&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;severe&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;no&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;no&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;none&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;5&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;no&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;mild&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;6&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;no&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;no&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;severe&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;7&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;no&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;no&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;no&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;mild&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;For each of the following statements, select &lt;strong&gt;Yes&lt;&#x2F;strong&gt; if the statement is true based on the information provided, or &lt;strong&gt;No&lt;&#x2F;strong&gt; if it cannot be determined or is false.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Statement&lt;&#x2F;th&gt;&lt;th&gt;Yes &#x2F; No&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;The patient never experienced severe allergy symptoms when he took Allergy Pill X.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;The patient experienced mild allergy symptoms whenever he slept with the window open.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;The patient experienced only mild symptoms whenever he drank hot tea and used a nasal irrigation device.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;question-10-two-part-analysis-medium&quot;&gt;Question 10 — Two-Part Analysis (Medium)&lt;&#x2F;h2&gt;
+&lt;p&gt;Natalya put 14 blue marbles, 14 red marbles, and no other marbles into 3 empty cups:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cup A:&lt;&#x2F;strong&gt; 2 blue marbles and 6 red marbles&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Cup B:&lt;&#x2F;strong&gt; 6 blue marbles and 4 red marbles&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Cup C:&lt;&#x2F;strong&gt; 6 blue marbles and 4 red marbles&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;After this, Dmitry will randomly pick three marbles, one from each cup. In the table, select the probability that all three marbles are &lt;strong&gt;blue&lt;&#x2F;strong&gt; and the probability that all three marbles are &lt;strong&gt;red&lt;&#x2F;strong&gt;. Make only two selections, one in each column.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;All blue&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;All red&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Probability&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;0.090&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;0.120&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;0.125&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;0.150&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;0.250&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;0.500&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;em&gt;More questions coming soon.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
 &lt;h2 id=&quot;answer-key&quot;&gt;Answer Key&lt;&#x2F;h2&gt;
-&lt;details&gt;
-    &lt;summary&gt;▶ Reveal Answers&lt;&#x2F;summary&gt;
-These are the answers and sources from the quiz
-&lt;hr &#x2F;&gt;
+&lt;details&gt; &lt;summary&gt;▶ Reveal Answers&lt;&#x2F;summary&gt;
 &lt;p&gt;&lt;strong&gt;Question 1&lt;&#x2F;strong&gt; — &lt;a href=&quot;https:&#x2F;&#x2F;gmatclub.com&#x2F;forum&#x2F;the-graphic-displays-results-of-an-internet-survey-on-the-effectivenes-311647.html&quot;&gt;Source&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Sub-question&lt;&#x2F;th&gt;&lt;th&gt;Answer&lt;&#x2F;th&gt;&lt;th&gt;Difficulty&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;Sub-question 1&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;E) Exercise&lt;&#x2F;strong&gt; — The dot for exercise is positioned furthest to the right (highest P — most tried) and highest on the vertical axis (highest F — most effective).&lt;&#x2F;td&gt;&lt;td&gt;Easy&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -253,7 +288,47 @@ These are the answers and sources from the quiz
 &lt;tr&gt;&lt;td&gt;The road would provide a significant economic benefit to neighboring communities.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;Not acceptable&lt;&#x2F;strong&gt; — Economic benefit alone does not satisfy the ecologist&#x27;s requirement that the sensitive ecosystem not be damaged or mitigated.&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td&gt;Mitigating the threat to the sensitive ecosystem would cost an additional $1 million.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;Not acceptable&lt;&#x2F;strong&gt; — Mitigation would satisfy the ecologist, but total cost would rise to $3.0M, exceeding the $2.5M benefit — failing the economist&#x27;s cost-benefit standard.&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Question 7&lt;&#x2F;strong&gt; — &lt;a href=&quot;https:&#x2F;&#x2F;gmatclub.com&#x2F;forum&#x2F;yesterday-was-the-deadline-for-our-receipt-of-completed-surveys-from-322602.html&quot;&gt;Source&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Statement&lt;&#x2F;th&gt;&lt;th&gt;Answer&lt;&#x2F;th&gt;&lt;th&gt;Difficulty&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;The administrator is unwilling to invite as many participants in the second group as were invited in the first group.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;No&lt;&#x2F;strong&gt; — The administrator says to invite &quot;as many as you think appropriate&quot; — there is no expressed unwillingness to invite the same or larger number.&lt;&#x2F;td&gt;&lt;td&gt;V. Hard&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;The project coordinator does not expect to be able to meet the goal for numbers of completed surveys received.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;No&lt;&#x2F;strong&gt; — The coordinator presents the 40% probability and discusses risks of both too few returns and exceeding budget, but never states an expectation of failing to meet the goal.&lt;&#x2F;td&gt;&lt;td&gt;V. Hard&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;The administrator is willing to accept some risk of exceeding the budget for compensating participants.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;Yes&lt;&#x2F;strong&gt; — The administrator says &quot;we will need to &lt;em&gt;try&lt;&#x2F;em&gt; not to exceed&quot; the budget, implying the possibility of exceeding it is accepted.&lt;&#x2F;td&gt;&lt;td&gt;V. Hard&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Question 8&lt;&#x2F;strong&gt; — &lt;a href=&quot;https:&#x2F;&#x2F;gmatclub.com&#x2F;forum&#x2F;the-flowchart-represents-a-mathematical-algorithm-that-takes-two-posit-136228.html&quot;&gt;Source&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Sub-question&lt;&#x2F;th&gt;&lt;th&gt;Answer&lt;&#x2F;th&gt;&lt;th&gt;Difficulty&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Sub-question 1 (first nonzero T with a=24, b=35)&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;A) 24&lt;&#x2F;strong&gt; — Enter the flowchart: T=0, b=35 is odd, so T = T + A = 0 + 24 = 24. That is the first nonzero value of T.&lt;&#x2F;td&gt;&lt;td&gt;Hard&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Sub-question 2 (value of b after b=b&#x2F;2 is done twice, with a=35, b=27)&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;B) 6&lt;&#x2F;strong&gt; — b=27 is odd → b=26 → b=b&#x2F;2 → b=13 (first time). b=13 is odd → b=12 → b=b&#x2F;2 → b=6 (second time).&lt;&#x2F;td&gt;&lt;td&gt;Hard&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Question 9&lt;&#x2F;strong&gt; — &lt;a href=&quot;https:&#x2F;&#x2F;gmatclub.com&#x2F;forum&#x2F;a-physician-has-instructed-a-patient-with-a-strong-allergic-reaction-355572.html&quot;&gt;Source&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Statement&lt;&#x2F;th&gt;&lt;th&gt;Answer&lt;&#x2F;th&gt;&lt;th&gt;Difficulty&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;The patient never experienced severe allergy symptoms when he took Allergy Pill X.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;No&lt;&#x2F;strong&gt; — On Day 6 the patient took Allergy Pill X and still experienced severe symptoms.&lt;&#x2F;td&gt;&lt;td&gt;Easy&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;The patient experienced mild allergy symptoms whenever he slept with the window open.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;Yes&lt;&#x2F;strong&gt; — The patient slept with the window open on Days 1, 2, 5, and 7, and experienced mild symptoms on all four days.&lt;&#x2F;td&gt;&lt;td&gt;Easy&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;The patient experienced only mild symptoms whenever he drank hot tea and used a nasal irrigation device.&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;No&lt;&#x2F;strong&gt; — Both conditions were met on Days 1 and 3. Day 1 was mild, but Day 3 was severe.&lt;&#x2F;td&gt;&lt;td&gt;Easy&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Question 10&lt;&#x2F;strong&gt; — &lt;a href=&quot;https:&#x2F;&#x2F;gmatclub.com&#x2F;forum&#x2F;natalya-put-14-blue-marbles-14-red-marbles-and-no-other-marbles-into-329396.html&quot;&gt;Source&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Column&lt;&#x2F;th&gt;&lt;th&gt;Answer&lt;&#x2F;th&gt;&lt;th&gt;Difficulty&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;All blue&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;0.090&lt;&#x2F;strong&gt; — P(blue from A) × P(blue from B) × P(blue from C) = 2&#x2F;8 × 6&#x2F;10 × 6&#x2F;10 = 9&#x2F;100 = 0.090&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;All red&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;0.120&lt;&#x2F;strong&gt; — P(red from A) × P(red from B) × P(red from C) = 6&#x2F;8 × 4&#x2F;10 × 4&#x2F;10 = 12&#x2F;100 = 0.120&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;&#x2F;details&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;difficulty-overview&quot;&gt;Difficulty Overview&lt;&#x2F;h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;#&lt;&#x2F;th&gt;&lt;th&gt;Question&lt;&#x2F;th&gt;&lt;th&gt;Type&lt;&#x2F;th&gt;&lt;th&gt;Difficulty&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;Depression treatments survey&lt;&#x2F;td&gt;&lt;td&gt;Graphs &amp;amp; Tables&lt;&#x2F;td&gt;&lt;td&gt;Easy&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;City economic sectors&lt;&#x2F;td&gt;&lt;td&gt;Table Analysis&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;td&gt;Brazilian agricultural products&lt;&#x2F;td&gt;&lt;td&gt;Table Analysis&lt;&#x2F;td&gt;&lt;td&gt;Hard&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;4&lt;&#x2F;td&gt;&lt;td&gt;Morefa bird behavior&lt;&#x2F;td&gt;&lt;td&gt;Two-Part Analysis&lt;&#x2F;td&gt;&lt;td&gt;Hard&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;5&lt;&#x2F;td&gt;&lt;td&gt;Loan consolidation interest rate&lt;&#x2F;td&gt;&lt;td&gt;Two-Part Analysis&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;6&lt;&#x2F;td&gt;&lt;td&gt;Road construction economist vs ecologist&lt;&#x2F;td&gt;&lt;td&gt;Multi-Source Reasoning&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;7&lt;&#x2F;td&gt;&lt;td&gt;Survey completion emails&lt;&#x2F;td&gt;&lt;td&gt;Multi-Source Reasoning&lt;&#x2F;td&gt;&lt;td&gt;V. Hard&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;8&lt;&#x2F;td&gt;&lt;td&gt;Flowchart algorithm&lt;&#x2F;td&gt;&lt;td&gt;Graphs &amp;amp; Tables&lt;&#x2F;td&gt;&lt;td&gt;Hard&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;9&lt;&#x2F;td&gt;&lt;td&gt;Patient allergy symptoms&lt;&#x2F;td&gt;&lt;td&gt;Table Analysis&lt;&#x2F;td&gt;&lt;td&gt;Easy&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;10&lt;&#x2F;td&gt;&lt;td&gt;Marble probability&lt;&#x2F;td&gt;&lt;td&gt;Two-Part Analysis&lt;&#x2F;td&gt;&lt;td&gt;Medium&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 </content>
         
     </entry>

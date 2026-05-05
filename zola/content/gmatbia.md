@@ -182,7 +182,7 @@ Community planners should consider the full range of ecological effects of any r
 
 ---
 
-## Question 7 — Multi-Source Reasoning (V. Hard)
+## Question 7 — Multi-Source Reasoning
 
 Read the three emails below, then answer the question that follows.
 
@@ -216,7 +216,7 @@ Consider each of the following statements. Does the information in the three ema
 
 ---
 
-## Question 8 — Graphs & Tables (Hard)
+## Question 8 — Graphs & Tables
 
 ![Flowchart Algorithm](https://s3.amazonaws.com/wmx-api-production/courses/61212/images/GID0448.gif)
 
@@ -240,7 +240,7 @@ The flowchart above represents a mathematical algorithm that takes two positive 
 
 ---
 
-## Question 9 — Table Analysis (Easy)
+## Question 9 — Table Analysis
 
 A physician has instructed a patient with a strong allergic reaction to mold to record the relationship between his activities and the severity of his allergy symptoms experienced through the night for a period of one week. Each day, within three hours of going to sleep, the patient would perform activities intended to reduce the severity of his allergy symptoms.
 
@@ -264,7 +264,7 @@ For each of the following statements, select **Yes** if the statement is true ba
 
 ---
 
-## Question 10 — Two-Part Analysis (Medium)
+## Question 10 — Two-Part Analysis
 
 Natalya put 14 blue marbles, 14 red marbles, and no other marbles into 3 empty cups:
 

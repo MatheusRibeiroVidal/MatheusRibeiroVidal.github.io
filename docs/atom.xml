@@ -152,7 +152,7 @@
 &lt;tr&gt;&lt;td&gt;Mitigating the threat to the sensitive ecosystem would cost an additional $1 million.&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;hr &#x2F;&gt;
-&lt;h2 id=&quot;question-7-multi-source-reasoning-v-hard&quot;&gt;Question 7 — Multi-Source Reasoning (V. Hard)&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;question-7-multi-source-reasoning&quot;&gt;Question 7 — Multi-Source Reasoning&lt;&#x2F;h2&gt;
 &lt;p&gt;Read the three emails below, then answer the question that follows.&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;strong&gt;Email 1&lt;&#x2F;strong&gt; — January 15, 10:46 a.m. &lt;em&gt;(from administrator)&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
@@ -177,7 +177,7 @@
 &lt;tr&gt;&lt;td&gt;The administrator is willing to accept some risk of exceeding the budget for compensating participants.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;hr &#x2F;&gt;
-&lt;h2 id=&quot;question-8-graphs-tables-hard&quot;&gt;Question 8 — Graphs &amp;amp; Tables (Hard)&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;question-8-graphs-tables&quot;&gt;Question 8 — Graphs &amp;amp; Tables&lt;&#x2F;h2&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;s3.amazonaws.com&#x2F;wmx-api-production&#x2F;courses&#x2F;61212&#x2F;images&#x2F;GID0448.gif&quot; alt=&quot;Flowchart Algorithm&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;The flowchart above represents a mathematical algorithm that takes two positive integers, &lt;strong&gt;a&lt;&#x2F;strong&gt; and &lt;strong&gt;b&lt;&#x2F;strong&gt;, as inputs and produces a value &lt;strong&gt;T&lt;&#x2F;strong&gt; as output.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;Sub-question 1:&lt;&#x2F;strong&gt; If &lt;strong&gt;24&lt;&#x2F;strong&gt; and &lt;strong&gt;35&lt;&#x2F;strong&gt; are entered as the values for &lt;strong&gt;a&lt;&#x2F;strong&gt; and &lt;strong&gt;b&lt;&#x2F;strong&gt; respectively, what is the first nonzero value of T?&lt;&#x2F;p&gt;
@@ -197,7 +197,7 @@
 &lt;li&gt;E) 26&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;hr &#x2F;&gt;
-&lt;h2 id=&quot;question-9-table-analysis-easy&quot;&gt;Question 9 — Table Analysis (Easy)&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;question-9-table-analysis&quot;&gt;Question 9 — Table Analysis&lt;&#x2F;h2&gt;
 &lt;p&gt;A physician has instructed a patient with a strong allergic reaction to mold to record the relationship between his activities and the severity of his allergy symptoms experienced through the night for a period of one week. Each day, within three hours of going to sleep, the patient would perform activities intended to reduce the severity of his allergy symptoms.&lt;&#x2F;p&gt;
 &lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Day&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Drank hot tea&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Took Allergy Pill X&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Used nasal irrigation device&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Slept with window open&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Severity of allergy symptoms&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;no&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;mild&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
@@ -215,7 +215,7 @@
 &lt;tr&gt;&lt;td&gt;The patient experienced only mild symptoms whenever he drank hot tea and used a nasal irrigation device.&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;hr &#x2F;&gt;
-&lt;h2 id=&quot;question-10-two-part-analysis-medium&quot;&gt;Question 10 — Two-Part Analysis (Medium)&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;question-10-two-part-analysis&quot;&gt;Question 10 — Two-Part Analysis&lt;&#x2F;h2&gt;
 &lt;p&gt;Natalya put 14 blue marbles, 14 red marbles, and no other marbles into 3 empty cups:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cup A:&lt;&#x2F;strong&gt; 2 blue marbles and 6 red marbles&lt;&#x2F;li&gt;

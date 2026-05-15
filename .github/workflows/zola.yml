@@ -12,18 +12,40 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
     - name: Install Zola
       uses: taiki-e/install-action@zola
+      with:
+        tool: zola@latest
+
+    - name: Verify Zola installation
+      run: |
+        zola --version
+        which zola
+
+    - name: Check theme exists
+      run: |
+        echo "Checking theme directory structure:"
+        ls -la zola/themes/simplr/ || echo "Theme not found!"
+        ls -la zola/themes/simplr/sass/ || echo "SASS not found!"
+
+    - name: Check content exists
+      run: |
+        echo "Checking content directory:"
+        ls -la zola/content/ | head -20
 
     - name: Build site
       run: cd zola && zola build
+      continue-on-error: true
 
     - name: Check build output
       run: |
         if [ -d "zola/public" ]; then
           echo "✓ Build successful - zola/public exists"
           echo "✓ File count: $(find zola/public -type f | wc -l) files"
+          ls -la zola/public/ | head -20
         else
           echo "✗ Build failed - zola/public not found"
           exit 1

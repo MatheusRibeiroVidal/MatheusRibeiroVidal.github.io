@@ -146,13 +146,13 @@ if ($build) {
 # ============================================================================
 if ($auto) {
     Write-Host "Running in AUTO mode..."
-    
+
     # Check if now.md changed BEFORE syncing
-    $configPath = Join-Path $scriptDir "paths.config"
+    $pathsConfigPath = Join-Path $scriptDir "paths.config"
     $obsidianNowPath = ""
-    
-    if (Test-Path $configPath) {
-        Get-Content $configPath | ForEach-Object {
+
+    if (Test-Path $pathsConfigPath) {
+        Get-Content $pathsConfigPath | ForEach-Object {
             if ($_ -match '^OBSIDIAN_CONTENT_FOLDER=(.+)') {
                 $obsidianNowPath = Join-Path $matches[1] "now.md"
             }

@@ -2,7 +2,7 @@
 title = "Now"
 updated = "2026-01-20T13:41:22"
 [extra]
-place = "München - TUM bib"
+place = "München @ TUM bib"
 show_word_count = true
 +++
 

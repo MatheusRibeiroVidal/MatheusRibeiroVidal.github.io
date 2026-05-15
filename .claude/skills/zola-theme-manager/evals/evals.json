@@ -1,0 +1,53 @@
+{
+  "skill_name": "zola-theme-manager",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to switch my website from simplr to apollo_adapted theme. Walk me through the steps to test it locally first, then deploy it.",
+      "expected_output": "Step-by-step instructions for: 1) changing config.toml, 2) running zola serve locally, 3) testing the theme, 4) committing and pushing changes. Should mention GitHub Actions will automatically deploy.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "The primary accent color in my simplr theme looks too orange. I want to change it to a deeper terracotta. Which file do I need to edit and what's the current color value?",
+      "expected_output": "Specific file paths for light/dark mode SASS files, current color value in hex format, and explanation of where to find --primary-color variable.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I want to make the body text larger on my site. It feels cramped right now. Help me adjust the typography.",
+      "expected_output": "Instructions for editing _typography.scss, specifically $font-size-base and $line-height-body. Should explain what each variable controls and suggest reasonable values to try.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Can I create a new theme called 'minimal' by copying simplr? What are the steps?",
+      "expected_output": "Step-by-step guide: copy simplr folder, update theme.toml, explain what to customize, how to test locally, and how to activate it in config.toml.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "I edited the SASS files but zola serve is showing an error. What should I check first?",
+      "expected_output": "Troubleshooting steps: check SASS syntax, verify variables are defined, run zola build to see error details, check for missing semicolons/braces.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "I want to customize my project cards to have a different hover effect - maybe scale up slightly and add a shadow. Which file should I edit and show me the code changes.",
+      "expected_output": "Specific file path (_cards.scss), current card styling code, and modified code showing transform and box-shadow properties for hover state. Should explain transition property.",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "I want to create a custom shortcode called 'callout' that I can use in my markdown posts to highlight important information. Walk me through creating it.",
+      "expected_output": "Step-by-step: create shortcodes/callout.html file, explain parameters, show HTML template code, show SASS styling, show usage example in markdown, and how to test it.",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "Can you help me style my gallery component differently? I want the images to be square instead of the current aspect ratio, and add a slight rotation effect on hover.",
+      "expected_output": "File path for gallery SCSS, current grid setup code, modified code with object-fit and square dimensions, and transform rotate effect. Should explain how to test the changes.",
+      "files": []
+    }
+  ]
+}

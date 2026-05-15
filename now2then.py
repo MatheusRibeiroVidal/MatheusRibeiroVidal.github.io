@@ -71,8 +71,9 @@ try:
     if not location:
         location = "Hiding"
 
-    # Get the current timestamp
+    # Get the current timestamp (two formats: one for display, one for metadata)
     timestamp = datetime.now().strftime("%Y-%m-%d|%H:%M:%S")
+    timestamp_iso = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
     current_date = datetime.now().strftime("%Y-%m-%d")
 
     # Define the backup file path (only one backup file)
@@ -128,7 +129,19 @@ try:
     with open(then_file, "w", encoding="utf-8") as f:
         f.writelines(then_content)
 
+    # Update the "updated" field in now.md with the current timestamp
+    updated_now_content = []
+    for line in now_content:
+        if line.strip().startswith("updated ="):
+            updated_now_content.append(f'updated = "{timestamp_iso}"\n')
+        else:
+            updated_now_content.append(line)
+
+    with open(now_file, "w", encoding="utf-8") as f:
+        f.writelines(updated_now_content)
+
     print(f"Successfully updated {then_file} with changes from {current_date}")
+    print(f"Updated timestamp in {now_file} to {timestamp_iso}")
     sys.exit(0)
 
 except Exception as e:

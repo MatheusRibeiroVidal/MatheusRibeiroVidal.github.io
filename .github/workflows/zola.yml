@@ -1,4 +1,4 @@
-name: Build and Deploy Zola Site
+name: Validate Zola Build
 
 on:
   push:
@@ -6,14 +6,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  validate-build:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
 
     - name: Install Zola
       uses: taiki-e/install-action@zola
@@ -21,15 +19,12 @@ jobs:
     - name: Build site
       run: cd zola && zola build
 
-    - name: Copy build to docs folder
+    - name: Check build output
       run: |
-        rm -rf docs
-        cp -r zola/public docs
-
-    - name: Commit and push changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add docs/
-        git commit -m "Deploy: Update site from Zola build [skip ci]" || true
-        git push
+        if [ -d "zola/public" ]; then
+          echo "✓ Build successful - zola/public exists"
+          echo "✓ File count: $(find zola/public -type f | wc -l) files"
+        else
+          echo "✗ Build failed - zola/public not found"
+          exit 1
+        fi

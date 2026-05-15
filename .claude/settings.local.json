@@ -3,7 +3,9 @@
     "allow": [
       "Bash(dir \"C:/Projects/mrv/zola/content/\")",
       "PowerShell(gh run *)",
-      "PowerShell(gh workflow *)"
+      "PowerShell(gh workflow *)",
+      "Skill(skill-creator:skill-creator)",
+      "Bash(curl -s http://127.0.0.1:1111/*)"
     ]
   }
 }

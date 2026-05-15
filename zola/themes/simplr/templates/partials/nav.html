@@ -19,6 +19,18 @@
                class="nav-link no-underline{% if is_active %} active{% endif %}"
                {% if is_active %}aria-current="page"{% endif %}>{{ item.name }}</a>
             {% endfor %}
+
+            {# Contextual menu: show sections only when inside them #}
+            {% if config.extra.contextual_menu is defined %}
+            {% for item in config.extra.contextual_menu %}
+            {% set item_url = get_url(path=item.url) %}
+            {% if current_url is defined and current_url is starting_with(item_url) %}
+            <a href="{{ item_url }}"
+               class="nav-link no-underline active"
+               aria-current="page">{{ item.name }}</a>
+            {% endif %}
+            {% endfor %}
+            {% endif %}
         </div>
 
         {# Right-side controls #}

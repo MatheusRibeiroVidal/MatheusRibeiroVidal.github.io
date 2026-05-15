@@ -35,6 +35,15 @@ menu = [
     { name = "/about", url = "/about", weight = 9 },
 ]
 
+contextual_menu = [
+    { name = "/recipes", url = "/recipes" },
+    { name = "/charmera", url = "/charmera" },
+    { name = "/concerts", url = "/concerts" },
+    { name = "/now", url = "/now" },
+    { name = "/then", url = "/then" },
+    { name = "/recommendations", url = "/recommendations" },
+]
+
 socials = [
 	{ name = "linkedin", url = "https://www.linkedin.com/in/matheusribeirovidal/", icon = "linkedin"},
 	{ name = "email", url = "mailto:matheus@ribeirovidal.com", icon = "email"},

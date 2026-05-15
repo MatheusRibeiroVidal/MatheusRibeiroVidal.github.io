@@ -15,9 +15,6 @@ include_path = true
 include_content = true
 index_format = "elasticlunr_json"
 
-[markdown]
-highlight_code = true
-
 [extra]
 last_update_to_site = "2026-05-06T18:46:58"
 toc = true

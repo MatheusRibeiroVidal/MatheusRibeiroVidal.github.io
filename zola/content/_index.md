@@ -2,7 +2,7 @@
 title= "Alô"
 template = "homepage.html"
 +++
-Thanks for dropping by! (Deployed with simplr theme)
+Thanks for dropping by!
 
 If you want to know my work, check out my [/projects](./projects).
 

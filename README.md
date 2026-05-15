@@ -461,9 +461,44 @@ Edit `zola/config.toml` to customize:
 - `theme` — Color scheme (`light`, `dark`, `auto`, `toggle`)
 - Analytics settings (GoatCounter, Umami)
 
+### Quick Theme Switching
+
+To switch between available themes:
+
+1. **Available themes** — Located in `zola/themes/`:
+   - `simplr/` — Current production theme
+   - `apollo_adapted/` — Alternative Apollo theme (customized version)
+
+2. **Switch theme**:
+   ```bash
+   # Edit zola/config.toml
+   theme = "simplr"        # Change this to your desired theme
+   # or
+   theme = "apollo_adapted"
+   ```
+
+3. **Test locally**:
+   ```bash
+   cd zola
+   zola serve
+   # Visit http://localhost:1111 to preview
+   ```
+
+4. **Deploy**:
+   ```bash
+   cd zola
+   zola build
+   git add -A
+   git commit -m "Switch theme to [theme-name]"
+   git push
+   # GitHub Actions automatically builds and deploys to GitHub Pages
+   ```
+
+**Note:** Switching themes will update the entire site appearance. Test locally first before pushing to production.
+
 ### Theme Customization
 
-The theme is in `zola/themes/simplr/`:
+The active theme is in `zola/themes/[theme-name]/`:
 
 #### Colors
 

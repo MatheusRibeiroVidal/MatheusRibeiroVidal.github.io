@@ -7,6 +7,15 @@ show_word_count = true
 This is my then page. It is created as an automated log of my [/now](/now) entries.
 
 ---
+# <time>2026-05-15|15:49:57</time> in <place>München @ TUM bib</place>
+Back then, I was:
+- Back in Munich, spending time with my girlfriend and friends;
+	- Cassamba, our samba group has our first gig lined up for next week!
+- Designing the scope of my master thesis (hopefully, more info on that soon!);
+- I'm currently also working on a project at the Hydromechanics chair at TUM:
+	- Using [Large-Eddy Simulations](https://en.wikipedia.org/wiki/Large_eddy_simulation) for [the validation of SIGMA modelling of SGS stresses in MGLET](/projects/hydromechanicstum);
+- I have also been testing some co-working with [claude code](https://code.claude.com/docs/en/how-claude-code-works) to see if it helps me with some of the more _frontendy_ aspects of this website.
+
 # <time>2026-05-15|12:57:39</time> in <place>München - TUM bib</place>
 Back then, I was:
 - Back in Munich, spending time with my girlfriend and friends;

@@ -2,7 +2,7 @@
 title = "Now"
 updated = "2026-01-20T13:41:22"
 [extra]
-place = "München - TUM bib"
+place = "München @ TUM bib"
 show_word_count = true
 +++
 
@@ -15,4 +15,5 @@ Nowadays, I am:
 - Designing the scope of my master thesis (hopefully, more info on that soon!);
 - I'm currently also working on a project at the Hydromechanics chair at TUM:
 	- Using [Large-Eddy Simulations](https://en.wikipedia.org/wiki/Large_eddy_simulation) for [the validation of SIGMA modelling of SGS stresses in MGLET](/projects/hydromechanicstum);
+- I have also been testing some co-working with [claude code](https://code.claude.com/docs/en/how-claude-code-works) to see if it helps me with some of the more _frontendy_ aspects of this website.
 

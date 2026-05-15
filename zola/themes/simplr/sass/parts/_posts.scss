@@ -1,0 +1,245 @@
+// -------------------------------------------------------
+// Post list, post page, meta, tags
+// -------------------------------------------------------
+
+// ---- Post list ----------------------------------------
+
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-item {
+  border-bottom: 1px solid var(--border-color);
+  padding: 1.6rem 0;
+
+  &:last-child { border-bottom: none; }
+}
+
+.post-item-header {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr;
+  gap: 0 1.2rem;
+  align-items: baseline;
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+}
+
+.post-item-date {
+  font-family: var(--mono-font);
+  font-size: 0.78rem;
+  color: var(--text-1);
+  padding-top: 0.1em; // optical alignment with title baseline
+  white-space: nowrap;
+}
+
+.post-item-title {
+  font-family: var(--display-font);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.3;
+
+  a {
+    border-bottom: none;
+    color: var(--text-0);
+    transition: color 0.12s;
+
+    &:hover {
+      color: var(--primary-color);
+      background-color: transparent;
+    }
+  }
+}
+
+.post-item-desc {
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  color: var(--text-1);
+  line-height: 1.55;
+  grid-column: 2;
+
+  @media (max-width: 480px) { grid-column: 1; }
+}
+
+.post-item-readmore {
+  display: inline-block;
+  margin-top: 0.4rem;
+  font-size: 0.82rem;
+  font-family: var(--ui-font);
+  font-weight: 600;
+  color: var(--primary-color);
+  border-bottom: none;
+  letter-spacing: 0.02em;
+
+  &:hover {
+    background-color: transparent;
+    color: var(--alt-primary);
+  }
+}
+
+// ---- Post page ----------------------------------------
+
+.post-header {
+  margin-bottom: 2rem;
+}
+
+.post-title {
+  font-family: var(--display-font);
+  font-size: clamp(1.8rem, 5vw, 2.8rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  margin: 2.5rem 0 0.6rem;
+  color: var(--text-0);
+
+  &::after {
+    content: ".";
+    color: var(--primary-color);
+  }
+}
+
+.post-meta {
+  font-family: var(--ui-font);
+  font-size: 0.82rem;
+  color: var(--text-1);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem 0.6rem;
+  margin-bottom: 1.5rem;
+
+  .sep {
+    color: var(--border-color);
+    user-select: none;
+  }
+}
+
+// Tags inline
+.post-tags {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.post-tag {
+  display: inline-block;
+  font-family: var(--ui-font);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+  padding: 1px 7px;
+  border-radius: 100px;
+  transition: background 0.12s, color 0.12s;
+
+  &:hover {
+    background-color: var(--primary-color);
+    color: var(--hover-color);
+  }
+}
+
+// tl;dr callout
+.tldr {
+  background-color: var(--bg-1);
+  border-left: 3px solid var(--primary-color);
+  padding: 0.75rem 1rem;
+  border-radius: 0 4px 4px 0;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+  color: var(--text-0);
+}
+
+// Banner image
+.post-banner {
+  width: 100%;
+  max-width: 750px;
+  margin: 1.5rem auto;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  object-fit: cover;
+
+  @media (max-width: 480px) {
+    border-radius: 4px;
+    margin: 1rem auto;
+  }
+}
+
+// alt-meta (used in homepage "now" section)
+.alt-meta {
+  font-size: 0.8rem;
+  color: var(--text-1);
+  font-family: var(--ui-font);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  margin-bottom: 0.75rem;
+}
+
+// ---- Pagination ---------------------------------------
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 0;
+}
+
+.page-link {
+  font-family: var(--ui-font);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  border-bottom: none;
+
+  &:hover {
+    background-color: transparent;
+    color: var(--alt-primary);
+  }
+}
+
+// ---- Tags list page -----------------------------------
+
+.tag-cloud {
+  padding-top: 0.5rem;
+}
+
+.tags-list {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+
+  li { margin: 0; }
+
+  a {
+    display: inline-block;
+    font-family: var(--ui-font);
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--text-0);
+    border: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 4px 12px;
+    border-radius: 100px;
+    transition: background 0.12s, color 0.12s, border-color 0.12s;
+
+    &:hover {
+      background-color: var(--primary-color);
+      color: var(--hover-color);
+      border-color: var(--primary-color);
+    }
+  }
+}

@@ -1,0 +1,306 @@
+{# -------------------------------------------------------
+   mrv-modern macros — mirrors the Apollo macro API so
+   all existing templates (homepage.html, page.html, etc.)
+   that call post_macros::* continue to work unchanged.
+   ------------------------------------------------------- #}
+
+{# ---------- post list (section.html / taxonomy) ---------- #}
+{% macro list_tag_posts(pages, tag_name=false) %}
+<div class="page-title-wrap">
+    {% if tag_name %}
+    <h1 class="page-title">Tagged: {{ tag_name }}</h1>
+    {% else %}
+    <h1 class="page-title">All articles</h1>
+    {% endif %}
+</div>
+<main>
+    {{ post_macros::list_posts(pages=pages) }}
+</main>
+{% endmacro %}
+
+{% macro list_posts(pages) %}
+<ul class="post-list">
+    {%- for page in pages %}
+    <li class="post-item">
+        <div class="post-item-header">
+            <span class="post-item-date">
+                {% if page.date %}{{ page.date | date(format="%Y-%m-%d") }}{% endif %}
+            </span>
+            <h2 class="post-item-title">
+                <a href="{{ page.permalink | safe }}" class="no-underline">{{ page.title }}</a>
+                {% if page.draft %}<span class="draft-label">DRAFT</span>{% endif %}
+                {% if page.extra.archive %}
+                <span style="font-size:0.7em;font-weight:400;">[<archive-tag>Archive</archive-tag>]</span>
+                {% endif %}
+            </h2>
+        </div>
+
+        {% if page.description or page.summary %}
+        <p class="post-item-desc">
+            {% if page.description %}
+                {{ page.description }}
+            {% elif page.summary %}
+                {{ page.summary | safe }}&hellip;
+            {% endif %}
+        </p>
+        {% endif %}
+
+        {% if page.description or page.summary %}
+        <a class="post-item-readmore no-underline" href="{{ page.permalink | safe }}">Read more &rarr;</a>
+        {% endif %}
+    </li>
+    {% endfor -%}
+</ul>
+{% endmacro list_posts %}
+
+{# ---------- taxonomy terms list ---------- #}
+{% macro list_terms(terms) %}
+<ul class="tags-list">
+    {%- for term in terms %}
+    <li>
+        <a href="{{ term.permalink }}">{{ term.name }}</a>
+    </li>
+    {% endfor -%}
+</ul>
+{% endmacro list_terms %}
+
+{# ---------- inline tag chips ---------- #}
+{% macro tags(page, short=false) %}
+{%- if page.taxonomies and page.taxonomies.tags %}
+<span class="post-tags">
+    {%- if not short %}:: tags:&nbsp;{%- endif -%}
+    {%- for tag in page.taxonomies.tags %}
+    <a class="post-tag no-underline"
+       href="{{ get_taxonomy_url(kind='tags', name=tag, lang=page.lang) | safe }}">#{{ tag }}</a>
+    {%- if not loop.last %},{% endif %}
+    {% endfor -%}
+</span>
+{% endif -%}
+{% endmacro tags %}
+
+{# ---------- page-level heading (used in section/taxonomy titles) ---------- #}
+{% macro page_header(title) %}
+<h1 class="page-title">{{ title }}</h1>
+{% endmacro page_header %}
+
+{# ---------- homepage ---------- #}
+{% macro home_page(section) %}
+{% set now_page = get_page(path="now.md") %}
+{% set recs_page = get_page(path="recommendations.md") %}
+<main>
+    <article>
+        <section class="homepage-section">
+            {{ post_macros::page_header(title=section.title) }}
+            <div class="content-body">{{ section.content | safe }}</div>
+            <hr>
+        </section>
+
+        <section class="homepage-section" id="now">
+            <h1>{{ now_page.title }}</h1>
+            <p class="alt-meta">
+                Updated on&nbsp;<time>{{ now_page.updated | date(format="%Y-%m-%d %H:%M:%S") }}</time>
+                {% if now_page.extra.place %}&nbsp;in&nbsp;<place>{{ now_page.extra.place }}</place>{% endif %}
+            </p>
+            <div class="content-body">{{ now_page.content | safe }}</div>
+            <hr>
+        </section>
+
+        <section class="homepage-section" id="recommendations">
+            <h1>{{ recs_page.title }}</h1>
+            <div class="content-body">{{ recs_page.content | safe }}</div>
+        </section>
+    </article>
+</main>
+{% endmacro home_page %}
+
+{# ---------- full post / page content ---------- #}
+{% macro content(page) %}
+<main>
+    <article>
+        {# Title #}
+        <h1 class="post-title">{{ page.title }}</h1>
+
+        {# Meta bar #}
+        <div class="post-meta">
+            {% if page.extra.archive %}
+            <span>[<archive-tag>Archive</archive-tag>]</span>
+            <span class="sep">::</span>
+            {% endif %}
+
+            {% if page.date %}
+            <span>Posted&nbsp;<time>{{ page.date | date(format="%Y-%m-%d") }}</time></span>
+            {% endif %}
+
+            {% if page.updated %}
+            <span class="sep">::</span>
+            {% if page.relative_path == "now.md" %}
+            <span>Updated&nbsp;<time>{{ page.updated | date(format="%Y-%m-%d %H:%M:%S") }}</time></span>
+            {% else %}
+            <span>Updated&nbsp;<time>{{ page.updated | date(format="%Y-%m-%d") }}</time></span>
+            {% endif %}
+            {% endif %}
+
+            {% if page.extra.place %}
+            <span class="sep">::</span>
+            <span>in&nbsp;<place>{{ page.extra.place }}</place></span>
+            {% endif %}
+
+            {% if page.extra.read_time %}
+            <span class="sep">::</span>
+            <span><time>{{ page.reading_time }}</time>&nbsp;min read</span>
+            {% endif %}
+
+            {% if page.word_count and (page.extra.show_word_count is not defined or page.extra.show_word_count) %}
+            <span class="sep">::</span>
+            <span>{{ page.word_count }} words</span>
+            {% endif %}
+
+            {# Recipe extras #}
+            {% if page.extra.cuisine %}
+            <span class="sep">::</span>
+            <span>{{ page.extra.cuisine }}</span>
+            {% endif %}
+            {% if page.extra.dish_type %}
+            <span class="sep">::</span>
+            <span>{{ page.extra.dish_type }}</span>
+            {% endif %}
+            {% if page.extra.prepare_time %}
+            <span class="sep">::</span>
+            <span><time>{{ page.extra.prepare_time }}</time>&nbsp;min to prepare</span>
+            {% endif %}
+            {% if page.extra.portions %}
+            <span class="sep">::</span>
+            <span>{{ page.extra.portions }} portions</span>
+            {% endif %}
+
+            {# Tags #}
+            {% if page.taxonomies and page.taxonomies.tags %}
+            <span class="sep">::</span>
+            <span class="post-tags">
+                {%- for tag in page.taxonomies.tags %}
+                <a class="post-tag no-underline"
+                   href="{{ get_taxonomy_url(kind='tags', name=tag, lang=page.lang) }}">#{{ tag }}</a>
+                {%- if not loop.last %},{% endif %}
+                {% endfor %}
+            </span>
+            {% endif %}
+
+            {# Source link #}
+            {% if page.extra.repo_view | default(value=config.extra.repo_view) | default(value=false) %}
+            {% if page.extra.repo_url is defined %}{% set repo_url = page.extra.repo_url %}
+            {% elif config.extra.repo_url is defined %}{% set repo_url = config.extra.repo_url %}
+            {% else %}{% set repo_url = false %}{% endif %}
+            {% if repo_url %}
+            <span class="sep">::</span>
+            <a href="{{ repo_url ~ page.relative_path }}" target="_blank" rel="noopener noreferrer">Source</a>
+            {% endif %}
+            {% endif %}
+
+            {% if page.draft %}<span class="draft-label">DRAFT</span>{% endif %}
+        </div>
+
+        {# tl;dr #}
+        {% if page.extra.tldr %}
+        <div class="tldr"><strong>tl;dr:</strong> {{ page.extra.tldr }}</div>
+        {% endif %}
+
+        {# Banner image #}
+        {% if page.extra.banner | default(value=false) %}
+        {% set base_name = page.extra.image_base | default(value=page.relative_path | split(pat="/") | last | split(pat=".") | first | replace(from=" ", to="_") | lower) %}
+        <div class="post-banner-container">
+            <img src="{{ page.extra.local_image }}"
+                 onerror="this.onerror=null;this.src='/media/{{ base_name }}.png';"
+                 alt="{{ base_name }} banner"
+                 class="post-banner">
+        </div>
+        {% endif %}
+
+        {# Table of contents #}
+        {% if config.extra.toc | default(value=false) and page.extra.toc %}
+        <div class="toc-container">
+            <h1 class="toc-title">Contents</h1>
+            <ul class="toc-list">
+                {% for h1 in page.toc %}
+                <li>
+                    <a href="{{ h1.permalink | safe }}">{{ h1.title }}</a>
+                    {% if h1.children %}
+                    <ul>
+                        {% for h2 in h1.children %}
+                        <li>
+                            <a href="{{ h2.permalink | safe }}">{{ h2.title }}</a>
+                            {% if h2.children %}
+                            <ul>
+                                {% for h3 in h2.children %}
+                                <li><a href="{{ h3.permalink | safe }}">{{ h3.title }}</a></li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        {# Body content #}
+        <section class="content-body body">
+            {{ page.content | safe }}
+        </section>
+    </article>
+</main>
+{% endmacro content %}
+
+{# ---------- project / post cards ---------- #}
+{% macro cards_posts(pages) %}
+<div class="cards-grid">
+    {%- for page in pages %}
+    <div class="card">
+        {% if page.extra is defined and page.extra.local_image is defined and page.extra.local_image | length > 0 %}
+        <img class="card-image" alt="{{ page.title }}" src="{{ get_url(path=page.extra.local_image) }}" />
+        {% elif page.extra is defined and page.extra.remote_image is defined and page.extra.remote_image | length > 0 %}
+        <img class="card-image" alt="{{ page.title }}" src="{{ page.extra.remote_image }}" />
+        {% else %}
+        <div class="card-image-placeholder"></div>
+        {% endif %}
+
+        <div class="card-body">
+            <h2 class="card-title">
+                {% if page.extra is defined and page.extra.link_to is defined %}
+                <a href="{{ page.extra.link_to }}" class="no-underline">{{ page.title }}</a>
+                {% else %}
+                <a href="{{ page.permalink | safe }}" class="no-underline">{{ page.title }}</a>
+                {% endif %}
+                {% if page.extra is defined and page.extra.archive is defined and page.extra.archive %}
+                <span style="font-size:0.7em;font-weight:400;">[<archive-tag>Archive</archive-tag>]</span>
+                {% endif %}
+            </h2>
+
+            <div class="card-meta">
+                {% if page.date %}<time>{{ page.date | date(format="%Y-%m-%d") }}</time>{% endif %}
+                {% if page.draft %}<span class="draft-label">DRAFT</span>{% endif %}
+                {% if page.extra is defined and page.extra.cuisine is defined %}{{ page.extra.cuisine }}{% endif %}
+                {% if page.extra is defined and page.extra.dish_type is defined %} &middot; {{ page.extra.dish_type }}{% endif %}
+                {% if page.extra is defined and page.extra.prepare_time is defined %} &middot; {{ page.extra.prepare_time }} min{% endif %}
+                {% if page.extra is defined and page.extra.portions is defined %} &middot; {{ page.extra.portions }} portions{% endif %}
+            </div>
+
+            {% if page.description %}
+            <div class="card-description">{{ page.description }}</div>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor -%}
+</div>
+{% endmacro cards_posts %}
+
+{# ---------- now section (standalone, if used) ---------- #}
+{% macro show_now() %}
+{% set now_page = get_page(path="now.md") %}
+<section id="now">
+    <h2>Now</h2>
+    {{ now_page.content | safe }}
+</section>
+{% endmacro %}

@@ -1,3 +1,4 @@
+theme = "simplr"
 base_url = "https://ribeirovidal.com/"
 title = "MRV"
 description = "Matheus Ribeiro Vidal - Personal Website"
@@ -43,7 +44,7 @@ socials = [
 	{ name = "email", url = "mailto:matheus@ribeirovidal.com", icon = "email"},
     { name = "instagram", url = "https://www.instagram.com/theusvid/", icon = "instagram" },
 	{ name = "orcid", url = "https://orcid.org/0009-0009-2651-461X", icon = "orcid" },
-    { name = "github", url = "https://github.com/ChurroGelato", icon = "github" },
+    { name = "github", url = "https://github.com/MatheusRibeiroVidal", icon = "github" },
 	{ name = "itch.io", url = "https://churrogelato.itch.io/", icon = "itchio" },
 ]
 

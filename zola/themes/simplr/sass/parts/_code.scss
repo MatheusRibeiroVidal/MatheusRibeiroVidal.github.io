@@ -1,0 +1,137 @@
+// -------------------------------------------------------
+// Code — inline and fenced blocks
+// -------------------------------------------------------
+
+:root {
+  --code-bg:    var(--bg-1);
+  --code-text:  var(--text-0);
+  --highlight-bg: var(--bg-2);
+}
+
+// Inline code
+code {
+  font-family: var(--mono-font);
+  font-size: 0.85em;
+  background: var(--code-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 3px;
+  padding: 0.1em 0.35em;
+}
+
+// Fenced blocks
+pre {
+  font-family: var(--mono-font);
+  font-size: 0.83rem;
+  line-height: 1.5;
+  background: var(--code-bg) !important;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 1.1rem 1.2rem;
+  overflow-x: auto;
+  position: relative;
+
+  // Remove inner code overrides
+  code {
+    background: transparent !important;
+    border: none;
+    padding: 0;
+    font-size: inherit;
+    border-radius: 0;
+  }
+
+  // Highlight rows
+  mark {
+    display: block;
+    background: var(--highlight-bg) !important;
+    color: inherit;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  // Line number table
+  table {
+    margin: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: var(--mono-font);
+
+    td, th, tr {
+      padding: 0;
+      border: none;
+    }
+
+    tbody td:first-child {
+      text-align: right;
+      user-select: none;
+      min-width: 2.5rem;
+      padding-right: 1.2rem;
+      color: var(--text-1);
+      opacity: 0.5;
+    }
+
+    tbody tr:nth-child(even), thead tr {
+      background: transparent;
+    }
+  }
+}
+
+// Copy button (fancy_code)
+.clipboard-button,
+.clipboard-button svg {
+  all: unset;
+  cursor: pointer;
+  position: absolute;
+  bottom: 6px;
+  right: 8px;
+  z-index: 5;
+  background: transparent;
+  border: none;
+  fill: var(--text-1);
+  opacity: 0.5;
+  transition: opacity 0.15s;
+
+  &:hover { opacity: 1; }
+}
+
+// Language label
+.code-label-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+// Language colors — compact subset (extend as needed)
+$lang-colors: (
+  "js":         (#f7df1e, #333),
+  "ts":         (#3178c6, #fff),
+  "typescript": (#3178c6, #fff),
+  "python":     (#3572a5, #fff),
+  "rust":       (#ff4647, #fff),
+  "go":         (#00add8, #fff),
+  "shell":      (#4eaa25, #fff),
+  "bash":       (#4eaa25, #fff),
+  "json":       (dodgerblue, #fff),
+  "yaml":       (#f71e6a, #fff),
+  "css":        (#264de4, #fff),
+  "html":       (#e34c26, #fff),
+  "default":    (#555, #fff),
+);
+
+@mixin lang-label($bg, $fg: #fff) {
+  background: $bg;
+  color: $fg;
+  font-family: var(--mono-font);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 0 5px 0 4px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@each $lang, $colors in $lang-colors {
+  .label-#{$lang} { @include lang-label(nth($colors, 1), nth($colors, 2)); }
+}

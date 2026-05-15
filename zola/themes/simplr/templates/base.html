@@ -1,0 +1,27 @@
+{% import "macros/macros.html" as post_macros %}
+<!DOCTYPE html>
+<html lang="en" class="dark light">
+
+{% include "partials/head.html" %}
+
+<body>
+<div class="site-shell">
+    {% include "partials/nav.html" %}
+
+    <div class="{% block wrap_class %}content-wrap{% endblock wrap_class %}">
+        {% block main_content %}
+        {% endblock main_content %}
+    </div>
+
+    {% if page.extra.comment is defined and page.extra.comment %}
+    <div class="content-wrap">
+        <div class="giscus"></div>
+        {% include "_giscus_script.html" %}
+    </div>
+    {% endif %}
+
+    {% include "partials/footer.html" %}
+</div>
+</body>
+
+</html>

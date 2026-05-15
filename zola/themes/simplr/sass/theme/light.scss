@@ -1,0 +1,44 @@
+// -------------------------------------------------------
+// mrv-modern — Light theme variables
+// Warm off-white background, deep ink text, terracotta accent
+// -------------------------------------------------------
+
+$bg-0-val:    #f9f7f4;   // warm parchment
+$prim-0-val:  #c0392b;   // terracotta / deep red accent
+$bg-1-val:    darken(#f9f7f4, 4%);
+$bg-2-val:    darken(#f9f7f4, 10%);
+$text-0-val:  #1a1a1a;   // near-black ink
+$text-1-val:  #666;      // muted secondary text
+$prim-1-val:  lighten(#c0392b, 18%);
+
+:root.light {
+  --bg-0:           #{$bg-0-val};
+  --bg-1:           #{$bg-1-val};
+  --bg-2:           #{$bg-2-val};
+
+  --text-0:         #{$text-0-val};
+  --text-1:         #{$text-1-val};
+
+  --primary-color:  #{$prim-0-val};
+  --alt-primary:    #{$prim-1-val};
+  --hover-color:    #{$bg-0-val};
+
+  --border-color:   #{$bg-2-val};
+  --link-underline: #{rgba($prim-0-val, 0.35)};
+
+  --card-bg:        #fff;
+  --card-border:    #{$bg-2-val};
+
+  --nav-bg:         #{$bg-0-val};
+  --nav-border:     #{$bg-2-val};
+
+  --code-bg:        #{darken(#f9f7f4, 5%)};
+  --highlight-bg:   #e9e3d6;
+
+  // Social icons: dark on light bg
+  .social img { filter: none; }
+
+  // Filter that tints a black SVG to the terracotta accent (#c0392b)
+  --icon-accent-filter: brightness(0) saturate(100%) invert(25%) sepia(70%)
+    saturate(900%) hue-rotate(338deg) brightness(88%);
+}

@@ -1,0 +1,140 @@
+// -------------------------------------------------------
+// Typography — body copy, headings, links, prose
+// -------------------------------------------------------
+
+// Headings: no leading # decoration — clean, editorial
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--display-font);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-0);
+  margin-top: 2.2em;
+  margin-bottom: 0.5em;
+  letter-spacing: -0.01em;
+}
+
+h1 { font-size: 1.75rem; }
+h2 { font-size: 1.35rem; }
+h3 { font-size: 1.1rem; }
+h4 { font-size: 1rem;    font-weight: 600; }
+h5 { font-size: 0.9rem;  font-weight: 600; }
+h6 { font-size: 0.85rem; font-weight: 600; }
+
+// Heading accent: a left border on h2 for visual rhythm
+h2 {
+  border-left: 3px solid var(--primary-color);
+  padding-left: 0.6em;
+  margin-left: -0.75em;
+
+  // Avoid negative margin causing horizontal scroll on narrow screens
+  @media (max-width: 480px) {
+    margin-left: 0;
+    padding-left: 0.5em;
+  }
+}
+
+p {
+  margin: 0 0 1.1em;
+  line-height: 1.75;
+}
+
+// Links — subtle underline, full highlight on hover
+a {
+  color: var(--text-0);
+  text-decoration: none;
+  border-bottom: 1.5px solid var(--link-underline);
+  transition: color 0.12s, background-color 0.12s, border-color 0.12s;
+
+  &:hover {
+    color: var(--hover-color);
+    background-color: var(--primary-color);
+    border-color: transparent;
+  }
+}
+
+// Suppress underline on structural links
+a.no-underline,
+a.nav-brand,
+a.nav-link,
+a.nav-social,
+a.card-link,
+a.gallery-anchor,
+a#dark-mode-toggle,
+a.post-tag,
+a.zola-anchor {
+  border-bottom: none;
+}
+
+// Blockquote
+blockquote {
+  border-left: 3px solid var(--primary-color);
+  margin: 1.5rem 0;
+  padding: 0.6rem 1.2rem;
+  color: var(--text-1);
+  font-style: italic;
+  font-family: var(--serif-font);
+  background-color: var(--bg-1);
+  border-radius: 0 4px 4px 0;
+
+  p { margin: 0; }
+}
+
+// Inline elements
+strong, b { font-weight: 700; }
+em, i     { font-style: italic; }
+
+del {
+  text-decoration: line-through;
+  text-decoration-color: var(--primary-color);
+  text-decoration-thickness: 2px;
+}
+
+// Selection highlight
+::selection {
+  background: var(--primary-color);
+  color: var(--hover-color);
+}
+::-moz-selection {
+  background: var(--primary-color);
+  color: var(--hover-color);
+}
+
+// Custom inline elements from existing templates
+time {
+  font-family: var(--mono-font);
+  font-size: 0.85em;
+  color: var(--alt-primary);
+}
+
+place {
+  font-family: var(--mono-font);
+  font-size: 0.85em;
+  color: var(--alt-primary);
+}
+
+archive-tag {
+  font-family: var(--mono-font);
+  font-size: 0.85em;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+// Draft label badge
+.draft-label {
+  display: inline-block;
+  font-family: var(--ui-font);
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 3px;
+  background-color: var(--primary-color);
+  color: var(--hover-color);
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+// Primary color utility
+.primary-color { color: var(--primary-color); }

@@ -1,0 +1,72 @@
+// -------------------------------------------------------
+// Images and figures
+// -------------------------------------------------------
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
+
+figure {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 1rem 0;
+  max-width: 100%;
+}
+
+figure img {
+  max-height: 600px;
+  object-fit: contain;
+}
+
+@media screen and (min-width: 600px) {
+  figure { padding: 0 2rem; }
+}
+
+figure figcaption,
+figure h4 {
+  font-size: 0.8rem;
+  color: var(--text-1);
+  margin: 0.4rem 0 0;
+  font-style: italic;
+
+  &::before { content: "↳ "; }
+}
+
+// Profile picture (used in homepage or about)
+.profile-pic-container {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.profile-pic {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--border-color);
+
+  // Scale down on narrow viewports so it never overflows
+  @media (max-width: 480px) {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+// Project banner image
+.post-banner-container {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.post-banner {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  object-fit: cover;
+}

@@ -1,0 +1,1 @@
+- [MRV Site Structure](project_mrv_site.md) — Zola site; mrv-modern is the ACTIVE theme (2026-05); all edits go in zola/themes/mrv-modern/

@@ -1,0 +1,1 @@
+- [mrv-modern Theme Architecture](project_mrv_modern_theme.md) — Key SCSS paths, breakpoints, class names, and layout facts for the mrv-modern Zola theme

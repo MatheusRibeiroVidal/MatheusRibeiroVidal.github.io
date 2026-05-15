@@ -1,0 +1,151 @@
+// -------------------------------------------------------
+// Search modal
+// -------------------------------------------------------
+
+$icon-size: 1.2rem;
+
+// Search modal backdrop
+.search-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  &.js { // class added by Zola's search JS
+    // kept as-is for compatibility — actual visibility controlled by JS
+  }
+}
+
+// Modal card
+#modal-content {
+  position: relative;
+  margin: 8% auto;
+  width: 88%;
+  max-width: 26rem;
+  background: var(--bg-0);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  padding: 1rem;
+
+  h1 {
+    font-family: var(--ui-font);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-1);
+    margin: 0 0 0.75rem;
+    // suppress global h styles
+    border-left: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+}
+
+// Search bar row
+#searchBar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0;
+  margin-bottom: 0.5rem;
+
+  #searchInput {
+    flex: 1;
+    padding: 0.6rem 2.2rem 0.6rem 0.9rem;
+    font-size: 0.95rem;
+    font-family: var(--ui-font);
+    color: var(--text-0);
+    background: var(--bg-1);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    width: 100%;
+    outline: none;
+    transition: border-color 0.15s;
+
+    &:focus { border-color: var(--primary-color); }
+    &::placeholder { color: var(--text-1); }
+  }
+
+  .clear-button {
+    position: absolute;
+    right: 0.5rem;
+    background: none;
+    border: none;
+    padding: 2px;
+    cursor: pointer;
+    display: none;
+    width: 22px;
+    height: 22px;
+
+    svg {
+      width: 100%;
+      height: 100%;
+      fill: var(--text-1);
+    }
+
+    &:hover svg { fill: var(--primary-color); }
+  }
+}
+
+// Results container
+#results-container {
+  display: none;
+  border-top: 1px solid var(--border-color);
+  margin-top: 0.5rem;
+
+  #results-info {
+    padding: 0.4rem 0.2rem;
+    font-size: 0.75rem;
+    color: var(--text-1);
+    font-family: var(--ui-font);
+    text-align: center;
+  }
+
+  #results {
+    max-height: 50vh;
+    overflow-y: auto;
+
+    > div {
+      padding: 0.65rem 0.75rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.1s;
+
+      &[aria-selected="true"] {
+        background: var(--primary-color);
+        * { color: var(--hover-color) !important; }
+      }
+
+      &:hover:not([aria-selected="true"]) {
+        background: var(--bg-1);
+      }
+
+      span:first-child {
+        display: block;
+        font-weight: 600;
+        color: var(--text-0);
+        font-size: 0.9rem;
+        margin-bottom: 0.15rem;
+      }
+
+      span:nth-child(2) {
+        display: block;
+        font-size: 0.8rem;
+        color: var(--text-1);
+      }
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  #modal-content {
+    margin: 4% auto;
+    width: 94%;
+  }
+}

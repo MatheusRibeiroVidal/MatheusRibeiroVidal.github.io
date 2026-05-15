@@ -1,0 +1,45 @@
+// -------------------------------------------------------
+// mrv-modern — Dark theme variables
+// Deep charcoal background, off-white text, amber accent
+// -------------------------------------------------------
+
+$bg-0-val:    #141414;   // near-black
+$prim-0-val:  #e6a817;   // amber / golden accent
+$bg-1-val:    lighten(#141414, 6%);
+$bg-2-val:    lighten(#141414, 14%);
+$text-0-val:  #e8e6e1;   // warm off-white
+$text-1-val:  #9a9085;   // muted warm grey
+$prim-1-val:  lighten(#e6a817, 22%);
+
+:root.dark {
+  --bg-0:           #{$bg-0-val};
+  --bg-1:           #{$bg-1-val};
+  --bg-2:           #{$bg-2-val};
+
+  --text-0:         #{$text-0-val};
+  --text-1:         #{$text-1-val};
+
+  --primary-color:  #{$prim-0-val};
+  --alt-primary:    #{$prim-1-val};
+  --hover-color:    #{$bg-0-val};
+
+  --border-color:   #{$bg-2-val};
+  --link-underline: #{rgba($prim-0-val, 0.4)};
+
+  --card-bg:        #{$bg-1-val};
+  --card-border:    #{$bg-2-val};
+
+  --nav-bg:         #{$bg-0-val};
+  --nav-border:     #{$bg-2-val};
+
+  --code-bg:        #{lighten(#141414, 4%)};
+  --highlight-bg:   #2d2b22;
+
+  // Social icons invert on dark
+  .social img { filter: invert(1); }
+
+  // Filter that tints a black SVG to the amber accent (#e6a817)
+  // Applied on hover; replaces the base invert(1) that dark mode normally uses.
+  --icon-accent-filter: brightness(0) saturate(100%) invert(68%) sepia(85%)
+    saturate(700%) hue-rotate(5deg) brightness(108%);
+}

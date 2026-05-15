@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+<div class="tag-cloud">
+    {{ post_macros::page_header(title="Tags") }}
+
+    <main>
+        <ul class="tags-list">
+            {% for term in terms %}
+            <li>
+                <a href="{{ term.permalink | safe }}">
+                    {{ term.name }}
+                    <span style="font-size:0.8em;opacity:0.6;">({{ term.pages | length }})</span>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </main>
+</div>
+{% endblock main_content %}

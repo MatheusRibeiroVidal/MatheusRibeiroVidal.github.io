@@ -140,12 +140,8 @@
                 Posted on <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
                 {% endif %}
 
-                {% if page.updated and page.date%}
+                {% if page.updated %}
                 :: Updated on <time>{{ page.updated | date(format="%Y-%m-%d") }}</time>
-                {% endif %}
-
-                {% if page.updated and not page.date %}
-                Updated on <time>{{ page.updated | date(format="%Y-%m-%d|%H:%M") }}</time>
                 {% endif %}
 
                 {% if page.extra.place %}

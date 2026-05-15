@@ -9,11 +9,11 @@ authors = ["Matheus"]
 tags=[]
 [extra]
 local_image = "/media/mrv.gif"
-link_to = "https://github.com/ChurroGelato/ChurroGelato.github.io"
+link_to = "https://github.com/MatheusRibeiroVidal/MatheusRibeiroVidal.github.io"
 comment = false
 banner = true
 +++
 
 # Links
-- [GitHub repo](https://github.com/ChurroGelato/ChurroGelato.github.io)
+- [GitHub repo](https://github.com/MatheusRibeiroVidal/MatheusRibeiroVidal.github.io)
 

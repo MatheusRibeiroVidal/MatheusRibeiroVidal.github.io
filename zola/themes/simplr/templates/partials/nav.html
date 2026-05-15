@@ -1,0 +1,87 @@
+<nav class="site-header" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+        {# Wordmark / logo #}
+        {% if config.extra.logo %}
+        <a href="{{ config.base_url }}" class="nav-brand no-underline" aria-label="{{ config.title }}">
+            <img alt="{{ config.title }}" src="{{ get_url(path=config.extra.logo) }}"
+                 style="height:24px;width:auto;border:none;vertical-align:middle;">
+        </a>
+        {% else %}
+        <a href="{{ config.base_url }}" class="nav-brand no-underline">{{ config.title }}</a>
+        {% endif %}
+
+        {# Menu links #}
+        <div class="nav-links">
+            {% for item in config.extra.menu %}
+            {% set item_url = get_url(path=item.url) %}
+            {% set is_active = current_url is defined and current_url is starting_with(item_url) and item_url != config.base_url %}
+            <a href="{{ item_url }}"
+               class="nav-link no-underline{% if is_active %} active{% endif %}"
+               {% if is_active %}aria-current="page"{% endif %}>{{ item.name }}</a>
+            {% endfor %}
+        </div>
+
+        {# Right-side controls #}
+        <div class="nav-controls">
+            {# Social icons — hidden on very small screens via CSS #}
+            {% for social in config.extra.socials %}
+            <a rel="me" href="{{ social.url }}" class="nav-social social no-underline"
+               title="{{ social.name }}" aria-label="{{ social.name }}">
+                <img alt="{{ social.name }}"
+                     src="{{ get_url(path='icons/social/' ~ social.icon ~ '.svg') }}">
+            </a>
+            {% endfor %}
+
+            {# Search button #}
+            {% if config.build_search_index %}
+            <button id="search-button" class="search-btn" title="Search" aria-label="Open search">
+                <img src="{{ get_url(path='icons/search.svg') }}" alt="Search" class="search-icon">
+            </button>
+
+            <div id="searchModal" class="search-modal js" role="dialog" aria-labelledby="modalTitle">
+                <div id="modal-content">
+                    <h1 id="modalTitle">Search</h1>
+                    <div id="searchBar">
+                        <input id="searchInput"
+                               role="combobox"
+                               autocomplete="off"
+                               spellcheck="false"
+                               aria-expanded="false"
+                               aria-controls="results-container"
+                               placeholder="Search..." />
+                        <button id="clear-search" class="clear-button" title="Clear search" aria-label="Clear">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div id="results-container">
+                        <div id="results-info">
+                            <span id="zero_results" style="display:none;">No results</span>
+                            <span id="one_result" style="display:none;">1 result</span>
+                            <span id="many_results" style="display:none;">$NUMBER results</span>
+                        </div>
+                        <div id="results" role="listbox"></div>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            {# Theme toggle #}
+            {% if config.extra.theme == "toggle" %}
+            <a id="dark-mode-toggle" class="no-underline"
+               onclick="toggleTheme(); event.preventDefault();" href="#"
+               title="Toggle theme" aria-label="Toggle light/dark theme">
+                <img src="{{ get_url(path='icons/sun.svg') }}"
+                     id="sun-icon"
+                     style="filter:invert(1)"
+                     alt="Light mode" />
+                <img src="{{ get_url(path='icons/moon.svg') }}"
+                     id="moon-icon"
+                     alt="Dark mode" />
+            </a>
+            <script>updateItemToggleTheme()</script>
+            {% endif %}
+        </div>
+    </div>
+</nav>

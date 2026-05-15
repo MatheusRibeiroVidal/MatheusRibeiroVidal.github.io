@@ -1,0 +1,18 @@
+name = "simplr"
+description = "A clean, editorial theme for MRV — distinct from Apollo with generous whitespace, refined typography, and a modern sans+serif pairing."
+min_version = "0.18.0"
+license = "MIT"
+homepage = "https://github.com/MatheusRibeiroVidal"
+
+[extra]
+theme = "toggle"   # light | dark | auto | toggle
+toc = false
+fancy_code = true
+dynamic_note = true
+mathjax = false
+mathjax_dollar_inline_enable = false
+use_cdn = true
+
+[author]
+name = "Matheus Ribeiro Vidal"
+homepage = "https://ribeirovidal.com"

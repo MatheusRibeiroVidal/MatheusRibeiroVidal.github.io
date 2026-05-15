@@ -22,7 +22,7 @@ archive = false
 +++
 
 # Links
-- [GitHub repo](https://github.com/ChurroGelato/oj)
+- [GitHub repo](https://github.com/MatheusRibeiroVidal/oj)
 
 # To-Do
 - ~~Find out which solver to use~~

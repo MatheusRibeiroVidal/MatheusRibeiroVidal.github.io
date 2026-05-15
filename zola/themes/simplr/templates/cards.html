@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block wrap_class %}content-wrap content-wrap--wide{% endblock wrap_class %}
+
+{% block main_content %}
+    {% if section.extra.section_path %}
+        {% set section = get_section(path=section.extra.section_path) %}
+    {% endif %}
+
+    {{ post_macros::page_header(title=section.title) }}
+
+    {% if section.description %}
+    <p class="page-subtitle">{{ section.description }}</p>
+    {% endif %}
+
+    <main>
+        {%- if paginator %}
+            {%- set show_pages = paginator.pages %}
+        {% else %}
+            {%- set show_pages = section.pages %}
+        {% endif %}
+
+        {{ post_macros::cards_posts(pages=show_pages) }}
+    </main>
+
+    {% if paginator %}
+    <ul class="pagination" aria-label="Page navigation">
+        {% if paginator.previous %}
+        <li><a href="{{ paginator.previous }}" class="page-link">&larr; Prev</a></li>
+        {% endif %}
+        {% if paginator.next %}
+        <li><a href="{{ paginator.next }}" class="page-link">Next &rarr;</a></li>
+        {% endif %}
+    </ul>
+    {% endif %}
+{% endblock main_content %}

@@ -1,0 +1,10 @@
+<footer class="site-footer" role="contentinfo">
+    {% if config.extra.last_update_to_site %}
+    <p>Last updated {{ config.extra.last_update_to_site | date(format="%Y-%m-%d %H:%M:%S") }}</p>
+    {% endif %}
+    <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+        <span property="cc:attributionName">Matheus Ribeiro Vidal</span> &mdash;
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"
+           target="_blank" rel="license noopener noreferrer">CC BY-SA 4.0</a>
+    </p>
+</footer>

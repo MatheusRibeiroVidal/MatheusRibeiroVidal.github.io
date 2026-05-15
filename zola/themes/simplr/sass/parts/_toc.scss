@@ -1,0 +1,74 @@
+// -------------------------------------------------------
+// Table of Contents
+// -------------------------------------------------------
+
+.toc-container {
+  background: var(--bg-1);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 0.8rem 1rem;
+  margin: 1.5rem 0;
+  font-size: 0.88rem;
+}
+
+.toc-title {
+  font-family: var(--ui-font);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-1);
+  cursor: pointer;
+  margin: 0;
+  padding-left: 1.2rem;
+  position: relative;
+
+  // Override the display-font h-tag styles applied globally
+  &::before {
+    content: none; // remove any injected prefix
+  }
+
+  // Collapse indicator (from existing JS)
+  &::after {
+    content: "▼";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.6em;
+    transition: transform 0.15s;
+  }
+
+  &.expanded::after {
+    transform: translateY(-50%) rotate(180deg);
+  }
+}
+
+.toc-list {
+  display: none;
+  list-style: none;
+  margin: 0.6rem 0 0;
+  padding: 0;
+
+  li {
+    margin: 0.25rem 0;
+  }
+
+  a {
+    color: var(--text-1);
+    font-size: 0.85rem;
+    border-bottom: none;
+    transition: color 0.12s;
+
+    &:hover {
+      color: var(--primary-color);
+      background-color: transparent;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 1rem;
+    margin: 0.2rem 0 0;
+  }
+}

@@ -17,7 +17,6 @@ index_format = "elasticlunr_json"
 
 [markdown]
 highlighting = true
-highlight_theme = "ayu-light"
 
 [extra]
 last_update_to_site = "2026-05-06T18:46:58"

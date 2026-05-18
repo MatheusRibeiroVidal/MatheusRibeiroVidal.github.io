@@ -8,7 +8,7 @@ authors = ["Matheus"]
 
 [extra]
 local_image = "/media/creme_brulee.png"
-link_to = "./creme-brulee/"
+
 comment = false
 show_word_count = false
 banner = true

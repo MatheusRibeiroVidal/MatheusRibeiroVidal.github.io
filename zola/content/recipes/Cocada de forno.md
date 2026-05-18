@@ -9,7 +9,7 @@ draft = true
 
 [extra]
 local_image = "/media/cocada_de_forno.png"
-link_to = "./cocada-de-forno/"
+
 comment = false
 show_word_count = false
 banner = true

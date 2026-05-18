@@ -9,7 +9,7 @@ authors = ["Matheus"]
 
 [extra]
 local_image = "/media/bacalhau_do_pops.png"
-link_to = "./bacalhau-do-pops/"
+
 comment = false
 show_word_count = false
 banner = true

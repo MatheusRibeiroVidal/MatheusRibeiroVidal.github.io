@@ -18,7 +18,12 @@ Get-Content $ConfigPath | Where-Object { $_ -match '^\w+=' } | ForEach-Object {
     $config[$key] = $value.Trim()
 }
 
-$CV_SOURCE = "C:\Users\Matheus\Documents\My_Files\Profissional\CVs\CV_MatheusRibeiroVidal_with_recommendations.pdf"
+$CV_SOURCE = $config["CV_SOURCE"]
+if (-not $CV_SOURCE) {
+    Write-Error "CV_SOURCE not found in paths.config"
+    exit 1
+}
+
 $CV_DEST_DIR = Join-Path $config["REPO_FOLDER"] "zola\static\cv"
 $CV_DEST_FILE = Join-Path $CV_DEST_DIR "CV_MatheusRibeiroVidal.pdf"
 

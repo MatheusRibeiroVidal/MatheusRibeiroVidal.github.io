@@ -270,60 +270,21 @@ Smart automation workflow:
 
 ### Script 5: `watch_cv.ps1` — CV File Watcher
 
-Monitors your CV file for changes and automatically syncs it to the website.
+Syncs your CV file to the website during builds. Integrated into the build process.
 
 **What it does:**
-- Watches your CV file at `C:\Users\Matheus\Documents\My_Files\Profissional\CVs\CV_MatheusRibeiroVidal_with_recommendations.pdf`
-- Detects when the file changes
-- Automatically copies it to `zola/static/cv/CV_MatheusRibeiroVidal.pdf`
-- Logs all sync operations with timestamps
-- Runs continuously in the background
-
-**Usage:**
-
-Start the file watcher in a PowerShell window (run it separately while developing):
-
-```powershell
-.\watch_cv.ps1
-```
-
-The watcher will output:
-```
-CV File Watcher started
-Watching: C:\Users\Matheus\Documents\My_Files\Profissional\CVs\CV_MatheusRibeiroVidal_with_recommendations.pdf
-Syncing to: C:\Projects\mrv\zola\static\cv\CV_MatheusRibeiroVidal.pdf
-Press Ctrl+C to stop.
-
-[2026-05-18 14:32:15] CV synced: C:\Projects\mrv\zola\static\cv\CV_MatheusRibeiroVidal.pdf
-```
-
-**Typical workflow:**
-
-1. **Start the watcher** in PowerShell while working on your website:
-   ```powershell
-   .\watch_cv.ps1
-   ```
-
-2. **Update your CV** in your Profissional folder (locally or in any application)
-
-3. **The file watcher automatically syncs** the updated CV to your website
-
-4. **Your site's CV download link** (`/cv/CV_MatheusRibeiroVidal.pdf`) always stays in sync
-
-5. **Press Ctrl+C** to stop the watcher when done
+- Reads CV source path from `paths.config` (CV_SOURCE variable)
+- Automatically copies to `zola/static/cv/CV_MatheusRibeiroVidal.pdf` before each build
 
 **Configuration:**
 
-The CV source and destination paths are hardcoded in the script. Edit the script to change them:
+Configure the CV path in `paths.config`:
 
-```powershell
-# Edit these lines at the top of watch_cv.ps1
-$CV_SOURCE = "C:\Users\Matheus\Documents\My_Files\Profissional\CVs\CV_MatheusRibeiroVidal_with_recommendations.pdf"
-$CV_DEST_DIR = Join-Path $config["REPO_FOLDER"] "zola\static\cv"
-$CV_DEST_FILE = Join-Path $CV_DEST_DIR "CV_MatheusRibeiroVidal.pdf"
+```ini
+CV_SOURCE=/path/to/your/cv/file.pdf
 ```
 
-The `REPO_FOLDER` path is read from `paths.config`, so make sure that file is up-to-date.
+See `paths.config.example` for the complete template with all required paths.
 
 ### Typical Workflow Examples
 

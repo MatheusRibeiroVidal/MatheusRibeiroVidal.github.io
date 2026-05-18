@@ -1,0 +1,245 @@
+// -------------------------------------------------------
+// Sidebar — floating CV download panel in homepage gutter
+// CV banner — inline end-of-page CTA on about page
+// -------------------------------------------------------
+//
+// Architecture:
+//   .content-wrap--homepage  →  outer shell, max-width: 1380px, centered
+//   .homepage-outer          →  block container, clearfix
+//   .homepage-main-column    →  780px, margin: 0 auto (matches nav exactly)
+//   .sidebar                 →  260px, float: right gutter element
+//   .sidebar-box             →  position: sticky for scroll-lock
+//
+// Centering math:
+//   Shell = 1380px. Shell has margin: 0 auto, so at full width:
+//     each side margin = (1380 - 780) / 2 = 300px
+//   Sidebar (260px) + gap (40px) = 300px = right margin exactly.
+//   Left margin (300px) mirrors the sidebar footprint as a counterweight.
+//   Result: body column centered on the page at all widths, matching nav.
+//
+// Float technique:
+//   The <aside> must appear before <main> in the HTML so float: right
+//   pulls it alongside the content instead of below it.
+//   position: sticky cannot be applied to a float; it is applied to
+//   .sidebar-box (the inner card) instead, which works correctly.
+//
+// On viewports ≤ 1120px the sidebar drops below the main content.
+// On viewports ≤ 640px it becomes full-width.
+// -------------------------------------------------------
+
+// ── Outer shell ──────────────────────────────────────────
+.content-wrap--homepage {
+  max-width: 1380px;
+}
+
+// ── Page layout container ────────────────────────────────
+// Block container; clearfix so it wraps the floated sidebar.
+.homepage-outer {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// ── Main content column ──────────────────────────────────
+// 780px centered — identical to the nav bar and every other page.
+// The floated sidebar does not affect this column's centering.
+.homepage-main-column {
+  max-width: 780px;
+  margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+// ── Sidebar ──────────────────────────────────────────────
+// float: right pulls the sidebar into the right gutter margin.
+// The <aside> must precede <main> in the DOM for this to work.
+.sidebar {
+  float: right;
+  clear: right;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+
+  // Below 1120px: cancel float, place sidebar below body content
+  @media (max-width: 1120px) {
+    float: none;
+    width: 100%;
+    max-width: 460px;
+    margin: 2rem auto 0;
+  }
+
+  @media (max-width: 640px) {
+    max-width: 100%;
+  }
+}
+
+// ── Responsive stacking ──────────────────────────────────
+@media (max-width: 1120px) {
+  .homepage-main-column {
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+// ── Sidebar card ─────────────────────────────────────────
+// position: sticky is on the card, not the float, because
+// position: sticky is incompatible with float on the same element.
+.sidebar-box {
+  position: sticky;
+  top: 5rem;   // clears the sticky nav bar
+  background: var(--bg-1);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.25rem 1.25rem 1.375rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+
+  @media (max-width: 1120px) {
+    position: static;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--text-1);
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--text-1);
+    line-height: 1.55;
+  }
+}
+
+// -------------------------------------------------------
+// CV Banner — subtle inline CTA at the end of about page
+// -------------------------------------------------------
+//
+// Sits after the <hr> separator in about.md.
+// Mirrors the blockquote/note visual language:
+//   - left accent border using --primary-color
+//   - --bg-1 fill (one step off page background)
+//   - serif body text at slightly reduced size
+// The download button shares tokens with .sidebar-download-link
+// but is set to align-self: start so it doesn't stretch full-width.
+// border-bottom: none overrides the global `a` underline rule.
+// -------------------------------------------------------
+
+.cv-banner {
+  margin-top: 2rem;
+  border-left: 3px solid var(--primary-color);
+  background-color: var(--bg-1);
+  border-radius: 0 6px 6px 0;
+  padding: 1rem 1.25rem;
+
+  @media (max-width: 480px) {
+    padding: 0.875rem 1rem;
+  }
+}
+
+.cv-banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+  p {
+    margin: 0;
+    font-family: var(--serif-font);
+    font-size: 0.9rem;
+    color: var(--text-1);
+    line-height: 1.55;
+    flex: 1 1 auto;
+    min-width: 0;
+
+    strong {
+      color: var(--text-0);
+      font-weight: 600;
+    }
+  }
+}
+
+.cv-banner-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-shrink: 0;
+  padding: 0.45rem 0.9rem;
+  background: var(--primary-color);
+  color: var(--hover-color);
+  text-decoration: none;
+  border-bottom: none;  // override global `a` border-bottom
+  border-radius: 4px;
+  font-family: var(--ui-font);
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+
+  &:hover {
+    opacity: 0.82;
+    transform: translateY(-1px);
+    background-color: var(--primary-color);  // keep bg; override global hover rule
+    color: var(--hover-color);
+    border-bottom: none;
+  }
+
+  &:active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  svg {
+    width: 0.95em;
+    height: 0.95em;
+    flex-shrink: 0;
+  }
+}
+
+// ── Download button ──────────────────────────────────────
+.sidebar-download-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 0.6rem 1rem;
+  background: var(--primary-color);
+  color: var(--hover-color);   // contrasting text pulled from theme tokens
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: var(--ui-font);
+  font-weight: 600;
+  font-size: 0.875rem;
+  letter-spacing: 0.01em;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+  border: none;
+
+  &:hover {
+    opacity: 0.85;
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  svg {
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+  }
+}

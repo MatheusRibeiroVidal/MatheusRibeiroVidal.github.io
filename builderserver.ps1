@@ -10,6 +10,44 @@ $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 # Go to the root of the repo
 Set-Location -Path $scriptDir
 
+# ============================================================================
+# HELPER FUNCTION: Sync CV File
+# ============================================================================
+function Sync-CVFile {
+    $pathsConfigPath = Join-Path $scriptDir "paths.config"
+    $cvSource = ""
+
+    # Read CV_SOURCE from paths.config
+    if (Test-Path $pathsConfigPath) {
+        Get-Content $pathsConfigPath | ForEach-Object {
+            if ($_ -match '^CV_SOURCE=(.+)') {
+                $cvSource = $matches[1]
+            }
+        }
+    }
+
+    if (-not $cvSource) {
+        Write-Host "Warning: CV_SOURCE not found in paths.config" -ForegroundColor Yellow
+        return
+    }
+
+    $cvDestDir = Join-Path $scriptDir "zola\static\cv"
+    $cvDestFile = Join-Path $cvDestDir "CV_MatheusRibeiroVidal.pdf"
+
+    if (Test-Path $cvSource) {
+        # Create destination directory if it doesn't exist
+        if (-not (Test-Path $cvDestDir)) {
+            New-Item -ItemType Directory -Path $cvDestDir -Force | Out-Null
+        }
+
+        # Copy CV file
+        Copy-Item -Path $cvSource -Destination $cvDestFile -Force
+        Write-Host "[CV] Synced to website"
+    } else {
+        Write-Host "Warning: CV file not found at $cvSource" -ForegroundColor Yellow
+    }
+}
+
 # Define relative paths
 $zolaBuildPath = Join-Path $scriptDir "zola"
 $docsPath = Join-Path $scriptDir "docs"
@@ -58,13 +96,16 @@ if ($serve) {
     # Build Zola site
     Set-Location -Path $zolaBuildPath
     zola build
-    
-    # Start Zola server in a new window
-    Start-Process -FilePath "powershell" -ArgumentList "-NoExit", "-Command", "zola serve --drafts" -WindowStyle Normal -WorkingDirectory "$zolaBuildPath"
-    
+
     # Go back to root
     Set-Location -Path $scriptDir
-    
+
+    # Sync CV file
+    Sync-CVFile
+
+    # Start Zola server in a new window
+    Start-Process -FilePath "powershell" -ArgumentList "-NoExit", "-Command", "zola serve --drafts" -WindowStyle Normal -WorkingDirectory "$zolaBuildPath"
+
     Write-Host "Zola server started. Opening browser..."
 }
 
@@ -87,7 +128,10 @@ if ($build) {
         Write-Host "Error: Sync from Obsidian failed!" -ForegroundColor Red
         exit 1
     }
-	    
+
+    # Sync CV file
+    Sync-CVFile
+
     # Stage files to detect changes
     git add .
     
@@ -198,8 +242,10 @@ if ($auto) {
             exit 1
         }
     }
-	
-    
+
+    # Sync CV file
+    Sync-CVFile
+
     # Stage files to detect changes
     git add .
     

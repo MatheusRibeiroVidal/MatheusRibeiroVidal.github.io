@@ -38,6 +38,7 @@ mrv/ (repository root)
 │   │   └── apollo_adapted/        # Alternative theme (can switch)
 │   └── public/                     # Build output (not committed)
 ├── builderserver.ps1              # PowerShell build orchestrator
+├── watch_cv.ps1                   # CV file watcher (auto-sync to website)
 ├── runwebsite.bat                 # Interactive Windows menu
 ├── sync_from_obsidian.bat         # Sync content from Obsidian vault
 ├── sync_from_charmera.bat         # Sync gallery photos
@@ -88,6 +89,7 @@ mrv/ (repository root)
 - `REPO_FOLDER` — Path to this repo
 - `CHARMERA_GALLERY_FOLDER` — Path to photo folder
 - `CHARMERA_INDEX_MD` — Path to charmera/_index.md in Obsidian
+- `CV_SOURCE` — Path to your CV file (used by `watch_cv.ps1`)
 
 ## Common Commands
 
@@ -121,6 +123,9 @@ runwebsite.bat
 .\builderserver.ps1 -serve   # Local preview with auto-sync
 .\builderserver.ps1 -build   # Build + manual commit review
 .\builderserver.ps1 -auto    # Full automation: sync → build → commit → push
+
+# Start CV file watcher (run in separate PowerShell window)
+.\watch_cv.ps1              # Monitor CV file and auto-sync to website
 ```
 
 ### Python Utility Scripts

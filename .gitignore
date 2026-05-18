@@ -2,3 +2,4 @@
 paths.config
 zola/themes/apollo
 .claude/settings.local.json
+.claude/future-agents.md

@@ -1,3 +1,4 @@
 /.vs
 paths.config
 zola/themes/apollo
+.claude/settings.local.json

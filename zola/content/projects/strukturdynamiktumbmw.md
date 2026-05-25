@@ -1,6 +1,6 @@
 +++
 title = "Modelling Mode Coupling Instability for Brake Noise"
-description = "Investigation on mode-coupling instability that drives brake moan using a custom mechanical model"
+description = "Investigating the mode-coupling instability behind brake moan through a minimal friction model and a tuned mass damper countermeasure."
 weight = 2
 date = "2025-10-27"
 _updated = "2025-10-27"

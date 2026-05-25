@@ -1,6 +1,6 @@
 +++
 title = "Next-gen Simulation: CAD-Integrated Isogeometric Analysis, Shell Structures, and Enhanced Visualization Frameworks"
-description = "Software Lab Project at TUM"
+description = "A third-medium contact material model for self-contacting geometries, built for TUM Software Lab."
 weight = 5
 date = "2025-03-23"
 authors = ["Matheus"]

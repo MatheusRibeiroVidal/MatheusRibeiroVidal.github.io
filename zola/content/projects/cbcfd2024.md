@@ -1,6 +1,6 @@
 +++
 title = "Numerical Exploration On The Effect Of The Hydrodynamic Drag Coefficient Upon Topside Loading In Steel Tube Umbilical Risers"
-description = "Paper presented at the Brazilian Congress of Computational Fluid Dynamics 2024 (CBCFD2024)"
+description = "CBCFD 2024 paper on how the drag coefficient drives topside tension in umbilical risers."
 weight = 4
 date = "2024-09-18"
 authors = ["Matheus"]

@@ -1,6 +1,6 @@
 +++
 title = "Deciding if strictly one shake of an orange juice bottle is enough to mix it for breakfast"
-description = "Multiphase CFD simulations with analytical verification of mixing in container under sudden acceleration and deceleration"
+description = "Multiphase VOF simulations in OpenFOAM testing whether one shake is enough to mix the pulp."
 weight = 7
 date = "2025-03-27"
 updated = "2025-04-20T10:54:17"

@@ -3,10 +3,10 @@
 // Deep charcoal background, off-white text, amber accent
 // -------------------------------------------------------
 
-$bg-0-val:    #141414;   // near-black
+$bg-0-val:    #0a0a0a;   // deep black
 $prim-0-val:  #e6a817;   // amber / golden accent
-$bg-1-val:    lighten(#141414, 6%);
-$bg-2-val:    lighten(#141414, 14%);
+$bg-1-val:    lighten(#0a0a0a, 6%);
+$bg-2-val:    lighten(#0a0a0a, 14%);
 $text-0-val:  #e8e6e1;   // warm off-white
 $text-1-val:  #9a9085;   // muted warm grey
 $prim-1-val:  lighten(#e6a817, 22%);
@@ -32,7 +32,7 @@ $prim-1-val:  lighten(#e6a817, 22%);
   --nav-bg:         #{$bg-0-val};
   --nav-border:     #{$bg-2-val};
 
-  --code-bg:        #{lighten(#141414, 4%)};
+  --code-bg:        #{lighten(#0a0a0a, 4%)};
   --highlight-bg:   #2d2b22;
 
   // Social icons invert on dark

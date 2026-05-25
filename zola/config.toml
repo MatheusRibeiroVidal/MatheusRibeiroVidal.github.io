@@ -1,6 +1,6 @@
 theme = "simplr"
 base_url = "https://ribeirovidal.com/"
-title = "MRV"
+title = "Matheus Ribeiro Vidal"
 description = "Matheus Ribeiro Vidal - Personal Website"
 build_search_index = true
 generate_feeds = true
@@ -16,7 +16,7 @@ include_content = true
 index_format = "elasticlunr_json"
 
 [extra]
-last_update_to_site = "2026-05-25T23:00:44"
+last_update_to_site = "2026-05-25T23:15:19"
 toc = true
 use_cdn = true
 favicon = "/icons/caja_acerola.ico"
@@ -42,6 +42,7 @@ contextual_menu = [
     { name = "/now", url = "/now" },
     { name = "/then", url = "/then" },
     { name = "/recommendations", url = "/recommendations" },
+    { name = "/contact", url = "/contact" },
 ]
 
 socials = [

@@ -11,7 +11,10 @@
       "Bash(zola build *)",
       "Bash(python *)",
       "Bash(zola serve *)",
-      "Bash(powershell -Command \".\\\\builderserver.ps1 -auto\")"
+      "Bash(powershell -Command \".\\\\builderserver.ps1 -auto\")",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ]
   }
 }

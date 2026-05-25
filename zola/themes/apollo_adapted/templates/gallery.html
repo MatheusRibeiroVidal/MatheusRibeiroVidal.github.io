@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% import "macros/macros.html" as post_macros %}
+
+{% block main_content %}
+    {{ post_macros::page_header(title=section.title) }}
+
+    {% if section.description %}
+    <p class="gallery-desc">{{ section.description }}</p>
+    {% endif %}
+
+    {# Gallery grid #}
+    <div class="gallery" id="gallery">
+        {% if section.extra.images is defined %}
+            {% for img in section.extra.images %}
+            <div class="gallery-item" data-src="{{ img | safe }}">
+                <img src="{{ img | safe }}" alt="Gallery photo" loading="lazy">
+            </div>
+            {% endfor %}
+        {% else %}
+            <p>No images found in this gallery.</p>
+        {% endif %}
+    </div>
+
+    {# Lightbox overlay #}
+    <div class="lightbox-overlay" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+        <img id="lightbox-img" src="" alt="Enlarged photo">
+    </div>
+
+    <script>
+    (function () {
+        var overlay = document.getElementById('lightbox');
+        var img     = document.getElementById('lightbox-img');
+        var close   = document.getElementById('lightbox-close');
+        var items   = document.querySelectorAll('.gallery-item');
+
+        function open(src) {
+            img.src = src;
+            overlay.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+            overlay.classList.remove('open');
+            document.body.style.overflow = '';
+            img.src = '';
+        }
+
+        items.forEach(function (item) {
+            item.addEventListener('click', function () {
+                open(item.getAttribute('data-src'));
+            });
+        });
+
+        close.addEventListener('click', closeLightbox);
+
+        overlay.addEventListener('click', function (e) {
+            if (e.target === overlay) closeLightbox();
+        });
+
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') closeLightbox();
+        });
+    })();
+    </script>
+{% endblock main_content %}

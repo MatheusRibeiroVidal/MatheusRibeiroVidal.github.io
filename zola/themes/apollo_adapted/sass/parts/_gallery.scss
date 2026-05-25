@@ -1,0 +1,94 @@
+// -------------------------------------------------------
+// Gallery — masonry-style photo grid (Charmera)
+// -------------------------------------------------------
+
+.gallery {
+  columns: 3;
+  column-gap: 0.75rem;
+  margin-top: 1.5rem;
+
+  @media (max-width: 800px) { columns: 2; }
+  @media (max-width: 480px) { columns: 1; }
+}
+
+.gallery-item {
+  break-inside: avoid;
+  margin-bottom: 0.75rem;
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--bg-1);
+  cursor: pointer;
+  position: relative;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 4px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.02);
+    filter: brightness(0.92);
+  }
+}
+
+// Lightbox overlay (pure CSS — toggled via JS class on body)
+.lightbox-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.88);
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+
+  &.open {
+    display: flex;
+  }
+
+  img {
+    max-width: 92vw;
+    max-height: 90vh;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.6);
+    cursor: default;
+    object-fit: contain;
+
+    // On mobile the lightbox image should use nearly the full viewport
+    @media (max-width: 600px) {
+      max-width: 98vw;
+      max-height: 85vh;
+      border-radius: 2px;
+    }
+  }
+}
+
+.lightbox-close {
+  position: fixed;
+  top: 1rem;
+  right: 1.2rem;
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  background: none;
+  border: none;
+  opacity: 0.7;
+  transition: opacity 0.15s;
+  z-index: 10000;
+
+  &:hover { opacity: 1; }
+}
+
+// Gallery section description
+.gallery-desc {
+  font-size: 0.9rem;
+  color: var(--text-1);
+  margin: 0 0 1.5rem;
+  max-width: 60ch;
+}

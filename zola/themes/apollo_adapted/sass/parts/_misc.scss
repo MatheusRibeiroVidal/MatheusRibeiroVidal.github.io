@@ -33,10 +33,11 @@ hr {
 }
 
 blockquote {
-  border-left: 3px solid var(--primary-color);
-  color: #737373;
-  margin: 0;
-  padding-left: 1em;
+    border-left: 3px solid var(--primary-color);
+    color: var(--text-1);
+    margin: 0;
+    padding-left: 1em;
+    font-family: var(--quote-font);
 }
 
 a {
@@ -56,10 +57,22 @@ a.zola-anchor {
 a:hover {
   background-color: var(--primary-color);
   color: var(--hover-color);
+
 }
 
 time {
-  color: grey;
+    font-family: var(--code-font);
+    color: var(--alt-primary-color);
+}
+
+place {
+    font-family: var(--code-font);
+    color: var(--alt-primary-color);
+}
+
+archive-tag {
+    font-family: var(--code-font);
+    color: var(--primary-color);
 }
 
 /* Remove post list padding */
@@ -87,7 +100,7 @@ del {
 
     h1 {
       margin-top: 0;
-      // font-size: 130%;
+      //font-size: 130%;
 
       a {
         border-bottom: none;
@@ -98,21 +111,23 @@ del {
 
 /* Post list */
 @media all and (min-width: 640px) {
-  .post-header {
-    display: grid;
-    gap: 1rem;
-    grid-row-gap: 1.5rem;
-    grid-template-columns: auto 1fr;
+    .post-header {
+        display: grid;
+        gap: 1rem;
+        grid-row-gap: 1.5rem;
+        grid-template-columns: auto 1fr;
+        //border-radius: 8px;
+        //border: 3px solid #ddd;
 
-    h1 {
-      margin: 0;
-      font-size: 130%;
+        h1 {
+            margin: 0;
+            font-size: 130%;
 
-      a {
-        border-bottom: none;
-      }
+            a {
+                border-bottom: none;
+            }
+        }
     }
-  }
 }
 
 /* Remove styling from theme toggle button */
@@ -129,4 +144,54 @@ del {
 .MathJax_SVG_Display {
   overflow-x: auto;
   overflow-y: hidden;
+}
+
+
+.profile-pic-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+}
+
+.project-pic-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.project-pic {
+    width: 100%;
+    max-width: 750px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 5px solid var(--border-color);
+}
+
+.homepage-spacing {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.homepage-spacing h1 {
+    margin-top: 0;
+    margin-bottom: 0.25rem; /* reduce bottom margin */
+}
+
+.alt-meta {
+    margin-top: 0; /* no top margin */
+    padding-top: 0; /* optional, just in case */
+    font-size: 0.875rem;
+    color: #999;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }

@@ -3,15 +3,15 @@
 // Theme variables are loaded separately (light.css / dark.css)
 // -------------------------------------------------------
 
-// Google Fonts — Inter (UI/headings) + Lora (body serif) + JetBrains Mono (code)
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap');
+// Google Fonts — Ubuntu (UI/headings) + Domine (body serif) + Kode Mono (code)
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Kode+Mono:wght@400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 // ---- CSS custom properties (font stacks) ----
 :root {
-  --display-font: "Inter", system-ui, -apple-system, sans-serif;
-  --ui-font:      "Inter", system-ui, -apple-system, sans-serif;
-  --serif-font:   "Lora", Georgia, "Times New Roman", serif;
-  --mono-font:    "JetBrains Mono", "Fira Code", "Courier New", monospace;
+  --display-font: "Ubuntu", system-ui, -apple-system, sans-serif;
+  --ui-font:      "Ubuntu", system-ui, -apple-system, sans-serif;
+  --serif-font:   "Domine", Georgia, "Times New Roman", serif;
+  --mono-font:    "Kode Mono", "Fira Code", "Courier New", monospace;
 }
 
 // ---- Part imports ----

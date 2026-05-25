@@ -26,5 +26,15 @@ images = [
     "/charmera/PICT0211.jpg",
     "/charmera/PICT0214.jpg",
     "/charmera/PICT0232.jpg",
+    "/charmera/PICT0294.jpg",
+    "/charmera/PICT0296.jpg",
+    "/charmera/PICT0316.jpg",
+    "/charmera/PICT0317.jpg",
+    "/charmera/PICT0329.jpg",
+    "/charmera/PICT0357.jpg",
+    "/charmera/PICT0361.jpg",
+    "/charmera/PICT0363.jpg",
+    "/charmera/PICT0370.jpg",
+    "/charmera/PICT0379.jpg",
 ]
 +++

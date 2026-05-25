@@ -9,7 +9,8 @@
       "Bash(Select-String -Path \"C:\\\\Projects\\\\mrv\\\\zola\\\\public\\\\main.css\" -Pattern \"content-wrap--homepage|homepage-outer|homepage-main-column\")",
       "Bash(Select-Object -First 20)",
       "Bash(zola build *)",
-      "Bash(python *)"
+      "Bash(python *)",
+      "Bash(zola serve *)"
     ]
   }
 }

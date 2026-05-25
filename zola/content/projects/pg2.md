@@ -9,7 +9,7 @@ authors = ["Matheus"]
 tags=["PT-BR","UnB", "CFD", "Motorsports", "Open Source", "Congress", "Aerodynamics", "SU2", "RANS", "Thesis", "Ground Effect"]
 [extra]
 local_image = "/media/pg2.gif"
-link_to = "./pg2/"
+link_to = "/projects/pg2/"
 comment = true
 banner = true
 +++

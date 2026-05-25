@@ -9,7 +9,7 @@ authors = ["Matheus"]
 tags=["EN","TUM", "IGA", "Open Source", "FEM", "Python", "Contact Mechanics", "Computational Mechanics", "Hyperelasticity"]
 [extra]
 local_image = "/media/softwarelab.png"
-link_to = "./softwarelab/"
+link_to = "/projects/softwarelab/"
 comment = true
 read_time = true
 banner = true

@@ -12,7 +12,7 @@ draft = true
 tags=["EN", "CFD", "OpenFoam", "Multiphase", "VOF", "Open Source", "Fluid Dynamics", "For Fun"]
 [extra]
 local_image = "/media/oj.png"
-link_to = "./oj/"
+link_to = "/projects/oj/"
 read_time = true
 comment = true
 toc = true

@@ -9,7 +9,7 @@ authors = ["Matheus"]
 tags=["EN","Marine Engineering", "CFD", "OrcaFlex", "Congress", "Offshore", "Hydrodynamics", "Risers", "Paper", "Subsea"]
 [extra]
 local_image = "/media/cbcfd2024.png"
-link_to = "./cbcfd2024/"
+link_to = "/projects/cbcfd2024/"
 comment = true
 banner = true
 +++

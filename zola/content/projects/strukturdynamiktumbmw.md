@@ -9,7 +9,7 @@ _updated = "2025-10-27"
 tags=["EN", "TUM", "Structural Dynamics", "BMW", "Vibrations", "NVH", "Stability Analysis", "Dynamics", "Brake Noise"]
 [extra]
 local_image = "/media/strukturdynamiktumbmw.png"
-link_to = "./strukturdynamiktumbmw/"
+link_to = "/projects/strukturdynamiktumbmw/"
 read_time = true
 comment = true
 toc = true

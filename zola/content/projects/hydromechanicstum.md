@@ -11,7 +11,7 @@ draft = false
 tags=["EN", "CFD", "TUM", "LES", "Turbulence", "MGLET", "DNS", "Fluid Dynamics", "Python", "Open Source"]
 [extra]
 local_image = "/media/hydromechanicstum.gif"
-link_to = "./hydromechanicstum/"
+link_to = "/projects/hydromechanicstum/"
 read_time = true
 comment = true
 toc = true

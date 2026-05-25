@@ -16,7 +16,9 @@
       "Bash(git commit *)",
       "Bash(git push *)",
       "PowerShell(python C:\\\\Users\\\\Matheus\\\\AppData\\\\Local\\\\Temp\\\\crawl_site.py)",
-      "PowerShell(python C:\\\\Users\\\\Matheus\\\\AppData\\\\Local\\\\Temp\\\\crawl_site_v2.py)"
+      "PowerShell(python C:\\\\Users\\\\Matheus\\\\AppData\\\\Local\\\\Temp\\\\crawl_site_v2.py)",
+      "PowerShell(python C:\\\\Users\\\\Matheus\\\\AppData\\\\Local\\\\Temp\\\\check_live_v2.py)",
+      "PowerShell(python C:\\\\Users\\\\Matheus\\\\AppData\\\\Local\\\\Temp\\\\crawl_site_fresh.py)"
     ]
   }
 }

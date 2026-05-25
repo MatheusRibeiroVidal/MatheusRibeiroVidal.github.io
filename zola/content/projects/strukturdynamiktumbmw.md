@@ -1,12 +1,12 @@
 +++
 title = "Modelling Mode Coupling Instability for Brake Noise"
 description = "Investigation on mode-coupling instability that drives brake moan using a custom mechanical model"
-weight = 1
+weight = 2
 date = "2025-10-27"
 _updated = "2025-10-27"
 
 [taxonomies]
-tags=["EN", "TUM", "Structural Dynamics", "BMW"]
+tags=["EN", "TUM", "Structural Dynamics", "BMW", "Vibrations", "NVH", "Stability Analysis", "Dynamics", "Brake Noise"]
 [extra]
 local_image = "/media/strukturdynamiktumbmw.png"
 link_to = "./strukturdynamiktumbmw/"

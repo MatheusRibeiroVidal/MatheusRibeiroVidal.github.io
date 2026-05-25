@@ -1,12 +1,12 @@
 +++
 title = "Next-gen Simulation: CAD-Integrated Isogeometric Analysis, Shell Structures, and Enhanced Visualization Frameworks"
 description = "Software Lab Project at TUM"
-weight = 2
+weight = 5
 date = "2025-03-23"
 authors = ["Matheus"]
 
 [taxonomies]
-tags=["EN","TUM", "IGA", "Open Source"]
+tags=["EN","TUM", "IGA", "Open Source", "FEM", "Python", "Contact Mechanics", "Computational Mechanics", "Hyperelasticity"]
 [extra]
 local_image = "/media/softwarelab.png"
 link_to = "./softwarelab/"

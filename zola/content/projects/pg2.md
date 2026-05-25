@@ -1,12 +1,12 @@
 +++
 title = "Simulações Numéricas em Código Aberto de Escoamentos Turbulentos Sobre Asas Multielemento em Efeito Solo para Geração de Downforce"
 description = "Undergraduate Thesis in Mechanical Engineering at UnB and Paper presented at the Brazilian National Conference of Mechanical Engineering 2024 (CONEM2024)"
-weight = 1
+weight = 3
 date = "2023-07-26"
 authors = ["Matheus"]
 
 [taxonomies]
-tags=["PT-BR","UnB", "CFD", "Motorsports", "Open Source", "Congress"]
+tags=["PT-BR","UnB", "CFD", "Motorsports", "Open Source", "Congress", "Aerodynamics", "SU2", "RANS", "Thesis", "Ground Effect"]
 [extra]
 local_image = "/media/pg2.gif"
 link_to = "./pg2/"

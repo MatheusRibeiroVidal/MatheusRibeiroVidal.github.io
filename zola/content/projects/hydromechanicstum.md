@@ -8,7 +8,7 @@ authors = ["Matheus"]
 draft = false
 
 [taxonomies]
-tags=["EN", "CFD", "TUM", "LES"]
+tags=["EN", "CFD", "TUM", "LES", "Turbulence", "MGLET", "DNS", "Fluid Dynamics", "Python", "Open Source"]
 [extra]
 local_image = "/media/hydromechanicstum.gif"
 link_to = "./hydromechanicstum/"

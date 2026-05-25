@@ -1,7 +1,7 @@
 +++
 title = "Deciding if strictly one shake of an orange juice bottle is enough to mix it for breakfast"
 description = "Multiphase CFD simulations with analytical verification of mixing in container under sudden acceleration and deceleration"
-weight = 5
+weight = 7
 date = "2025-03-27"
 updated = "2025-04-20T10:54:17"
 authors = ["Matheus"]
@@ -9,7 +9,7 @@ draft = true
 
 
 [taxonomies]
-tags=["EN", "CFD" , "OpenFoam"]
+tags=["EN", "CFD", "OpenFoam", "Multiphase", "VOF", "Open Source", "Fluid Dynamics", "For Fun"]
 [extra]
 local_image = "/media/oj.png"
 link_to = "./oj/"

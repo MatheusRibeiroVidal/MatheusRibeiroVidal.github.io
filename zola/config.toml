@@ -1,6 +1,6 @@
 theme = "simplr"
 base_url = "https://ribeirovidal.com/"
-title = "M. Ribeiro Vidal"
+title = "Matheus"
 description = "Matheus Ribeiro Vidal - Personal Website"
 build_search_index = true
 generate_feeds = true

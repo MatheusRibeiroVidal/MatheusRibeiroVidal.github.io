@@ -14,7 +14,9 @@
       "Bash(powershell -Command \".\\\\builderserver.ps1 -auto\")",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "PowerShell(python C:\\\\Users\\\\Matheus\\\\AppData\\\\Local\\\\Temp\\\\crawl_site.py)",
+      "PowerShell(python C:\\\\Users\\\\Matheus\\\\AppData\\\\Local\\\\Temp\\\\crawl_site_v2.py)"
     ]
   }
 }

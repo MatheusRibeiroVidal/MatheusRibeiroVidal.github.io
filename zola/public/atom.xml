@@ -533,6 +533,33 @@
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tum-hydromechanics&#x2F;tum-mglet-base&quot;&gt;GitHub repo&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;collab.dvb.bayern&#x2F;spaces&#x2F;TUMopensourcemgletwiki&#x2F;pages&#x2F;448366188&#x2F;Open-source+MGLET+Wiki+Startseite&quot;&gt;Open Source MGLET WIKI&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;sigma-model-validation-in-mglet&quot;&gt;SIGMA Model Validation in MGLET&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;em&gt;Chair of Hydromechanics, TUM | Supervisor: Yoshiyuki Sakai&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This project validates the &lt;strong&gt;SIGMA Sub-Grid-Scale (SGS) model&lt;&#x2F;strong&gt; for Large Eddy Simulation (LES) within the solver &lt;strong&gt;MGLET&lt;&#x2F;strong&gt;, using turbulent flow over a cylinder at Reynolds number &lt;strong&gt;Re = 3,900&lt;&#x2F;strong&gt; as the benchmark case. Predictions are compared against high-fidelity Direct Numerical Simulation (DNS) data from Ooi et al. (2022).&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;the-problem&quot;&gt;The Problem&lt;&#x2F;h2&gt;
+&lt;p&gt;At Re = 3,900 the cylinder wake is fully turbulent, generating a von Kármán vortex street, dual shear layers, and a recirculation bubble, yet remains computationally tractable. This makes it an ideal case to assess how well an SGS model reproduces the small-scale dissipation that drives drag, lift fluctuations, and Reynolds stresses without resolving every scale directly.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;approach&quot;&gt;Approach&lt;&#x2F;h2&gt;
+&lt;p&gt;The study runs on two parallel tracks at matched conditions:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mesh convergence (Smagorinsky):&lt;&#x2F;strong&gt; three resolutions (N_D = 64, 96, 128) with CFL-consistent timesteps (dt ∝ Δx, CFL ≈ 0.96) to isolate grid effects.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;SGS model comparison (high-res):&lt;&#x2F;strong&gt; Smagorinsky vs. &lt;strong&gt;SIGMA&lt;&#x2F;strong&gt; vs. WALE at N_D = 128, ranking dissipation strategies for this geometry.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Simulations use the Ghostcell Immersed Boundary method (1 m cylinder STL), the SIP pressure solver, and collect 23 turbulence statistics over a 50 s window after a 350 s flow-development phase, plus transient snapshots over the final ~1.5 shedding cycles.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;validation-targets-dns-ooi-et-al-2022&quot;&gt;Validation Targets (DNS, Ooi et al. 2022)&lt;&#x2F;h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Metric&lt;&#x2F;th&gt;&lt;th&gt;DNS value&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Drag coefficient C_D&lt;&#x2F;td&gt;&lt;td&gt;0.996&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Lift RMS C&#x27;_L&lt;&#x2F;td&gt;&lt;td&gt;0.134&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Strouhal number St_v&lt;&#x2F;td&gt;&lt;td&gt;0.21&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Recirculation length L_r&#x2F;D&lt;&#x2F;td&gt;&lt;td&gt;1.53&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Reynolds stress peak u&#x27;u&#x27;&#x2F;U²_max&lt;&#x2F;td&gt;&lt;td&gt;~0.25&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;&lt;strong&gt;Expected SGS ranking:&lt;&#x2F;strong&gt; WALE ≥ SIGMA &amp;gt; Smagorinsky, with SIGMA better preserving coherent structures than the isotropic Smagorinsky baseline.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;tools&quot;&gt;Tools&lt;&#x2F;h2&gt;
+&lt;p&gt;MGLET (incompressible LES + IB) · Gridgen3 mesh generation · HDF5 checkpoints · Python (NumPy&#x2F;SciPy&#x2F;Matplotlib) post-processing · OpenMPI on the chair&#x27;s compute nodes.&lt;&#x2F;p&gt;
 </content>
         
     </entry>

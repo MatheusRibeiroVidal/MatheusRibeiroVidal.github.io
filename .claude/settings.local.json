@@ -10,7 +10,8 @@
       "Bash(Select-Object -First 20)",
       "Bash(zola build *)",
       "Bash(python *)",
-      "Bash(zola serve *)"
+      "Bash(zola serve *)",
+      "Bash(powershell -Command \".\\\\builderserver.ps1 -auto\")"
     ]
   }
 }

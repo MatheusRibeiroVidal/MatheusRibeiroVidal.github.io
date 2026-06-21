@@ -1,8 +1,8 @@
 +++
 title = "Now"
-updated = "2026-05-15T15:49:57"
+updated = "2026-06-22T00:36:20"
 [extra]
-place = "München @ TUM bib"
+place = "München @ Englischer Garten during lunch break"
 show_word_count = true
 +++
 
@@ -11,9 +11,7 @@ This is my [Now section](https://nownownow.com/about) and if you have your own w
 Nowadays, I am:
 
 - Back in Munich, spending time with my girlfriend and friends;
-	- Cassamba, our samba group has our first gig lined up for next week!
 - Designing the scope of my master thesis (hopefully, more info on that soon!);
-- I'm currently also working on a project at the Hydromechanics chair at TUM:
+- I'm currently also finishing up a project at the Hydromechanics chair at TUM:
 	- Using [Large-Eddy Simulations](https://en.wikipedia.org/wiki/Large_eddy_simulation) for [the validation of SIGMA modelling of SGS stresses in MGLET](/projects/hydromechanicstum);
-- I have also been testing some co-working with [claude code](https://code.claude.com/docs/en/how-claude-code-works) to see if it helps me with some of the more _frontendy_ aspects of this website.
 

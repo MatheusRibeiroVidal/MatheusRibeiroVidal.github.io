@@ -18,7 +18,12 @@
       "PowerShell(python C:\\\\Users\\\\Matheus\\\\AppData\\\\Local\\\\Temp\\\\crawl_site.py)",
       "PowerShell(python C:\\\\Users\\\\Matheus\\\\AppData\\\\Local\\\\Temp\\\\crawl_site_v2.py)",
       "PowerShell(python C:\\\\Users\\\\Matheus\\\\AppData\\\\Local\\\\Temp\\\\check_live_v2.py)",
-      "PowerShell(python C:\\\\Users\\\\Matheus\\\\AppData\\\\Local\\\\Temp\\\\crawl_site_fresh.py)"
+      "PowerShell(python C:\\\\Users\\\\Matheus\\\\AppData\\\\Local\\\\Temp\\\\crawl_site_fresh.py)",
+      "PowerShell(tail *)",
+      "Bash(Select-String -Path C:\\\\Users\\\\Matheus\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Projects-mrv\\\\a5a8fa18-a55d-46d5-85f5-7364eb5d5d1e\\\\tasks\\\\bc4q158t7.output -Pattern \"Listening\")",
+      "Bash(Start-Sleep -Milliseconds 500)",
+      "Bash(Write-Host \"Zola is ready\")",
+      "Bash(powershell -Command \"Get-Content -Path 'C:\\\\Users\\\\Matheus\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Projects-mrv\\\\a5a8fa18-a55d-46d5-85f5-7364eb5d5d1e\\\\tasks\\\\b2jy19kd5.output' -Wait\")"
     ]
   }
 }

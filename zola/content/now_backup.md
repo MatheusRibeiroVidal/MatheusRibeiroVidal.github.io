@@ -1,8 +1,8 @@
 +++
 title = "Now"
-updated = "2026-06-22T00:36:20"
+updated = "2026-07-14T13:19:39"
 [extra]
-place = "München @ BGU Zeichensaal at TUM"
+place = "München @ TUM"
 show_word_count = true
 +++
 
@@ -11,5 +11,5 @@ This is my [Now section](https://nownownow.com/about) and if you have your own w
 Nowadays, I am:
 
 - Back in Munich, spending time with my girlfriend and friends;
-- Working on my master thesis & studying for some exams.
+- Working on my master thesis with [Raylase](https://www.raylase.de/en).
 

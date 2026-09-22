@@ -1,7 +1,7 @@
 +++
 title = "SIGMA model Validation in MGLET"
 description = "Validating the SIGMA sub-grid-scale model for large eddy simulation in the MGLET solver, benchmarked against DNS data for turbulent flow over a cylinder."
-weight = 1
+weight = 2
 date = "2025-10-09"
 updated = "2025-04-20T10:54:17"
 authors = ["Matheus"]

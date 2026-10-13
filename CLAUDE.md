@@ -7,7 +7,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 This is the source code for **ribeirovidal.com** — a personal website built with [Zola](https://www.getzola.org/), a static site generator. The site contains blog posts, projects, a photo gallery, and personal pages (about, now, recipes, etc.).
 
 **Tech Stack:**
-- Zola v0.17+ (static site generator)
+- Zola v0.22.0 (static site generator; pinned in `.github/workflows/` and `load_paths.zsh`)
 - SCSS/SASS for styling (compiled to CSS)
 - Tera templating (Zola's template engine)
 - ElasticLunr for client-side search
@@ -38,6 +38,7 @@ mrv/ (repository root)
 │   │   └── apollo_adapted/        # Alternative theme (can switch)
 │   └── public/                     # Build output (not committed)
 ├── builderserver.ps1              # PowerShell build orchestrator
+├── *.zsh                          # macOS ports of the .bat/.ps1 scripts (shared setup in load_paths.zsh)
 ├── watch_cv.ps1                   # CV file watcher (auto-sync to website)
 ├── runwebsite.bat                 # Interactive Windows menu
 ├── sync_from_obsidian.bat         # Sync content from Obsidian vault
@@ -127,6 +128,25 @@ runwebsite.bat
 # Start CV file watcher (run in separate PowerShell window)
 .\watch_cv.ps1              # Monitor CV file and auto-sync to website
 ```
+
+### macOS Automation (zsh)
+
+zsh ports of the Windows scripts, same behaviour and same `paths.config` (POSIX paths):
+
+```zsh
+./runwebsite.zsh              # Interactive menu
+./runwebsite.zsh auto         # Scheduler shortcut for the auto-build
+
+./builderserver.zsh -serve    # Local preview with auto-sync (zola serve --drafts --open)
+./builderserver.zsh -build    # Build + open GitHub Desktop for manual commit
+./builderserver.zsh -auto     # Full automation: sync → build → commit → push
+
+./sync_from_obsidian.zsh [--update_now]
+./sync_from_charmera.zsh
+./watch_cv.zsh                # Poll the CV file and auto-sync to website
+```
+
+`load_paths.zsh` is sourced by all of them: it loads `paths.config`, defines the `rsync` sync helper and holds `ZOLA_VERSION` (keep in sync with the workflows).
 
 ### Python Utility Scripts
 

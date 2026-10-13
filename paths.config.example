@@ -8,3 +8,13 @@ REPO_FOLDER=C:\Path\To\Your\Repo
 CHARMERA_GALLERY_FOLDER=C:\Path\To\Your\Gallery\content
 CHARMERA_INDEX_MD=C:\Path\To\Your\Obsidian\content\charmera\_index.md
 
+CV_SOURCE=C:\Path\To\Your\CV.pdf
+
+# macOS: use POSIX paths instead (a leading ~ is expanded by the zsh scripts only)
+# OBSIDIAN_CONTENT_FOLDER=/Users/you/Documents/Obsidian/content
+# OBSIDIAN_STATIC_FOLDER=/Users/you/Documents/Obsidian/static
+# REPO_FOLDER=/Users/you/Projects/mrv
+# CHARMERA_GALLERY_FOLDER=/Users/you/Pictures/KodakCharmera/to_upload
+# CHARMERA_INDEX_MD=/Users/you/Documents/Obsidian/content/charmera/_index.md
+# CV_SOURCE=/Users/you/Documents/CV.pdf
+

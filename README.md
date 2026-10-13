@@ -30,7 +30,7 @@ The design draws inspiration from [Rutar's personal site](https://rutar.org/).
 
 ## 🛠️ Tech Stack
 
-- **Static Site Generator** — [Zola](https://www.getzola.org/) v0.17+
+- **Static Site Generator** — [Zola](https://www.getzola.org/) v0.22.0
 - **Styling** — SCSS/SASS (compiled to CSS)
 - **Templating** — Tera (Zola's template engine)
 - **Search** — ElasticLunr (client-side full-text search)
@@ -286,6 +286,28 @@ CV_SOURCE=/path/to/your/cv/file.pdf
 
 See `paths.config.example` for the complete template with all required paths.
 
+### macOS (zsh)
+
+Each Windows script has a zsh counterpart with the same behaviour, reading the same `paths.config` (with POSIX paths):
+
+| Windows | macOS |
+|---------|-------|
+| `runwebsite.bat` | `./runwebsite.zsh` (menu) or `./runwebsite.zsh auto` (scheduler shortcut) |
+| `builderserver.ps1 -serve` / `-build` / `-auto` | `./builderserver.zsh -serve` / `-build` / `-auto` |
+| `sync_from_obsidian.bat [--update_now]` | `./sync_from_obsidian.zsh [--update_now]` |
+| `sync_from_charmera.bat` | `./sync_from_charmera.zsh` |
+| `watch_cv.ps1` | `./watch_cv.zsh` |
+
+`load_paths.zsh` is shared setup sourced by the others (config loading, the pinned Zola version, the `rsync` helper).
+
+Differences from the Windows scripts:
+
+- Syncing uses `rsync` instead of `robocopy`, comparing files by checksum. Like `robocopy /E`, it never deletes files from the repo.
+- The repo location is taken from where the scripts live; `REPO_FOLDER` is not used.
+- Serve mode runs `zola serve --drafts --open` in the current terminal (Ctrl+C to stop) instead of opening a new window.
+- A failed `zola build` or `git push` stops the run with an error.
+- Python scripts run with `python3`.
+
 ### Typical Workflow Examples
 
 #### Quick Local Development
@@ -363,7 +385,7 @@ Obsidian Vault/
 
 ### Prerequisites
 
-- [Zola](https://www.getzola.org/documentation/getting-started/installation/) (v0.17 or later)
+- [Zola](https://www.getzola.org/documentation/getting-started/installation/) (v0.22.0 — the version pinned in `.github/workflows/`)
 - Python 3.7+ (for the automation scripts)
 
 ### Installation

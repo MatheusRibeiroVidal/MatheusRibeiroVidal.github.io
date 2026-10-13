@@ -1,6 +1,6 @@
 name = "simplr"
 description = "A clean, editorial theme for MRV — distinct from Apollo with generous whitespace, refined typography, and a modern sans+serif pairing."
-min_version = "0.18.0"
+min_version = "0.22.0"
 license = "MIT"
 homepage = "https://github.com/MatheusRibeiroVidal"
 

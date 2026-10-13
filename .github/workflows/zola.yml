@@ -16,9 +16,9 @@ jobs:
         fetch-depth: 0
 
     - name: Install Zola
-      uses: taiki-e/install-action@zola
+      uses: taiki-e/install-action@v2
       with:
-        tool: zola@latest
+        tool: zola@0.22.0
 
     - name: Verify Zola installation
       run: |

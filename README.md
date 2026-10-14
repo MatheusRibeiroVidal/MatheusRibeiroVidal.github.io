@@ -308,6 +308,40 @@ Differences from the Windows scripts:
 - A failed `zola build` or `git push` stops the run with an error.
 - Python scripts run with `python3`.
 
+### Scheduled Auto-Build (macOS)
+
+The auto-build runs once a day at a random time, scheduled by launchd:
+
+| File | Purpose |
+|------|---------|
+| `~/Library/LaunchAgents/com.ribeirovidal.mrv-autobuild.plist` | launchd job (not in the repo): runs `autobuild_random.zsh` every 15 minutes (`StartInterval`) |
+| `autobuild_random.zsh` | Picks a random time each day and runs `./runwebsite.zsh auto` once that time has passed |
+| `~/.local/state/mrv-autobuild/state` | Today's date, chosen minute of the day and whether it already ran |
+| `~/Library/Logs/mrv-autobuild.log` | Output of every run |
+
+How it works:
+
+- The first check of the day picks a random time between `WINDOW_START` and `WINDOW_END` (08:00–22:00 by default, set at the top of `autobuild_random.zsh`) and logs it.
+- The first check after that time runs the auto-build. If the Mac was asleep, it runs on the next check after waking.
+- The day is marked as done before the build starts, so a failed build is not retried every 15 minutes. Check the log.
+- The auto-build stages everything (`git add -A`), so uncommitted repo files end up in its next commit.
+
+Setup and maintenance:
+
+```zsh
+# Load the job (also after editing the .plist)
+launchctl bootout gui/$(id -u)/com.ribeirovidal.mrv-autobuild
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.ribeirovidal.mrv-autobuild.plist
+
+# Force a run now: forget today's time, then trigger a check
+rm ~/.local/state/mrv-autobuild/state
+launchctl kickstart gui/$(id -u)/com.ribeirovidal.mrv-autobuild
+```
+
+The vault, photos and CV live under `~/Documents`, which macOS blocks for background jobs. Give `/bin/zsh` **Full Disk Access** (System Settings → Privacy & Security → Full Disk Access), otherwise runs fail with `Operation not permitted`.
+
+Edits to `autobuild_random.zsh` apply at the next check. Only `.plist` changes need the reload above.
+
 ### Typical Workflow Examples
 
 #### Quick Local Development
@@ -345,6 +379,8 @@ Or from Task Scheduler for scheduled updates:
 ```batch
 runwebsite.bat auto
 ```
+
+On macOS, see [Scheduled Auto-Build (macOS)](#scheduled-auto-build-macos).
 
 ### Path Configuration
 

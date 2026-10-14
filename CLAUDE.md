@@ -39,6 +39,7 @@ mrv/ (repository root)
 │   └── public/                     # Build output (not committed)
 ├── builderserver.ps1              # PowerShell build orchestrator
 ├── *.zsh                          # macOS ports of the .bat/.ps1 scripts (shared setup in load_paths.zsh)
+├── autobuild_random.zsh           # macOS: runs the auto-build once a day at a random time (via launchd)
 ├── watch_cv.ps1                   # CV file watcher (auto-sync to website)
 ├── runwebsite.bat                 # Interactive Windows menu
 ├── sync_from_obsidian.bat         # Sync content from Obsidian vault
@@ -147,6 +148,15 @@ zsh ports of the Windows scripts, same behaviour and same `paths.config` (POSIX 
 ```
 
 `load_paths.zsh` is sourced by all of them: it loads `paths.config`, defines the `rsync` sync helper and holds `ZOLA_VERSION` (keep in sync with the workflows).
+
+### Scheduled Auto-Build (macOS)
+
+- `~/Library/LaunchAgents/com.ribeirovidal.mrv-autobuild.plist` (outside the repo) runs `autobuild_random.zsh` every 15 minutes.
+- The script picks a random time each day between `WINDOW_START` and `WINDOW_END` (08:00–22:00, set at its top), then runs `./runwebsite.zsh auto` on the first check after that time.
+- State lives in `~/.local/state/mrv-autobuild/state` and the log in `~/Library/Logs/mrv-autobuild.log`.
+- Reload with `launchctl bootout`/`bootstrap` only after editing the `.plist`. To force a run, delete the state file and `launchctl kickstart gui/$(id -u)/com.ribeirovidal.mrv-autobuild`.
+- `/bin/zsh` needs Full Disk Access, because the vault and photos are under `~/Documents`. Without it, runs fail with `Operation not permitted`.
+- The auto-build runs `git add -A`, so any uncommitted repo files get swept into its next "Auto - Content Update" commit.
 
 ### Python Utility Scripts
 

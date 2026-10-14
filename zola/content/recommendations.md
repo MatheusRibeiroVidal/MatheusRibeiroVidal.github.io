@@ -10,3 +10,4 @@ These are some of my favorite pieces of media:
 - Video Game: <a href="https://www.celestegame.com/" target="_blank">Celeste</a>
 - Film: <a href="https://letterboxd.com/film/about-time/" target="_blank">About Time (2013)</a>
 - TV Show: <a href="https://myanimelist.net/anime/21/One_Piece?cat=anime" target="_blank">One Piece (1999)</a>
+- Painting: <a href="https://masp.org.br/acervo/obra/zumbi" target="_blank">Zumbi - Tomás Santa Rosa</a>

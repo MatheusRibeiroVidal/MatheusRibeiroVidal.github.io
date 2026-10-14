@@ -16,7 +16,7 @@ include_content = true
 index_format = "elasticlunr_json"
 
 [extra]
-last_update_to_site = "2026-10-14T15:24:58"
+last_update_to_site = "2026-10-14T21:16:57"
 toc = true
 use_cdn = true
 favicon = "/icons/caja_acerola.ico"

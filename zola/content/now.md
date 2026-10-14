@@ -1,6 +1,6 @@
 +++
 title = "Now"
-updated = "2026-09-22T21:46:50"
+updated = "2026-10-14T15:24:56"
 [extra]
 place = "München @ TUM"
 show_word_count = true
@@ -12,4 +12,5 @@ Nowadays, I am:
 
 - Back in Munich, spending time with my girlfriend and friends;
 - Working on my master thesis with [Raylase](https://www.raylase.de/en).
+- Beginning my last semester at TUM. 
 

@@ -11,7 +11,7 @@ show_word_count = false
     <input type="checkbox" class="profile-coin-toggle" aria-label="Flip photo">
     <span class="profile-coin-inner">
       <img src="/icons/me.png" alt="My photo" class="profile-pic">
-      <img src="/icons/me2.png" alt="Another photo of me" class="profile-pic profile-coin-back">
+      <img src="/icons/me2.jpg" alt="Another photo of me" class="profile-pic profile-coin-back">
     </span>
   </label>
 </div>
